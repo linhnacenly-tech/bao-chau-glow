@@ -65,6 +65,10 @@ const skillGroups: { eyebrow: string; title: string; subtitle: string; skills: S
 const zaloUrl = "https://zalo.me/0967934486";
 
 function SkillCard({ skill }: { skill: Skill }) {
+  const purchaseUrl = `${zaloUrl}?text=${encodeURIComponent(`Chào Bảo Châu AI, mình muốn mua Skill ${skill.name} (${skill.code}) giá $5.`)}`;
+  const detailUrl = `${zaloUrl}?text=${encodeURIComponent(`Chào Bảo Châu AI, mình muốn xem chi tiết Skill ${skill.name} (${skill.code}).`)}`;
+  const ownedUrl = `${zaloUrl}?text=${encodeURIComponent(`Chào Bảo Châu AI, mình đã mua Skill ${skill.name} và cần hỗ trợ.`)}`;
+
   return (
     <article className="skill-card group">
       <div className="relative aspect-[4/5] overflow-hidden bg-secondary">
@@ -78,8 +82,10 @@ function SkillCard({ skill }: { skill: Skill }) {
       <div className="flex min-h-52 flex-col p-4">
         <p className="text-sm leading-6 text-muted-foreground">{skill.description}</p>
         <p className="mt-3 truncate font-mono text-[10px] text-primary">{skill.code}</p>
-        <div className="mt-auto pt-4">
-          <Button asChild className="w-full"><a href={zaloUrl} target="_blank" rel="noreferrer">Nhận tư vấn <ArrowRight className="size-4" /></a></Button>
+        <div className="mt-auto space-y-2 pt-4">
+          <Button asChild className="w-full"><a href={purchaseUrl} target="_blank" rel="noreferrer"><span className="text-center leading-tight">🛒 Mua · $5<span className="block text-[10px] font-semibold opacity-75">135.000 ₫</span></span></a></Button>
+          <Button asChild variant="outline" className="w-full"><a href={detailUrl} target="_blank" rel="noreferrer">Xem chi tiết</a></Button>
+          <a href={ownedUrl} target="_blank" rel="noreferrer" className="block py-1 text-center text-xs text-muted-foreground transition-colors hover:text-primary">Đã mua rồi?</a>
         </div>
       </div>
     </article>
