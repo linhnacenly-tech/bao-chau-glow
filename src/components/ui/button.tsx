@@ -1,6 +1,6 @@
 import { Slot } from "@radix-ui/react-slot";
 import { cva, type VariantProps } from "class-variance-authority";
-import type { ButtonHTMLAttributes } from "react";
+import { forwardRef, type ButtonHTMLAttributes } from "react";
 
 import { cn } from "@/lib/utils";
 
@@ -9,9 +9,13 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
+        default: "bg-primary text-primary-foreground shadow-glow hover:-translate-y-0.5 hover:bg-primary/90",
         primary: "bg-primary text-primary-foreground shadow-glow hover:-translate-y-0.5 hover:bg-primary/90",
         outline: "border border-border bg-card text-foreground hover:border-primary hover:text-primary",
+        secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
+        destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         ghost: "text-muted-foreground hover:bg-secondary hover:text-foreground",
+        link: "text-primary underline-offset-4 hover:underline",
       },
       size: {
         default: "h-11",
@@ -20,16 +24,19 @@ const buttonVariants = cva(
         icon: "size-11 min-h-11 px-0",
       },
     },
-    defaultVariants: { variant: "primary", size: "default" },
+    defaultVariants: { variant: "default", size: "default" },
   },
 );
 
-type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> &
+export type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> &
   VariantProps<typeof buttonVariants> & { asChild?: boolean };
 
-function Button({ className, variant, size, asChild = false, ...props }: ButtonProps) {
-  const Component = asChild ? Slot : "button";
-  return <Component className={cn(buttonVariants({ variant, size, className }))} {...props} />;
-}
+const Button = forwardRef<HTMLButtonElement, ButtonProps>(
+  ({ className, variant, size, asChild = false, ...props }, ref) => {
+    const Component = asChild ? Slot : "button";
+    return <Component ref={ref} className={cn(buttonVariants({ variant, size, className }))} {...props} />;
+  },
+);
+Button.displayName = "Button";
 
 export { Button, buttonVariants };
