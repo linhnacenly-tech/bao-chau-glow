@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowRight, BadgeCheck, Bot, Check, ChevronDown, Crown, Headphones, Sparkle, Zap } from "lucide-react";
+import { ArrowRight, BadgeCheck, Bot, Check, ChevronDown, Headphones, Sparkle, Zap } from "lucide-react";
 
 import automationImage from "@/assets/skill-automation.jpg";
 import researchImage from "@/assets/skill-research.jpg";
@@ -162,12 +162,50 @@ function Index() {
       </div>
 
       <section id="combo" className="border-b border-border bg-secondary/55 py-24">
-        <div className="mx-auto max-w-6xl px-5">
+        <div className="mx-auto max-w-4xl px-5">
           <div className="mx-auto mb-12 max-w-xl text-center"><p className="section-label">LỰA CHỌN LINH HOẠT</p><h2 className="mt-3 font-display text-4xl">Chọn cách bắt đầu phù hợp</h2></div>
-          <div className="grid gap-5 md:grid-cols-3">
-            <article className="price-card"><p className="section-label">KHỞI ĐỘNG</p><h3 className="mt-3 font-display text-2xl">Một Skill riêng lẻ</h3><p className="mt-4 text-4xl font-black text-primary">Tùy chọn</p><ul className="mt-7 space-y-3 text-sm text-muted-foreground"><li className="flex gap-2"><Check className="size-4 text-primary" /> Chọn đúng nhu cầu hiện tại</li><li className="flex gap-2"><Check className="size-4 text-primary" /> Hướng dẫn sử dụng rõ ràng</li></ul><Button asChild variant="outline" className="mt-8 w-full"><a href={zaloUrl} target="_blank" rel="noreferrer">Chọn Skill</a></Button></article>
-            <article className="price-card border-primary shadow-glow"><p className="section-label">ĐƯỢC LỰA CHỌN</p><h3 className="mt-3 font-display text-2xl">Combo theo mục tiêu</h3><p className="mt-4 text-4xl font-black text-primary">Tối ưu</p><ul className="mt-7 space-y-3 text-sm text-muted-foreground"><li className="flex gap-2"><Check className="size-4 text-primary" /> Ghép các Skill thành quy trình</li><li className="flex gap-2"><Check className="size-4 text-primary" /> Tư vấn theo lĩnh vực của Châu</li></ul><Button asChild className="mt-8 w-full"><a href={zaloUrl} target="_blank" rel="noreferrer">Nhận tư vấn combo</a></Button></article>
-            <article className="price-card bg-foreground text-background"><div className="flex items-center justify-between"><p className="text-xs font-black uppercase text-primary">TRỌN HỆ THỐNG</p><Crown className="size-5 text-primary" /></div><h3 className="mt-3 font-display text-2xl">Bảo Châu AI System</h3><p className="mt-4 text-4xl font-black">15 Skill</p><ul className="mt-7 space-y-3 text-sm text-background/70"><li className="flex gap-2"><Check className="size-4 text-primary" /> Toàn bộ hệ thống hiện có</li><li className="flex gap-2"><Check className="size-4 text-primary" /> Cập nhật các Skill sắp ra mắt</li></ul><Button asChild className="mt-8 w-full"><a href={zaloUrl} target="_blank" rel="noreferrer">Liên hệ nhận báo giá</a></Button></article>
+          <div className="grid gap-5 md:grid-cols-2">
+            <article className="price-card flex flex-col border-2 border-primary shadow-glow">
+              <p className="text-xs font-black uppercase tracking-[0.16em] text-primary">Bán chạy nhất</p>
+              <h3 className="mt-2 font-display text-2xl">Combo 10 Skill tự chọn</h3>
+              <div className="mt-5 flex items-end gap-3">
+                <p className="font-display text-5xl leading-none">$39</p>
+                <p className="pb-1 text-sm font-semibold text-muted-foreground">1.053.000 ₫</p>
+              </div>
+              <div className="mt-3 flex flex-wrap items-center gap-2 text-sm">
+                <span className="line-through text-muted-foreground">$50</span>
+                <span className="rounded-full bg-primary px-2.5 py-0.5 text-xs font-extrabold text-primary-foreground">-22%</span>
+                <span className="text-muted-foreground">giá trị lẻ</span>
+              </div>
+              <p className="mt-2 text-sm font-extrabold text-primary">Tiết kiệm $11</p>
+              <p className="mt-3 text-sm text-muted-foreground">Còn $3,90 mỗi Skill — rẻ hơn $11 so với mua lẻ</p>
+              <ul className="mt-7 space-y-3 text-sm text-muted-foreground">
+                <li className="flex gap-2"><Check className="mt-0.5 size-4 shrink-0 text-primary" /> Chọn bất kỳ 10 Skill trong các sảnh</li>
+                <li className="flex gap-2"><Check className="mt-0.5 size-4 shrink-0 text-primary" /> Câu lệnh làm việc cho AI, kèm cách gỡ lỗi hay gặp</li>
+                <li className="flex gap-2"><Check className="mt-0.5 size-4 shrink-0 text-primary" /> Còn $3,90 mỗi Skill thay vì $5</li>
+              </ul>
+              <Button asChild className="mt-8 w-full rounded-full bg-gradient-to-r from-primary to-primary-glow"><a href={`${zaloUrl}?text=${encodeURIComponent("Chào Bảo Châu AI, mình muốn mua Combo 10 Skill tự chọn giá $39.")}`} target="_blank" rel="noreferrer">Chọn combo <ArrowRight className="size-4" /></a></Button>
+            </article>
+            <article className="price-card flex flex-col bg-foreground text-background">
+              <p className="text-xs font-black uppercase tracking-[0.16em] text-primary">Gói lớn nhất · Tiết kiệm nhiều nhất</p>
+              <h3 className="mt-2 font-display text-2xl">KOL AI SYSTEM</h3>
+              <div className="mt-5 flex items-end gap-3">
+                <p className="font-display text-5xl leading-none">$145</p>
+                <p className="pb-1 text-sm font-semibold text-background/60">3.868.000 ₫</p>
+              </div>
+              <div className="mt-3 flex flex-wrap items-center gap-2 text-sm">
+                <span className="line-through text-background/60">$326</span>
+                <span className="rounded-full bg-primary px-2.5 py-0.5 text-xs font-extrabold text-primary-foreground">-55%</span>
+                <span className="text-background/60">giá trị lẻ</span>
+              </div>
+              <p className="mt-2 text-sm font-extrabold text-primary">Tiết kiệm $181</p>
+              <ul className="mt-7 space-y-3 text-sm text-background/70">
+                <li className="flex gap-2"><Check className="mt-0.5 size-4 shrink-0 text-primary" /> Toàn bộ 15 Skill trong sảnh, gồm cả Skill ra mắt sau này</li>
+                <li className="flex gap-2"><Check className="mt-0.5 size-4 shrink-0 text-primary" /> Trọn bộ combo 10 Skill tự chọn</li>
+                <li className="flex gap-2"><Check className="mt-0.5 size-4 shrink-0 text-primary" /> Đồng hành phát triển 1 năm cùng Bảo Châu AI</li>
+              </ul>
+              <Button asChild className="mt-auto w-full rounded-full bg-gradient-to-r from-primary to-primary-glow"><a href={`${zaloUrl}?text=${encodeURIComponent("Chào Bảo Châu AI, mình muốn mua KOL AI SYSTEM (trọn bộ 15 Skill) giá $145.")}`} target="_blank" rel="noreferrer">Liên hệ với chúng tôi <ArrowRight className="size-4" /></a></Button>
+            </article>
           </div>
         </div>
       </section>
