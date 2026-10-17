@@ -10,33 +10,63 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as GioHangRouteImport } from './routes/gio-hang'
+import { Route as NganhIdRouteImport } from './routes/nganh.$id'
+import { Route as SkillSlugRouteImport } from './routes/skill.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const GioHangRoute = GioHangRouteImport.update({
+  id: '/gio-hang',
+  path: '/gio-hang',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const NganhIdRoute = NganhIdRouteImport.update({
+  id: '/nganh/$id',
+  path: '/nganh/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SkillSlugRoute = SkillSlugRouteImport.update({
+  id: '/skill/$slug',
+  path: '/skill/$slug',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/gio-hang': typeof GioHangRoute
+  '/nganh/$id': typeof NganhIdRoute
+  '/skill/$slug': typeof SkillSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/gio-hang': typeof GioHangRoute
+  '/nganh/$id': typeof NganhIdRoute
+  '/skill/$slug': typeof SkillSlugRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/gio-hang': typeof GioHangRoute
+  '/nganh/$id': typeof NganhIdRoute
+  '/skill/$slug': typeof SkillSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths: '/' | '/gio-hang' | '/nganh/$id' | '/skill/$slug'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to: '/' | '/gio-hang' | '/nganh/$id' | '/skill/$slug'
+  id: '__root__' | '/' | '/gio-hang' | '/nganh/$id' | '/skill/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  GioHangRoute: typeof GioHangRoute
+  NganhIdRoute: typeof NganhIdRoute
+  SkillSlugRoute: typeof SkillSlugRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,11 +78,35 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/gio-hang': {
+      id: '/gio-hang'
+      path: '/gio-hang'
+      fullPath: '/gio-hang'
+      preLoaderRoute: typeof GioHangRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/nganh/$id': {
+      id: '/nganh/$id'
+      path: '/nganh/$id'
+      fullPath: '/nganh/$id'
+      preLoaderRoute: typeof NganhIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/skill/$slug': {
+      id: '/skill/$slug'
+      path: '/skill/$slug'
+      fullPath: '/skill/$slug'
+      preLoaderRoute: typeof SkillSlugRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  GioHangRoute: GioHangRoute,
+  NganhIdRoute: NganhIdRoute,
+  SkillSlugRoute: SkillSlugRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

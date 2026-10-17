@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 """Vẽ thumbnail skill từ ảnh THẬT có sẵn của Linh Na Model (không tạo ảnh AI mới).
 
-Mỗi ngách có một bộ ảnh hợp sắc thái; skill trong ngách lấy lần lượt từng ảnh
-để hai thẻ liền nhau không trùng ảnh. Crop theo khuôn mặt (OpenCV nếu có).
+Kiểu Châu chốt 17/10 (giống 15 thumbnail Trợ lý AGEN cũ): khổ 4:3, Linh Na mặc áo khoác
+trắng logo Bảo Châu AI · KOL AI bên phải, tên skill chữ đậm xanh bên trái, nhãn ngách + biểu tượng.
+Gương mặt lấy xoay vòng từ nhiều biểu cảm có sẵn (15 thumbnail cũ + ảnh bàn làm việc SĂC THÁI),
+hai thẻ liền nhau không trùng biểu cảm. Crop theo khuôn mặt (OpenCV nếu có).
 """
 import os
 import shutil
@@ -11,16 +13,35 @@ import tempfile
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 PHOTO_DIR = os.environ.get("LINH_NA_PHOTOS", r"G:\My Drive\HÌNH ẢNH\CHÂU LINH NA")
-W, H = 600, 750
+W, H = 1200, 900
 NAVY = (11, 26, 46)
 CYAN = (19, 181, 216)
 GLOW = (127, 224, 239)
 FONT_BOLD = r"C:\Windows\Fonts\segoeuib.ttf"
 FONT_SEMI = r"C:\Windows\Fonts\seguisb.ttf"
+FONT_BLACK = r"C:\Windows\Fonts\seguibl.ttf"
+FONT_EMOJI = r"C:\Windows\Fonts\seguiemj.ttf"
+BLUE = (16, 76, 214)
+BLUE_2 = (24, 119, 242)
 
 # key: (đường dẫn trong kho ảnh, sắc thái)
 # Không đưa vào POOLS: ga-tau, quat-vang, neon-hong (ảnh toàn thân, mặt quá nhỏ/khó cắt)
 PHOTOS = {
+    "kol-01": ("THUMNAIL/01-pheu-zalo-zoom-4k.jpg", "áo trắng logo · biểu cảm 01"),
+    "kol-02": ("THUMNAIL/02-tao-skill-4k.jpg", "áo trắng logo · biểu cảm 02"),
+    "kol-03": ("THUMNAIL/03-do-luong-chuyen-doi-4k.jpg", "áo trắng logo · biểu cảm 03"),
+    "kol-04": ("THUMNAIL/04-radar-cong-dong-4k.jpg", "áo trắng logo · biểu cảm 04"),
+    "kol-05": ("THUMNAIL/05-mo-ta-youtube-4k.jpg", "áo trắng logo · biểu cảm 05"),
+    "kol-06": ("THUMNAIL/06-tong-dieu-hanh-4k.jpg", "áo trắng logo · biểu cảm 06"),
+    "kol-07": ("THUMNAIL/07-cham-soc-binh-luan-fanpage-4k.jpg", "áo trắng logo · biểu cảm 07"),
+    "kol-08": ("THUMNAIL/08-seo-youtube-4k.jpg", "áo trắng logo · biểu cảm 08"),
+    "kol-09": ("THUMNAIL/09-chat-livestream-tiktok-4k.jpg", "áo trắng logo · biểu cảm 09"),
+    "kol-10": ("THUMNAIL/10-tin-nhan-khach-hang-4k.jpg", "áo trắng logo · biểu cảm 10"),
+    "kol-11": ("THUMNAIL/11-chuyen-doi-traffic-4k.jpg", "áo trắng logo · biểu cảm 11"),
+    "kol-12": ("THUMNAIL/12-landing-page-workshop-4k.jpg", "áo trắng logo · biểu cảm 12"),
+    "kol-13": ("THUMNAIL/13-nghien-cuu-noi-dung-4k.jpg", "áo trắng logo · biểu cảm 13"),
+    "kol-14": ("THUMNAIL/14-dang-video-da-nen-tang-4k.jpg", "áo trắng logo · biểu cảm 14"),
+    "kol-15": ("THUMNAIL/15-lich-van-hanh-tu-dong-4k.jpg", "áo trắng logo · biểu cảm 15"),
     "avatar": ("KÊNH LINH NA MODEL/linh-na-model-avatar.png", "cười ấm áp"),
     "cong-ai": ("SĂC THÁI/01-kol-cong-ai-ao-mo-khoa-logo-4k.jpg", "tự tin công nghệ"),
     "ai-xanh": ("SĂC THÁI/02-kol-ai-xanh-dam-ao-mo-khoa-logo-4k.jpg", "rạng rỡ công nghệ"),
@@ -87,24 +108,14 @@ PHOTOS = {
     "dam-bac": ("ẢNH XÂY KÊNH/Ảnh ChatGPT 18_07_37 9 thg 10, 2026.png", "sang trọng"),
 }
 
-POOLS = {
-    "dieu-phoi": ["ai-vong", "ban-noi", "ban-diu", "ai-xanh", "phong-lab", "y-tuong", "kinh-den"],
-    "video-da-nen-tang": ["gioi-thieu", "ngac-nhien", "san-khau", "cong-ai", "chi-tay", "cau-vong", "bien-chieu"],
-    "xay-kenh": ["y-tuong", "chi-tay", "ban-cuoi", "vest-hong", "vest-trang", "san-thuong"],
-    "spa": ["avatar", "cherry", "long-vu", "hoa-hong", "bien-hoa", "tiem-banh", "dau-tay", "caro-hong", "vuon-hoa", "can-mat", "phong-hong", "cau-vong", "xe-hong", "lau-dai"],
-    "video": ["san-khau", "cau-vong", "ngac-nhien", "gioi-thieu", "san-thuong", "bien-chieu", "pho-dem", "hoang-hon", "pho-nhac", "ai-xanh"],
-    "hinh-anh": ["trung-bay", "bao-tang", "trang-den", "trang-den-2", "xe-hong", "tiem-sach", "sanh-tiec", "dam-bac"],
-    "noi-dung": ["gioi-thieu", "y-tuong", "ngac-nhien", "chi-tay", "ban-noi", "rem-vang", "ca-phe", "tai-nghe"],
-    "ban-hang": ["vest-hong", "sanh-tiec", "vest-trang", "chi-tay", "hoang-hon", "nhung-xanh", "dam-do"],
-    "giao-duc": ["tiem-sach", "kinh-den", "thu-vien", "ban-cuoi", "ban-diu", "mua-thu", "ga-mua-thu"],
-    "ke-toan": ["ban-diu", "ban-cuoi", "ban-noi", "vest-trang", "thu-vien", "trang-den", "kinh-den"],
-    "van-phong": ["ban-noi", "vest-trang", "sanh-tiec", "trang-den", "kinh-den", "ban-diu", "bao-tang"],
-    "bds": ["san-thuong", "nhung-xanh", "tham-do", "bien-chieu", "lau-dai", "dam-do", "dam-bac"],
-    "kien-truc": ["bep", "trung-bay", "nhung-xanh", "trang-den-2", "bao-tang"],
-    "website": ["cong-ai", "ai-xanh", "phong-lab", "ai-vong"],
-    "y-te": ["avatar", "can-mat", "dau-tay", "cherry", "bien-hoa", "ban-cuoi"],
-    "phong-thuy": ["co-phuc", "quat-do", "vuon-co", "suon-xam", "ren-trang", "ao-dai-do"],
-    "du-lich": ["ngoai-troi", "bien-chieu", "mua-thu", "ga-mua-thu", "tai-nghe", "bien-hoa", "xe-hong", "san-dat"],
+# Gương mặt cho thumbnail: chỉ ảnh áo khoác trắng logo Bảo Châu AI, nhiều biểu cảm khác nhau.
+KOL_POOL = [f"kol-{i:02d}" for i in range(1, 16)] + ["ban-diu", "ban-cuoi", "ban-noi", "gioi-thieu", "ngac-nhien", "y-tuong"]
+
+NICHE_ICON = {
+    "dieu-phoi": "🧭", "video-da-nen-tang": "▶️", "xay-kenh": "🚀", "spa": "🌸", "video": "🎬",
+    "hinh-anh": "🎨", "noi-dung": "📣", "ban-hang": "🛒", "giao-duc": "📚", "ke-toan": "📊",
+    "van-phong": "🗂️", "bds": "🏠", "kien-truc": "📐", "website": "🤖", "y-te": "🦷",
+    "phong-thuy": "☯️", "du-lich": "✈️",
 }
 
 # Ảnh dùng cho hero / các khối của trang (chỉ ảnh, không chữ)
@@ -167,6 +178,8 @@ def load_photo(key):
         return _cache[key]
     rel = PHOTOS[key][0]
     im = ImageOps.exif_transpose(Image.open(os.path.join(PHOTO_DIR, rel))).convert("RGB")
+    if key.startswith("kol-"):  # thumbnail cũ: bỏ hẳn nửa trái có chữ/icon cũ, chỉ giữ người + phòng
+        im = im.crop((int(im.width * 0.56), 0, im.width, im.height))
     _cache[key] = (im, _face_box(im))
     return _cache[key]
 
@@ -209,49 +222,74 @@ def _wrap(draw, text, font, max_w):
     return lines
 
 
-def draw_thumb(key, title, label, out_path):
-    base = crop_portrait(key, W, H).convert("RGBA")
-    # lớp phủ chuyển màu xanh đậm phía dưới
-    grad = Image.new("L", (1, H))
-    for y in range(H):
-        t = max(0.0, (y - H * 0.42) / (H * 0.58))
-        grad.putpixel((0, y), int(min(1, t ** 1.1) * 238))
-    overlay = Image.new("RGBA", (W, H), NAVY + (0,))
-    overlay.putalpha(grad.resize((W, H)))
-    base = Image.alpha_composite(base, overlay)
-    d = ImageDraw.Draw(base)
+def _person_panel(key, pw, ph):
+    return crop_portrait(key, pw, ph, face_frac=0.30, face_top=0.10)
 
-    # nhãn ngách
-    lf = _font(FONT_SEMI, 21)
-    lw = d.textlength(label.upper(), font=lf)
-    d.rounded_rectangle([22, 22, 22 + lw + 30, 60], radius=19, fill=(255, 255, 255, 235))
-    d.text((37, 41), label.upper(), font=lf, fill=CYAN, anchor="lm")
 
-    # tên skill — tự thu nhỏ để vừa tối đa 3 dòng
-    size = 52
-    while size > 30:
-        tf = _font(FONT_BOLD, size)
-        lines = _wrap(d, title, tf, W - 64)
-        if len(lines) <= 3:
+def draw_thumb(key, title, label, icon, out_path):
+    pw = 640
+    person = _person_panel(key, pw, H)
+    # nền: góc phòng phía sau (mép phải ảnh) phóng to, làm mờ và sáng — tông phòng làm việc sáng như bộ cũ
+    strip = person.crop((int(pw * 0.72), 0, pw, H))
+    bg = strip.resize((W, H)).filter(ImageFilter.GaussianBlur(40))
+    bg = Image.blend(bg, Image.new("RGB", (W, H), (250, 247, 242)), 0.5).convert("RGBA")
+    mask = Image.new("L", (pw, H), 255)
+    md = ImageDraw.Draw(mask)
+    for x in range(200):
+        md.line([(x, 0), (x, H)], fill=int(255 * (x / 200) ** 1.4))
+    bg.paste(person, (W - pw, 0), mask)
+    _ve_chu(bg, title, label, icon).convert("RGB").save(out_path, "WEBP", quality=76, method=6)
+
+
+def _ve_chu(bg, title, label, icon):
+    """In nhãn, tên ngắn và thẻ ngách lên nửa trái (dùng cho ảnh tạm và ảnh Codex vẽ không chữ)."""
+    d = ImageDraw.Draw(bg)
+
+    # nhãn trên cùng
+    pf = _font(FONT_BLACK, 30)
+    pill = "TRỢ LÝ BẢO CHÂU AI"
+    pwid = d.textlength(pill, font=pf)
+    d.rounded_rectangle([56, 58, 56 + pwid + 92, 116], radius=29, fill=(255, 255, 255), outline=(206, 222, 250), width=3)
+    d.ellipse([70, 69, 106, 105], fill=BLUE_2)
+    d.ellipse([82, 77, 94, 89], fill=(255, 255, 255))
+    d.pieslice([77, 88, 99, 110], 180, 360, fill=(255, 255, 255))
+    d.text((118, 87), pill, font=pf, fill=BLUE, anchor="lm")
+
+    # tên skill: chữ hoa đậm, viền trắng, tự thu nhỏ để vừa tối đa 4 dòng
+    text = title.upper()
+    max_w = 560
+    size = 92
+    while size > 44:
+        tf = _font(FONT_BLACK, size)
+        lines = _wrap(d, text, tf, max_w)
+        if len(lines) <= (3 if size > 70 else 4) and all(d.textlength(l, font=tf) <= max_w for l in lines):
             break
-        size -= 3
-    lines = lines[:3]
-    lh = int(size * 1.16)
-    y = H - 46 - lh * len(lines)
-    # vạch sáng + thương hiệu
-    bf = _font(FONT_SEMI, 19)
-    d.rounded_rectangle([32, y - 40, 76, y - 34], radius=3, fill=CYAN)
-    d.text((88, y - 37), "BẢO CHÂU AI · SKILL", font=bf, fill=GLOW, anchor="lm")
-    glow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
-    gd = ImageDraw.Draw(glow)
+        size -= 4
+    lines = lines[:4]
+    lh = int(size * 1.08)
+    y = 150
+    shadow = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(shadow)
     for i, ln in enumerate(lines):
-        gd.text((32, y + i * lh), ln, font=tf, fill=CYAN + (150,))
-    base = Image.alpha_composite(base, glow.filter(ImageFilter.GaussianBlur(9)))
-    d = ImageDraw.Draw(base)
+        sd.text((60, y + i * lh + 6), ln, font=tf, fill=(16, 60, 160, 110))
+    bg = Image.alpha_composite(bg, shadow.filter(ImageFilter.GaussianBlur(8)))
+    d = ImageDraw.Draw(bg)
     for i, ln in enumerate(lines):
-        d.text((32, y + i * lh), ln, font=tf, fill=(255, 255, 255))
+        d.text((56, y + i * lh), ln, font=tf, fill=BLUE if i % 2 == 0 else BLUE_2, stroke_width=6, stroke_fill=(255, 255, 255))
+    yb = y + len(lines) * lh + 28
 
-    base.convert("RGB").save(out_path, "WEBP", quality=80, method=6)
+    # thẻ biểu tượng + nhãn ngách
+    d.rounded_rectangle([56, yb, 176, yb + 120], radius=26, fill=(255, 255, 255), outline=(206, 222, 250), width=3)
+    try:
+        d.text((116, yb + 62), icon, font=_font(FONT_EMOJI, 64), embedded_color=True, anchor="mm")
+    except Exception:
+        pass
+    lf = _font(FONT_BLACK, 26)
+    lw = d.textlength(label.upper(), font=lf)
+    d.rounded_rectangle([196, yb + 38, 196 + lw + 40, yb + 84], radius=23, fill=BLUE_2)
+    d.text((216, yb + 61), label.upper(), font=lf, fill=(255, 255, 255), anchor="lm")
+
+    return bg
 
 
 def make_all(root, skills, rebuild=False, force=()):
@@ -260,17 +298,14 @@ def make_all(root, skills, rebuild=False, force=()):
     niches = {n["id"]: n["ten"] for n in json.load(open(os.path.join(root, "src", "data", "skills.json"), encoding="utf-8"))["niches"]}
     out_dir = os.path.join(root, "public", "thumbs")
     os.makedirs(out_dir, exist_ok=True)
-    counters, made = {}, 0
-    for s in skills:
-        pool = POOLS.get(s["niche"]) or POOLS["noi-dung"]
-        i = counters.get(s["niche"], 0)
-        counters[s["niche"]] = i + 1
-        key = pool[i % len(pool)]
+    made, n = 0, len(KOL_POOL)
+    for i, s in enumerate(skills):
+        key = KOL_POOL[(i * 8) % n]  # bước 8, n=21 nguyên tố cùng nhau → thẻ liền nhau luôn khác biểu cảm
         path = os.path.join(out_dir, s["slug"] + ".webp")
         if os.path.exists(path) and not rebuild and s["slug"] not in force:
             continue
         label = niches[s["niche"]].split("·")[-1].strip()
-        draw_thumb(key, s["ten"], label, path)
+        draw_thumb(key, s.get("tenNgan") or s["ten"], label, NICHE_ICON.get(s["niche"], "✨"), path)
         made += 1
     # ảnh trang
     site_dir = os.path.join(root, "public", "linh-na")
@@ -281,3 +316,41 @@ def make_all(root, skills, rebuild=False, force=()):
             continue
         crop_portrait(key, w, int(w * 1.25), face_frac=0.22, face_top=0.14).save(p, "WEBP", quality=82, method=6)
     return made
+
+
+def nhap_tu_codex(root, items, src_dir):
+    """Ảnh Codex vẽ (<tên ngắn không dấu>.png|jpg|webp) → public/thumbs/<slug>.webp (1200×900, ≤200KB).
+    Ảnh tạm do script vẽ sẽ được thay khi Codex có ảnh mới hơn."""
+    if not os.path.isdir(src_dir):
+        return 0
+    import json
+
+    niches = {x["id"]: x["ten"] for x in json.load(open(os.path.join(root, "src", "data", "skills.json"), encoding="utf-8"))["niches"]}
+    out_dir = os.path.join(root, "public", "thumbs")
+    os.makedirs(out_dir, exist_ok=True)
+    n = 0
+    for s in items:
+        names = [s["thumbFile"] + ext for ext in (".png", ".jpg", ".jpeg", ".webp")] + [s["thumbFile"] + "__khong-chu.png"]
+        src = next((os.path.join(src_dir, f) for f in names if os.path.exists(os.path.join(src_dir, f))), None)
+        if not src:
+            continue
+        dst = os.path.join(out_dir, s["slug"] + ".webp")
+        if os.path.exists(dst) and os.path.getmtime(dst) >= os.path.getmtime(src):
+            continue
+        im = ImageOps.exif_transpose(Image.open(src)).convert("RGB")
+        r = W / H  # khổ 4:3, cắt giữa nếu lệch tỉ lệ
+        if im.width / im.height > r:
+            nw = int(im.height * r)
+            im = im.crop(((im.width - nw) // 2, 0, (im.width + nw) // 2, im.height))
+        else:
+            nh = int(im.width / r)
+            im = im.crop((0, (im.height - nh) // 2, im.width, (im.height + nh) // 2))
+        im = im.resize((W, H), Image.LANCZOS)
+        if src.endswith("__khong-chu.png"):  # Codex không viết đúng chữ → tự in tên ngắn
+            im = _ve_chu(im.convert("RGBA"), s["tenNgan"], niches[s["niche"]].split("·")[-1].strip(), NICHE_ICON.get(s["niche"], "✨")).convert("RGB")
+        for qv in (80, 72, 64, 56):
+            im.save(dst, "WEBP", quality=qv, method=6)
+            if os.path.getsize(dst) <= 200 * 1024:
+                break
+        n += 1
+    return n

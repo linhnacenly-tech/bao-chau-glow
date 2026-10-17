@@ -29,6 +29,17 @@ OUT_JSON = os.path.join(ROOT, "src", "data", "skills.json")
 CONG_XUONG = "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/"
 CX_PRODUCTS_TS = os.environ.get("BCAI_CX_PRODUCTS", r"C:\Users\Châu\Documents\GitHub\b-o-ch-u-ai-sales-page\src\lib\products.ts")
 VIET_HOA = os.path.join(ROOT, "scripts", "viet-hoa.json")
+TEN_NGAN = os.path.join(ROOT, "scripts", "ten-ngan.json")
+# Danh mục trên Drive để Châu + các agent tra tên ngắn → gói giao khách
+DANH_MUC_DRIVE = os.path.join(THUONG_MAI, "GLOW - DANH MỤC SKILL")
+# Thumbnail do Codex vẽ (kiểu 15 thumbnail Trợ lý AGEN), tên file = tên ngắn không dấu
+THUMB_CODEX = r"G:\My Drive\HÌNH ẢNH\CHÂU LINH NA\THUMNAIL\GLOW"
+CODEX_QUEUE = os.path.join(MORNING, "data", "projects", "glow-thumbnail", "danh-sach.json")
+# Thư mục giao hàng: mỗi skill kho một tệp, tên = tên ngắn không dấu. Máy chủ Công xưởng (tài khoản dịch vụ
+# Google) tìm tệp theo tên trong thư mục này rồi chia sẻ cho Gmail khách sau khi SePay báo đã nhận tiền.
+GIAO_HANG = os.path.join(THUONG_MAI, "GLOW - GIAO HÀNG")
+CX_REPO = os.path.dirname(os.path.dirname(os.path.dirname(CX_PRODUCTS_TS)))
+CX_CATALOG = os.path.join(CX_REPO, "src", "lib", "glow-catalog.json")
 GIA_LE = 59000
 
 # Skill riêng / không bán (thêm slug vào đây nếu Châu dặn bỏ)
@@ -266,6 +277,114 @@ def short_desc(desc, fallback):
     return d
 
 
+def khong_dau(text):
+    import unicodedata
+    t = unicodedata.normalize("NFD", text.replace("Đ", "D").replace("đ", "d"))
+    t = "".join(c for c in t if unicodedata.category(c) != "Mn").lower()
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+
+
+BIEU_CAM = [
+    "mỉm cười dịu dàng, tay chống cằm",
+    "cười tươi rạng rỡ, nhìn thẳng ống kính",
+    "ngạc nhiên thích thú, một tay chạm má",
+    "hào hứng giới thiệu, bàn tay mở về phía chữ",
+    "cười lớn, cầm bút như vừa nảy ra ý tưởng",
+    "chỉ ngón tay lên phía chữ, miệng cười",
+    "tự tin, hai tay đặt trên bàn phím laptop",
+    "nghiêng đầu tinh nghịch, nháy một mắt",
+    "tập trung suy nghĩ, ngón tay chạm cằm",
+    "vui vẻ giơ ngón tay cái",
+    "bất ngờ, miệng hé mở, mắt mở to",
+    "bình thản, mỉm cười nhẹ, hai tay đan vào nhau",
+]
+
+
+def ghi_danh_muc(skills, bundles, kho_by_slug, niche_name):
+    """Danh mục Drive (csv + json) + hàng đợi vẽ thumbnail cho Codex."""
+    import csv
+
+    rows = []
+    for i, s in enumerate(skills + bundles, 1):
+        sk = kho_by_slug.get(s["slug"], {})
+        rows.append({
+            "stt": i, "tenNgan": s["tenNgan"], "fileThumbnail": s["thumbFile"] + ".png", "ngach": niche_name[s["niche"]],
+            "tenDayDu": s["ten"], "slug": s["slug"], "ma": sk.get("ma") or "",
+            "soSkill": s.get("soSkill", 1), "goiGiaoKhach": sk.get("goiZip") or "",
+            "dangBanCongXuong": sk.get("dangBanCongXuong") or "",
+        })
+    out = {"capNhat": date.today().isoformat(), "ghiChu": "Danh mục trang Bảo Châu Glow. Tên ngắn = chữ trên thumbnail = tên file thumbnail (không dấu). Agent giao khách: tra tenNgan/slug → goiGiaoKhach.", "skill": rows}
+    try:
+        os.makedirs(DANH_MUC_DRIVE, exist_ok=True)
+        with open(os.path.join(DANH_MUC_DRIVE, "danh-muc-glow.json"), "w", encoding="utf-8") as f:
+            json.dump(out, f, ensure_ascii=False, indent=1)
+        with open(os.path.join(DANH_MUC_DRIVE, "danh-muc-glow.csv"), "w", encoding="utf-8-sig", newline="") as f:
+            w = csv.writer(f)
+            w.writerow(["STT", "Tên ngắn", "File thumbnail", "Ngách", "Tên đầy đủ", "Slug", "Mã", "Số skill", "Gói giao khách", "Đang bán Công xưởng"])
+            for r in rows:
+                w.writerow(list(r.values()))
+    except OSError as e:
+        print("Không ghi được danh mục Drive:", e)
+    with open(os.path.join(MORNING, "data", "kho-skill", "glow-danh-muc.json"), "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=1)
+
+    # Hàng đợi cho Codex: chỉ thêm mục mới, giữ nguyên mục cũ (Codex ghi tiến độ ở tien-do.json)
+    os.makedirs(os.path.dirname(CODEX_QUEUE), exist_ok=True)
+    q = json.load(open(CODEX_QUEUE, encoding="utf-8")) if os.path.exists(CODEX_QUEUE) else {"items": []}
+    have = {x["file"] for x in q["items"]}
+    for r in rows:
+        if r["fileThumbnail"] not in have:
+            q["items"].append({
+                "file": r["fileThumbnail"], "chuTrenAnh": r["tenNgan"], "ngach": r["ngach"],
+                "noiDung": next((s["moTa"] for s in skills + bundles if s["slug"] == r["slug"]), "")[:160],
+                "bieuCam": BIEU_CAM[(len(q["items"]) * 5) % len(BIEU_CAM)],
+            })
+    q["thuMucLuu"] = THUMB_CODEX
+    q["capNhat"] = date.today().isoformat()
+    with open(CODEX_QUEUE, "w", encoding="utf-8") as f:
+        json.dump(q, f, ensure_ascii=False, indent=1)
+    return len(rows)
+
+
+def goi_moi_nhat(goi):
+    """Ưu tiên bản trong kho chuẩn hoá mới nhất (cùng tên tệp)."""
+    for d in KHO_DIRS:
+        p = os.path.join(d, os.path.basename(goi))
+        if os.path.exists(p):
+            return p
+    return goi if goi and os.path.exists(goi) else None
+
+
+def chuan_bi_giao_hang(skills, bundles, kho_by_slug):
+    """Chép gói vào GLOW - GIAO HÀNG (tên dễ nhận) + ghi catalog cho máy chủ Công xưởng."""
+    import shutil
+
+    os.makedirs(GIAO_HANG, exist_ok=True)
+    cat = {"capNhat": date.today().isoformat(), "thuMucGiaoHang": os.path.basename(GIAO_HANG), "giaLe": GIA_LE, "nguongGiam": 5, "items": {}}
+    thieu = []
+    for s in skills + bundles:
+        sk = kho_by_slug.get(s["slug"], {})
+        cx = sk.get("dangBanCongXuong")
+        entry = {"ten": s["ten"], "tenNgan": s["tenNgan"], "soSkill": s.get("soSkill", 1), "cx": cx, "file": None}
+        if not cx:
+            src = goi_moi_nhat(sk.get("goiZip") or "")
+            if src:
+                name = s["thumbFile"] + os.path.splitext(src)[1].lower()
+                dst = os.path.join(GIAO_HANG, name)
+                if not os.path.exists(dst) or os.path.getsize(dst) != os.path.getsize(src) or os.path.getmtime(dst) < os.path.getmtime(src):
+                    shutil.copy2(src, dst)
+                entry["file"] = name
+            else:
+                thieu.append(s["slug"])
+        cat["items"][s["slug"]] = entry
+    if os.path.isdir(os.path.dirname(CX_CATALOG)):
+        with open(CX_CATALOG, "w", encoding="utf-8") as f:
+            json.dump(cat, f, ensure_ascii=False, indent=1)
+    if thieu:
+        print("CẢNH BÁO không tìm thấy gói giao:", thieu)
+    return len(cat["items"]) - len(thieu)
+
+
 def load_cx_products():
     """Mô tả + sản phẩm giao của 21 skill Công xưởng (repo b-o-ch-u-ai-sales-page)."""
     out = {}
@@ -289,6 +408,7 @@ def main():
 
     cx_products = load_cx_products()
     viet = json.load(open(VIET_HOA, encoding="utf-8")) if os.path.exists(VIET_HOA) else {}
+    ten_ngan = json.load(open(TEN_NGAN, encoding="utf-8")) if os.path.exists(TEN_NGAN) else {}
     skills, bundles, seen, skipped = [], [], set(), []
     for sk in kho["skill"]:
         slug = sk["slug"]
@@ -310,6 +430,7 @@ def main():
             bundles.append({
                 "slug": slug, "ten": nice_name(sk["ten"]), "niche": niche, "soSkill": n,
                 "moTa": short_desc("", sk.get("moTa")),
+                "thumb": f"/thumbs/{slug}.webp",
             })
             continue
         md = read_skill_md(sk)
@@ -331,6 +452,12 @@ def main():
             "thumb": f"/thumbs/{slug}.webp",
         })
 
+    for s in skills + bundles:
+        s["tenNgan"] = ten_ngan.get(s["slug"]) or s["ten"].upper()
+        s["thumbFile"] = khong_dau(s["tenNgan"])
+    dup = sorted({s["thumbFile"] for s in skills + bundles if sum(x["thumbFile"] == s["thumbFile"] for x in skills + bundles) > 1})
+    if dup:
+        print("CẢNH BÁO tên ngắn trùng — sửa scripts/ten-ngan.json:", dup)
     order = {n: i for i, n in enumerate(NICHE_IDS)}
     skills.sort(key=lambda s: (order[s["niche"]], s["congXuong"] is None, s["ten"]))
     data = {
@@ -353,11 +480,18 @@ def main():
     for nid, c in sorted(Counter(s["niche"] for s in skills).items(), key=lambda x: order[x[0]]):
         print(f"  {nid}: {c}")
 
+    n_dm = ghi_danh_muc(skills, bundles, {s["slug"]: s for s in kho["skill"]}, {i: t for i, t, _, _ in NICHES})
+    print(f"Danh mục Drive + hàng đợi Codex: {n_dm} mục")
+    n_gh = chuan_bi_giao_hang(skills, bundles, {s["slug"]: s for s in kho["skill"]})
+    print(f"Thư mục giao hàng + catalog Công xưởng: {n_gh} mục có gói")
+
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     import thumbs  # noqa: E402
 
+    nhap = thumbs.nhap_tu_codex(ROOT, skills + bundles, THUMB_CODEX)
+    print(f"Thumbnail Codex đã nhập: {nhap}")
     renamed = {s["slug"] for s in skills if s["slug"] in old and old[s["slug"]]["ten"] != s["ten"]}
-    made = thumbs.make_all(ROOT, skills, rebuild=rebuild, force=renamed)
+    made = thumbs.make_all(ROOT, skills + bundles, rebuild=rebuild, force=renamed)
     print(f"Thumbnail mới vẽ: {made}")
 
 

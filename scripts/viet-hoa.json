@@ -4,14 +4,22 @@
     "ten": "Edit video dọc có chữ",
     "moTa": "Dựng lại footage có sẵn thành video dọc có chữ trên màn hình: chữ cố định hoặc theo cảnh, nhạc, làm tối hoặc làm mờ nền, quay chậm, logo theo ngữ cảnh và khung xem trước."
   },
-  "bien-tap-video-zoom-dai": { "ten": "Biên tập video Zoom dài" },
+  "bien-tap-video-zoom-dai": {
+    "ten": "Biên tập video Zoom dài"
+  },
   "video-hoat-hinh-toan-ky-thuat": {
     "ten": "Video hoạt hình toán & kỹ thuật",
     "moTa": "Quy trình sản xuất video hoạt hình toán học và kỹ thuật bằng Manim Community Edition."
   },
-  "dung-video-chu-tu-caption": { "ten": "Dựng video chữ từ caption" },
-  "content-win-tu-anh-va-reel": { "ten": "Chép nội dung từ ảnh và Reel" },
-  "tro-ly-photoshop": { "ten": "Trợ lý Photoshop" },
+  "dung-video-chu-tu-caption": {
+    "ten": "Dựng video chữ từ caption"
+  },
+  "content-win-tu-anh-va-reel": {
+    "ten": "Chép nội dung từ ảnh và Reel"
+  },
+  "tro-ly-photoshop": {
+    "ten": "Trợ lý Photoshop"
+  },
   "phuc-che-anh-cu-4k": {
     "ten": "Phục chế ảnh cũ 4K",
     "moTa": "Phục chế ảnh cũ bị mờ, phai màu, trầy xước, rách, nhiễu, độ phân giải thấp, ảnh đen trắng hoặc ảnh scan — giữ đúng gương mặt, thời kỳ, bố cục, trang phục và chữ viết tay."
@@ -24,7 +32,9 @@
     "ten": "Brief nghiên cứu nội dung",
     "moTa": "Nghiên cứu chủ đề đang lên, gom bài nguồn và tạo brief nghiên cứu có cấu trúc cho việc làm nội dung — viết từ nguồn thật, không viết từ khoảng không."
   },
-  "xay-noi-dung-facebook": { "ten": "Xây nội dung Facebook" },
+  "xay-noi-dung-facebook": {
+    "ten": "Xây nội dung Facebook"
+  },
   "viet-bai-viral": {
     "ten": "Viết bài viral bán affiliate",
     "moTa": "Viết bài mạng xã hội có sức lan tỏa, giới thiệu sản phẩm affiliate một cách tự nhiên."
@@ -58,7 +68,8 @@
     "moTa": "Điều phối việc trong giao dịch bất động sản: tài liệu cần xin, người phụ trách, hạn chót, phê duyệt, mốc thanh toán và trạng thái bàn giao — không soạn tư vấn pháp lý cuối cùng."
   },
   "tao-goi-skill-ai": {
-    "moTa": "Biến ý tưởng dự án, quy trình kinh doanh, ý tưởng app hoặc việc AI hay lặp lại thành một skill AI (hoặc bộ nhiều skill) tập trung, đã kiểm tra và dùng lại được."
+    "moTa": "Biến ý tưởng dự án, quy trình kinh doanh, ý tưởng app hoặc việc AI hay lặp lại thành một skill AI (hoặc bộ nhiều skill) tập trung, đã kiểm tra và dùng lại được.",
+    "ten": "Đóng gói skill AI"
   },
   "tiet-kiem-codex": {
     "ten": "Tiết kiệm Codex",
@@ -71,5 +82,11 @@
   "tiet-kiem-codex-pro": {
     "ten": "Tiết kiệm Codex Pro",
     "moTa": "Áp dụng quy trình SKILL TIẾT KIỆM CODEX có thể tùy chỉnh cho đóng gói, chỉnh sửa, build, gỡ lỗi và các việc kiến trúc chuyên sâu."
+  },
+  "tro-ly-khai-van-hanh-dong": {
+    "ten": "Trợ lý khai vấn & hành động"
+  },
+  "tro-ly-ban-hang-tung-buoc": {
+    "ten": "Trợ lý nội dung & bán hàng từng bước"
   }
 }

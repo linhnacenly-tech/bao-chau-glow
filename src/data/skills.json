@@ -122,7 +122,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/binh-luan-fanpage",
-   "thumb": "/thumbs/binh-luan-fanpage.webp"
+   "thumb": "/thumbs/binh-luan-fanpage.webp",
+   "tenNgan": "TRẢ LỜI BÌNH LUẬN",
+   "thumbFile": "tra-loi-binh-luan"
   },
   {
    "slug": "lich-van-hanh",
@@ -137,7 +139,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/lich-van-hanh",
-   "thumb": "/thumbs/lich-van-hanh.webp"
+   "thumb": "/thumbs/lich-van-hanh.webp",
+   "tenNgan": "LỊCH TỰ ĐỘNG",
+   "thumbFile": "lich-tu-dong"
   },
   {
    "slug": "nghien-cuu-noi-dung",
@@ -152,7 +156,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/nghien-cuu-noi-dung",
-   "thumb": "/thumbs/nghien-cuu-noi-dung.webp"
+   "thumb": "/thumbs/nghien-cuu-noi-dung.webp",
+   "tenNgan": "NGHIÊN CỨU NỘI DUNG",
+   "thumbFile": "nghien-cuu-noi-dung"
   },
   {
    "slug": "radar-cong-dong",
@@ -167,7 +173,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/radar-cong-dong",
-   "thumb": "/thumbs/radar-cong-dong.webp"
+   "thumb": "/thumbs/radar-cong-dong.webp",
+   "tenNgan": "RADAR CỘNG ĐỒNG",
+   "thumbFile": "radar-cong-dong"
   },
   {
    "slug": "tin-nhan-khach-hang",
@@ -182,7 +190,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/tin-nhan-khach-hang",
-   "thumb": "/thumbs/tin-nhan-khach-hang.webp"
+   "thumb": "/thumbs/tin-nhan-khach-hang.webp",
+   "tenNgan": "NHẮN TIN KHÁCH",
+   "thumbFile": "nhan-tin-khach"
   },
   {
    "slug": "tong-dieu-hanh",
@@ -197,7 +207,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/tong-dieu-hanh",
-   "thumb": "/thumbs/tong-dieu-hanh.webp"
+   "thumb": "/thumbs/tong-dieu-hanh.webp",
+   "tenNgan": "TỔNG ĐIỀU HÀNH",
+   "thumbFile": "tong-dieu-hanh"
   },
   {
    "slug": "do-luong-chuyen-doi",
@@ -212,7 +224,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/do-luong-chuyen-doi",
-   "thumb": "/thumbs/do-luong-chuyen-doi.webp"
+   "thumb": "/thumbs/do-luong-chuyen-doi.webp",
+   "tenNgan": "ĐO CHUYỂN ĐỔI",
+   "thumbFile": "do-chuyen-doi"
   },
   {
    "slug": "chat-live-tiktok",
@@ -227,7 +241,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/chat-live-tiktok",
-   "thumb": "/thumbs/chat-live-tiktok.webp"
+   "thumb": "/thumbs/chat-live-tiktok.webp",
+   "tenNgan": "CHAT LIVESTREAM",
+   "thumbFile": "chat-livestream"
   },
   {
    "slug": "edit-video-tu-dong",
@@ -242,7 +258,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/edit-video-tu-dong",
-   "thumb": "/thumbs/edit-video-tu-dong.webp"
+   "thumb": "/thumbs/edit-video-tu-dong.webp",
+   "tenNgan": "EDIT VIDEO",
+   "thumbFile": "edit-video"
   },
   {
    "slug": "kich-ban-tiktok",
@@ -257,7 +275,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/kich-ban-tiktok",
-   "thumb": "/thumbs/kich-ban-tiktok.webp"
+   "thumb": "/thumbs/kich-ban-tiktok.webp",
+   "tenNgan": "KỊCH BẢN TIKTOK",
+   "thumbFile": "kich-ban-tiktok"
   },
   {
    "slug": "mo-ta-youtube",
@@ -272,7 +292,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/mo-ta-youtube",
-   "thumb": "/thumbs/mo-ta-youtube.webp"
+   "thumb": "/thumbs/mo-ta-youtube.webp",
+   "tenNgan": "MÔ TẢ YOUTUBE",
+   "thumbFile": "mo-ta-youtube"
   },
   {
    "slug": "seo-youtube",
@@ -287,7 +309,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/seo-youtube",
-   "thumb": "/thumbs/seo-youtube.webp"
+   "thumb": "/thumbs/seo-youtube.webp",
+   "tenNgan": "SEO YOUTUBE",
+   "thumbFile": "seo-youtube"
   },
   {
    "slug": "phim-kien-thuc-bat-ngo",
@@ -302,7 +326,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/video-kien-thuc",
-   "thumb": "/thumbs/phim-kien-thuc-bat-ngo.webp"
+   "thumb": "/thumbs/phim-kien-thuc-bat-ngo.webp",
+   "tenNgan": "VIDEO KIẾN THỨC",
+   "thumbFile": "video-kien-thuc"
   },
   {
    "slug": "van-hanh-tiktok",
@@ -317,7 +343,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/van-hanh-tiktok",
-   "thumb": "/thumbs/van-hanh-tiktok.webp"
+   "thumb": "/thumbs/van-hanh-tiktok.webp",
+   "tenNgan": "VẬN HÀNH TIKTOK",
+   "thumbFile": "van-hanh-tiktok"
   },
   {
    "slug": "dang-video-da-nen-tang",
@@ -332,7 +360,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/dang-video-da-nen-tang",
-   "thumb": "/thumbs/dang-video-da-nen-tang.webp"
+   "thumb": "/thumbs/dang-video-da-nen-tang.webp",
+   "tenNgan": "ĐĂNG VIDEO",
+   "thumbFile": "dang-video"
   },
   {
    "slug": "caption-cham-noi-dau",
@@ -347,7 +377,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/caption-cham-noi-dau",
-   "thumb": "/thumbs/caption-cham-noi-dau.webp"
+   "thumb": "/thumbs/caption-cham-noi-dau.webp",
+   "tenNgan": "CAPTION NỖI ĐAU",
+   "thumbFile": "caption-noi-dau"
   },
   {
    "slug": "chuyen-doi-traffic",
@@ -362,7 +394,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/chuyen-doi-traffic",
-   "thumb": "/thumbs/chuyen-doi-traffic.webp"
+   "thumb": "/thumbs/chuyen-doi-traffic.webp",
+   "tenNgan": "CHUYỂN ĐỔI TRAFFIC",
+   "thumbFile": "chuyen-doi-traffic"
   },
   {
    "slug": "landing-page",
@@ -377,7 +411,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/landing-page",
-   "thumb": "/thumbs/landing-page.webp"
+   "thumb": "/thumbs/landing-page.webp",
+   "tenNgan": "LANDING PAGE",
+   "thumbFile": "landing-page"
   },
   {
    "slug": "thiet-ke-uu-dai",
@@ -392,7 +428,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/thiet-ke-uu-dai",
-   "thumb": "/thumbs/thiet-ke-uu-dai.webp"
+   "thumb": "/thumbs/thiet-ke-uu-dai.webp",
+   "tenNgan": "THIẾT KẾ ƯU ĐÃI",
+   "thumbFile": "thiet-ke-uu-dai"
   },
   {
    "slug": "tao-skill",
@@ -407,7 +445,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/tao-skill",
-   "thumb": "/thumbs/tao-skill.webp"
+   "thumb": "/thumbs/tao-skill.webp",
+   "tenNgan": "TẠO SKILL",
+   "thumbFile": "tao-skill"
   },
   {
    "slug": "an-pham-thuong-hieu",
@@ -422,7 +462,9 @@
    ],
    "gia": 59000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/an-pham-thuong-hieu",
-   "thumb": "/thumbs/an-pham-thuong-hieu.webp"
+   "thumb": "/thumbs/an-pham-thuong-hieu.webp",
+   "tenNgan": "ẤN PHẨM THƯƠNG HIỆU",
+   "thumbFile": "an-pham-thuong-hieu"
   },
   {
    "slug": "chuan-hoa-chuyen-doi-phong-dich-vu-spa",
@@ -437,7 +479,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/chuan-hoa-chuyen-doi-phong-dich-vu-spa.webp"
+   "thumb": "/thumbs/chuan-hoa-chuyen-doi-phong-dich-vu-spa.webp",
+   "tenNgan": "CHỐT KHÁCH PHÒNG DỊCH VỤ",
+   "thumbFile": "chot-khach-phong-dich-vu"
   },
   {
    "slug": "chuan-hoa-ghi-chu-ho-so-khach-spa",
@@ -452,7 +496,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/chuan-hoa-ghi-chu-ho-so-khach-spa.webp"
+   "thumb": "/thumbs/chuan-hoa-ghi-chu-ho-so-khach-spa.webp",
+   "tenNgan": "HỒ SƠ KHÁCH SPA",
+   "thumbFile": "ho-so-khach-spa"
   },
   {
    "slug": "chuan-hoa-quy-trinh-dich-vu-spa",
@@ -467,7 +513,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/chuan-hoa-quy-trinh-dich-vu-spa.webp"
+   "thumb": "/thumbs/chuan-hoa-quy-trinh-dich-vu-spa.webp",
+   "tenNgan": "QUY TRÌNH DỊCH VỤ SPA",
+   "thumbFile": "quy-trinh-dich-vu-spa"
   },
   {
    "slug": "chuan-hoa-dat-lich-qua-dien-thoai-spa",
@@ -482,7 +530,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/chuan-hoa-dat-lich-qua-dien-thoai-spa.webp"
+   "thumb": "/thumbs/chuan-hoa-dat-lich-qua-dien-thoai-spa.webp",
+   "tenNgan": "ĐẶT LỊCH QUA ĐIỆN THOẠI",
+   "thumbFile": "dat-lich-qua-dien-thoai"
   },
   {
    "slug": "chay-chien-dich-kich-hoat-lai-khach-spa",
@@ -497,7 +547,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/chay-chien-dich-kich-hoat-lai-khach-spa.webp"
+   "thumb": "/thumbs/chay-chien-dich-kich-hoat-lai-khach-spa.webp",
+   "tenNgan": "GỌI KHÁCH CŨ QUAY LẠI",
+   "thumbFile": "goi-khach-cu-quay-lai"
   },
   {
    "slug": "cham-diem-lead-spa",
@@ -512,7 +564,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/cham-diem-lead-spa.webp"
+   "thumb": "/thumbs/cham-diem-lead-spa.webp",
+   "tenNgan": "CHẤM ĐIỂM KHÁCH TIỀM NĂNG",
+   "thumbFile": "cham-diem-khach-tiem-nang"
   },
   {
    "slug": "chan-doan-mo-hinh-kinh-doanh-spa",
@@ -527,7 +581,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/chan-doan-mo-hinh-kinh-doanh-spa.webp"
+   "thumb": "/thumbs/chan-doan-mo-hinh-kinh-doanh-spa.webp",
+   "tenNgan": "KHÁM SỨC KHỎE SPA",
+   "thumbFile": "kham-suc-khoe-spa"
   },
   {
    "slug": "du-bao-mua-vu-nhu-cau-spa",
@@ -542,7 +598,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/du-bao-mua-vu-nhu-cau-spa.webp"
+   "thumb": "/thumbs/du-bao-mua-vu-nhu-cau-spa.webp",
+   "tenNgan": "DỰ BÁO MÙA VỤ SPA",
+   "thumbFile": "du-bao-mua-vu-spa"
   },
   {
    "slug": "giam-khach-vang-mat-lich-hen-spa",
@@ -557,7 +615,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/giam-khach-vang-mat-lich-hen-spa.webp"
+   "thumb": "/thumbs/giam-khach-vang-mat-lich-hen-spa.webp",
+   "tenNgan": "GIẢM KHÁCH BỎ HẸN",
+   "thumbFile": "giam-khach-bo-hen"
   },
   {
    "slug": "goi-y-combo-ban-cheo-spa",
@@ -572,7 +632,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/goi-y-combo-ban-cheo-spa.webp"
+   "thumb": "/thumbs/goi-y-combo-ban-cheo-spa.webp",
+   "tenNgan": "COMBO BÁN CHÉO",
+   "thumbFile": "combo-ban-cheo"
   },
   {
    "slug": "goi-y-nang-cap-dich-vu-spa",
@@ -587,7 +649,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/goi-y-nang-cap-dich-vu-spa.webp"
+   "thumb": "/thumbs/goi-y-nang-cap-dich-vu-spa.webp",
+   "tenNgan": "NÂNG CẤP DỊCH VỤ",
+   "thumbFile": "nang-cap-dich-vu"
   },
   {
    "slug": "kiem-tra-tuan-thu-kinh-doanh-spa",
@@ -602,7 +666,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/kiem-tra-tuan-thu-kinh-doanh-spa.webp"
+   "thumb": "/thumbs/kiem-tra-tuan-thu-kinh-doanh-spa.webp",
+   "tenNgan": "TUÂN THỦ SPA",
+   "thumbFile": "tuan-thu-spa"
   },
   {
    "slug": "kiem-tra-ve-sinh-an-toan-spa",
@@ -617,7 +683,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/kiem-tra-ve-sinh-an-toan-spa.webp"
+   "thumb": "/thumbs/kiem-tra-ve-sinh-an-toan-spa.webp",
+   "tenNgan": "VỆ SINH AN TOÀN SPA",
+   "thumbFile": "ve-sinh-an-toan-spa"
   },
   {
    "slug": "ke-cau-chuyen-anh-truoc-sau-spa",
@@ -632,7 +700,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-cau-chuyen-anh-truoc-sau-spa.webp"
+   "thumb": "/thumbs/ke-cau-chuyen-anh-truoc-sau-spa.webp",
+   "tenNgan": "CHUYỆN TRƯỚC SAU",
+   "thumbFile": "chuyen-truoc-sau"
   },
   {
    "slug": "lap-bao-cao-quan-tri-thang-spa",
@@ -647,7 +717,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/lap-bao-cao-quan-tri-thang-spa.webp"
+   "thumb": "/thumbs/lap-bao-cao-quan-tri-thang-spa.webp",
+   "tenNgan": "BÁO CÁO THÁNG SPA",
+   "thumbFile": "bao-cao-thang-spa"
   },
   {
    "slug": "lap-ban-do-noi-lo-theo-dich-vu-spa",
@@ -662,7 +734,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/lap-ban-do-noi-lo-theo-dich-vu-spa.webp"
+   "thumb": "/thumbs/lap-ban-do-noi-lo-theo-dich-vu-spa.webp",
+   "tenNgan": "NỖI LO KHÁCH SPA",
+   "thumbFile": "noi-lo-khach-spa"
   },
   {
    "slug": "lap-ban-do-tu-dong-hoa-quy-trinh-spa",
@@ -677,7 +751,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/lap-ban-do-tu-dong-hoa-quy-trinh-spa.webp"
+   "thumb": "/thumbs/lap-ban-do-tu-dong-hoa-quy-trinh-spa.webp",
+   "tenNgan": "TỰ ĐỘNG HÓA SPA",
+   "thumbFile": "tu-dong-hoa-spa"
   },
   {
    "slug": "lap-ban-do-doi-thu-spa",
@@ -692,7 +768,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/lap-ban-do-doi-thu-spa.webp"
+   "thumb": "/thumbs/lap-ban-do-doi-thu-spa.webp",
+   "tenNgan": "SOI ĐỐI THỦ SPA",
+   "thumbFile": "soi-doi-thu-spa"
   },
   {
    "slug": "lap-chien-dich-sinh-nhat-khach-spa",
@@ -707,7 +785,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/lap-chien-dich-sinh-nhat-khach-spa.webp"
+   "thumb": "/thumbs/lap-chien-dich-sinh-nhat-khach-spa.webp",
+   "tenNgan": "SINH NHẬT KHÁCH",
+   "thumbFile": "sinh-nhat-khach"
   },
   {
    "slug": "lap-chuoi-follow-up-lead-spa",
@@ -722,7 +802,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/lap-chuoi-follow-up-lead-spa.webp"
+   "thumb": "/thumbs/lap-chuoi-follow-up-lead-spa.webp",
+   "tenNgan": "BÁM ĐUỔI KHÁCH",
+   "thumbFile": "bam-duoi-khach"
   },
   {
    "slug": "lap-du-bao-dong-tien-13-tuan-spa",
@@ -737,7 +819,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/lap-du-bao-dong-tien-13-tuan-spa.webp"
+   "thumb": "/thumbs/lap-du-bao-dong-tien-13-tuan-spa.webp",
+   "tenNgan": "DÒNG TIỀN 13 TUẦN",
+   "thumbFile": "dong-tien-13-tuan"
   },
   {
    "slug": "lap-ke-hoach-90-ngay-cho-spa",
@@ -752,7 +836,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/lap-ke-hoach-90-ngay-cho-spa.webp"
+   "thumb": "/thumbs/lap-ke-hoach-90-ngay-cho-spa.webp",
+   "tenNgan": "KẾ HOẠCH 90 NGÀY",
+   "thumbFile": "ke-hoach-90-ngay"
   },
   {
    "slug": "lap-ke-hoach-hop-tac-kol-spa",
@@ -767,7 +853,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/lap-ke-hoach-hop-tac-kol-spa.webp"
+   "thumb": "/thumbs/lap-ke-hoach-hop-tac-kol-spa.webp",
+   "tenNgan": "HỢP TÁC KOL",
+   "thumbFile": "hop-tac-kol"
   },
   {
    "slug": "lap-ke-hoach-livestream-spa",
@@ -782,7 +870,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/lap-ke-hoach-livestream-spa.webp"
+   "thumb": "/thumbs/lap-ke-hoach-livestream-spa.webp",
+   "tenNgan": "LIVESTREAM SPA",
+   "thumbFile": "livestream-spa"
   },
   {
    "slug": "lap-ke-hoach-quang-cao-facebook-spa",
@@ -797,7 +887,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/lap-ke-hoach-quang-cao-facebook-spa.webp"
+   "thumb": "/thumbs/lap-ke-hoach-quang-cao-facebook-spa.webp",
+   "tenNgan": "QUẢNG CÁO FACEBOOK SPA",
+   "thumbFile": "quang-cao-facebook-spa"
   },
   {
    "slug": "lap-lich-ca-nhan-vien-spa",
@@ -812,7 +904,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/lap-lich-ca-nhan-vien-spa.webp"
+   "thumb": "/thumbs/lap-lich-ca-nhan-vien-spa.webp",
+   "tenNgan": "XẾP CA NHÂN VIÊN",
+   "thumbFile": "xep-ca-nhan-vien"
   },
   {
    "slug": "lap-lich-chien-dich-marketing-spa",
@@ -827,7 +921,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/lap-lich-chien-dich-marketing-spa.webp"
+   "thumb": "/thumbs/lap-lich-chien-dich-marketing-spa.webp",
+   "tenNgan": "LỊCH MARKETING SPA",
+   "thumbFile": "lich-marketing-spa"
   },
   {
    "slug": "lap-lich-noi-dung-30-ngay-cho-spa",
@@ -842,7 +938,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/lap-lich-noi-dung-30-ngay-cho-spa.webp"
+   "thumb": "/thumbs/lap-lich-noi-dung-30-ngay-cho-spa.webp",
+   "tenNgan": "LỊCH NỘI DUNG 30 NGÀY",
+   "thumbFile": "lich-noi-dung-30-ngay"
   },
   {
    "slug": "lap-muc-tieu-doanh-thu-spa",
@@ -857,7 +955,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/lap-muc-tieu-doanh-thu-spa.webp"
+   "thumb": "/thumbs/lap-muc-tieu-doanh-thu-spa.webp",
+   "tenNgan": "MỤC TIÊU DOANH THU",
+   "thumbFile": "muc-tieu-doanh-thu"
   },
   {
    "slug": "lap-quy-trinh-thu-phan-ung-spa",
@@ -872,7 +972,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/lap-quy-trinh-thu-phan-ung-spa.webp"
+   "thumb": "/thumbs/lap-quy-trinh-thu-phan-ung-spa.webp",
+   "tenNgan": "THỬ PHẢN ỨNG DA",
+   "thumbFile": "thu-phan-ung-da"
   },
   {
    "slug": "nghien-cuu-xu-huong-nganh-spa",
@@ -887,7 +989,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/nghien-cuu-xu-huong-nganh-spa.webp"
+   "thumb": "/thumbs/nghien-cuu-xu-huong-nganh-spa.webp",
+   "tenNgan": "XU HƯỚNG NGÀNH SPA",
+   "thumbFile": "xu-huong-nganh-spa"
   },
   {
    "slug": "phan-bo-ngan-sach-marketing-spa",
@@ -902,7 +1006,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phan-bo-ngan-sach-marketing-spa.webp"
+   "thumb": "/thumbs/phan-bo-ngan-sach-marketing-spa.webp",
+   "tenNgan": "NGÂN SÁCH MARKETING",
+   "thumbFile": "ngan-sach-marketing"
   },
   {
    "slug": "phan-khuc-khach-hang-spa",
@@ -917,7 +1023,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phan-khuc-khach-hang-spa.webp"
+   "thumb": "/thumbs/phan-khuc-khach-hang-spa.webp",
+   "tenNgan": "PHÂN KHÚC KHÁCH",
+   "thumbFile": "phan-khuc-khach"
   },
   {
    "slug": "phan-nhom-khach-vip-spa",
@@ -932,7 +1040,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phan-nhom-khach-vip-spa.webp"
+   "thumb": "/thumbs/phan-nhom-khach-vip-spa.webp",
+   "tenNgan": "KHÁCH VIP",
+   "thumbFile": "khach-vip"
   },
   {
    "slug": "phan-tich-swot-spa",
@@ -947,7 +1057,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phan-tich-swot-spa.webp"
+   "thumb": "/thumbs/phan-tich-swot-spa.webp",
+   "tenNgan": "SWOT SPA",
+   "thumbFile": "swot-spa"
   },
   {
    "slug": "phan-tich-kich-ban-mo-rong-spa",
@@ -962,7 +1074,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phan-tich-kich-ban-mo-rong-spa.webp"
+   "thumb": "/thumbs/phan-tich-kich-ban-mo-rong-spa.webp",
+   "tenNgan": "KỊCH BẢN MỞ RỘNG",
+   "thumbFile": "kich-ban-mo-rong"
   },
   {
    "slug": "phan-tich-ly-do-khach-roi-bo-spa",
@@ -977,7 +1091,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phan-tich-ly-do-khach-roi-bo-spa.webp"
+   "thumb": "/thumbs/phan-tich-ly-do-khach-roi-bo-spa.webp",
+   "tenNgan": "VÌ SAO KHÁCH BỎ ĐI",
+   "thumbFile": "vi-sao-khach-bo-di"
   },
   {
    "slug": "phan-tich-danh-gia-khach-hang-spa",
@@ -992,7 +1108,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phan-tich-danh-gia-khach-hang-spa.webp"
+   "thumb": "/thumbs/phan-tich-danh-gia-khach-hang-spa.webp",
+   "tenNgan": "ĐỌC ĐÁNH GIÁ KHÁCH",
+   "thumbFile": "doc-danh-gia-khach"
   },
   {
    "slug": "quan-ly-dong-thuan-du-lieu-khach-spa",
@@ -1007,7 +1125,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/quan-ly-dong-thuan-du-lieu-khach-spa.webp"
+   "thumb": "/thumbs/quan-ly-dong-thuan-du-lieu-khach-spa.webp",
+   "tenNgan": "ĐỒNG THUẬN DỮ LIỆU",
+   "thumbFile": "dong-thuan-du-lieu"
   },
   {
    "slug": "quan-ly-anh-truoc-sau-cua-khach-spa",
@@ -1022,7 +1142,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/quan-ly-anh-truoc-sau-cua-khach-spa.webp"
+   "thumb": "/thumbs/quan-ly-anh-truoc-sau-cua-khach-spa.webp",
+   "tenNgan": "ẢNH TRƯỚC SAU",
+   "thumbFile": "anh-truoc-sau"
   },
   {
    "slug": "ra-soat-menu-dich-vu-spa",
@@ -1037,7 +1159,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ra-soat-menu-dich-vu-spa.webp"
+   "thumb": "/thumbs/ra-soat-menu-dich-vu-spa.webp",
+   "tenNgan": "MENU DỊCH VỤ",
+   "thumbFile": "menu-dich-vu"
   },
   {
    "slug": "soan-bo-cau-hoi-phong-van-khach-spa",
@@ -1052,7 +1176,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/soan-bo-cau-hoi-phong-van-khach-spa.webp"
+   "thumb": "/thumbs/soan-bo-cau-hoi-phong-van-khach-spa.webp",
+   "tenNgan": "PHỎNG VẤN KHÁCH",
+   "thumbFile": "phong-van-khach"
   },
   {
    "slug": "soan-phieu-dong-thuan-dich-vu-spa",
@@ -1067,7 +1193,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/soan-phieu-dong-thuan-dich-vu-spa.webp"
+   "thumb": "/thumbs/soan-phieu-dong-thuan-dich-vu-spa.webp",
+   "tenNgan": "PHIẾU ĐỒNG THUẬN",
+   "thumbFile": "phieu-dong-thuan"
   },
   {
    "slug": "soan-phan-hoi-binh-luan-spa",
@@ -1082,7 +1210,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/soan-phan-hoi-binh-luan-spa.webp"
+   "thumb": "/thumbs/soan-phan-hoi-binh-luan-spa.webp",
+   "tenNgan": "BÌNH LUẬN SPA",
+   "thumbFile": "binh-luan-spa"
   },
   {
    "slug": "tao-anh-theo-guong-mat-thuong-hieu",
@@ -1097,7 +1227,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tao-anh-theo-guong-mat-thuong-hieu.webp"
+   "thumb": "/thumbs/tao-anh-theo-guong-mat-thuong-hieu.webp",
+   "tenNgan": "ẢNH GƯƠNG MẶT THƯƠNG HIỆU",
+   "thumbFile": "anh-guong-mat-thuong-hieu"
   },
   {
    "slug": "sang-loc-chong-chi-dinh-dich-vu-spa",
@@ -1112,7 +1244,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/sang-loc-chong-chi-dinh-dich-vu-spa.webp"
+   "thumb": "/thumbs/sang-loc-chong-chi-dinh-dich-vu-spa.webp",
+   "tenNgan": "SÀNG LỌC CHỐNG CHỈ ĐỊNH",
+   "thumbFile": "sang-loc-chong-chi-dinh"
   },
   {
    "slug": "theo-doi-sau-dich-vu-spa",
@@ -1127,7 +1261,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/theo-doi-sau-dich-vu-spa.webp"
+   "thumb": "/thumbs/theo-doi-sau-dich-vu-spa.webp",
+   "tenNgan": "THEO DÕI SAU LIỆU TRÌNH",
+   "thumbFile": "theo-doi-sau-lieu-trinh"
   },
   {
    "slug": "thiet-ke-chinh-sach-hoa-hong-spa",
@@ -1142,7 +1278,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/thiet-ke-chinh-sach-hoa-hong-spa.webp"
+   "thumb": "/thumbs/thiet-ke-chinh-sach-hoa-hong-spa.webp",
+   "tenNgan": "HOA HỒNG NHÂN VIÊN",
+   "thumbFile": "hoa-hong-nhan-vien"
   },
   {
    "slug": "thiet-ke-chuong-trinh-gioi-thieu-spa",
@@ -1157,7 +1295,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/thiet-ke-chuong-trinh-gioi-thieu-spa.webp"
+   "thumb": "/thumbs/thiet-ke-chuong-trinh-gioi-thieu-spa.webp",
+   "tenNgan": "KHÁCH GIỚI THIỆU KHÁCH",
+   "thumbFile": "khach-gioi-thieu-khach"
   },
   {
    "slug": "thiet-ke-goi-dich-vu-spa",
@@ -1172,7 +1312,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/thiet-ke-goi-dich-vu-spa.webp"
+   "thumb": "/thumbs/thiet-ke-goi-dich-vu-spa.webp",
+   "tenNgan": "GÓI DỊCH VỤ SPA",
+   "thumbFile": "goi-dich-vu-spa"
   },
   {
    "slug": "thiet-ke-goi-thanh-vien-spa",
@@ -1187,7 +1329,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/thiet-ke-goi-thanh-vien-spa.webp"
+   "thumb": "/thumbs/thiet-ke-goi-thanh-vien-spa.webp",
+   "tenNgan": "THẺ THÀNH VIÊN",
+   "thumbFile": "the-thanh-vien"
   },
   {
    "slug": "thiet-ke-he-sinh-thai-doi-tac-spa",
@@ -1202,7 +1346,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/thiet-ke-he-sinh-thai-doi-tac-spa.webp"
+   "thumb": "/thumbs/thiet-ke-he-sinh-thai-doi-tac-spa.webp",
+   "tenNgan": "ĐỐI TÁC SPA",
+   "thumbFile": "doi-tac-spa"
   },
   {
    "slug": "thiet-ke-khao-sat-hai-long-spa",
@@ -1217,7 +1363,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/thiet-ke-khao-sat-hai-long-spa.webp"
+   "thumb": "/thumbs/thiet-ke-khao-sat-hai-long-spa.webp",
+   "tenNgan": "KHẢO SÁT HÀI LÒNG",
+   "thumbFile": "khao-sat-hai-long"
   },
   {
    "slug": "thiet-ke-khao-sat-do-nhay-gia-spa",
@@ -1232,7 +1380,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/thiet-ke-khao-sat-do-nhay-gia-spa.webp"
+   "thumb": "/thumbs/thiet-ke-khao-sat-do-nhay-gia-spa.webp",
+   "tenNgan": "KHẢO SÁT GIÁ",
+   "thumbFile": "khao-sat-gia"
   },
   {
    "slug": "thiet-ke-phieu-tiep-nhan-dich-vu-spa",
@@ -1247,7 +1397,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/thiet-ke-phieu-tiep-nhan-dich-vu-spa.webp"
+   "thumb": "/thumbs/thiet-ke-phieu-tiep-nhan-dich-vu-spa.webp",
+   "tenNgan": "PHIẾU TIẾP NHẬN",
+   "thumbFile": "phieu-tiep-nhan"
   },
   {
    "slug": "thiet-ke-trai-nghiem-truoc-trong-sau-spa",
@@ -1262,7 +1414,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/thiet-ke-trai-nghiem-truoc-trong-sau-spa.webp"
+   "thumb": "/thumbs/thiet-ke-trai-nghiem-truoc-trong-sau-spa.webp",
+   "tenNgan": "TRẢI NGHIỆM KHÁCH SPA",
+   "thumbFile": "trai-nghiem-khach-spa"
   },
   {
    "slug": "thiet-ke-diem-thuong-khach-hang-spa",
@@ -1277,7 +1431,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/thiet-ke-diem-thuong-khach-hang-spa.webp"
+   "thumb": "/thumbs/thiet-ke-diem-thuong-khach-hang-spa.webp",
+   "tenNgan": "TÍCH ĐIỂM KHÁCH",
+   "thumbFile": "tich-diem-khach"
   },
   {
    "slug": "tinh-kinh-te-don-vi-dich-vu-spa",
@@ -1292,7 +1448,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tinh-kinh-te-don-vi-dich-vu-spa.webp"
+   "thumb": "/thumbs/tinh-kinh-te-don-vi-dich-vu-spa.webp",
+   "tenNgan": "LÃI TỪNG DỊCH VỤ",
+   "thumbFile": "lai-tung-dich-vu"
   },
   {
    "slug": "tinh-diem-hoa-von-spa",
@@ -1307,7 +1465,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tinh-diem-hoa-von-spa.webp"
+   "thumb": "/thumbs/tinh-diem-hoa-von-spa.webp",
+   "tenNgan": "ĐIỂM HÒA VỐN",
+   "thumbFile": "diem-hoa-von"
   },
   {
    "slug": "tinh-diem-dat-hang-lai-vat-tu-spa",
@@ -1322,7 +1482,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tinh-diem-dat-hang-lai-vat-tu-spa.webp"
+   "thumb": "/thumbs/tinh-diem-dat-hang-lai-vat-tu-spa.webp",
+   "tenNgan": "NHẬP VẬT TƯ",
+   "thumbFile": "nhap-vat-tu"
   },
   {
    "slug": "tao-bao-gia-dich-vu-spa",
@@ -1337,7 +1499,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tao-bao-gia-dich-vu-spa.webp"
+   "thumb": "/thumbs/tao-bao-gia-dich-vu-spa.webp",
+   "tenNgan": "BÁO GIÁ SPA",
+   "thumbFile": "bao-gia-spa"
   },
   {
    "slug": "tao-checklist-chuan-bi-lich-hen-spa",
@@ -1352,7 +1516,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tao-checklist-chuan-bi-lich-hen-spa.webp"
+   "thumb": "/thumbs/tao-checklist-chuan-bi-lich-hen-spa.webp",
+   "tenNgan": "CHUẨN BỊ LỊCH HẸN",
+   "thumbFile": "chuan-bi-lich-hen"
   },
   {
    "slug": "tao-checklist-mo-dong-cua-spa",
@@ -1367,7 +1533,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tao-checklist-mo-dong-cua-spa.webp"
+   "thumb": "/thumbs/tao-checklist-mo-dong-cua-spa.webp",
+   "tenNgan": "MỞ ĐÓNG CỬA SPA",
+   "thumbFile": "mo-dong-cua-spa"
   },
   {
    "slug": "tao-chuoi-chao-mung-khach-moi-spa",
@@ -1382,7 +1550,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tao-chuoi-chao-mung-khach-moi-spa.webp"
+   "thumb": "/thumbs/tao-chuoi-chao-mung-khach-moi-spa.webp",
+   "tenNgan": "CHÀO KHÁCH MỚI",
+   "thumbFile": "chao-khach-moi"
   },
   {
    "slug": "tao-chuoi-nhac-lich-hen-spa",
@@ -1397,7 +1567,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tao-chuoi-nhac-lich-hen-spa.webp"
+   "thumb": "/thumbs/tao-chuoi-nhac-lich-hen-spa.webp",
+   "tenNgan": "NHẮC LỊCH HẸN",
+   "thumbFile": "nhac-lich-hen"
   },
   {
    "slug": "tao-phieu-tu-van-da-spa",
@@ -1412,7 +1584,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tao-phieu-tu-van-da-spa.webp"
+   "thumb": "/thumbs/tao-phieu-tu-van-da-spa.webp",
+   "tenNgan": "TƯ VẤN DA",
+   "thumbFile": "tu-van-da"
   },
   {
    "slug": "tao-qua-tang-thu-lead-spa",
@@ -1427,7 +1601,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tao-qua-tang-thu-lead-spa.webp"
+   "thumb": "/thumbs/tao-qua-tang-thu-lead-spa.webp",
+   "tenNgan": "QUÀ TẶNG THU KHÁCH",
+   "thumbFile": "qua-tang-thu-khach"
   },
   {
    "slug": "tao-so-ghi-nhan-su-co-spa",
@@ -1442,7 +1618,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tao-so-ghi-nhan-su-co-spa.webp"
+   "thumb": "/thumbs/tao-so-ghi-nhan-su-co-spa.webp",
+   "tenNgan": "SỔ SỰ CỐ SPA",
+   "thumbFile": "so-su-co-spa"
   },
   {
    "slug": "tao-dinh-huong-hinh-anh-spa",
@@ -1457,7 +1635,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tao-dinh-huong-hinh-anh-spa.webp"
+   "thumb": "/thumbs/tao-dinh-huong-hinh-anh-spa.webp",
+   "tenNgan": "HÌNH ẢNH SPA",
+   "thumbFile": "hinh-anh-spa"
   },
   {
    "slug": "toi-uu-cong-suat-dat-lich-spa",
@@ -1472,7 +1652,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/toi-uu-cong-suat-dat-lich-spa.webp"
+   "thumb": "/thumbs/toi-uu-cong-suat-dat-lich-spa.webp",
+   "tenNgan": "LẤP KÍN LỊCH HẸN",
+   "thumbFile": "lap-kin-lich-hen"
   },
   {
    "slug": "toi-uu-ho-so-google-business-spa",
@@ -1487,7 +1669,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/toi-uu-ho-so-google-business-spa.webp"
+   "thumb": "/thumbs/toi-uu-ho-so-google-business-spa.webp",
+   "tenNgan": "GOOGLE MAPS SPA",
+   "thumbFile": "google-maps-spa"
   },
   {
    "slug": "to-chuc-su-kien-trai-nghiem-spa",
@@ -1502,7 +1686,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/to-chuc-su-kien-trai-nghiem-spa.webp"
+   "thumb": "/thumbs/to-chuc-su-kien-trai-nghiem-spa.webp",
+   "tenNgan": "SỰ KIỆN TRẢI NGHIỆM",
+   "thumbFile": "su-kien-trai-nghiem"
   },
   {
    "slug": "viet-brochure-dich-vu-spa",
@@ -1517,7 +1703,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/viet-brochure-dich-vu-spa.webp"
+   "thumb": "/thumbs/viet-brochure-dich-vu-spa.webp",
+   "tenNgan": "BROCHURE SPA",
+   "thumbFile": "brochure-spa"
   },
   {
    "slug": "viet-caption-giao-duc-cham-soc-spa",
@@ -1532,7 +1720,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/viet-caption-giao-duc-cham-soc-spa.webp"
+   "thumb": "/thumbs/viet-caption-giao-duc-cham-soc-spa.webp",
+   "tenNgan": "CAPTION CHĂM DA",
+   "thumbFile": "caption-cham-da"
   },
   {
    "slug": "viet-huong-dan-chuan-bi-truoc-dich-vu-spa",
@@ -1547,7 +1737,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/viet-huong-dan-chuan-bi-truoc-dich-vu-spa.webp"
+   "thumb": "/thumbs/viet-huong-dan-chuan-bi-truoc-dich-vu-spa.webp",
+   "tenNgan": "DẶN TRƯỚC LIỆU TRÌNH",
+   "thumbFile": "dan-truoc-lieu-trinh"
   },
   {
    "slug": "viet-huong-dan-cham-soc-sau-dich-vu-spa",
@@ -1562,7 +1754,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/viet-huong-dan-cham-soc-sau-dich-vu-spa.webp"
+   "thumb": "/thumbs/viet-huong-dan-cham-soc-sau-dich-vu-spa.webp",
+   "tenNgan": "DẶN SAU LIỆU TRÌNH",
+   "thumbFile": "dan-sau-lieu-trinh"
   },
   {
    "slug": "viet-kich-ban-thanh-toan-va-hen-lai-spa",
@@ -1577,7 +1771,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/viet-kich-ban-thanh-toan-va-hen-lai-spa.webp"
+   "thumb": "/thumbs/viet-kich-ban-thanh-toan-va-hen-lai-spa.webp",
+   "tenNgan": "THANH TOÁN HẸN LẠI",
+   "thumbFile": "thanh-toan-hen-lai"
   },
   {
    "slug": "viet-kich-ban-trai-nghiem-dich-vu-spa",
@@ -1592,7 +1788,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/viet-kich-ban-trai-nghiem-dich-vu-spa.webp"
+   "thumb": "/thumbs/viet-kich-ban-trai-nghiem-dich-vu-spa.webp",
+   "tenNgan": "KỊCH BẢN PHỤC VỤ",
+   "thumbFile": "kich-ban-phuc-vu"
   },
   {
    "slug": "viet-kich-ban-tu-van-inbox-spa",
@@ -1607,7 +1805,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/viet-kich-ban-tu-van-inbox-spa.webp"
+   "thumb": "/thumbs/viet-kich-ban-tu-van-inbox-spa.webp",
+   "tenNgan": "TƯ VẤN INBOX SPA",
+   "thumbFile": "tu-van-inbox-spa"
   },
   {
    "slug": "viet-kich-ban-video-ngan-spa",
@@ -1622,7 +1822,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/viet-kich-ban-video-ngan-spa.webp"
+   "thumb": "/thumbs/viet-kich-ban-video-ngan-spa.webp",
+   "tenNgan": "VIDEO NGẮN SPA",
+   "thumbFile": "video-ngan-spa"
   },
   {
    "slug": "viet-landing-page-dich-vu-spa",
@@ -1637,7 +1839,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/viet-landing-page-dich-vu-spa.webp"
+   "thumb": "/thumbs/viet-landing-page-dich-vu-spa.webp",
+   "tenNgan": "LANDING PAGE SPA",
+   "thumbFile": "landing-page-spa"
   },
   {
    "slug": "ve-hanh-trinh-khach-hang-spa",
@@ -1652,7 +1856,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ve-hanh-trinh-khach-hang-spa.webp"
+   "thumb": "/thumbs/ve-hanh-trinh-khach-hang-spa.webp",
+   "tenNgan": "HÀNH TRÌNH KHÁCH",
+   "thumbFile": "hanh-trinh-khach"
   },
   {
    "slug": "xay-chien-dich-win-back-spa",
@@ -1667,7 +1873,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xay-chien-dich-win-back-spa.webp"
+   "thumb": "/thumbs/xay-chien-dich-win-back-spa.webp",
+   "tenNgan": "KÉO KHÁCH QUAY LẠI",
+   "thumbFile": "keo-khach-quay-lai"
   },
   {
    "slug": "xay-chan-dung-khach-hang-spa",
@@ -1682,7 +1890,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xay-chan-dung-khach-hang-spa.webp"
+   "thumb": "/thumbs/xay-chan-dung-khach-hang-spa.webp",
+   "tenNgan": "CHÂN DUNG KHÁCH",
+   "thumbFile": "chan-dung-khach"
   },
   {
    "slug": "xay-chuong-trinh-onboarding-nhan-vien-spa",
@@ -1697,7 +1907,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xay-chuong-trinh-onboarding-nhan-vien-spa.webp"
+   "thumb": "/thumbs/xay-chuong-trinh-onboarding-nhan-vien-spa.webp",
+   "tenNgan": "ĐÀO TẠO NHÂN VIÊN MỚI",
+   "thumbFile": "dao-tao-nhan-vien-moi"
   },
   {
    "slug": "xay-dashboard-kpi-van-hanh-spa",
@@ -1712,7 +1924,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xay-dashboard-kpi-van-hanh-spa.webp"
+   "thumb": "/thumbs/xay-dashboard-kpi-van-hanh-spa.webp",
+   "tenNgan": "KPI VẬN HÀNH SPA",
+   "thumbFile": "kpi-van-hanh-spa"
   },
   {
    "slug": "xay-giong-noi-thuong-hieu-spa",
@@ -1727,7 +1941,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xay-giong-noi-thuong-hieu-spa.webp"
+   "thumb": "/thumbs/xay-giong-noi-thuong-hieu-spa.webp",
+   "tenNgan": "GIỌNG THƯƠNG HIỆU",
+   "thumbFile": "giong-thuong-hieu"
   },
   {
    "slug": "xay-he-thong-utm-cho-chien-dich-spa",
@@ -1742,7 +1958,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xay-he-thong-utm-cho-chien-dich-spa.webp"
+   "thumb": "/thumbs/xay-he-thong-utm-cho-chien-dich-spa.webp",
+   "tenNgan": "ĐO NGUỒN KHÁCH UTM",
+   "thumbFile": "do-nguon-khach-utm"
   },
   {
    "slug": "xay-he-thong-phan-loai-phan-hoi-spa",
@@ -1757,7 +1975,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xay-he-thong-phan-loai-phan-hoi-spa.webp"
+   "thumb": "/thumbs/xay-he-thong-phan-loai-phan-hoi-spa.webp",
+   "tenNgan": "PHÂN LOẠI PHẢN HỒI",
+   "thumbFile": "phan-loai-phan-hoi"
   },
   {
    "slug": "xay-kien-truc-gia-dich-vu-spa",
@@ -1772,7 +1992,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xay-kien-truc-gia-dich-vu-spa.webp"
+   "thumb": "/thumbs/xay-kien-truc-gia-dich-vu-spa.webp",
+   "tenNgan": "BẢNG GIÁ DỊCH VỤ",
+   "thumbFile": "bang-gia-dich-vu"
   },
   {
    "slug": "xay-loi-hua-thuong-hieu-spa",
@@ -1787,7 +2009,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xay-loi-hua-thuong-hieu-spa.webp"
+   "thumb": "/thumbs/xay-loi-hua-thuong-hieu-spa.webp",
+   "tenNgan": "LỜI HỨA THƯƠNG HIỆU",
+   "thumbFile": "loi-hua-thuong-hieu"
   },
   {
    "slug": "xay-thu-vien-faq-spa",
@@ -1802,7 +2026,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xay-thu-vien-faq-spa.webp"
+   "thumb": "/thumbs/xay-thu-vien-faq-spa.webp",
+   "tenNgan": "HỎI ĐÁP SPA",
+   "thumbFile": "hoi-dap-spa"
   },
   {
    "slug": "xu-ly-khieu-nai-khach-hang-spa",
@@ -1817,7 +2043,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xu-ly-khieu-nai-khach-hang-spa.webp"
+   "thumb": "/thumbs/xu-ly-khieu-nai-khach-hang-spa.webp",
+   "tenNgan": "XỬ LÝ KHIẾU NẠI",
+   "thumbFile": "xu-ly-khieu-nai"
   },
   {
    "slug": "xu-ly-su-co-sau-dich-vu-spa",
@@ -1832,7 +2060,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xu-ly-su-co-sau-dich-vu-spa.webp"
+   "thumb": "/thumbs/xu-ly-su-co-sau-dich-vu-spa.webp",
+   "tenNgan": "SỰ CỐ SAU DỊCH VỤ",
+   "thumbFile": "su-co-sau-dich-vu"
   },
   {
    "slug": "xu-ly-tu-choi-dich-vu-spa",
@@ -1847,7 +2077,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xu-ly-tu-choi-dich-vu-spa.webp"
+   "thumb": "/thumbs/xu-ly-tu-choi-dich-vu-spa.webp",
+   "tenNgan": "XỬ LÝ TỪ CHỐI",
+   "thumbFile": "xu-ly-tu-choi"
   },
   {
    "slug": "danh-gia-bao-mat-du-lieu-spa",
@@ -1862,7 +2094,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/danh-gia-bao-mat-du-lieu-spa.webp"
+   "thumb": "/thumbs/danh-gia-bao-mat-du-lieu-spa.webp",
+   "tenNgan": "BẢO MẬT DỮ LIỆU",
+   "thumbFile": "bao-mat-du-lieu"
   },
   {
    "slug": "danh-gia-loi-nhuan-khuyen-mai-spa",
@@ -1877,7 +2111,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/danh-gia-loi-nhuan-khuyen-mai-spa.webp"
+   "thumb": "/thumbs/danh-gia-loi-nhuan-khuyen-mai-spa.webp",
+   "tenNgan": "LỜI LỖ KHUYẾN MÃI",
+   "thumbFile": "loi-lo-khuyen-mai"
   },
   {
    "slug": "danh-gia-nha-cung-cap-spa",
@@ -1892,7 +2128,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/danh-gia-nha-cung-cap-spa.webp"
+   "thumb": "/thumbs/danh-gia-nha-cung-cap-spa.webp",
+   "tenNgan": "CHỌN NHÀ CUNG CẤP",
+   "thumbFile": "chon-nha-cung-cap"
   },
   {
    "slug": "danh-gia-nang-luc-nhan-vien-spa",
@@ -1907,7 +2145,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/danh-gia-nang-luc-nhan-vien-spa.webp"
+   "thumb": "/thumbs/danh-gia-nang-luc-nhan-vien-spa.webp",
+   "tenNgan": "ĐÁNH GIÁ NHÂN VIÊN",
+   "thumbFile": "danh-gia-nhan-vien"
   },
   {
    "slug": "danh-gia-san-sang-mo-chi-nhanh-spa",
@@ -1922,7 +2162,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/danh-gia-san-sang-mo-chi-nhanh-spa.webp"
+   "thumb": "/thumbs/danh-gia-san-sang-mo-chi-nhanh-spa.webp",
+   "tenNgan": "MỞ CHI NHÁNH",
+   "thumbFile": "mo-chi-nhanh"
   },
   {
    "slug": "dinh-vi-spa-tai-dia-phuong",
@@ -1937,7 +2179,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/dinh-vi-spa-tai-dia-phuong.webp"
+   "thumb": "/thumbs/dinh-vi-spa-tai-dia-phuong.webp",
+   "tenNgan": "ĐỊNH VỊ SPA",
+   "thumbFile": "dinh-vi-spa"
   },
   {
    "slug": "edit-video-bang-tro-chuyen",
@@ -1948,7 +2192,9 @@
    "loiIch": [],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/edit-video-bang-tro-chuyen.webp"
+   "thumb": "/thumbs/edit-video-bang-tro-chuyen.webp",
+   "tenNgan": "EDIT VIDEO BẰNG CHAT",
+   "thumbFile": "edit-video-bang-chat"
   },
   {
    "slug": "bien-tap-video-zoom-dai",
@@ -1963,7 +2209,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/bien-tap-video-zoom-dai.webp"
+   "thumb": "/thumbs/bien-tap-video-zoom-dai.webp",
+   "tenNgan": "CẮT VIDEO ZOOM",
+   "thumbFile": "cat-video-zoom"
   },
   {
    "slug": "phim-ai-viral-tu-chu-de",
@@ -1974,7 +2222,9 @@
    "loiIch": [],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phim-ai-viral-tu-chu-de.webp"
+   "thumb": "/thumbs/phim-ai-viral-tu-chu-de.webp",
+   "tenNgan": "PHIM AI VIRAL",
+   "thumbFile": "phim-ai-viral"
   },
   {
    "slug": "dung-podcast-tu-dong",
@@ -1989,7 +2239,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/dung-podcast-tu-dong.webp"
+   "thumb": "/thumbs/dung-podcast-tu-dong.webp",
+   "tenNgan": "DỰNG PODCAST",
+   "thumbFile": "dung-podcast"
   },
   {
    "slug": "dung-video-chu-tu-caption",
@@ -2004,7 +2256,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/dung-video-chu-tu-caption.webp"
+   "thumb": "/thumbs/dung-video-chu-tu-caption.webp",
+   "tenNgan": "VIDEO CHỮ",
+   "thumbFile": "video-chu"
   },
   {
    "slug": "edit-video-doc-co-chu",
@@ -2015,7 +2269,9 @@
    "loiIch": [],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/edit-video-doc-co-chu.webp"
+   "thumb": "/thumbs/edit-video-doc-co-chu.webp",
+   "tenNgan": "VIDEO DỌC CÓ CHỮ",
+   "thumbFile": "video-doc-co-chu"
   },
   {
    "slug": "hoan-doi-nhan-vat-thuong-hieu",
@@ -2030,7 +2286,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/hoan-doi-nhan-vat-thuong-hieu.webp"
+   "thumb": "/thumbs/hoan-doi-nhan-vat-thuong-hieu.webp",
+   "tenNgan": "HOÁN ĐỔI NHÂN VẬT",
+   "thumbFile": "hoan-doi-nhan-vat"
   },
   {
    "slug": "hau-truong-lam-phim-ai",
@@ -2045,7 +2303,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/hau-truong-lam-phim-ai.webp"
+   "thumb": "/thumbs/hau-truong-lam-phim-ai.webp",
+   "tenNgan": "HẬU TRƯỜNG PHIM AI",
+   "thumbFile": "hau-truong-phim-ai"
   },
   {
    "slug": "kich-ban-tai-chinh-mua-nha",
@@ -2060,7 +2320,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/kich-ban-tai-chinh-mua-nha.webp"
+   "thumb": "/thumbs/kich-ban-tai-chinh-mua-nha.webp",
+   "tenNgan": "TÀI CHÍNH MUA NHÀ",
+   "thumbFile": "tai-chinh-mua-nha"
   },
   {
    "slug": "nhan-vat-ao-xay-kenh",
@@ -2075,7 +2337,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/nhan-vat-ao-xay-kenh.webp"
+   "thumb": "/thumbs/nhan-vat-ao-xay-kenh.webp",
+   "tenNgan": "NHÂN VẬT ẢO",
+   "thumbFile": "nhan-vat-ao"
   },
   {
    "slug": "talking-head-truyen-cam-xuc",
@@ -2090,7 +2354,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/talking-head-truyen-cam-xuc.webp"
+   "thumb": "/thumbs/talking-head-truyen-cam-xuc.webp",
+   "tenNgan": "VIDEO NÓI CẢM XÚC",
+   "thumbFile": "video-noi-cam-xuc"
   },
   {
    "slug": "dao-dien-tvc-flow",
@@ -2105,7 +2371,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/dao-dien-tvc-flow.webp"
+   "thumb": "/thumbs/dao-dien-tvc-flow.webp",
+   "tenNgan": "QUẢNG CÁO TVC",
+   "thumbFile": "quang-cao-tvc"
   },
   {
    "slug": "storytelling-chuyen-doi-cu-lat",
@@ -2120,7 +2388,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/storytelling-chuyen-doi-cu-lat.webp"
+   "thumb": "/thumbs/storytelling-chuyen-doi-cu-lat.webp",
+   "tenNgan": "KỂ CHUYỆN CÚ LẬT",
+   "thumbFile": "ke-chuyen-cu-lat"
   },
   {
    "slug": "video-hoat-hinh-toan-ky-thuat",
@@ -2131,7 +2401,9 @@
    "loiIch": [],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/video-hoat-hinh-toan-ky-thuat.webp"
+   "thumb": "/thumbs/video-hoat-hinh-toan-ky-thuat.webp",
+   "tenNgan": "HOẠT HÌNH TOÁN HỌC",
+   "thumbFile": "hoat-hinh-toan-hoc"
   },
   {
    "slug": "video-hoat-hinh-am-nhac-ai-tieng-anh",
@@ -2146,7 +2418,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/video-hoat-hinh-am-nhac-ai-tieng-anh.webp"
+   "thumb": "/thumbs/video-hoat-hinh-am-nhac-ai-tieng-anh.webp",
+   "tenNgan": "MV TIẾNG ANH",
+   "thumbFile": "mv-tieng-anh"
   },
   {
    "slug": "xay-kenh-nhan-vat-ai",
@@ -2157,7 +2431,9 @@
    "loiIch": [],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xay-kenh-nhan-vat-ai.webp"
+   "thumb": "/thumbs/xay-kenh-nhan-vat-ai.webp",
+   "tenNgan": "KÊNH AI 30 NGÀY",
+   "thumbFile": "kenh-ai-30-ngay"
   },
   {
    "slug": "microdrama-series-doc",
@@ -2172,7 +2448,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/microdrama-series-doc.webp"
+   "thumb": "/thumbs/microdrama-series-doc.webp",
+   "tenNgan": "PHIM BỘ NGẮN",
+   "thumbFile": "phim-bo-ngan"
   },
   {
    "slug": "phim-ngan-nghiep-qua",
@@ -2187,7 +2465,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phim-ngan-nghiep-qua.webp"
+   "thumb": "/thumbs/phim-ngan-nghiep-qua.webp",
+   "tenNgan": "PHIM NHÂN QUẢ",
+   "thumbFile": "phim-nhan-qua"
   },
   {
    "slug": "review-san-pham-co-cot-truyen",
@@ -2202,7 +2482,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/review-san-pham-co-cot-truyen.webp"
+   "thumb": "/thumbs/review-san-pham-co-cot-truyen.webp",
+   "tenNgan": "REVIEW CÓ CỐT TRUYỆN",
+   "thumbFile": "review-co-cot-truyen"
   },
   {
    "slug": "phim-hai-tinh-huong-viet",
@@ -2217,7 +2499,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phim-hai-tinh-huong-viet.webp"
+   "thumb": "/thumbs/phim-hai-tinh-huong-viet.webp",
+   "tenNgan": "PHIM HÀI",
+   "thumbFile": "phim-hai"
   },
   {
    "slug": "phim-chua-lanh-tinh-nguoi",
@@ -2232,7 +2516,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phim-chua-lanh-tinh-nguoi.webp"
+   "thumb": "/thumbs/phim-chua-lanh-tinh-nguoi.webp",
+   "tenNgan": "PHIM CHỮA LÀNH",
+   "thumbFile": "phim-chua-lanh"
   },
   {
    "slug": "phim-bi-mat-than-phan",
@@ -2247,7 +2533,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phim-bi-mat-than-phan.webp"
+   "thumb": "/thumbs/phim-bi-mat-than-phan.webp",
+   "tenNgan": "PHIM THÂN PHẬN",
+   "thumbFile": "phim-than-phan"
   },
   {
    "slug": "phim-kinh-di-dan-gian-viet",
@@ -2262,7 +2550,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phim-kinh-di-dan-gian-viet.webp"
+   "thumb": "/thumbs/phim-kinh-di-dan-gian-viet.webp",
+   "tenNgan": "PHIM KINH DỊ",
+   "thumbFile": "phim-kinh-di"
   },
   {
    "slug": "video-viral-tu-y-tuong",
@@ -2277,7 +2567,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/video-viral-tu-y-tuong.webp"
+   "thumb": "/thumbs/video-viral-tu-y-tuong.webp",
+   "tenNgan": "VIDEO VIRAL",
+   "thumbFile": "video-viral"
   },
   {
    "slug": "tao-anh-tu-van-ban-va-audio",
@@ -2292,22 +2584,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tao-anh-tu-van-ban-va-audio.webp"
-  },
-  {
-   "slug": "tro-ly-khai-van-hanh-dong",
-   "ma": "BCAI-CREATIVE-077",
-   "ten": "Bảo châu AI",
-   "niche": "hinh-anh",
-   "moTa": "Trợ lý khai vấn và hành động theo giọng thương hiệu của người dùng, sử dụng tiếng Việt trực diện, tích cực, thực tế và dễ áp dụng.",
-   "loiIch": [
-    "Nếu mục tiêu còn mơ hồ, hỏi: “Nếu chỉ được đạt một mục tiêu trong 12 tháng tới, mục tiêu nào tạo ra thay đổi lớn nhất?”",
-    "Yêu cầu mục tiêu có con số, kết quả quan sát được hoặc tiêu chí hoàn thành",
-    "Xác định điểm A hiện tại và điểm B mong muốn"
-   ],
-   "gia": 59000,
-   "congXuong": null,
-   "thumb": "/thumbs/tro-ly-khai-van-hanh-dong.webp"
+   "thumb": "/thumbs/tao-anh-tu-van-ban-va-audio.webp",
+   "tenNgan": "CHỮ THÀNH ẢNH",
+   "thumbFile": "chu-thanh-anh"
   },
   {
    "slug": "content-win-tu-anh-va-reel",
@@ -2322,7 +2601,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/content-win-tu-anh-va-reel.webp"
+   "thumb": "/thumbs/content-win-tu-anh-va-reel.webp",
+   "tenNgan": "CHÉP CHỮ TỪ ẢNH",
+   "thumbFile": "chep-chu-tu-anh"
   },
   {
    "slug": "phuc-che-anh-cu-4k",
@@ -2333,7 +2614,9 @@
    "loiIch": [],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phuc-che-anh-cu-4k.webp"
+   "thumb": "/thumbs/phuc-che-anh-cu-4k.webp",
+   "tenNgan": "PHỤC CHẾ ẢNH CŨ",
+   "thumbFile": "phuc-che-anh-cu"
   },
   {
    "slug": "poster-bat-dong-san-chuyen-doi",
@@ -2348,7 +2631,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/poster-bat-dong-san-chuyen-doi.webp"
+   "thumb": "/thumbs/poster-bat-dong-san-chuyen-doi.webp",
+   "tenNgan": "POSTER BĐS",
+   "thumbFile": "poster-bds"
   },
   {
    "slug": "giao-vien-thiet-ke-hoat-dong",
@@ -2363,7 +2648,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/giao-vien-thiet-ke-hoat-dong.webp"
+   "thumb": "/thumbs/giao-vien-thiet-ke-hoat-dong.webp",
+   "tenNgan": "HOẠT ĐỘNG LỚP HỌC",
+   "thumbFile": "hoat-dong-lop-hoc"
   },
   {
    "slug": "tro-ly-photoshop",
@@ -2378,7 +2665,26 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tro-ly-photoshop.webp"
+   "thumb": "/thumbs/tro-ly-photoshop.webp",
+   "tenNgan": "PHOTOSHOP",
+   "thumbFile": "photoshop"
+  },
+  {
+   "slug": "tro-ly-khai-van-hanh-dong",
+   "ma": "BCAI-CREATIVE-077",
+   "ten": "Trợ lý khai vấn & hành động",
+   "niche": "hinh-anh",
+   "moTa": "Trợ lý khai vấn và hành động theo giọng thương hiệu của người dùng, sử dụng tiếng Việt trực diện, tích cực, thực tế và dễ áp dụng.",
+   "loiIch": [
+    "Nếu mục tiêu còn mơ hồ, hỏi: “Nếu chỉ được đạt một mục tiêu trong 12 tháng tới, mục tiêu nào tạo ra thay đổi lớn nhất?”",
+    "Yêu cầu mục tiêu có con số, kết quả quan sát được hoặc tiêu chí hoàn thành",
+    "Xác định điểm A hiện tại và điểm B mong muốn"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tro-ly-khai-van-hanh-dong.webp",
+   "tenNgan": "KHAI VẤN HÀNH ĐỘNG",
+   "thumbFile": "khai-van-hanh-dong"
   },
   {
    "slug": "tao-anh-thuong-hieu-ca-nhan",
@@ -2393,7 +2699,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tao-anh-thuong-hieu-ca-nhan.webp"
+   "thumb": "/thumbs/tao-anh-thuong-hieu-ca-nhan.webp",
+   "tenNgan": "ẢNH THƯƠNG HIỆU",
+   "thumbFile": "anh-thuong-hieu"
   },
   {
    "slug": "brief-nghien-cuu-noi-dung",
@@ -2404,7 +2712,9 @@
    "loiIch": [],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/brief-nghien-cuu-noi-dung.webp"
+   "thumb": "/thumbs/brief-nghien-cuu-noi-dung.webp",
+   "tenNgan": "BRIEF NỘI DUNG",
+   "thumbFile": "brief-noi-dung"
   },
   {
    "slug": "viet-quang-cao-tra-phi",
@@ -2415,7 +2725,9 @@
    "loiIch": [],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/viet-quang-cao-tra-phi.webp"
+   "thumb": "/thumbs/viet-quang-cao-tra-phi.webp",
+   "tenNgan": "VIẾT QUẢNG CÁO",
+   "thumbFile": "viet-quang-cao"
   },
   {
    "slug": "bo-subagent-facebook",
@@ -2426,22 +2738,9 @@
    "loiIch": [],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/bo-subagent-facebook.webp"
-  },
-  {
-   "slug": "tro-ly-ban-hang-tung-buoc",
-   "ma": "BCAI-MKT-026",
-   "ten": "Eber – trợ lý nội dung & bán hàng từng bước",
-   "niche": "noi-dung",
-   "moTa": "Thiết lập và vận hành trợ lý AI hỏi từng bước cho chủ kinh doanh nhỏ, người bán hàng online và người làm affiliate Việt Nam;",
-   "loiIch": [
-    "Bản dùng ngay",
-    "Ghi chú cần xác minh chỉ khi có dữ kiện thiếu hoặc rủi ro",
-    "Hai cách chỉnh nhanh"
-   ],
-   "gia": 59000,
-   "congXuong": null,
-   "thumb": "/thumbs/tro-ly-ban-hang-tung-buoc.webp"
+   "thumb": "/thumbs/bo-subagent-facebook.webp",
+   "tenNgan": "ĐỘI FACEBOOK",
+   "thumbFile": "doi-facebook"
   },
   {
    "slug": "ke-hoach-saas-viet-noi-dung-ai",
@@ -2452,7 +2751,9 @@
    "loiIch": [],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-hoach-saas-viet-noi-dung-ai.webp"
+   "thumb": "/thumbs/ke-hoach-saas-viet-noi-dung-ai.webp",
+   "tenNgan": "APP VIẾT NỘI DUNG",
+   "thumbFile": "app-viet-noi-dung"
   },
   {
    "slug": "marketing-tao-ket-qua",
@@ -2467,7 +2768,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/marketing-tao-ket-qua.webp"
+   "thumb": "/thumbs/marketing-tao-ket-qua.webp",
+   "tenNgan": "MARKETING RA KẾT QUẢ",
+   "thumbFile": "marketing-ra-ket-qua"
   },
   {
    "slug": "phan-tich-kenh-facebook-mau",
@@ -2482,7 +2785,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phan-tich-kenh-facebook-mau.webp"
+   "thumb": "/thumbs/phan-tich-kenh-facebook-mau.webp",
+   "tenNgan": "SOI KÊNH MẪU",
+   "thumbFile": "soi-kenh-mau"
   },
   {
    "slug": "pheu-affiliate",
@@ -2493,7 +2798,9 @@
    "loiIch": [],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/pheu-affiliate.webp"
+   "thumb": "/thumbs/pheu-affiliate.webp",
+   "tenNgan": "PHỄU AFFILIATE",
+   "thumbFile": "pheu-affiliate"
   },
   {
    "slug": "bo-subagent-youtube",
@@ -2508,7 +2815,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/bo-subagent-youtube.webp"
+   "thumb": "/thumbs/bo-subagent-youtube.webp",
+   "tenNgan": "ĐỘI YOUTUBE",
+   "thumbFile": "doi-youtube"
   },
   {
    "slug": "theo-doi-chuyen-doi",
@@ -2519,7 +2828,26 @@
    "loiIch": [],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/theo-doi-chuyen-doi.webp"
+   "thumb": "/thumbs/theo-doi-chuyen-doi.webp",
+   "tenNgan": "THEO DÕI AFFILIATE",
+   "thumbFile": "theo-doi-affiliate"
+  },
+  {
+   "slug": "tro-ly-ban-hang-tung-buoc",
+   "ma": "BCAI-MKT-026",
+   "ten": "Trợ lý nội dung & bán hàng từng bước",
+   "niche": "noi-dung",
+   "moTa": "Thiết lập và vận hành trợ lý AI hỏi từng bước cho chủ kinh doanh nhỏ, người bán hàng online và người làm affiliate Việt Nam;",
+   "loiIch": [
+    "Bản dùng ngay",
+    "Ghi chú cần xác minh chỉ khi có dữ kiện thiếu hoặc rủi ro",
+    "Hai cách chỉnh nhanh"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tro-ly-ban-hang-tung-buoc.webp",
+   "tenNgan": "BÁN HÀNG TỪNG BƯỚC",
+   "thumbFile": "ban-hang-tung-buoc"
   },
   {
    "slug": "viet-bai-viral",
@@ -2530,7 +2858,9 @@
    "loiIch": [],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/viet-bai-viral.webp"
+   "thumb": "/thumbs/viet-bai-viral.webp",
+   "tenNgan": "BÀI VIRAL AFFILIATE",
+   "thumbFile": "bai-viral-affiliate"
   },
   {
    "slug": "xay-noi-dung-facebook",
@@ -2545,7 +2875,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xay-noi-dung-facebook.webp"
+   "thumb": "/thumbs/xay-noi-dung-facebook.webp",
+   "tenNgan": "NỘI DUNG FACEBOOK",
+   "thumbFile": "noi-dung-facebook"
   },
   {
    "slug": "xep-hang-goc-noi-dung",
@@ -2556,7 +2888,9 @@
    "loiIch": [],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xep-hang-goc-noi-dung.webp"
+   "thumb": "/thumbs/xep-hang-goc-noi-dung.webp",
+   "tenNgan": "CHỌN GÓC NỘI DUNG",
+   "thumbFile": "chon-goc-noi-dung"
   },
   {
    "slug": "bien-ai-thanh-tien",
@@ -2571,7 +2905,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/bien-ai-thanh-tien.webp"
+   "thumb": "/thumbs/bien-ai-thanh-tien.webp",
+   "tenNgan": "KIẾM TIỀN VỚI AI",
+   "thumbFile": "kiem-tien-voi-ai"
   },
   {
    "slug": "chuyen-gia-bia-sach",
@@ -2584,7 +2920,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/chuyen-gia-bia-sach.webp"
+   "thumb": "/thumbs/chuyen-gia-bia-sach.webp",
+   "tenNgan": "BÌA SÁCH",
+   "thumbFile": "bia-sach"
   },
   {
    "slug": "sieu-thi-san-pham-so-google-sheets",
@@ -2599,7 +2937,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/sieu-thi-san-pham-so-google-sheets.webp"
+   "thumb": "/thumbs/sieu-thi-san-pham-so-google-sheets.webp",
+   "tenNgan": "SHOP SẢN PHẨM SỐ",
+   "thumbFile": "shop-san-pham-so"
   },
   {
    "slug": "hieu-suat-ban-hang",
@@ -2614,7 +2954,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/hieu-suat-ban-hang.webp"
+   "thumb": "/thumbs/hieu-suat-ban-hang.webp",
+   "tenNgan": "HIỆU SUẤT BÁN HÀNG",
+   "thumbFile": "hieu-suat-ban-hang"
   },
   {
    "slug": "thu-nghiem-ab-an-toan",
@@ -2625,7 +2967,9 @@
    "loiIch": [],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/thu-nghiem-ab-an-toan.webp"
+   "thumb": "/thumbs/thu-nghiem-ab-an-toan.webp",
+   "tenNgan": "THỬ NGHIỆM A/B",
+   "thumbFile": "thu-nghiem-a-b"
   },
   {
    "slug": "tao-100-skill-theo-ngach",
@@ -2640,7 +2984,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tao-100-skill-theo-ngach.webp"
+   "thumb": "/thumbs/tao-100-skill-theo-ngach.webp",
+   "tenNgan": "100 CÔNG CỤ THEO NGÁCH",
+   "thumbFile": "100-cong-cu-theo-ngach"
   },
   {
    "slug": "giao-vien-xu-ly-van-ban",
@@ -2655,7 +3001,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/giao-vien-xu-ly-van-ban.webp"
+   "thumb": "/thumbs/giao-vien-xu-ly-van-ban.webp",
+   "tenNgan": "GIẢI MÃ VĂN BẢN",
+   "thumbFile": "giai-ma-van-ban"
   },
   {
    "slug": "giao-vien-ke-hoach-bao-cao",
@@ -2670,7 +3018,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/giao-vien-ke-hoach-bao-cao.webp"
+   "thumb": "/thumbs/giao-vien-ke-hoach-bao-cao.webp",
+   "tenNgan": "KẾ HOẠCH BÁO CÁO GV",
+   "thumbFile": "ke-hoach-bao-cao-gv"
   },
   {
    "slug": "quan-ly-lap-ke-hoach-nha-truong",
@@ -2685,7 +3035,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/quan-ly-lap-ke-hoach-nha-truong.webp"
+   "thumb": "/thumbs/quan-ly-lap-ke-hoach-nha-truong.webp",
+   "tenNgan": "KẾ HOẠCH NHÀ TRƯỜNG",
+   "thumbFile": "ke-hoach-nha-truong"
   },
   {
    "slug": "giao-vien-nhan-xet-hoc-sinh",
@@ -2700,7 +3052,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/giao-vien-nhan-xet-hoc-sinh.webp"
+   "thumb": "/thumbs/giao-vien-nhan-xet-hoc-sinh.webp",
+   "tenNgan": "NHẬN XÉT HỌC SINH",
+   "thumbFile": "nhan-xet-hoc-sinh"
   },
   {
    "slug": "quan-ly-chuyen-mon",
@@ -2715,7 +3069,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/quan-ly-chuyen-mon.webp"
+   "thumb": "/thumbs/quan-ly-chuyen-mon.webp",
+   "tenNgan": "QUẢN LÝ CHUYÊN MÔN",
+   "thumbFile": "quan-ly-chuyen-mon"
   },
   {
    "slug": "giao-vien-chu-nhiem-lop",
@@ -2730,7 +3086,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/giao-vien-chu-nhiem-lop.webp"
+   "thumb": "/thumbs/giao-vien-chu-nhiem-lop.webp",
+   "tenNgan": "CHỦ NHIỆM LỚP",
+   "thumbFile": "chu-nhiem-lop"
   },
   {
    "slug": "quan-ly-truong-sap-nhap",
@@ -2745,7 +3103,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/quan-ly-truong-sap-nhap.webp"
+   "thumb": "/thumbs/quan-ly-truong-sap-nhap.webp",
+   "tenNgan": "TRƯỜNG SÁP NHẬP",
+   "thumbFile": "truong-sap-nhap"
   },
   {
    "slug": "giao-vien-ra-soat-san-pham",
@@ -2760,7 +3120,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/giao-vien-ra-soat-san-pham.webp"
+   "thumb": "/thumbs/giao-vien-ra-soat-san-pham.webp",
+   "tenNgan": "RÀ HỒ SƠ CHUYÊN MÔN",
+   "thumbFile": "ra-ho-so-chuyen-mon"
   },
   {
    "slug": "quan-ly-ra-soat-trinh-ky",
@@ -2775,7 +3137,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/quan-ly-ra-soat-trinh-ky.webp"
+   "thumb": "/thumbs/quan-ly-ra-soat-trinh-ky.webp",
+   "tenNgan": "RÀ HỒ SƠ TRÌNH KÝ",
+   "thumbFile": "ra-ho-so-trinh-ky"
   },
   {
    "slug": "giao-vien-soan-giao-an",
@@ -2790,7 +3154,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/giao-vien-soan-giao-an.webp"
+   "thumb": "/thumbs/giao-vien-soan-giao-an.webp",
+   "tenNgan": "SOẠN GIÁO ÁN",
+   "thumbFile": "soan-giao-an"
   },
   {
    "slug": "quan-ly-soan-van-ban",
@@ -2805,7 +3171,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/quan-ly-soan-van-ban.webp"
+   "thumb": "/thumbs/quan-ly-soan-van-ban.webp",
+   "tenNgan": "VĂN BẢN NHÀ TRƯỜNG",
+   "thumbFile": "van-ban-nha-truong"
   },
   {
    "slug": "quan-ly-xu-ly-van-ban-cap-tren",
@@ -2820,7 +3188,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/quan-ly-xu-ly-van-ban-cap-tren.webp"
+   "thumb": "/thumbs/quan-ly-xu-ly-van-ban-cap-tren.webp",
+   "tenNgan": "VĂN BẢN CẤP TRÊN",
+   "thumbFile": "van-ban-cap-tren"
   },
   {
    "slug": "giao-vien-tao-de-kiem-tra",
@@ -2835,7 +3205,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/giao-vien-tao-de-kiem-tra.webp"
+   "thumb": "/thumbs/giao-vien-tao-de-kiem-tra.webp",
+   "tenNgan": "RA ĐỀ KIỂM TRA",
+   "thumbFile": "ra-de-kiem-tra"
   },
   {
    "slug": "quan-ly-to-chuc-nhan-su",
@@ -2850,7 +3222,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/quan-ly-to-chuc-nhan-su.webp"
+   "thumb": "/thumbs/quan-ly-to-chuc-nhan-su.webp",
+   "tenNgan": "NHÂN SỰ NHÀ TRƯỜNG",
+   "thumbFile": "nhan-su-nha-truong"
   },
   {
    "slug": "quan-ly-tong-hop-bao-cao",
@@ -2865,7 +3239,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/quan-ly-tong-hop-bao-cao.webp"
+   "thumb": "/thumbs/quan-ly-tong-hop-bao-cao.webp",
+   "tenNgan": "BÁO CÁO CẤP TRƯỜNG",
+   "thumbFile": "bao-cao-cap-truong"
   },
   {
    "slug": "quan-ly-xay-dung-quy-che",
@@ -2880,7 +3256,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/quan-ly-xay-dung-quy-che.webp"
+   "thumb": "/thumbs/quan-ly-xay-dung-quy-che.webp",
+   "tenNgan": "QUY CHẾ NỘI BỘ",
+   "thumbFile": "quy-che-noi-bo"
   },
   {
    "slug": "giao-vien-tao-hoc-lieu",
@@ -2895,7 +3273,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/giao-vien-tao-hoc-lieu.webp"
+   "thumb": "/thumbs/giao-vien-tao-hoc-lieu.webp",
+   "tenNgan": "HỌC LIỆU GIÁO VIÊN",
+   "thumbFile": "hoc-lieu-giao-vien"
   },
   {
    "slug": "chuyen-doi-so",
@@ -2910,7 +3290,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/chuyen-doi-so.webp"
+   "thumb": "/thumbs/chuyen-doi-so.webp",
+   "tenNgan": "CHUYỂN ĐỔI SỐ",
+   "thumbFile": "chuyen-doi-so"
   },
   {
    "slug": "cham-soc-giu-chan-khach-hang",
@@ -2925,7 +3307,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/cham-soc-giu-chan-khach-hang.webp"
+   "thumb": "/thumbs/cham-soc-giu-chan-khach-hang.webp",
+   "tenNgan": "GIỮ CHÂN KHÁCH",
+   "thumbFile": "giu-chan-khach"
   },
   {
    "slug": "giam-doc-tai-chinh",
@@ -2940,7 +3324,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/giam-doc-tai-chinh.webp"
+   "thumb": "/thumbs/giam-doc-tai-chinh.webp",
+   "tenNgan": "GIÁM ĐỐC TÀI CHÍNH",
+   "thumbFile": "giam-doc-tai-chinh"
   },
   {
    "slug": "hop-nhat-bctc",
@@ -2955,7 +3341,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/hop-nhat-bctc.webp"
+   "thumb": "/thumbs/hop-nhat-bctc.webp",
+   "tenNgan": "HỢP NHẤT BCTC",
+   "thumbFile": "hop-nhat-bctc"
   },
   {
    "slug": "kiem-toan-noi-bo",
@@ -2970,7 +3358,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/kiem-toan-noi-bo.webp"
+   "thumb": "/thumbs/kiem-toan-noi-bo.webp",
+   "tenNgan": "KIỂM TOÁN NỘI BỘ",
+   "thumbFile": "kiem-toan-noi-bo"
   },
   {
    "slug": "kiem-tra-hoa-don-chung-tu",
@@ -2985,7 +3375,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/kiem-tra-hoa-don-chung-tu.webp"
+   "thumb": "/thumbs/kiem-tra-hoa-don-chung-tu.webp",
+   "tenNgan": "KIỂM HÓA ĐƠN",
+   "thumbFile": "kiem-hoa-don"
   },
   {
    "slug": "ke-toan-kiem-tra-so-cai-va-so-chi-tiet",
@@ -3000,7 +3392,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-kiem-tra-so-cai-va-so-chi-tiet.webp"
+   "thumb": "/thumbs/ke-toan-kiem-tra-so-cai-va-so-chi-tiet.webp",
+   "tenNgan": "KIỂM SỔ CÁI",
+   "thumbFile": "kiem-so-cai"
   },
   {
    "slug": "ke-toan-gia-thanh",
@@ -3015,7 +3409,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-gia-thanh.webp"
+   "thumb": "/thumbs/ke-toan-gia-thanh.webp",
+   "tenNgan": "TÍNH GIÁ THÀNH",
+   "thumbFile": "tinh-gia-thanh"
   },
   {
    "slug": "ke-toan-quan-tri",
@@ -3030,7 +3426,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-quan-tri.webp"
+   "thumb": "/thumbs/ke-toan-quan-tri.webp",
+   "tenNgan": "KẾ TOÁN QUẢN TRỊ",
+   "thumbFile": "ke-toan-quan-tri"
   },
   {
    "slug": "ke-toan-san-xuat",
@@ -3045,7 +3443,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-san-xuat.webp"
+   "thumb": "/thumbs/ke-toan-san-xuat.webp",
+   "tenNgan": "KẾ TOÁN SẢN XUẤT",
+   "thumbFile": "ke-toan-san-xuat"
   },
   {
    "slug": "erp-ke-toan-tai-chinh",
@@ -3060,7 +3460,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/erp-ke-toan-tai-chinh.webp"
+   "thumb": "/thumbs/erp-ke-toan-tai-chinh.webp",
+   "tenNgan": "KẾ TOÁN TRÊN ERP",
+   "thumbFile": "ke-toan-tren-erp"
   },
   {
    "slug": "ke-toan-xay-dung",
@@ -3075,7 +3477,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-xay-dung.webp"
+   "thumb": "/thumbs/ke-toan-xay-dung.webp",
+   "tenNgan": "KẾ TOÁN XÂY DỰNG",
+   "thumbFile": "ke-toan-xay-dung"
   },
   {
    "slug": "ke-toan-lap-bao-cao-tai-chinh-tu-so",
@@ -3090,7 +3494,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-lap-bao-cao-tai-chinh-tu-so.webp"
+   "thumb": "/thumbs/ke-toan-lap-bao-cao-tai-chinh-tu-so.webp",
+   "tenNgan": "LẬP BCTC",
+   "thumbFile": "lap-bctc"
   },
   {
    "slug": "ke-hoach-ngan-sach",
@@ -3105,7 +3511,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-hoach-ngan-sach.webp"
+   "thumb": "/thumbs/ke-hoach-ngan-sach.webp",
+   "tenNgan": "LẬP NGÂN SÁCH",
+   "thumbFile": "lap-ngan-sach"
   },
   {
    "slug": "mua-hang-chuoi-cung-ung",
@@ -3120,7 +3528,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/mua-hang-chuoi-cung-ung.webp"
+   "thumb": "/thumbs/mua-hang-chuoi-cung-ung.webp",
+   "tenNgan": "MUA HÀNG",
+   "thumbFile": "mua-hang"
   },
   {
    "slug": "ke-toan-phat-hien-chung-tu-trung",
@@ -3135,7 +3545,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-phat-hien-chung-tu-trung.webp"
+   "thumb": "/thumbs/ke-toan-phat-hien-chung-tu-trung.webp",
+   "tenNgan": "CHỨNG TỪ TRÙNG",
+   "thumbFile": "chung-tu-trung"
   },
   {
    "slug": "ke-toan-phat-hien-sai-sot-toan-bo-so",
@@ -3150,7 +3562,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-phat-hien-sai-sot-toan-bo-so.webp"
+   "thumb": "/thumbs/ke-toan-phat-hien-sai-sot-toan-bo-so.webp",
+   "tenNgan": "SOI SAI SÓT SỔ",
+   "thumbFile": "soi-sai-sot-so"
   },
   {
    "slug": "phan-tich-bctc",
@@ -3165,7 +3579,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phan-tich-bctc.webp"
+   "thumb": "/thumbs/phan-tich-bctc.webp",
+   "tenNgan": "PHÂN TÍCH BCTC",
+   "thumbFile": "phan-tich-bctc"
   },
   {
    "slug": "quan-ly-dong-tien",
@@ -3180,7 +3596,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/quan-ly-dong-tien.webp"
+   "thumb": "/thumbs/quan-ly-dong-tien.webp",
+   "tenNgan": "DÒNG TIỀN",
+   "thumbFile": "dong-tien"
   },
   {
    "slug": "ke-toan-quan-ly-deadline-va-ho-so-thieu",
@@ -3195,7 +3613,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-quan-ly-deadline-va-ho-so-thieu.webp"
+   "thumb": "/thumbs/ke-toan-quan-ly-deadline-va-ho-so-thieu.webp",
+   "tenNgan": "HẠN NỘP HỒ SƠ",
+   "thumbFile": "han-nop-ho-so"
   },
   {
    "slug": "ke-toan-kho",
@@ -3210,7 +3630,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-kho.webp"
+   "thumb": "/thumbs/ke-toan-kho.webp",
+   "tenNgan": "KẾ TOÁN KHO",
+   "thumbFile": "ke-toan-kho"
   },
   {
    "slug": "quan-ly-ngan-quy",
@@ -3225,7 +3647,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/quan-ly-ngan-quy.webp"
+   "thumb": "/thumbs/quan-ly-ngan-quy.webp",
+   "tenNgan": "NGÂN QUỸ",
+   "thumbFile": "ngan-quy"
   },
   {
    "slug": "quan-ly-tai-chinh-tai-san",
@@ -3240,7 +3664,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/quan-ly-tai-chinh-tai-san.webp"
+   "thumb": "/thumbs/quan-ly-tai-chinh-tai-san.webp",
+   "tenNgan": "TÀI CHÍNH TRƯỜNG HỌC",
+   "thumbFile": "tai-chinh-truong-hoc"
   },
   {
    "slug": "quan-tri-hieu-suat",
@@ -3255,7 +3681,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/quan-tri-hieu-suat.webp"
+   "thumb": "/thumbs/quan-tri-hieu-suat.webp",
+   "tenNgan": "HIỆU SUẤT DOANH NGHIỆP",
+   "thumbFile": "hieu-suat-doanh-nghiep"
   },
   {
    "slug": "quan-tri-rui-ro",
@@ -3270,7 +3698,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/quan-tri-rui-ro.webp"
+   "thumb": "/thumbs/quan-tri-rui-ro.webp",
+   "tenNgan": "QUẢN TRỊ RỦI RO",
+   "thumbFile": "quan-tri-rui-ro"
   },
   {
    "slug": "ke-toan-thue-ra-soat-va-lap-ho-so-ke-khai",
@@ -3285,7 +3715,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-thue-ra-soat-va-lap-ho-so-ke-khai.webp"
+   "thumb": "/thumbs/ke-toan-thue-ra-soat-va-lap-ho-so-ke-khai.webp",
+   "tenNgan": "KÊ KHAI THUẾ",
+   "thumbFile": "ke-khai-thue"
   },
   {
    "slug": "soan-van-ban-ke-toan-thue",
@@ -3300,7 +3732,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/soan-van-ban-ke-toan-thue.webp"
+   "thumb": "/thumbs/soan-van-ban-ke-toan-thue.webp",
+   "tenNgan": "CÔNG VĂN THUẾ",
+   "thumbFile": "cong-van-thue"
   },
   {
    "slug": "tham-dinh-tai-chinh",
@@ -3315,7 +3749,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tham-dinh-tai-chinh.webp"
+   "thumb": "/thumbs/tham-dinh-tai-chinh.webp",
+   "tenNgan": "THẨM ĐỊNH TÀI CHÍNH",
+   "thumbFile": "tham-dinh-tai-chinh"
   },
   {
    "slug": "ke-toan-truong",
@@ -3330,7 +3766,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-truong.webp"
+   "thumb": "/thumbs/ke-toan-truong.webp",
+   "tenNgan": "KẾ TOÁN TRƯỞNG",
+   "thumbFile": "ke-toan-truong"
   },
   {
    "slug": "tro-ly-thue",
@@ -3345,7 +3783,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tro-ly-thue.webp"
+   "thumb": "/thumbs/tro-ly-thue.webp",
+   "tenNgan": "TRỢ LÝ THUẾ",
+   "thumbFile": "tro-ly-thue"
   },
   {
    "slug": "tuan-thu-doanh-nghiep",
@@ -3360,7 +3800,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tuan-thu-doanh-nghiep.webp"
+   "thumb": "/thumbs/tuan-thu-doanh-nghiep.webp",
+   "tenNgan": "TUÂN THỦ DOANH NGHIỆP",
+   "thumbFile": "tuan-thu-doanh-nghiep"
   },
   {
    "slug": "tai-chinh-doanh-nghiep",
@@ -3375,7 +3817,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tai-chinh-doanh-nghiep.webp"
+   "thumb": "/thumbs/tai-chinh-doanh-nghiep.webp",
+   "tenNgan": "TÀI CHÍNH DOANH NGHIỆP",
+   "thumbFile": "tai-chinh-doanh-nghiep"
   },
   {
    "slug": "ke-toan-tinh-luong-va-kiem-tra-tien-luong",
@@ -3390,7 +3834,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-tinh-luong-va-kiem-tra-tien-luong.webp"
+   "thumb": "/thumbs/ke-toan-tinh-luong-va-kiem-tra-tien-luong.webp",
+   "tenNgan": "TÍNH LƯƠNG",
+   "thumbFile": "tinh-luong"
   },
   {
    "slug": "ke-toan-tao-ho-so-giai-trinh",
@@ -3405,7 +3851,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-tao-ho-so-giai-trinh.webp"
+   "thumb": "/thumbs/ke-toan-tao-ho-so-giai-trinh.webp",
+   "tenNgan": "HỒ SƠ GIẢI TRÌNH",
+   "thumbFile": "ho-so-giai-trinh"
   },
   {
    "slug": "ke-toan-dong-so-cuoi-ky",
@@ -3420,7 +3868,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-dong-so-cuoi-ky.webp"
+   "thumb": "/thumbs/ke-toan-dong-so-cuoi-ky.webp",
+   "tenNgan": "KHÓA SỔ CUỐI KỲ",
+   "thumbFile": "khoa-so-cuoi-ky"
   },
   {
    "slug": "ke-toan-doc-chung-tu-va-goi-y-hach-toan",
@@ -3435,7 +3885,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-doc-chung-tu-va-goi-y-hach-toan.webp"
+   "thumb": "/thumbs/ke-toan-doc-chung-tu-va-goi-y-hach-toan.webp",
+   "tenNgan": "GỢI Ý HẠCH TOÁN",
+   "thumbFile": "goi-y-hach-toan"
   },
   {
    "slug": "ke-toan-doi-chieu-hoa-don-so-sach-to-khai",
@@ -3450,7 +3902,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-doi-chieu-hoa-don-so-sach-to-khai.webp"
+   "thumb": "/thumbs/ke-toan-doi-chieu-hoa-don-so-sach-to-khai.webp",
+   "tenNgan": "ĐỐI CHIẾU TỜ KHAI",
+   "thumbFile": "doi-chieu-to-khai"
   },
   {
    "slug": "ke-toan-doi-chieu-ngan-hang",
@@ -3465,7 +3919,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-doi-chieu-ngan-hang.webp"
+   "thumb": "/thumbs/ke-toan-doi-chieu-ngan-hang.webp",
+   "tenNgan": "ĐỐI CHIẾU NGÂN HÀNG",
+   "thumbFile": "doi-chieu-ngan-hang"
   },
   {
    "slug": "ke-toan-doi-chieu-va-xac-nhan-cong-no",
@@ -3480,7 +3936,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-doi-chieu-va-xac-nhan-cong-no.webp"
+   "thumb": "/thumbs/ke-toan-doi-chieu-va-xac-nhan-cong-no.webp",
+   "tenNgan": "ĐỐI CHIẾU CÔNG NỢ",
+   "thumbFile": "doi-chieu-cong-no"
   },
   {
    "slug": "chuyen-chi-dao-thanh-ke-hoach",
@@ -3495,7 +3953,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/chuyen-chi-dao-thanh-ke-hoach.webp"
+   "thumb": "/thumbs/chuyen-chi-dao-thanh-ke-hoach.webp",
+   "tenNgan": "CHỈ ĐẠO THÀNH KẾ HOẠCH",
+   "thumbFile": "chi-dao-thanh-ke-hoach"
   },
   {
    "slug": "lap-bao-cao-dinh-ky",
@@ -3510,7 +3970,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/lap-bao-cao-dinh-ky.webp"
+   "thumb": "/thumbs/lap-bao-cao-dinh-ky.webp",
+   "tenNgan": "BÁO CÁO ĐỊNH KỲ",
+   "thumbFile": "bao-cao-dinh-ky"
   },
   {
    "slug": "phan-tich-so-lieu-bao-cao",
@@ -3525,7 +3987,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phan-tich-so-lieu-bao-cao.webp"
+   "thumb": "/thumbs/phan-tich-so-lieu-bao-cao.webp",
+   "tenNgan": "PHÂN TÍCH SỐ LIỆU",
+   "thumbFile": "phan-tich-so-lieu"
   },
   {
    "slug": "ra-soat-truoc-trinh-ky",
@@ -3540,7 +4004,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ra-soat-truoc-trinh-ky.webp"
+   "thumb": "/thumbs/ra-soat-truoc-trinh-ky.webp",
+   "tenNgan": "RÀ SOÁT TRÌNH KÝ",
+   "thumbFile": "ra-soat-trinh-ky"
   },
   {
    "slug": "soan-thao-van-ban-hanh-chinh",
@@ -3555,7 +4021,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/soan-thao-van-ban-hanh-chinh.webp"
+   "thumb": "/thumbs/soan-thao-van-ban-hanh-chinh.webp",
+   "tenNgan": "VĂN BẢN HÀNH CHÍNH",
+   "thumbFile": "van-ban-hanh-chinh"
   },
   {
    "slug": "tao-van-ban-moi-tu-mau-cu",
@@ -3570,7 +4038,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tao-van-ban-moi-tu-mau-cu.webp"
+   "thumb": "/thumbs/tao-van-ban-moi-tu-mau-cu.webp",
+   "tenNgan": "VĂN BẢN TỪ MẪU CŨ",
+   "thumbFile": "van-ban-tu-mau-cu"
   },
   {
    "slug": "tong-hop-bao-cao-nhieu-nguon",
@@ -3585,7 +4055,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tong-hop-bao-cao-nhieu-nguon.webp"
+   "thumb": "/thumbs/tong-hop-bao-cao-nhieu-nguon.webp",
+   "tenNgan": "TỔNG HỢP BÁO CÁO",
+   "thumbFile": "tong-hop-bao-cao"
   },
   {
    "slug": "xu-ly-van-ban-dang-chi-bo",
@@ -3600,7 +4072,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xu-ly-van-ban-dang-chi-bo.webp"
+   "thumb": "/thumbs/xu-ly-van-ban-dang-chi-bo.webp",
+   "tenNgan": "VĂN BẢN CHI BỘ",
+   "thumbFile": "van-ban-chi-bo"
   },
   {
    "slug": "tro-ly-ai-cong-chuc-van-phong",
@@ -3615,7 +4089,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tro-ly-ai-cong-chuc-van-phong.webp"
+   "thumb": "/thumbs/tro-ly-ai-cong-chuc-van-phong.webp",
+   "tenNgan": "ĐIỀU PHỐI VĂN PHÒNG",
+   "thumbFile": "dieu-phoi-van-phong"
   },
   {
    "slug": "co-may-moi-gioi-bat-dong-san-360",
@@ -3630,7 +4106,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/co-may-moi-gioi-bat-dong-san-360.webp"
+   "thumb": "/thumbs/co-may-moi-gioi-bat-dong-san-360.webp",
+   "tenNgan": "MÔI GIỚI BĐS 360",
+   "thumbFile": "moi-gioi-bds-360"
   },
   {
    "slug": "chatbot-bat-dong-san",
@@ -3645,7 +4123,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/chatbot-bat-dong-san.webp"
+   "thumb": "/thumbs/chatbot-bat-dong-san.webp",
+   "tenNgan": "CHATBOT BĐS",
+   "thumbFile": "chatbot-bds"
   },
   {
    "slug": "chuan-bi-gap-khach-bat-dong-san",
@@ -3660,7 +4140,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/chuan-bi-gap-khach-bat-dong-san.webp"
+   "thumb": "/thumbs/chuan-bi-gap-khach-bat-dong-san.webp",
+   "tenNgan": "CHUẨN BỊ GẶP KHÁCH",
+   "thumbFile": "chuan-bi-gap-khach"
   },
   {
    "slug": "cham-soc-khach-bat-dong-san",
@@ -3675,7 +4157,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/cham-soc-khach-bat-dong-san.webp"
+   "thumb": "/thumbs/cham-soc-khach-bat-dong-san.webp",
+   "tenNgan": "CHĂM KHÁCH BĐS",
+   "thumbFile": "cham-khach-bds"
   },
   {
    "slug": "ghep-khach-voi-bat-dong-san",
@@ -3690,7 +4174,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ghep-khach-voi-bat-dong-san.webp"
+   "thumb": "/thumbs/ghep-khach-voi-bat-dong-san.webp",
+   "tenNgan": "GHÉP KHÁCH VỚI NHÀ",
+   "thumbFile": "ghep-khach-voi-nha"
   },
   {
    "slug": "kiem-tra-thong-tin-bat-dong-san",
@@ -3705,7 +4191,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/kiem-tra-thong-tin-bat-dong-san.webp"
+   "thumb": "/thumbs/kiem-tra-thong-tin-bat-dong-san.webp",
+   "tenNgan": "KIỂM TRA PHÁP LÝ BĐS",
+   "thumbFile": "kiem-tra-phap-ly-bds"
   },
   {
    "slug": "lam-sach-kho-bat-dong-san",
@@ -3720,7 +4208,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/lam-sach-kho-bat-dong-san.webp"
+   "thumb": "/thumbs/lam-sach-kho-bat-dong-san.webp",
+   "tenNgan": "DỌN KHO HÀNG BĐS",
+   "thumbFile": "don-kho-hang-bds"
   },
   {
    "slug": "phan-loai-khach-bat-dong-san",
@@ -3735,7 +4225,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phan-loai-khach-bat-dong-san.webp"
+   "thumb": "/thumbs/phan-loai-khach-bat-dong-san.webp",
+   "tenNgan": "LỌC KHÁCH BĐS",
+   "thumbFile": "loc-khach-bds"
   },
   {
    "slug": "van-hanh-pheu-ban-bat-dong-san",
@@ -3750,7 +4242,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/van-hanh-pheu-ban-bat-dong-san.webp"
+   "thumb": "/thumbs/van-hanh-pheu-ban-bat-dong-san.webp",
+   "tenNgan": "PHỄU BÁN BĐS",
+   "thumbFile": "pheu-ban-bds"
   },
   {
    "slug": "mo-hinh-tang-truong-bat-dong-san",
@@ -3765,7 +4259,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/mo-hinh-tang-truong-bat-dong-san.webp"
+   "thumb": "/thumbs/mo-hinh-tang-truong-bat-dong-san.webp",
+   "tenNgan": "BĐS 90 NGÀY",
+   "thumbFile": "bds-90-ngay"
   },
   {
    "slug": "noi-dung-ban-bat-dong-san",
@@ -3780,7 +4276,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/noi-dung-ban-bat-dong-san.webp"
+   "thumb": "/thumbs/noi-dung-ban-bat-dong-san.webp",
+   "tenNgan": "NỘI DUNG BĐS",
+   "thumbFile": "noi-dung-bds"
   },
   {
    "slug": "dieu-phoi-giao-dich-bat-dong-san",
@@ -3795,7 +4293,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/dieu-phoi-giao-dich-bat-dong-san.webp"
+   "thumb": "/thumbs/dieu-phoi-giao-dich-bat-dong-san.webp",
+   "tenNgan": "GIAO DỊCH BĐS",
+   "thumbFile": "giao-dich-bds"
   },
   {
    "slug": "giao-vien-xay-dung-sang-kien",
@@ -3810,7 +4310,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/giao-vien-xay-dung-sang-kien.webp"
+   "thumb": "/thumbs/giao-vien-xay-dung-sang-kien.webp",
+   "tenNgan": "VIẾT SÁNG KIẾN",
+   "thumbFile": "viet-sang-kien"
   },
   {
    "slug": "phat-trien-app-long-tieng-viral",
@@ -3825,7 +4327,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phat-trien-app-long-tieng-viral.webp"
+   "thumb": "/thumbs/phat-trien-app-long-tieng-viral.webp",
+   "tenNgan": "APP LỒNG TIẾNG",
+   "thumbFile": "app-long-tieng"
   },
   {
    "slug": "cong-xuong-subagent",
@@ -3840,7 +4344,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/cong-xuong-subagent.webp"
+   "thumb": "/thumbs/cong-xuong-subagent.webp",
+   "tenNgan": "CÔNG XƯỞNG SUBAGENT",
+   "thumbFile": "cong-xuong-subagent"
   },
   {
    "slug": "co-may-skill",
@@ -3855,22 +4361,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/co-may-skill.webp"
-  },
-  {
-   "slug": "tao-goi-skill-ai",
-   "ma": "BCAI-WEB-008",
-   "ten": "Cỗ máy skill",
-   "niche": "website",
-   "moTa": "Biến ý tưởng dự án, quy trình kinh doanh, ý tưởng app hoặc việc AI hay lặp lại thành một skill AI (hoặc bộ nhiều skill) tập trung, đã kiểm tra và dùng lại được.",
-   "loiIch": [
-    "Lập bản đồ năng lực: chia kết quả thành các công việc độc lập mà AI phải thực hiện",
-    "Phân loại từng thành phần: skill, kiến thức, bộ nhớ, workflow, script, automation hay tính năng app. Không ép mọi…",
-    "Tìm phần có thể tái sử dụng. Ưu tiên dùng hoặc mở rộng skill hiện có; chỉ tạo mới khi trách nhiệm thật sự khác"
-   ],
-   "gia": 59000,
-   "congXuong": null,
-   "thumb": "/thumbs/tao-goi-skill-ai.webp"
+   "thumb": "/thumbs/co-may-skill.webp",
+   "tenNgan": "CỖ MÁY SKILL",
+   "thumbFile": "co-may-skill"
   },
   {
    "slug": "kho-mau-website",
@@ -3885,7 +4378,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/kho-mau-website.webp"
+   "thumb": "/thumbs/kho-mau-website.webp",
+   "tenNgan": "KHO WEB MẪU",
+   "thumbFile": "kho-web-mau"
   },
   {
    "slug": "ke-toan-kiem-tra-chat-luong-du-lieu",
@@ -3900,7 +4395,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-kiem-tra-chat-luong-du-lieu.webp"
+   "thumb": "/thumbs/ke-toan-kiem-tra-chat-luong-du-lieu.webp",
+   "tenNgan": "KIỂM DỮ LIỆU KẾ TOÁN",
+   "thumbFile": "kiem-du-lieu-ke-toan"
   },
   {
    "slug": "phat-trien-co-may-fanpage",
@@ -3915,7 +4412,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phat-trien-co-may-fanpage.webp"
+   "thumb": "/thumbs/phat-trien-co-may-fanpage.webp",
+   "tenNgan": "CỖ MÁY FANPAGE",
+   "thumbFile": "co-may-fanpage"
   },
   {
    "slug": "phan-tich-du-lieu-kinh-doanh",
@@ -3930,7 +4429,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/phan-tich-du-lieu-kinh-doanh.webp"
+   "thumb": "/thumbs/phan-tich-du-lieu-kinh-doanh.webp",
+   "tenNgan": "PHÂN TÍCH KINH DOANH",
+   "thumbFile": "phan-tich-kinh-doanh"
   },
   {
    "slug": "quan-tri-du-lieu",
@@ -3945,7 +4446,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/quan-tri-du-lieu.webp"
+   "thumb": "/thumbs/quan-tri-du-lieu.webp",
+   "tenNgan": "QUẢN TRỊ DỮ LIỆU",
+   "thumbFile": "quan-tri-du-lieu"
   },
   {
    "slug": "tiet-kiem-codex",
@@ -3956,7 +4459,9 @@
    "loiIch": [],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tiet-kiem-codex.webp"
+   "thumb": "/thumbs/tiet-kiem-codex.webp",
+   "tenNgan": "TIẾT KIỆM CODEX",
+   "thumbFile": "tiet-kiem-codex"
   },
   {
    "slug": "tiet-kiem-codex-pro",
@@ -3967,7 +4472,9 @@
    "loiIch": [],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tiet-kiem-codex-pro.webp"
+   "thumb": "/thumbs/tiet-kiem-codex-pro.webp",
+   "tenNgan": "TIẾT KIỆM CODEX PRO",
+   "thumbFile": "tiet-kiem-codex-pro"
   },
   {
    "slug": "tiet-kiem-codex-thong-ke",
@@ -3978,7 +4485,9 @@
    "loiIch": [],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tiet-kiem-codex-thong-ke.webp"
+   "thumb": "/thumbs/tiet-kiem-codex-thong-ke.webp",
+   "tenNgan": "THỐNG KÊ CODEX",
+   "thumbFile": "thong-ke-codex"
   },
   {
    "slug": "mau-web-cho-san-pham-so",
@@ -3993,7 +4502,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/mau-web-cho-san-pham-so.webp"
+   "thumb": "/thumbs/mau-web-cho-san-pham-so.webp",
+   "tenNgan": "WEB BÁN SẢN PHẨM SỐ",
+   "thumbFile": "web-ban-san-pham-so"
   },
   {
    "slug": "xay-dung-he-thong-du-lieu",
@@ -4008,7 +4519,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xay-dung-he-thong-du-lieu.webp"
+   "thumb": "/thumbs/xay-dung-he-thong-du-lieu.webp",
+   "tenNgan": "HỆ THỐNG DỮ LIỆU",
+   "thumbFile": "he-thong-du-lieu"
   },
   {
    "slug": "tao-web-ban-hang-white-label",
@@ -4023,7 +4536,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tao-web-ban-hang-white-label.webp"
+   "thumb": "/thumbs/tao-web-ban-hang-white-label.webp",
+   "tenNgan": "WEB BÁN HÀNG",
+   "thumbFile": "web-ban-hang"
   },
   {
    "slug": "xuong-song-skill",
@@ -4038,7 +4553,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xuong-song-skill.webp"
+   "thumb": "/thumbs/xuong-song-skill.webp",
+   "tenNgan": "XƯƠNG SỐNG SKILL",
+   "thumbFile": "xuong-song-skill"
   },
   {
    "slug": "xu-ly-bang-tinh-du-lieu",
@@ -4053,7 +4570,26 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/xu-ly-bang-tinh-du-lieu.webp"
+   "thumb": "/thumbs/xu-ly-bang-tinh-du-lieu.webp",
+   "tenNgan": "XỬ LÝ EXCEL",
+   "thumbFile": "xu-ly-excel"
+  },
+  {
+   "slug": "tao-goi-skill-ai",
+   "ma": "BCAI-WEB-008",
+   "ten": "Đóng gói skill AI",
+   "niche": "website",
+   "moTa": "Biến ý tưởng dự án, quy trình kinh doanh, ý tưởng app hoặc việc AI hay lặp lại thành một skill AI (hoặc bộ nhiều skill) tập trung, đã kiểm tra và dùng lại được.",
+   "loiIch": [
+    "Lập bản đồ năng lực: chia kết quả thành các công việc độc lập mà AI phải thực hiện",
+    "Phân loại từng thành phần: skill, kiến thức, bộ nhớ, workflow, script, automation hay tính năng app. Không ép mọi…",
+    "Tìm phần có thể tái sử dụng. Ưu tiên dùng hoặc mở rộng skill hiện có; chỉ tạo mới khi trách nhiệm thật sự khác"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tao-goi-skill-ai.webp",
+   "tenNgan": "ĐÓNG GÓI SKILL",
+   "thumbFile": "dong-goi-skill"
   },
   {
    "slug": "ke-toan-doc-va-chuan-hoa-du-lieu",
@@ -4068,7 +4604,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/ke-toan-doc-va-chuan-hoa-du-lieu.webp"
+   "thumb": "/thumbs/ke-toan-doc-va-chuan-hoa-du-lieu.webp",
+   "tenNgan": "CHUẨN HÓA DỮ LIỆU KẾ TOÁN",
+   "thumbFile": "chuan-hoa-du-lieu-ke-toan"
   },
   {
    "slug": "tu-vi-lich-am-bat-tu",
@@ -4083,7 +4621,9 @@
    ],
    "gia": 59000,
    "congXuong": null,
-   "thumb": "/thumbs/tu-vi-lich-am-bat-tu.webp"
+   "thumb": "/thumbs/tu-vi-lich-am-bat-tu.webp",
+   "tenNgan": "TỬ VI BÁT TỰ",
+   "thumbFile": "tu-vi-bat-tu"
   }
  ],
  "bundles": [
@@ -4092,28 +4632,40 @@
    "ten": "Bộ 100 công cụ dành cho chủ spa",
    "niche": "spa",
    "soSkill": 100,
-   "moTa": "Là bộ 100 công cụ AI bao quát các công việc chuyên môn, marketing, bán hàng và vận hành dành cho chủ spa."
+   "moTa": "Là bộ 100 công cụ AI bao quát các công việc chuyên môn, marketing, bán hàng và vận hành dành cho chủ spa.",
+   "thumb": "/thumbs/bo-100-cong-cu-danh-cho-chu-spa.webp",
+   "tenNgan": "BỘ 100 CÔNG CỤ SPA",
+   "thumbFile": "bo-100-cong-cu-spa"
   },
   {
    "slug": "bo-20-cong-cu-giao-duc-thuc-chien",
    "ten": "Bộ 20 công cụ giáo dục thực chiến",
    "niche": "giao-duc",
    "soSkill": 20,
-   "moTa": "Bộ 20 Skill tách thành 10 sản phẩm dành cho giáo viên và 10 sản phẩm dành cho quản lý nhà trường."
+   "moTa": "Bộ 20 Skill tách thành 10 sản phẩm dành cho giáo viên và 10 sản phẩm dành cho quản lý nhà trường.",
+   "thumb": "/thumbs/bo-20-cong-cu-giao-duc-thuc-chien.webp",
+   "tenNgan": "BỘ 20 CÔNG CỤ GIÁO DỤC",
+   "thumbFile": "bo-20-cong-cu-giao-duc"
   },
   {
    "slug": "bo-39-cong-cu-ke-toan-va-van-phong",
    "ten": "Bộ 39 công cụ kế toán và văn phòng",
    "niche": "ke-toan",
    "soSkill": 39,
-   "moTa": "Bộ 39 Skill gồm 30 sản phẩm kế toán–quản trị doanh nghiệp và 9 sản phẩm văn phòng–báo cáo."
+   "moTa": "Bộ 39 Skill gồm 30 sản phẩm kế toán–quản trị doanh nghiệp và 9 sản phẩm văn phòng–báo cáo.",
+   "thumb": "/thumbs/bo-39-cong-cu-ke-toan-va-van-phong.webp",
+   "tenNgan": "BỘ 39 CÔNG CỤ KẾ TOÁN",
+   "thumbFile": "bo-39-cong-cu-ke-toan"
   },
   {
    "slug": "bo-15-cong-cu-ke-toan-dich-vu",
    "ten": "Bộ 15 công cụ kế toán dịch vụ",
    "niche": "ke-toan",
    "soSkill": 15,
-   "moTa": "Bộ 15 Skill dành cho kế toán dịch vụ, đi từ tiếp nhận dữ liệu đến đối chiếu, kiểm tra, kê khai, khóa sổ và lập báo cáo."
+   "moTa": "Bộ 15 Skill dành cho kế toán dịch vụ, đi từ tiếp nhận dữ liệu đến đối chiếu, kiểm tra, kê khai, khóa sổ và lập báo cáo.",
+   "thumb": "/thumbs/bo-15-cong-cu-ke-toan-dich-vu.webp",
+   "tenNgan": "BỘ 15 KẾ TOÁN DỊCH VỤ",
+   "thumbFile": "bo-15-ke-toan-dich-vu"
   }
  ]
 }
