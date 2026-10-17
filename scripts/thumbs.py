@@ -235,8 +235,8 @@ def draw_thumb(key, title, label, icon, out_path):
     bg = Image.blend(bg, Image.new("RGB", (W, H), (250, 247, 242)), 0.5).convert("RGBA")
     mask = Image.new("L", (pw, H), 255)
     md = ImageDraw.Draw(mask)
-    for x in range(200):
-        md.line([(x, 0), (x, H)], fill=int(255 * (x / 200) ** 1.4))
+    for x in range(80):  # vệt chuyển ngắn, không phủ lên gương mặt (Châu 18/10)
+        md.line([(x, 0), (x, H)], fill=int(255 * (x / 80)))
     bg.paste(person, (W - pw, 0), mask)
     _ve_chu(bg, title, label, icon).convert("RGB").save(out_path, "WEBP", quality=76, method=6)
 
@@ -292,7 +292,7 @@ def _ve_chu(bg, title, label, icon):
     return bg
 
 
-def make_all(root, skills, rebuild=False, force=()):
+def make_all(root, skills, rebuild=False, force=(), bo_qua=()):
     import json
 
     niches = {n["id"]: n["ten"] for n in json.load(open(os.path.join(root, "src", "data", "skills.json"), encoding="utf-8"))["niches"]}
@@ -302,8 +302,8 @@ def make_all(root, skills, rebuild=False, force=()):
     for i, s in enumerate(skills):
         key = KOL_POOL[(i * 8) % n]  # bước 8, n=21 nguyên tố cùng nhau → thẻ liền nhau luôn khác biểu cảm
         path = os.path.join(out_dir, s["slug"] + ".webp")
-        if os.path.exists(path) and not rebuild and s["slug"] not in force:
-            continue
+        if s["slug"] in bo_qua or (os.path.exists(path) and not rebuild and s["slug"] not in force):
+            continue  # đã có ảnh Codex thì không vẽ đè ảnh tạm
         label = niches[s["niche"]].split("·")[-1].strip()
         draw_thumb(key, s.get("tenNgan") or s["ten"], label, NICHE_ICON.get(s["niche"], "✨"), path)
         made += 1
@@ -322,18 +322,19 @@ def nhap_tu_codex(root, items, src_dir):
     """Ảnh Codex vẽ (<tên ngắn không dấu>.png|jpg|webp) → public/thumbs/<slug>.webp (1200×900, ≤200KB).
     Ảnh tạm do script vẽ sẽ được thay khi Codex có ảnh mới hơn."""
     if not os.path.isdir(src_dir):
-        return 0
+        return 0, set()
     import json
 
     niches = {x["id"]: x["ten"] for x in json.load(open(os.path.join(root, "src", "data", "skills.json"), encoding="utf-8"))["niches"]}
     out_dir = os.path.join(root, "public", "thumbs")
     os.makedirs(out_dir, exist_ok=True)
-    n = 0
+    n, co = 0, set()
     for s in items:
         names = [s["thumbFile"] + ext for ext in (".png", ".jpg", ".jpeg", ".webp")] + [s["thumbFile"] + "__khong-chu.png"]
         src = next((os.path.join(src_dir, f) for f in names if os.path.exists(os.path.join(src_dir, f))), None)
         if not src:
             continue
+        co.add(s["slug"])
         dst = os.path.join(out_dir, s["slug"] + ".webp")
         if os.path.exists(dst) and os.path.getmtime(dst) >= os.path.getmtime(src):
             continue
@@ -353,4 +354,4 @@ def nhap_tu_codex(root, items, src_dir):
             if os.path.getsize(dst) <= 200 * 1024:
                 break
         n += 1
-    return n
+    return n, co

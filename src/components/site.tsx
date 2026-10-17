@@ -1,7 +1,8 @@
 import { Link, useNavigate } from "@tanstack/react-router";
 import { useEffect, useRef, useState } from "react";
-import { ArrowRight, Check, ChevronDown, Eye, LayoutGrid, Plus, ShoppingBag, ShoppingCart, Sparkle } from "lucide-react";
+import { ArrowRight, Check, ChevronDown, Eye, LayoutGrid, Plus, ShoppingBag, ShoppingCart } from "lucide-react";
 
+import logo from "@/assets/logo-bao-chau-ai.webp";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/lib/cart";
 import { formatVnd, GIA_LE, NGUONG_GIAM, niches, skillsByNiche, tenNgach, tinhGia, zaloUrl, type Bundle, type Skill } from "@/lib/catalog";
@@ -53,13 +54,8 @@ export function SiteHeader() {
       <header className="sticky top-0 z-40 border-b border-border/70 bg-background/90 backdrop-blur-xl">
         <div className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-3 px-4 sm:px-5">
           <div className="flex items-center gap-3 sm:gap-6">
-            <Link to="/" className="flex items-center gap-2" aria-label="Bảo Châu AI — trang chủ">
-              <span className="grid size-9 place-items-center rounded-full bg-primary text-primary-foreground shadow-glow">
-                <Sparkle className="size-5" />
-              </span>
-              <span className="hidden font-display text-xl font-bold sm:inline">
-                Bảo Châu <i className="font-normal text-primary">AI</i>
-              </span>
+            <Link to="/" className="flex items-center" aria-label="Bảo Châu AI — trang chủ">
+              <img src={logo} width={400} height={316} alt="Bảo Châu AI — KOL AI Go Global" className="h-12 w-auto drop-shadow-[0_0_10px_rgba(0,80,230,0.25)] sm:h-14" />
             </Link>
             <NicheMenu />
           </div>
@@ -85,9 +81,9 @@ export function SiteFooter() {
     <footer className="bg-foreground py-10 text-background">
       <div className="mx-auto flex max-w-7xl flex-col justify-between gap-5 px-5 text-sm md:flex-row">
         <div>
-          <p className="font-display text-xl">
-            Bảo Châu <span className="text-primary">AI</span>
-          </p>
+          <div className="w-fit rounded-xl bg-white px-4 py-2 shadow-glow">
+            <img src={logo} width={400} height={316} alt="Bảo Châu AI — KOL AI Go Global" loading="lazy" className="h-14 w-auto" />
+          </div>
           <p className="mt-2 text-background/55">Hệ sinh thái Skill AI thực chiến · hình ảnh: Linh Na Model.</p>
         </div>
         <div className="md:text-right">

@@ -300,6 +300,36 @@ BIEU_CAM = [
 ]
 
 
+# Châu 18/10: giữ mặt + sắc thái + áo khoác KOL; bối cảnh và dáng đổi theo nội dung từng skill.
+BOI_CANH = {
+    "dieu-phoi": ["phòng điều hành nhiều màn hình số liệu", "góc làm việc sáng tạo có bảng ý tưởng", "quán cà phê làm việc buổi sáng"],
+    "video-da-nen-tang": ["studio quay video có đèn ring và máy quay", "phòng livestream bán hàng", "phòng dựng phim nhiều màn hình"],
+    "xay-kenh": ["văn phòng startup hiện đại", "sân khấu thuyết trình nhỏ có màn hình", "studio sáng tạo nội dung"],
+    "spa": ["phòng trị liệu spa sang trọng", "quầy lễ tân spa", "phòng tư vấn da có gương sáng", "khu thư giãn spa có cây xanh"],
+    "video": ["phim trường có máy quay và đèn", "phòng dựng phim nhiều màn hình", "set quay ngoài trời lúc hoàng hôn"],
+    "hinh-anh": ["studio chụp ảnh có đèn flash", "bàn thiết kế có bảng vẽ điện tử", "phòng trưng bày ảnh"],
+    "noi-dung": ["góc quay nội dung có điện thoại trên chân máy", "quán cà phê sáng tạo", "phòng họp marketing có bảng kế hoạch"],
+    "ban-hang": ["cửa hàng có kệ sản phẩm", "kho hàng online gọn gàng", "quầy thu ngân hiện đại"],
+    "giao-duc": ["lớp học có bảng và học sinh phía sau mờ nhẹ", "phòng giáo viên có chồng giáo án", "thư viện trường học"],
+    "ke-toan": ["văn phòng kế toán có tủ hồ sơ", "bàn làm việc với máy tính và biểu đồ tài chính", "phòng họp tài chính"],
+    "van-phong": ["phòng họp cơ quan", "bàn làm việc công sở có văn bản", "hành lang toà nhà văn phòng"],
+    "bds": ["phòng khách căn hộ mẫu cao cấp", "sàn giao dịch bất động sản có mô hình dự án", "ban công nhìn ra thành phố"],
+    "kien-truc": ["xưởng thiết kế có bản vẽ kiến trúc", "phòng nội thất đẹp vừa hoàn thiện"],
+    "website": ["phòng công nghệ có màn hình code", "trung tâm dữ liệu sáng màu xanh", "góc lập trình hiện đại"],
+    "y-te": ["phòng khám nha khoa sạch sáng", "quầy tiếp đón phòng khám"],
+    "phong-thuy": ["không gian trà đạo phương Đông", "phòng đọc có la bàn phong thuỷ và lịch âm"],
+    "du-lich": ["sảnh khách sạn sang trọng", "bãi biển nghỉ dưỡng", "nhà hàng ấm cúng"],
+}
+TU_THE = [
+    "đứng nửa người, tay giới thiệu về phía chữ",
+    "ngồi cạnh bàn, cầm vật dụng đúng chủ đề",
+    "đứng nghiêng người, cầm máy tính bảng",
+    "đi bộ tự nhiên, nhìn vào ống kính",
+    "tựa nhẹ vào quầy/kệ trong bối cảnh",
+    "cận nửa người, cầm điện thoại",
+]
+
+
 def ghi_danh_muc(skills, bundles, kho_by_slug, niche_name):
     """Danh mục Drive (csv + json) + hàng đợi vẽ thumbnail cho Codex."""
     import csv
@@ -332,6 +362,7 @@ def ghi_danh_muc(skills, bundles, kho_by_slug, niche_name):
     os.makedirs(os.path.dirname(CODEX_QUEUE), exist_ok=True)
     q = json.load(open(CODEX_QUEUE, encoding="utf-8")) if os.path.exists(CODEX_QUEUE) else {"items": []}
     have = {x["file"] for x in q["items"]}
+    niche_of_file = {s["thumbFile"] + ".png": s["niche"] for s in skills + bundles}
     for r in rows:
         if r["fileThumbnail"] not in have:
             q["items"].append({
@@ -339,6 +370,16 @@ def ghi_danh_muc(skills, bundles, kho_by_slug, niche_name):
                 "noiDung": next((s["moTa"] for s in skills + bundles if s["slug"] == r["slug"]), "")[:160],
                 "bieuCam": BIEU_CAM[(len(q["items"]) * 5) % len(BIEU_CAM)],
             })
+    # gắn bối cảnh + dáng cho mọi mục (cả mục cũ) theo ngách, xoay vòng để ảnh liền nhau khác cảnh
+    dem = {}
+    for i, it in enumerate(q["items"]):
+        nid = niche_of_file.get(it["file"], "noi-dung")
+        k = dem.get(nid, 0)
+        dem[nid] = k + 1
+        canh = BOI_CANH.get(nid) or BOI_CANH["noi-dung"]
+        it["boiCanh"] = canh[k % len(canh)]
+        it["tuThe"] = TU_THE[i % len(TU_THE)]
+    q["quyTac"] = "1810: giữ mặt + sắc thái + áo khoác KOL; bối cảnh/dáng theo nội dung; không làm mờ che mặt"
     q["thuMucLuu"] = THUMB_CODEX
     q["capNhat"] = date.today().isoformat()
     with open(CODEX_QUEUE, "w", encoding="utf-8") as f:
@@ -488,10 +529,10 @@ def main():
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     import thumbs  # noqa: E402
 
-    nhap = thumbs.nhap_tu_codex(ROOT, skills + bundles, THUMB_CODEX)
-    print(f"Thumbnail Codex đã nhập: {nhap}")
+    nhap, co_codex = thumbs.nhap_tu_codex(ROOT, skills + bundles, THUMB_CODEX)
+    print(f"Thumbnail Codex đã nhập: {nhap} (đang dùng ảnh Codex: {len(co_codex)})")
     renamed = {s["slug"] for s in skills if s["slug"] in old and old[s["slug"]]["ten"] != s["ten"]}
-    made = thumbs.make_all(ROOT, skills + bundles, rebuild=rebuild, force=renamed)
+    made = thumbs.make_all(ROOT, skills + bundles, rebuild=rebuild, force=renamed, bo_qua=co_codex)
     print(f"Thumbnail mới vẽ: {made}")
 
 
