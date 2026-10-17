@@ -1,0 +1,4119 @@
+{
+ "capNhat": "2026-10-17",
+ "nguon": "data/kho-skill/kho-tong.json",
+ "giaLe": 59000,
+ "nguongGiam": 5,
+ "tyLeGiam": 0.35,
+ "niches": [
+  {
+   "id": "dieu-phoi",
+   "ten": "Sảnh I · Điều phối & Nghiên cứu",
+   "eyebrow": "CÔNG XƯỞNG AGENT",
+   "moTa": "Biến ý tưởng rời rạc thành một hệ thống nội dung có chiến lược."
+  },
+  {
+   "id": "video-da-nen-tang",
+   "ten": "Sảnh II · Video đa nền tảng",
+   "eyebrow": "CÔNG XƯỞNG AGENT",
+   "moTa": "Lên ý tưởng, sản xuất và tối ưu video trong cùng một quy trình."
+  },
+  {
+   "id": "xay-kenh",
+   "ten": "Sảnh III · Xây kênh & Chuyển đổi",
+   "eyebrow": "CÔNG XƯỞNG AGENT",
+   "moTa": "Các trợ lý chuyên biệt để mở rộng độ phủ và tạo hành động."
+  },
+  {
+   "id": "spa",
+   "ten": "Spa & Làm đẹp",
+   "eyebrow": "CHỦ SPA · THẨM MỸ",
+   "moTa": "Giữ khách, tăng lịch hẹn và vận hành spa gọn gàng hơn."
+  },
+  {
+   "id": "video",
+   "ten": "Video & Phim AI",
+   "eyebrow": "NỘI DUNG & VIDEO",
+   "moTa": "Từ ý tưởng tới kịch bản, phân cảnh và prompt cho phim ngắn AI."
+  },
+  {
+   "id": "hinh-anh",
+   "ten": "Hình ảnh & Thiết kế",
+   "eyebrow": "NỘI DUNG & VIDEO",
+   "moTa": "Ảnh thương hiệu, poster, bìa sách và ấn phẩm làm nhanh với AI."
+  },
+  {
+   "id": "noi-dung",
+   "ten": "Nội dung & Marketing",
+   "eyebrow": "XÂY KÊNH",
+   "moTa": "Lên bài, viết quảng cáo và giữ nhịp đăng đều trên mọi kênh."
+  },
+  {
+   "id": "ban-hang",
+   "ten": "Bán hàng & Chuyển đổi",
+   "eyebrow": "KINH DOANH",
+   "moTa": "Tư vấn, chốt đơn và chăm khách bằng quy trình rõ ràng."
+  },
+  {
+   "id": "giao-duc",
+   "ten": "Giáo viên & Đào tạo",
+   "eyebrow": "GIÁO DỤC",
+   "moTa": "Soạn bài, ra đề, chấm chữa và quản lý lớp nhẹ nhàng hơn."
+  },
+  {
+   "id": "ke-toan",
+   "ten": "Kế toán & Tài chính",
+   "eyebrow": "DOANH NGHIỆP",
+   "moTa": "Sổ sách, báo cáo, thuế và dòng tiền rõ ràng, có kiểm tra."
+  },
+  {
+   "id": "van-phong",
+   "ten": "Văn phòng & Nhân sự",
+   "eyebrow": "CÁN BỘ · VĂN PHÒNG",
+   "moTa": "Văn bản, nhân sự và vận hành nội bộ gọn gàng, đúng quy trình."
+  },
+  {
+   "id": "bds",
+   "ten": "Bất động sản",
+   "eyebrow": "MÔI GIỚI · BĐS",
+   "moTa": "Tìm khách, làm nội dung và chốt giao dịch bất động sản."
+  },
+  {
+   "id": "kien-truc",
+   "ten": "Kiến trúc & Nội thất",
+   "eyebrow": "THIẾT KẾ · XÂY DỰNG",
+   "moTa": "Ý tưởng, phối cảnh và nội dung cho kiến trúc – nội thất."
+  },
+  {
+   "id": "website",
+   "ten": "Website & Tự động hóa",
+   "eyebrow": "CÔNG NGHỆ",
+   "moTa": "Làm web, dữ liệu và tự động hóa không cần biết code."
+  },
+  {
+   "id": "y-te",
+   "ten": "Nha khoa & Y tế",
+   "eyebrow": "PHÒNG KHÁM",
+   "moTa": "Xây uy tín phòng khám và chăm sóc khách an toàn."
+  },
+  {
+   "id": "phong-thuy",
+   "ten": "Phong thủy & Đời sống",
+   "eyebrow": "ĐỜI SỐNG",
+   "moTa": "Tử vi, phong thủy và nội dung đời sống có chiều sâu."
+  },
+  {
+   "id": "du-lich",
+   "ten": "Du lịch & Dịch vụ",
+   "eyebrow": "DU LỊCH · NHÀ HÀNG",
+   "moTa": "Nội dung và chăm khách cho du lịch, khách sạn, nhà hàng."
+  }
+ ],
+ "skills": [
+  {
+   "slug": "binh-luan-fanpage",
+   "ma": "BCAI-MKT-035",
+   "ten": "Chăm sóc Bình luận Fanpage",
+   "niche": "dieu-phoi",
+   "moTa": "Trả lời bình luận công khai trên Fanpage tự nhiên, đúng ngữ cảnh, không lặp lại và biết chuyển khách sang bước tiếp theo.",
+   "loiIch": [
+    "Học giọng của bạn, trả lời như người thật",
+    "Mẫu trả lời theo từng ý định",
+    "Quy tắc chống trả lời lặp"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/binh-luan-fanpage",
+   "thumb": "/thumbs/binh-luan-fanpage.webp"
+  },
+  {
+   "slug": "lich-van-hanh",
+   "ma": "BCAI-WEB-003",
+   "ten": "Lịch Vận hành Tự động",
+   "niche": "dieu-phoi",
+   "moTa": "Cài đặt hệ thống tự chạy mỗi ngày theo giờ bạn tự chọn: nghiên cứu, soạn gói đăng, tải lên và hẹn giờ đăng Fanpage/TikTok/YouTube, báo cáo cuối ngày. Trợ lý hỏi và gợi ý, bạn quyết định giờ.",
+   "loiIch": [
+    "Bạn tự chọn giờ chạy & giờ đăng",
+    "Tự tải lên & hẹn giờ đăng đa nền tảng",
+    "Chế độ Duyệt trước hoặc Tự đăng"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/lich-van-hanh",
+   "thumb": "/thumbs/lich-van-hanh.webp"
+  },
+  {
+   "slug": "nghien-cuu-noi-dung",
+   "ma": "BCAI-MKT-031",
+   "ten": "Nghiên cứu Nội dung",
+   "niche": "dieu-phoi",
+   "moTa": "Nghiên cứu trend, nỗi đau khách hàng, kênh mẫu và ý tưởng mới cho Fanpage, TikTok, YouTube — có bằng chứng và chống trùng.",
+   "loiIch": [
+    "Brief nghiên cứu có nguồn",
+    "Danh sách nỗi đau khách hàng",
+    "Phân tích kênh mẫu"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/nghien-cuu-noi-dung",
+   "thumb": "/thumbs/nghien-cuu-noi-dung.webp"
+  },
+  {
+   "slug": "radar-cong-dong",
+   "ma": "BCAI-MKT-030",
+   "ten": "Radar Cộng đồng",
+   "niche": "dieu-phoi",
+   "moTa": "Quét cộng đồng và nguồn bạn cấp quyền mỗi ngày, lọc trùng, rút ra vấn đề khách hàng và cơ hội nội dung, sản phẩm.",
+   "loiIch": [
+    "Bản tin tín hiệu hằng ngày",
+    "Danh sách vấn đề khách hàng nổi bật",
+    "Cơ hội nội dung và sản phẩm"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/radar-cong-dong",
+   "thumb": "/thumbs/radar-cong-dong.webp"
+  },
+  {
+   "slug": "tin-nhan-khach-hang",
+   "ma": "BCAI-MKT-036",
+   "ten": "Tin nhắn Khách hàng",
+   "niche": "dieu-phoi",
+   "moTa": "Chăm sóc bình luận và tin nhắn riêng: phản hồi tận tình, nhận diện nhu cầu và dẫn khách tới đúng sản phẩm.",
+   "loiIch": [
+    "Học giọng của bạn, trả lời như người thật",
+    "Mẫu trả lời tin nhắn theo tình huống",
+    "Nhận diện khách muốn mua"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/tin-nhan-khach-hang",
+   "thumb": "/thumbs/tin-nhan-khach-hang.webp"
+  },
+  {
+   "slug": "tong-dieu-hanh",
+   "ma": "BCAI-WEB-002",
+   "ten": "Tổng điều hành",
+   "niche": "dieu-phoi",
+   "moTa": "Trợ lý điều phối cả đội AGENT: chạy vòng vận hành hằng ngày, chọn việc ưu tiên và giao đúng người, đúng đầu ra.",
+   "loiIch": [
+    "Vòng vận hành hằng ngày",
+    "Giới thiệu và gọi tên cả đội trợ lý",
+    "Khóa kiểm duyệt trước khi đăng/bán"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/tong-dieu-hanh",
+   "thumb": "/thumbs/tong-dieu-hanh.webp"
+  },
+  {
+   "slug": "do-luong-chuyen-doi",
+   "ma": "BCAI-MKT-040",
+   "ten": "Đo lường Chuyển đổi",
+   "niche": "dieu-phoi",
+   "moTa": "Đo phễu nội dung → bình luận/tin nhắn → Zalo → Zoom → mua hàng, tìm đúng nút thắt và đề xuất thử nghiệm tiếp theo.",
+   "loiIch": [
+    "Báo cáo phễu theo ngày/tuần",
+    "Chỉ ra nút thắt lớn nhất",
+    "Một thử nghiệm ưu tiên kế tiếp"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/do-luong-chuyen-doi",
+   "thumb": "/thumbs/do-luong-chuyen-doi.webp"
+  },
+  {
+   "slug": "chat-live-tiktok",
+   "ma": "BCAI-MKT-037",
+   "ten": "Chat Livestream TikTok",
+   "niche": "video-da-nen-tang",
+   "moTa": "Hỗ trợ tương tác trong phiên livestream TikTok: chào người mới, trả lời câu hỏi nhanh và giữ nhịp phòng live.",
+   "loiIch": [
+    "Học giọng của bạn, trả lời như người thật",
+    "Kịch bản chào và giữ chân người xem",
+    "Câu trả lời nhanh cho câu hỏi thường gặp"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/chat-live-tiktok",
+   "thumb": "/thumbs/chat-live-tiktok.webp"
+  },
+  {
+   "slug": "edit-video-tu-dong",
+   "ma": "BCAI-MKT-041",
+   "ten": "Edit Video Tự động",
+   "niche": "video-da-nen-tang",
+   "moTa": "Bỏ video thô vào thư mục, AI tự cắt đoạn thừa, thêm phụ đề động, hình minh họa và ảnh bìa — ra video dọc 9:16 sẵn sàng đăng.",
+   "loiIch": [
+    "Quy trình edit video thô thành video ngắn",
+    "Phụ đề động, thẻ đồ họa, ảnh bìa",
+    "Cách góp ý để AI sửa đúng ý"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/edit-video-tu-dong",
+   "thumb": "/thumbs/edit-video-tu-dong.webp"
+  },
+  {
+   "slug": "kich-ban-tiktok",
+   "ma": "BCAI-MKT-046",
+   "ten": "Kịch bản TikTok",
+   "niche": "video-da-nen-tang",
+   "moTa": "Viết kịch bản video ngắn cho TikTok, Reels, Shorts: hook 3 giây, nhịp kể, lời thoại và lời kêu gọi cuối video.",
+   "loiIch": [
+    "Thư viện hook mở đầu",
+    "Khung kịch bản video ngắn",
+    "Lời thoại và chữ trên màn hình"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/kich-ban-tiktok",
+   "thumb": "/thumbs/kich-ban-tiktok.webp"
+  },
+  {
+   "slug": "mo-ta-youtube",
+   "ma": "BCAI-MKT-032",
+   "ten": "Mô tả YouTube",
+   "niche": "video-da-nen-tang",
+   "moTa": "Chuẩn hóa mô tả video YouTube theo một cấu trúc thống nhất, rõ lợi ích, đủ liên kết và lời kêu gọi hành động.",
+   "loiIch": [
+    "Khung mô tả YouTube chuẩn kênh",
+    "Đoạn mở đầu giữ chân người xem",
+    "Khối liên kết và CTA"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/mo-ta-youtube",
+   "thumb": "/thumbs/mo-ta-youtube.webp"
+  },
+  {
+   "slug": "seo-youtube",
+   "ma": "BCAI-MKT-033",
+   "ten": "SEO YouTube",
+   "niche": "video-da-nen-tang",
+   "moTa": "SEO trọn gói cho video YouTube trước khi phát hành: tiêu đề, mô tả, timeline, từ khóa, thẻ và màn hình kết thúc.",
+   "loiIch": [
+    "Tiêu đề và từ khóa chuẩn SEO",
+    "Timeline chương video",
+    "Gợi ý Cards và End Screen"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/seo-youtube",
+   "thumb": "/thumbs/seo-youtube.webp"
+  },
+  {
+   "slug": "phim-kien-thuc-bat-ngo",
+   "ma": "BCAI-CREATIVE-043",
+   "ten": "Video Kiến thức Gây Bất ngờ",
+   "niche": "video-da-nen-tang",
+   "moTa": "Nghiên cứu và viết kịch bản video kiến thức dọc 50–60 giây gây bất ngờ, đúng sự thật, giữ người xem tới giây cuối.",
+   "loiIch": [
+    "Khung kịch bản 50–60 giây",
+    "Cách tìm chi tiết gây bất ngờ",
+    "Kiểm chứng thông tin"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/video-kien-thuc",
+   "thumb": "/thumbs/phim-kien-thuc-bat-ngo.webp"
+  },
+  {
+   "slug": "van-hanh-tiktok",
+   "ma": "BCAI-MKT-042",
+   "ten": "Vận hành TikTok",
+   "niche": "video-da-nen-tang",
+   "moTa": "Vận hành kênh TikTok bằng một đội trợ lý: làm mới trang (ảnh đại diện, tiểu sử, video ghim), lên lịch và đăng video đều mỗi ngày, theo dõi video lên xu hướng.",
+   "loiIch": [
+    "Checklist làm mới trang TikTok",
+    "Lịch đăng và gói đăng mỗi video",
+    "Theo dõi video lên xu hướng"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/van-hanh-tiktok",
+   "thumb": "/thumbs/van-hanh-tiktok.webp"
+  },
+  {
+   "slug": "dang-video-da-nen-tang",
+   "ma": "BCAI-MKT-034",
+   "ten": "Đăng Video Đa nền tảng",
+   "niche": "video-da-nen-tang",
+   "moTa": "Biến một video hoàn chỉnh thành gói đăng riêng cho Facebook (Reels, Fanpage), TikTok và YouTube: ảnh bìa, caption, mô tả, SEO và CTA.",
+   "loiIch": [
+    "Caption Reels & bài đăng Fanpage",
+    "Caption TikTok, mô tả & từ khóa YouTube",
+    "Tự tải lên & hẹn giờ đăng (chế độ tự đăng)"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/dang-video-da-nen-tang",
+   "thumb": "/thumbs/dang-video-da-nen-tang.webp"
+  },
+  {
+   "slug": "caption-cham-noi-dau",
+   "ma": "BCAI-MKT-043",
+   "ten": "Caption Chạm Nỗi Đau",
+   "niche": "xay-kenh",
+   "moTa": "Viết caption bán hàng tiếng Việt từ ba thông tin: sản phẩm, khách hàng, nỗi đau — đúng tâm lý, có lời kêu gọi rõ ràng.",
+   "loiIch": [
+    "Bản đồ nỗi đau khách hàng",
+    "Khung caption nhiều kiểu",
+    "Kiểm định chất lượng trước khi đăng"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/caption-cham-noi-dau",
+   "thumb": "/thumbs/caption-cham-noi-dau.webp"
+  },
+  {
+   "slug": "chuyen-doi-traffic",
+   "ma": "BCAI-MKT-038",
+   "ten": "Chuyển đổi Traffic",
+   "niche": "xay-kenh",
+   "moTa": "Chuyển traffic từ Reels, TikTok, YouTube, bình luận và tin nhắn thành người vào Zalo, dự Zoom và mua hàng.",
+   "loiIch": [
+    "Thiết kế CTA cho từng kênh",
+    "Phân loại ý định khách hàng",
+    "Sơ đồ phễu chuyển đổi"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/chuyen-doi-traffic",
+   "thumb": "/thumbs/chuyen-doi-traffic.webp"
+  },
+  {
+   "slug": "landing-page",
+   "ma": "BCAI-MKT-039",
+   "ten": "Landing Page Bán hàng",
+   "niche": "xay-kenh",
+   "moTa": "Dựng trang đăng ký workshop/Zoom: tiêu đề, lợi ích, lịch trình, câu hỏi thường gặp và nút đăng ký rõ ràng.",
+   "loiIch": [
+    "Khung landing page đăng ký",
+    "Tiêu đề và lợi ích thuyết phục",
+    "Khối FAQ và lịch trình"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/landing-page",
+   "thumb": "/thumbs/landing-page.webp"
+  },
+  {
+   "slug": "thiet-ke-uu-dai",
+   "ma": "BCAI-MKT-044",
+   "ten": "Thiết kế Ưu đãi",
+   "niche": "xay-kenh",
+   "moTa": "Thiết kế gói ưu đãi khiến khách khó từ chối: giá trị, quà tặng, cam kết và giới hạn — dùng khi chào bán qua tin nhắn hoặc trang bán.",
+   "loiIch": [
+    "Khung thiết kế ưu đãi",
+    "Gợi ý quà tặng và cam kết",
+    "Câu chữ chào bán"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/thiet-ke-uu-dai",
+   "thumb": "/thumbs/thiet-ke-uu-dai.webp"
+  },
+  {
+   "slug": "tao-skill",
+   "ma": "BCAI-WEB-004",
+   "ten": "Tạo Skill",
+   "niche": "xay-kenh",
+   "moTa": "Biến quy trình bạn đang làm tay thành một Skill AI mới: viết hướng dẫn, chạy thử và tinh chỉnh tới khi dùng ổn định.",
+   "loiIch": [
+    "Khung SKILL.md chuẩn",
+    "Quy trình phỏng vấn để rút kinh nghiệm thành Skill",
+    "Bộ kiểm thử và tinh chỉnh"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/tao-skill",
+   "thumb": "/thumbs/tao-skill.webp"
+  },
+  {
+   "slug": "an-pham-thuong-hieu",
+   "ma": "BCAI-MKT-045",
+   "ten": "Ấn phẩm Thương hiệu",
+   "niche": "xay-kenh",
+   "moTa": "Tạo ấn phẩm thương mại nhất quán cho thương hiệu cá nhân: ảnh bìa, poster, ảnh bài đăng cùng một phong cách.",
+   "loiIch": [
+    "Bộ quy chuẩn hình ảnh thương hiệu",
+    "Mẫu poster và ảnh bìa",
+    "Prompt tạo ảnh đồng bộ"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/an-pham-thuong-hieu",
+   "thumb": "/thumbs/an-pham-thuong-hieu.webp"
+  },
+  {
+   "slug": "chuan-hoa-chuyen-doi-phong-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-016",
+   "ten": "Chuẩn hóa chuyển đổi phòng dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Giảm thời gian đổi lượt mà vẫn giữ chuẩn vệ sinh.",
+   "loiIch": [
+    "SOP chuyển phòng",
+    "Điểm kiểm soát sạch-bẩn",
+    "Biên bản thiếu điều kiện"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/chuan-hoa-chuyen-doi-phong-dich-vu-spa.webp"
+  },
+  {
+   "slug": "chuan-hoa-ghi-chu-ho-so-khach-spa",
+   "ma": "BCAI-BEAUTY-018",
+   "ten": "Chuẩn hóa ghi chú hồ sơ khách spa",
+   "niche": "spa",
+   "moTa": "Tạo quy tắc ghi chú ngắn, khách quan và bảo mật.",
+   "loiIch": [
+    "Cấu trúc ghi chú",
+    "Từ ngữ nên tránh",
+    "Quy tắc truy cập và lưu trữ"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/chuan-hoa-ghi-chu-ho-so-khach-spa.webp"
+  },
+  {
+   "slug": "chuan-hoa-quy-trinh-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-019",
+   "ten": "Chuẩn hóa quy trình dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Biến cách làm hiện tại thành quy trình thao tác nhất quán.",
+   "loiIch": [
+    "SOP từng bước",
+    "Điểm kiểm soát chất lượng",
+    "Mỗi dòng phải phản ánh một phần cụ thể của thứ tự thao tác, điểm bàn giao và tiêu chí hoàn thành; không điền bằng…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/chuan-hoa-quy-trinh-dich-vu-spa.webp"
+  },
+  {
+   "slug": "chuan-hoa-dat-lich-qua-dien-thoai-spa",
+   "ma": "BCAI-BEAUTY-017",
+   "ten": "Chuẩn hóa đặt lịch qua điện thoại spa",
+   "niche": "spa",
+   "moTa": "Tạo SOP cuộc gọi đặt lịch ngắn và đủ thông tin.",
+   "loiIch": [
+    "Kịch bản cuộc gọi",
+    "Checklist xác nhận",
+    "Quy tắc xử lý ngoại lệ"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/chuan-hoa-dat-lich-qua-dien-thoai-spa.webp"
+  },
+  {
+   "slug": "chay-chien-dich-kich-hoat-lai-khach-spa",
+   "ma": "BCAI-BEAUTY-015",
+   "ten": "Chạy chiến dịch kích hoạt lại khách spa",
+   "niche": "spa",
+   "moTa": "Phân nhóm và xây thông điệp gọi khách quay lại.",
+   "loiIch": [
+    "Nhóm khách tái kích hoạt",
+    "Chuỗi thông điệp",
+    "Quy tắc dừng và đo lường"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/chay-chien-dich-kich-hoat-lai-khach-spa.webp"
+  },
+  {
+   "slug": "cham-diem-lead-spa",
+   "ma": "BCAI-BEAUTY-013",
+   "ten": "Chấm điểm lead spa",
+   "niche": "spa",
+   "moTa": "Xếp ưu tiên lead dựa trên tín hiệu có thể quan sát.",
+   "loiIch": [
+    "Mô hình chấm điểm",
+    "Nhóm ưu tiên",
+    "SLA phản hồi theo nhóm"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/cham-diem-lead-spa.webp"
+  },
+  {
+   "slug": "chan-doan-mo-hinh-kinh-doanh-spa",
+   "ma": "BCAI-BEAUTY-014",
+   "ten": "Chẩn đoán mô hình kinh doanh spa",
+   "niche": "spa",
+   "moTa": "Rà soát toàn bộ cách spa tạo và giữ doanh thu.",
+   "loiIch": [
+    "Bản đồ mô hình hiện tại",
+    "Danh sách điểm nghẽn theo mức ảnh hưởng",
+    "Kế hoạch ưu tiên 30 ngày"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/chan-doan-mo-hinh-kinh-doanh-spa.webp"
+  },
+  {
+   "slug": "du-bao-mua-vu-nhu-cau-spa",
+   "ma": "BCAI-BEAUTY-026",
+   "ten": "Dự báo mùa vụ nhu cầu spa",
+   "niche": "spa",
+   "moTa": "Nhận diện nhịp nhu cầu để bố trí dịch vụ và nhân sự.",
+   "loiIch": [
+    "Bảng mùa vụ",
+    "Dự báo theo kịch bản",
+    "Khuyến nghị công suất và truyền thông"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/du-bao-mua-vu-nhu-cau-spa.webp"
+  },
+  {
+   "slug": "giam-khach-vang-mat-lich-hen-spa",
+   "ma": "BCAI-BEAUTY-027",
+   "ten": "Giảm khách vắng mặt lịch hẹn spa",
+   "niche": "spa",
+   "moTa": "Thiết kế nhắc lịch và chính sách giảm no-show.",
+   "loiIch": [
+    "Phân tích nguyên nhân",
+    "Luồng xác nhận và nhắc lịch",
+    "Kế hoạch thử nghiệm chính sách"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/giam-khach-vang-mat-lich-hen-spa.webp"
+  },
+  {
+   "slug": "goi-y-combo-ban-cheo-spa",
+   "ma": "BCAI-BEAUTY-028",
+   "ten": "Gợi ý combo bán chéo spa",
+   "niche": "spa",
+   "moTa": "Tìm dịch vụ bổ trợ phù hợp với nhu cầu đã xác nhận.",
+   "loiIch": [
+    "Ma trận dịch vụ bổ trợ",
+    "Lý do đề xuất",
+    "Câu tư vấn không gây áp lực"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/goi-y-combo-ban-cheo-spa.webp"
+  },
+  {
+   "slug": "goi-y-nang-cap-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-029",
+   "ten": "Gợi ý nâng cấp dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Đề xuất nâng cấp dựa trên nhu cầu thay vì áp lực bán.",
+   "loiIch": [
+    "Bảng so sánh lựa chọn",
+    "Lý do phù hợp",
+    "Kịch bản tư vấn có quyền từ chối"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/goi-y-nang-cap-dich-vu-spa.webp"
+  },
+  {
+   "slug": "kiem-tra-tuan-thu-kinh-doanh-spa",
+   "ma": "BCAI-BEAUTY-031",
+   "ten": "Kiểm tra tuân thủ kinh doanh spa",
+   "niche": "spa",
+   "moTa": "Lập danh sách yêu cầu pháp lý và hồ sơ cần xác minh.",
+   "loiIch": [
+    "Checklist tuân thủ có nguồn",
+    "Kế hoạch khắc phục và người chịu trách nhiệm",
+    "Mỗi dòng phải phản ánh một phần cụ thể của giấy phép, quảng cáo, lao động, thuế, dữ liệu và chuyên môn; không điền…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/kiem-tra-tuan-thu-kinh-doanh-spa.webp"
+  },
+  {
+   "slug": "kiem-tra-ve-sinh-an-toan-spa",
+   "ma": "BCAI-BEAUTY-032",
+   "ten": "Kiểm tra vệ sinh an toàn spa",
+   "niche": "spa",
+   "moTa": "Tạo checklist vệ sinh và kiểm soát nhiễm khuẩn theo khu vực.",
+   "loiIch": [
+    "Mức độ sai lệch",
+    "Kế hoạch khắc phục và tái kiểm",
+    "Tiêu chuẩn phải được xác minh từ nguồn chính thức và người có chuyên môn. Nếu thiếu bằng chứng, ghi “Cần xác minh”…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/kiem-tra-ve-sinh-an-toan-spa.webp"
+  },
+  {
+   "slug": "ke-cau-chuyen-anh-truoc-sau-spa",
+   "ma": "BCAI-BEAUTY-030",
+   "ten": "Kể câu chuyện ảnh trước sau spa",
+   "niche": "spa",
+   "moTa": "Viết nội dung minh bạch quanh ảnh trước và sau.",
+   "loiIch": [
+    "Bài kể chuyện case",
+    "Chú thích minh bạch",
+    "Checklist duyệt hình ảnh"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-cau-chuyen-anh-truoc-sau-spa.webp"
+  },
+  {
+   "slug": "lap-bao-cao-quan-tri-thang-spa",
+   "ma": "BCAI-BEAUTY-036",
+   "ten": "Lập báo cáo quản trị tháng spa",
+   "niche": "spa",
+   "moTa": "Tổng hợp tài chính, khách hàng và vận hành thành quyết định.",
+   "loiIch": [
+    "Báo cáo quản trị",
+    "Chênh lệch so mục tiêu",
+    "Ba quyết định và chủ sở hữu"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/lap-bao-cao-quan-tri-thang-spa.webp"
+  },
+  {
+   "slug": "lap-ban-do-noi-lo-theo-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-034",
+   "ten": "Lập bản đồ nỗi lo theo dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Xác định câu hỏi và rào cản trước khi khách đặt lịch.",
+   "loiIch": [
+    "Bản đồ nỗi lo theo giai đoạn",
+    "Bộ câu trả lời cần chuẩn bị",
+    "Khoảng trống bằng chứng"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/lap-ban-do-noi-lo-theo-dich-vu-spa.webp"
+  },
+  {
+   "slug": "lap-ban-do-tu-dong-hoa-quy-trinh-spa",
+   "ma": "BCAI-BEAUTY-035",
+   "ten": "Lập bản đồ tự động hóa quy trình spa",
+   "niche": "spa",
+   "moTa": "Chọn việc nên tự động hóa mà không làm mất kiểm soát.",
+   "loiIch": [
+    "Bản đồ quy trình",
+    "Danh sách cơ hội tự động hóa",
+    "Thiết kế kiểm soát và phương án lỗi"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/lap-ban-do-tu-dong-hoa-quy-trinh-spa.webp"
+  },
+  {
+   "slug": "lap-ban-do-doi-thu-spa",
+   "ma": "BCAI-BEAUTY-033",
+   "ten": "Lập bản đồ đối thủ spa",
+   "niche": "spa",
+   "moTa": "So sánh đối thủ theo tiêu chí khách hàng thực sự quan tâm.",
+   "loiIch": [
+    "Ma trận đối thủ",
+    "Khoảng trống thị trường",
+    "Ba hướng tạo lợi thế"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/lap-ban-do-doi-thu-spa.webp"
+  },
+  {
+   "slug": "lap-chien-dich-sinh-nhat-khach-spa",
+   "ma": "BCAI-BEAUTY-037",
+   "ten": "Lập chiến dịch sinh nhật khách spa",
+   "niche": "spa",
+   "moTa": "Tạo lời chúc và ưu đãi có kiểm soát theo tháng sinh.",
+   "loiIch": [
+    "Phân nhóm chiến dịch",
+    "Quy tắc đổi quà và đo lường",
+    "Mỗi dòng phải phản ánh một phần cụ thể của cá nhân hóa vừa đủ, thời điểm và khả năng phục vụ; không điền bằng nhận…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/lap-chien-dich-sinh-nhat-khach-spa.webp"
+  },
+  {
+   "slug": "lap-chuoi-follow-up-lead-spa",
+   "ma": "BCAI-BEAUTY-038",
+   "ten": "Lập chuỗi follow-up lead spa",
+   "niche": "spa",
+   "moTa": "Theo dõi lead đúng thời điểm mà không làm phiền.",
+   "loiIch": [
+    "Điều kiện gửi từng tin",
+    "Quy tắc dừng và phân loại kết quả",
+    "Mỗi dòng phải phản ánh một phần cụ thể của giá trị mỗi lần chạm, khoảng cách và tín hiệu phản hồi; không điền bằng…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/lap-chuoi-follow-up-lead-spa.webp"
+  },
+  {
+   "slug": "lap-du-bao-dong-tien-13-tuan-spa",
+   "ma": "BCAI-BEAUTY-039",
+   "ten": "Lập dự báo dòng tiền 13 tuần spa",
+   "niche": "spa",
+   "moTa": "Theo dõi tiền vào ra ngắn hạn theo tuần.",
+   "loiIch": [
+    "Bảng dòng tiền 13 tuần",
+    "Ba kịch bản",
+    "Danh sách tuần thiếu hụt và hành động"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/lap-du-bao-dong-tien-13-tuan-spa.webp"
+  },
+  {
+   "slug": "lap-ke-hoach-90-ngay-cho-spa",
+   "ma": "BCAI-BEAUTY-040",
+   "ten": "Lập kế hoạch 90 ngày cho spa",
+   "niche": "spa",
+   "moTa": "Biến mục tiêu lớn thành nhịp triển khai theo tuần.",
+   "loiIch": [
+    "Lộ trình 13 tuần",
+    "Chủ sở hữu và hạn hoàn thành",
+    "Cổng đánh giá mỗi tháng"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/lap-ke-hoach-90-ngay-cho-spa.webp"
+  },
+  {
+   "slug": "lap-ke-hoach-hop-tac-kol-spa",
+   "ma": "BCAI-BEAUTY-041",
+   "ten": "Lập kế hoạch hợp tác KOL spa",
+   "niche": "spa",
+   "moTa": "Chọn và quản lý hợp tác người ảnh hưởng minh bạch.",
+   "loiIch": [
+    "Bảng chấm điểm KOL",
+    "Brief hợp tác",
+    "Điều khoản nội dung và đo lường"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/lap-ke-hoach-hop-tac-kol-spa.webp"
+  },
+  {
+   "slug": "lap-ke-hoach-livestream-spa",
+   "ma": "BCAI-BEAUTY-042",
+   "ten": "Lập kế hoạch livestream spa",
+   "niche": "spa",
+   "moTa": "Chuẩn bị nội dung, tương tác và kiểm soát rủi ro cho live.",
+   "loiIch": [
+    "Kịch bản tương tác",
+    "Danh sách câu hỏi cần chuyển chuyên gia",
+    "Mỗi dòng phải phản ánh một phần cụ thể của nhịp chương trình, bằng chứng và xử lý câu hỏi nhạy cảm; không điền bằng…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/lap-ke-hoach-livestream-spa.webp"
+  },
+  {
+   "slug": "lap-ke-hoach-quang-cao-facebook-spa",
+   "ma": "BCAI-BEAUTY-043",
+   "ten": "Lập kế hoạch quảng cáo Facebook spa",
+   "niche": "spa",
+   "moTa": "Thiết kế chiến dịch từ mục tiêu đến đo lường.",
+   "loiIch": [
+    "Cấu trúc chiến dịch",
+    "Ma trận mẫu quảng cáo",
+    "Kế hoạch đo lường và ngưỡng dừng"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/lap-ke-hoach-quang-cao-facebook-spa.webp"
+  },
+  {
+   "slug": "lap-lich-ca-nhan-vien-spa",
+   "ma": "BCAI-BEAUTY-044",
+   "ten": "Lập lịch ca nhân viên spa",
+   "niche": "spa",
+   "moTa": "Phân ca theo nhu cầu, kỹ năng và quy định làm việc.",
+   "loiIch": [
+    "Lịch ca",
+    "Bảng phủ kỹ năng",
+    "Danh sách xung đột và phương án dự phòng"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/lap-lich-ca-nhan-vien-spa.webp"
+  },
+  {
+   "slug": "lap-lich-chien-dich-marketing-spa",
+   "ma": "BCAI-BEAUTY-045",
+   "ten": "Lập lịch chiến dịch marketing spa",
+   "niche": "spa",
+   "moTa": "Sắp xếp chiến dịch theo mùa và năng lực vận hành.",
+   "loiIch": [
+    "Lịch chiến dịch",
+    "Mục tiêu và chủ sở hữu",
+    "Cổng duyệt tài nguyên và đo lường"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/lap-lich-chien-dich-marketing-spa.webp"
+  },
+  {
+   "slug": "lap-lich-noi-dung-30-ngay-cho-spa",
+   "ma": "BCAI-BEAUTY-046",
+   "ten": "Lập lịch nội dung 30 ngày cho spa",
+   "niche": "spa",
+   "moTa": "Tạo lịch nội dung cân bằng giáo dục, tin cậy và chuyển đổi.",
+   "loiIch": [
+    "Lịch 30 ngày",
+    "Mục tiêu và CTA từng bài",
+    "Danh sách tài nguyên cần chuẩn bị"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/lap-lich-noi-dung-30-ngay-cho-spa.webp"
+  },
+  {
+   "slug": "lap-muc-tieu-doanh-thu-spa",
+   "ma": "BCAI-BEAUTY-047",
+   "ten": "Lập mục tiêu doanh thu spa",
+   "niche": "spa",
+   "moTa": "Phân rã mục tiêu doanh thu thành chỉ số có thể vận hành.",
+   "loiIch": [
+    "Cây mục tiêu doanh thu",
+    "Chỉ tiêu theo dịch vụ và tuần",
+    "Bảng giả định cần theo dõi"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/lap-muc-tieu-doanh-thu-spa.webp"
+  },
+  {
+   "slug": "lap-quy-trinh-thu-phan-ung-spa",
+   "ma": "BCAI-BEAUTY-048",
+   "ten": "Lập quy trình thử phản ứng spa",
+   "niche": "spa",
+   "moTa": "Chuẩn hóa thử phản ứng trước khi dùng sản phẩm phù hợp.",
+   "loiIch": [
+    "Quy trình thử phản ứng",
+    "Mẫu theo dõi",
+    "Tiêu chí dừng và chuyển tuyến"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/lap-quy-trinh-thu-phan-ung-spa.webp"
+  },
+  {
+   "slug": "nghien-cuu-xu-huong-nganh-spa",
+   "ma": "BCAI-BEAUTY-049",
+   "ten": "Nghiên cứu xu hướng ngành spa",
+   "niche": "spa",
+   "moTa": "Tổng hợp xu hướng mới từ nguồn đáng tin cậy.",
+   "loiIch": [
+    "Bản tin xu hướng có nguồn",
+    "Ma trận tác động và độ chắc chắn",
+    "Khuyến nghị thử nghiệm an toàn"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/nghien-cuu-xu-huong-nganh-spa.webp"
+  },
+  {
+   "slug": "phan-bo-ngan-sach-marketing-spa",
+   "ma": "BCAI-BEAUTY-050",
+   "ten": "Phân bổ ngân sách marketing spa",
+   "niche": "spa",
+   "moTa": "Chia ngân sách theo mục tiêu, kênh và khả năng đo.",
+   "loiIch": [
+    "Bảng phân bổ ngân sách",
+    "Giả định hiệu quả",
+    "Quy tắc tái phân bổ"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phan-bo-ngan-sach-marketing-spa.webp"
+  },
+  {
+   "slug": "phan-khuc-khach-hang-spa",
+   "ma": "BCAI-BEAUTY-051",
+   "ten": "Phân khúc khách hàng spa",
+   "niche": "spa",
+   "moTa": "Chia khách hàng thành các nhóm có hành vi rõ ràng.",
+   "loiIch": [
+    "Bảng phân khúc ưu tiên",
+    "Nhu cầu và rào cản từng nhóm",
+    "Gợi ý phục vụ cho từng phân khúc"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phan-khuc-khach-hang-spa.webp"
+  },
+  {
+   "slug": "phan-nhom-khach-vip-spa",
+   "ma": "BCAI-BEAUTY-052",
+   "ten": "Phân nhóm khách VIP spa",
+   "niche": "spa",
+   "moTa": "Xác định nhóm khách giá trị cao để phục vụ phù hợp.",
+   "loiIch": [
+    "Tiêu chí phân hạng",
+    "Danh sách quyền lợi phù hợp",
+    "Quy tắc lên hạng và xuống hạng"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phan-nhom-khach-vip-spa.webp"
+  },
+  {
+   "slug": "phan-tich-swot-spa",
+   "ma": "BCAI-BEAUTY-056",
+   "ten": "Phân tích SWOT cho spa",
+   "niche": "spa",
+   "moTa": "Chuyển dữ liệu nội bộ và thị trường thành quyết định.",
+   "loiIch": [
+    "Ma trận SWOT có dẫn chứng",
+    "Bốn nhóm chiến lược kết hợp",
+    "Danh sách rủi ro cần theo dõi"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phan-tich-swot-spa.webp"
+  },
+  {
+   "slug": "phan-tich-kich-ban-mo-rong-spa",
+   "ma": "BCAI-BEAUTY-054",
+   "ten": "Phân tích kịch bản mở rộng spa",
+   "niche": "spa",
+   "moTa": "So sánh mở chi nhánh, tăng công suất hoặc hợp tác.",
+   "loiIch": [
+    "Ba kịch bản mở rộng",
+    "Bảng dòng tiền và rủi ro",
+    "Tiêu chí ra quyết định theo giai đoạn"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phan-tich-kich-ban-mo-rong-spa.webp"
+  },
+  {
+   "slug": "phan-tich-ly-do-khach-roi-bo-spa",
+   "ma": "BCAI-BEAUTY-055",
+   "ten": "Phân tích lý do khách rời bỏ spa",
+   "niche": "spa",
+   "moTa": "Tìm nguyên nhân khiến khách không quay lại.",
+   "loiIch": [
+    "Cây nguyên nhân rời bỏ",
+    "Nhóm khách có nguy cơ",
+    "Kế hoạch khắc phục theo ưu tiên"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phan-tich-ly-do-khach-roi-bo-spa.webp"
+  },
+  {
+   "slug": "phan-tich-danh-gia-khach-hang-spa",
+   "ma": "BCAI-BEAUTY-053",
+   "ten": "Phân tích đánh giá khách hàng spa",
+   "niche": "spa",
+   "moTa": "Biến review rời rạc thành chủ đề ưu tiên cải thiện.",
+   "loiIch": [
+    "Bảng chủ đề cảm xúc",
+    "Top vấn đề và điểm được khen",
+    "Danh sách hành động ưu tiên"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phan-tich-danh-gia-khach-hang-spa.webp"
+  },
+  {
+   "slug": "quan-ly-dong-thuan-du-lieu-khach-spa",
+   "ma": "BCAI-BEAUTY-058",
+   "ten": "Quản lý đồng thuận dữ liệu khách spa",
+   "niche": "spa",
+   "moTa": "Thiết kế cách xin, lưu và rút đồng thuận dữ liệu.",
+   "loiIch": [
+    "Ma trận đồng thuận",
+    "Nội dung thông báo quyền riêng tư",
+    "Quy trình rút và xóa dữ liệu"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/quan-ly-dong-thuan-du-lieu-khach-spa.webp"
+  },
+  {
+   "slug": "quan-ly-anh-truoc-sau-cua-khach-spa",
+   "ma": "BCAI-BEAUTY-057",
+   "ten": "Quản lý ảnh trước sau của khách spa",
+   "niche": "spa",
+   "moTa": "Chuẩn hóa việc chụp, lưu và sử dụng ảnh có đồng thuận.",
+   "loiIch": [
+    "Quy trình xin phép",
+    "Quy ước chụp và lưu ảnh",
+    "Checklist duyệt trước khi đăng"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/quan-ly-anh-truoc-sau-cua-khach-spa.webp"
+  },
+  {
+   "slug": "ra-soat-menu-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-059",
+   "ten": "Rà soát menu dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Phát hiện tên gọi, cấu trúc và lựa chọn gây khó hiểu.",
+   "loiIch": [
+    "Bảng lỗi của menu",
+    "Cấu trúc menu đề xuất",
+    "Danh sách dữ liệu còn thiếu"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ra-soat-menu-dich-vu-spa.webp"
+  },
+  {
+   "slug": "soan-bo-cau-hoi-phong-van-khach-spa",
+   "ma": "BCAI-BEAUTY-061",
+   "ten": "Soạn bộ câu hỏi phỏng vấn khách spa",
+   "niche": "spa",
+   "moTa": "Tạo kịch bản phỏng vấn không dẫn dắt người trả lời.",
+   "loiIch": [
+    "Kịch bản phỏng vấn",
+    "Câu hỏi đào sâu",
+    "Mẫu ghi chép và tổng hợp"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/soan-bo-cau-hoi-phong-van-khach-spa.webp"
+  },
+  {
+   "slug": "soan-phieu-dong-thuan-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-063",
+   "ten": "Soạn phiếu đồng thuận dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Trình bày lợi ích, giới hạn và rủi ro bằng ngôn ngữ dễ hiểu.",
+   "loiIch": [
+    "Phiếu đồng thuận",
+    "Bản giải thích ngắn",
+    "Mỗi dòng phải phản ánh một phần cụ thể của tính tự nguyện, khả năng rút lại và minh bạch rủi ro; không điền bằng…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/soan-phieu-dong-thuan-dich-vu-spa.webp"
+  },
+  {
+   "slug": "soan-phan-hoi-binh-luan-spa",
+   "ma": "BCAI-BEAUTY-062",
+   "ten": "Soạn phản hồi bình luận spa",
+   "niche": "spa",
+   "moTa": "Trả lời bình luận theo ngữ cảnh và mức rủi ro.",
+   "loiIch": [
+    "Phản hồi đề xuất",
+    "Mức ưu tiên",
+    "Chỉ dẫn chuyển inbox hoặc quản lý"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/soan-phan-hoi-binh-luan-spa.webp"
+  },
+  {
+   "slug": "tao-anh-theo-guong-mat-thuong-hieu",
+   "ma": "BCAI-BEAUTY-007",
+   "ten": "Studio chân dung & thương hiệu cá nhân",
+   "niche": "spa",
+   "moTa": "Đăng ký ảnh chân dung của người dùng, KOL hoặc nhân vật thương hiệu làm nhận diện mặc định, sau đó tạo hoặc chỉnh sửa ảnh mới theo ảnh tham chiếu trong khi giữ gương mặt nhất quán.",
+   "loiIch": [
+    "Chưa có nhận diện đã đăng ký: chạy Đăng ký nhận diện",
+    "Yêu cầu một đến ba ảnh rõ mặt của cùng một người. Ưu tiên ảnh chính diện hoặc góc ba phần tư, đủ sáng, không che…",
+    "Không suy đoán danh tính thật từ ảnh. Dùng tên gọi do khách hàng cung cấp"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tao-anh-theo-guong-mat-thuong-hieu.webp"
+  },
+  {
+   "slug": "sang-loc-chong-chi-dinh-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-060",
+   "ten": "Sàng lọc chống chỉ định dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Tạo quy trình nhận diện tín hiệu cần dừng hoặc chuyển tuyến.",
+   "loiIch": [
+    "Cây quyết định sàng lọc",
+    "Mức cảnh báo",
+    "Mỗi dòng phải phản ánh một phần cụ thể của dấu hiệu loại trừ, điều kiện trì hoãn và thẩm quyền quyết định; không…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/sang-loc-chong-chi-dinh-dich-vu-spa.webp"
+  },
+  {
+   "slug": "theo-doi-sau-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-073",
+   "ten": "Theo dõi sau dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Chủ động hỏi thăm và ghi nhận phản hồi sau buổi phục vụ.",
+   "loiIch": [
+    "Chuỗi câu hỏi theo dõi",
+    "Ngưỡng chuyển cấp",
+    "Mỗi dòng phải phản ánh một phần cụ thể của mức hài lòng, phản ứng, tuân thủ hướng dẫn và nhu cầu hỗ trợ; không điền…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/theo-doi-sau-dich-vu-spa.webp"
+  },
+  {
+   "slug": "thiet-ke-chinh-sach-hoa-hong-spa",
+   "ma": "BCAI-BEAUTY-074",
+   "ten": "Thiết kế chính sách hoa hồng spa",
+   "niche": "spa",
+   "moTa": "Cân bằng động lực bán hàng với chất lượng và lợi nhuận.",
+   "loiIch": [
+    "Cấu trúc hoa hồng",
+    "Ví dụ tính theo kịch bản",
+    "Bộ kiểm soát hành vi ngoài ý muốn"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/thiet-ke-chinh-sach-hoa-hong-spa.webp"
+  },
+  {
+   "slug": "thiet-ke-chuong-trinh-gioi-thieu-spa",
+   "ma": "BCAI-BEAUTY-075",
+   "ten": "Thiết kế chương trình giới thiệu spa",
+   "niche": "spa",
+   "moTa": "Tạo cơ chế giới thiệu dễ hiểu và đo được.",
+   "loiIch": [
+    "Cơ chế referral",
+    "Điều khoản và chống gian lận",
+    "Bảng chỉ số theo dõi"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/thiet-ke-chuong-trinh-gioi-thieu-spa.webp"
+  },
+  {
+   "slug": "thiet-ke-goi-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-077",
+   "ten": "Thiết kế gói dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Kết hợp dịch vụ thành gói có mục tiêu và logic sử dụng.",
+   "loiIch": [
+    "Ba phương án gói",
+    "Cấu trúc quyền lợi",
+    "Tiêu chí đo hiệu quả"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/thiet-ke-goi-dich-vu-spa.webp"
+  },
+  {
+   "slug": "thiet-ke-goi-thanh-vien-spa",
+   "ma": "BCAI-BEAUTY-078",
+   "ten": "Thiết kế gói thành viên spa",
+   "niche": "spa",
+   "moTa": "Tạo chương trình thành viên cân bằng giá trị và lợi nhuận.",
+   "loiIch": [
+    "Các hạng thành viên",
+    "Mô hình rủi ro và hòa vốn",
+    "Mỗi dòng phải phản ánh một phần cụ thể của mức sử dụng, chi phí quyền lợi và khả năng duy trì; không điền bằng nhận…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/thiet-ke-goi-thanh-vien-spa.webp"
+  },
+  {
+   "slug": "thiet-ke-he-sinh-thai-doi-tac-spa",
+   "ma": "BCAI-BEAUTY-079",
+   "ten": "Thiết kế hệ sinh thái đối tác spa",
+   "niche": "spa",
+   "moTa": "Tìm và ưu tiên đối tác giúp mở rộng giá trị khách hàng.",
+   "loiIch": [
+    "Bản đồ đối tác",
+    "Đề xuất giá trị hai bên",
+    "Kịch bản thử nghiệm hợp tác"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/thiet-ke-he-sinh-thai-doi-tac-spa.webp"
+  },
+  {
+   "slug": "thiet-ke-khao-sat-hai-long-spa",
+   "ma": "BCAI-BEAUTY-081",
+   "ten": "Thiết kế khảo sát hài lòng spa",
+   "niche": "spa",
+   "moTa": "Đo trải nghiệm ngắn gọn mà vẫn dẫn tới hành động.",
+   "loiIch": [
+    "Bộ câu hỏi khảo sát",
+    "Thang điểm và câu hỏi mở",
+    "Quy tắc cảnh báo và báo cáo"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/thiet-ke-khao-sat-hai-long-spa.webp"
+  },
+  {
+   "slug": "thiet-ke-khao-sat-do-nhay-gia-spa",
+   "ma": "BCAI-BEAUTY-080",
+   "ten": "Thiết kế khảo sát độ nhạy giá spa",
+   "niche": "spa",
+   "moTa": "Tạo khảo sát giúp hiểu ngưỡng giá và giá trị cảm nhận.",
+   "loiIch": [
+    "Bộ câu hỏi khảo sát",
+    "Kế hoạch chọn mẫu",
+    "Khung đọc kết quả"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/thiet-ke-khao-sat-do-nhay-gia-spa.webp"
+  },
+  {
+   "slug": "thiet-ke-phieu-tiep-nhan-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-082",
+   "ten": "Thiết kế phiếu tiếp nhận dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Thu đủ thông tin cần thiết trước khi phục vụ.",
+   "loiIch": [
+    "Hướng dẫn điền",
+    "Quy tắc chuyển tiếp khi có cảnh báo",
+    "Mỗi dòng phải phản ánh một phần cụ thể của mức cần thiết, dễ hiểu và bảo vệ dữ liệu; không điền bằng nhận xét chung"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/thiet-ke-phieu-tiep-nhan-dich-vu-spa.webp"
+  },
+  {
+   "slug": "thiet-ke-trai-nghiem-truoc-trong-sau-spa",
+   "ma": "BCAI-BEAUTY-083",
+   "ten": "Thiết kế trải nghiệm trước-trong-sau spa",
+   "niche": "spa",
+   "moTa": "Đồng bộ các điểm chạm quanh một lần sử dụng dịch vụ.",
+   "loiIch": [
+    "Bản thiết kế ba giai đoạn",
+    "Tiêu chuẩn từng điểm chạm",
+    "Danh sách thử nghiệm cải thiện"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/thiet-ke-trai-nghiem-truoc-trong-sau-spa.webp"
+  },
+  {
+   "slug": "thiet-ke-diem-thuong-khach-hang-spa",
+   "ma": "BCAI-BEAUTY-076",
+   "ten": "Thiết kế điểm thưởng khách hàng spa",
+   "niche": "spa",
+   "moTa": "Tạo chương trình điểm dễ hiểu và kiểm soát chi phí.",
+   "loiIch": [
+    "Cơ chế tích và đổi điểm",
+    "Điều khoản hết hạn",
+    "Bảng dự báo chi phí điểm"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/thiet-ke-diem-thuong-khach-hang-spa.webp"
+  },
+  {
+   "slug": "tinh-kinh-te-don-vi-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-086",
+   "ten": "Tính kinh tế đơn vị dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Tính lãi góp thật cho từng dịch vụ.",
+   "loiIch": [
+    "Bảng unit economics",
+    "Điểm hòa vốn theo dịch vụ",
+    "Danh sách dữ liệu cần cải thiện"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tinh-kinh-te-don-vi-dich-vu-spa.webp"
+  },
+  {
+   "slug": "tinh-diem-hoa-von-spa",
+   "ma": "BCAI-BEAUTY-085",
+   "ten": "Tính điểm hòa vốn spa",
+   "niche": "spa",
+   "moTa": "Xác định mức doanh thu hoặc lượt dịch vụ để hòa vốn.",
+   "loiIch": [
+    "Mô hình hòa vốn",
+    "Phân tích độ nhạy",
+    "Ngưỡng cảnh báo"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tinh-diem-hoa-von-spa.webp"
+  },
+  {
+   "slug": "tinh-diem-dat-hang-lai-vat-tu-spa",
+   "ma": "BCAI-BEAUTY-084",
+   "ten": "Tính điểm đặt hàng lại vật tư spa",
+   "niche": "spa",
+   "moTa": "Xác định thời điểm mua lại dựa trên tiêu thụ và lead time.",
+   "loiIch": [
+    "Bảng điểm đặt hàng",
+    "Danh sách cảnh báo",
+    "Kế hoạch mua theo tuần"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tinh-diem-dat-hang-lai-vat-tu-spa.webp"
+  },
+  {
+   "slug": "tao-bao-gia-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-064",
+   "ten": "Tạo báo giá dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Trình bày phương án, chi phí và điều kiện rõ ràng.",
+   "loiIch": [
+    "Báo giá theo phương án",
+    "Bảng phạm vi bao gồm",
+    "Danh sách điều kiện và bước xác nhận"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tao-bao-gia-dich-vu-spa.webp"
+  },
+  {
+   "slug": "tao-checklist-chuan-bi-lich-hen-spa",
+   "ma": "BCAI-BEAUTY-065",
+   "ten": "Tạo checklist chuẩn bị lịch hẹn spa",
+   "niche": "spa",
+   "moTa": "Chuẩn bị phòng, dụng cụ và thông tin trước giờ khách đến.",
+   "loiIch": [
+    "Phân công trách nhiệm",
+    "Cách xử lý thiếu điều kiện",
+    "Mỗi dòng phải phản ánh một phần cụ thể của các điều kiện phải sẵn sàng trước từng mốc; không điền bằng nhận xét chung"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tao-checklist-chuan-bi-lich-hen-spa.webp"
+  },
+  {
+   "slug": "tao-checklist-mo-dong-cua-spa",
+   "ma": "BCAI-BEAUTY-066",
+   "ten": "Tạo checklist mở và đóng cửa spa",
+   "niche": "spa",
+   "moTa": "Chuẩn hóa các bước đầu ngày và cuối ngày.",
+   "loiIch": [
+    "Checklist đóng cửa",
+    "Quy tắc ký xác nhận và báo lỗi",
+    "Mỗi dòng phải phản ánh một phần cụ thể của an toàn, sẵn sàng phục vụ, tài sản và bàn giao; không điền bằng nhận xét…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tao-checklist-mo-dong-cua-spa.webp"
+  },
+  {
+   "slug": "tao-chuoi-chao-mung-khach-moi-spa",
+   "ma": "BCAI-BEAUTY-067",
+   "ten": "Tạo chuỗi chào mừng khách mới spa",
+   "niche": "spa",
+   "moTa": "Giúp khách mới hiểu quy trình và cảm thấy yên tâm.",
+   "loiIch": [
+    "Chuỗi chào mừng",
+    "Nội dung chuẩn bị",
+    "Điều kiện chuyển hỗ trợ"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tao-chuoi-chao-mung-khach-moi-spa.webp"
+  },
+  {
+   "slug": "tao-chuoi-nhac-lich-hen-spa",
+   "ma": "BCAI-BEAUTY-068",
+   "ten": "Tạo chuỗi nhắc lịch hẹn spa",
+   "niche": "spa",
+   "moTa": "Xác nhận lịch và giảm quên hẹn bằng thông tin hữu ích.",
+   "loiIch": [
+    "Nhánh xác nhận hoặc đổi lịch",
+    "Mỗi dòng phải phản ánh một phần cụ thể của độ rõ, thời gian gửi và khả năng phản hồi; không điền bằng nhận xét chung",
+    "Chỉ gửi qua kênh khách đã đồng ý. Nếu thiếu bằng chứng, ghi “Cần xác minh” thay vì suy đoán"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tao-chuoi-nhac-lich-hen-spa.webp"
+  },
+  {
+   "slug": "tao-phieu-tu-van-da-spa",
+   "ma": "BCAI-BEAUTY-070",
+   "ten": "Tạo phiếu tư vấn da cho spa",
+   "niche": "spa",
+   "moTa": "Cấu trúc buổi tư vấn chăm sóc da không thay thế chẩn đoán.",
+   "loiIch": [
+    "Phiếu tư vấn da",
+    "Danh sách câu hỏi làm rõ",
+    "Ngưỡng chuyển chuyên gia y tế"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tao-phieu-tu-van-da-spa.webp"
+  },
+  {
+   "slug": "tao-qua-tang-thu-lead-spa",
+   "ma": "BCAI-BEAUTY-071",
+   "ten": "Tạo quà tặng thu lead spa",
+   "niche": "spa",
+   "moTa": "Thiết kế tài nguyên miễn phí đổi lấy nhu cầu thật.",
+   "loiIch": [
+    "Ý tưởng lead magnet",
+    "Luồng nhận và chăm sóc lead",
+    "Mỗi dòng phải phản ánh một phần cụ thể của giá trị tức thời, liên quan dịch vụ và khả năng chuyển đổi; không điền…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tao-qua-tang-thu-lead-spa.webp"
+  },
+  {
+   "slug": "tao-so-ghi-nhan-su-co-spa",
+   "ma": "BCAI-BEAUTY-072",
+   "ten": "Tạo sổ ghi nhận sự cố spa",
+   "niche": "spa",
+   "moTa": "Chuẩn hóa ghi nhận sự cố và hành động phòng ngừa.",
+   "loiIch": [
+    "Phân loại mức độ",
+    "Luồng điều tra và hành động phòng ngừa",
+    "Mỗi dòng phải phản ánh một phần cụ thể của sự kiện, tác động, nguyên nhân, xử lý và theo dõi; không điền bằng nhận…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tao-so-ghi-nhan-su-co-spa.webp"
+  },
+  {
+   "slug": "tao-dinh-huong-hinh-anh-spa",
+   "ma": "BCAI-BEAUTY-069",
+   "ten": "Tạo định hướng hình ảnh spa",
+   "niche": "spa",
+   "moTa": "Chuyển thương hiệu thành brief hình ảnh nhất quán.",
+   "loiIch": [
+    "Bảng màu và phong cách",
+    "Mỗi dòng phải phản ánh một phần cụ thể của ánh sáng, chất liệu, bối cảnh, con người và cảm giác; không điền bằng…",
+    "Không sao chép logo, watermark hoặc danh tính không được phép. Nếu thiếu bằng chứng, ghi “Cần xác minh” thay vì suy đoán"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tao-dinh-huong-hinh-anh-spa.webp"
+  },
+  {
+   "slug": "toi-uu-cong-suat-dat-lich-spa",
+   "ma": "BCAI-BEAUTY-088",
+   "ten": "Tối ưu công suất đặt lịch spa",
+   "niche": "spa",
+   "moTa": "Sắp xếp lịch để giảm khoảng trống và quá tải.",
+   "loiIch": [
+    "Bản đồ công suất",
+    "Quy tắc xếp lịch",
+    "Kịch bản cao điểm và dự phòng"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/toi-uu-cong-suat-dat-lich-spa.webp"
+  },
+  {
+   "slug": "toi-uu-ho-so-google-business-spa",
+   "ma": "BCAI-BEAUTY-089",
+   "ten": "Tối ưu hồ sơ Google Business spa",
+   "niche": "spa",
+   "moTa": "Lập kế hoạch hoàn thiện hiện diện tìm kiếm địa phương.",
+   "loiIch": [
+    "Bộ mô tả và danh mục",
+    "Lịch đăng và xin đánh giá",
+    "Mỗi dòng phải phản ánh một phần cụ thể của tính chính xác NAP, danh mục, ảnh, review và truy vấn địa phương; không…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/toi-uu-ho-so-google-business-spa.webp"
+  },
+  {
+   "slug": "to-chuc-su-kien-trai-nghiem-spa",
+   "ma": "BCAI-BEAUTY-087",
+   "ten": "Tổ chức sự kiện trải nghiệm spa",
+   "niche": "spa",
+   "moTa": "Lập kế hoạch sự kiện thu hút và sàng lọc khách.",
+   "loiIch": [
+    "Kịch bản sự kiện",
+    "Kế hoạch đăng ký và vận hành",
+    "Bảng đo lường sau sự kiện"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/to-chuc-su-kien-trai-nghiem-spa.webp"
+  },
+  {
+   "slug": "viet-brochure-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-091",
+   "ten": "Viết brochure dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Tổ chức thông tin dịch vụ thành nội dung dễ đọc.",
+   "loiIch": [
+    "Cấu trúc brochure",
+    "Bản nội dung hoàn chỉnh",
+    "Checklist pháp lý và thiết kế"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/viet-brochure-dich-vu-spa.webp"
+  },
+  {
+   "slug": "viet-caption-giao-duc-cham-soc-spa",
+   "ma": "BCAI-BEAUTY-092",
+   "ten": "Viết caption giáo dục chăm sóc spa",
+   "niche": "spa",
+   "moTa": "Chuyển kiến thức đã duyệt thành bài dễ hiểu.",
+   "loiIch": [
+    "Caption hoàn chỉnh",
+    "Tiêu đề và CTA",
+    "Ghi chú kiểm chứng"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/viet-caption-giao-duc-cham-soc-spa.webp"
+  },
+  {
+   "slug": "viet-huong-dan-chuan-bi-truoc-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-094",
+   "ten": "Viết hướng dẫn chuẩn bị trước dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Tạo hướng dẫn ngắn giúp khách chuẩn bị đúng.",
+   "loiIch": [
+    "Hướng dẫn trước dịch vụ",
+    "Phiên bản tin nhắn ngắn",
+    "Danh sách trường hợp cần gọi lại"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/viet-huong-dan-chuan-bi-truoc-dich-vu-spa.webp"
+  },
+  {
+   "slug": "viet-huong-dan-cham-soc-sau-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-093",
+   "ten": "Viết hướng dẫn chăm sóc sau dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Tạo hướng dẫn sau dịch vụ và dấu hiệu cần trợ giúp.",
+   "loiIch": [
+    "Hướng dẫn chăm sóc sau",
+    "Dấu hiệu cảnh báo",
+    "Kịch bản liên hệ hỗ trợ"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/viet-huong-dan-cham-soc-sau-dich-vu-spa.webp"
+  },
+  {
+   "slug": "viet-kich-ban-thanh-toan-va-hen-lai-spa",
+   "ma": "BCAI-BEAUTY-095",
+   "ten": "Viết kịch bản thanh toán và hẹn lại spa",
+   "niche": "spa",
+   "moTa": "Kết thúc buổi phục vụ rõ ràng và tự nhiên.",
+   "loiIch": [
+    "Kịch bản checkout",
+    "Checklist hóa đơn và dặn dò",
+    "Cách đề nghị hẹn lại"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/viet-kich-ban-thanh-toan-va-hen-lai-spa.webp"
+  },
+  {
+   "slug": "viet-kich-ban-trai-nghiem-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-096",
+   "ten": "Viết kịch bản trải nghiệm dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Thiết kế lời nói và hành động trong suốt buổi phục vụ.",
+   "loiIch": [
+    "Kịch bản trước-trong-sau",
+    "Câu chuyển tiếp",
+    "Điểm cá nhân hóa"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/viet-kich-ban-trai-nghiem-dich-vu-spa.webp"
+  },
+  {
+   "slug": "viet-kich-ban-tu-van-inbox-spa",
+   "ma": "BCAI-BEAUTY-097",
+   "ten": "Viết kịch bản tư vấn inbox spa",
+   "niche": "spa",
+   "moTa": "Dẫn cuộc trò chuyện từ nhu cầu tới bước phù hợp.",
+   "loiIch": [
+    "Kịch bản theo nhánh",
+    "Câu hỏi làm rõ",
+    "Tiêu chí chuyển người thật hoặc đặt lịch"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/viet-kich-ban-tu-van-inbox-spa.webp"
+  },
+  {
+   "slug": "viet-kich-ban-video-ngan-spa",
+   "ma": "BCAI-BEAUTY-098",
+   "ten": "Viết kịch bản video ngắn spa",
+   "niche": "spa",
+   "moTa": "Tạo video ngắn có hook, giá trị và CTA rõ.",
+   "loiIch": [
+    "Kịch bản theo cảnh",
+    "Lời thoại và chữ màn hình",
+    "Danh sách cảnh quay"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/viet-kich-ban-video-ngan-spa.webp"
+  },
+  {
+   "slug": "viet-landing-page-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-099",
+   "ten": "Viết landing page dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Tạo trang đích trả lời đủ câu hỏi trước khi đặt lịch.",
+   "loiIch": [
+    "Cấu trúc landing page",
+    "Bản nội dung từng khối",
+    "Checklist chuyển đổi và tuân thủ"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/viet-landing-page-dich-vu-spa.webp"
+  },
+  {
+   "slug": "ve-hanh-trinh-khach-hang-spa",
+   "ma": "BCAI-BEAUTY-090",
+   "ten": "Vẽ hành trình khách hàng spa",
+   "niche": "spa",
+   "moTa": "Mô tả trải nghiệm từ biết đến spa đến quay lại.",
+   "loiIch": [
+    "Bản đồ hành trình",
+    "Điểm đau và khoảnh khắc quyết định",
+    "Danh sách thử nghiệm cải thiện"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ve-hanh-trinh-khach-hang-spa.webp"
+  },
+  {
+   "slug": "xay-chien-dich-win-back-spa",
+   "ma": "BCAI-BEAUTY-101",
+   "ten": "Xây chiến dịch win-back spa",
+   "niche": "spa",
+   "moTa": "Đưa khách cũ quay lại bằng lý do phù hợp.",
+   "loiIch": [
+    "Phân nhóm win-back",
+    "Thông điệp theo nguyên nhân",
+    "Ngưỡng dừng và báo cáo"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xay-chien-dich-win-back-spa.webp"
+  },
+  {
+   "slug": "xay-chan-dung-khach-hang-spa",
+   "ma": "BCAI-BEAUTY-100",
+   "ten": "Xây chân dung khách hàng spa",
+   "niche": "spa",
+   "moTa": "Tổng hợp dữ liệu thành chân dung khách có thể hành động.",
+   "loiIch": [
+    "Chân dung khách hàng",
+    "Nỗi lo và động lực mua",
+    "Thông điệp và kênh phù hợp"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xay-chan-dung-khach-hang-spa.webp"
+  },
+  {
+   "slug": "xay-chuong-trinh-onboarding-nhan-vien-spa",
+   "ma": "BCAI-BEAUTY-102",
+   "ten": "Xây chương trình onboarding nhân viên spa",
+   "niche": "spa",
+   "moTa": "Giúp nhân viên mới đạt chuẩn theo từng tuần.",
+   "loiIch": [
+    "Lộ trình onboarding",
+    "Tiêu chí xác nhận năng lực",
+    "Mỗi dòng phải phản ánh một phần cụ thể của kiến thức, thao tác, dịch vụ khách và an toàn; không điền bằng nhận xét chung"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xay-chuong-trinh-onboarding-nhan-vien-spa.webp"
+  },
+  {
+   "slug": "xay-dashboard-kpi-van-hanh-spa",
+   "ma": "BCAI-BEAUTY-103",
+   "ten": "Xây dashboard KPI vận hành spa",
+   "niche": "spa",
+   "moTa": "Chọn chỉ số giúp quản lý hành động hằng tuần.",
+   "loiIch": [
+    "Từ điển KPI",
+    "Bố cục dashboard",
+    "Nhịp họp và hành động theo ngưỡng"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xay-dashboard-kpi-van-hanh-spa.webp"
+  },
+  {
+   "slug": "xay-giong-noi-thuong-hieu-spa",
+   "ma": "BCAI-BEAUTY-104",
+   "ten": "Xây giọng nói thương hiệu spa",
+   "niche": "spa",
+   "moTa": "Biến định vị thành quy tắc viết nhất quán.",
+   "loiIch": [
+    "Bộ đặc tính giọng nói",
+    "Quy tắc nên và không nên",
+    "Mẫu chuyển đổi giọng"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xay-giong-noi-thuong-hieu-spa.webp"
+  },
+  {
+   "slug": "xay-he-thong-utm-cho-chien-dich-spa",
+   "ma": "BCAI-BEAUTY-106",
+   "ten": "Xây hệ thống UTM cho chiến dịch spa",
+   "niche": "spa",
+   "moTa": "Chuẩn hóa tên liên kết để đo đúng nguồn khách.",
+   "loiIch": [
+    "Quy tắc đặt UTM",
+    "Bảng tạo link",
+    "Mỗi dòng phải phản ánh một phần cụ thể của tính nhất quán, khả năng đọc và tránh phân mảnh báo cáo; không điền bằng…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xay-he-thong-utm-cho-chien-dich-spa.webp"
+  },
+  {
+   "slug": "xay-he-thong-phan-loai-phan-hoi-spa",
+   "ma": "BCAI-BEAUTY-105",
+   "ten": "Xây hệ thống phân loại phản hồi spa",
+   "niche": "spa",
+   "moTa": "Chuẩn hóa cách gắn nhãn phản hồi để theo dõi lâu dài.",
+   "loiIch": [
+    "Cây nhãn phản hồi",
+    "Quy tắc gắn nhãn",
+    "Mẫu báo cáo định kỳ"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xay-he-thong-phan-loai-phan-hoi-spa.webp"
+  },
+  {
+   "slug": "xay-kien-truc-gia-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-107",
+   "ten": "Xây kiến trúc giá dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Sắp xếp mức giá theo giá trị, chi phí và phân khúc.",
+   "loiIch": [
+    "Bậc giá đề xuất",
+    "Bảng giả định",
+    "Kế hoạch thử nghiệm giá"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xay-kien-truc-gia-dich-vu-spa.webp"
+  },
+  {
+   "slug": "xay-loi-hua-thuong-hieu-spa",
+   "ma": "BCAI-BEAUTY-108",
+   "ten": "Xây lời hứa thương hiệu spa",
+   "niche": "spa",
+   "moTa": "Tạo lời hứa thương hiệu cụ thể và có thể thực hiện.",
+   "loiIch": [
+    "Lời hứa thương hiệu",
+    "Danh sách hành vi phải duy trì",
+    "Mỗi dòng phải phản ánh một phần cụ thể của điều spa kiểm soát được và khách có thể nhận thấy; không điền bằng nhận…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xay-loi-hua-thuong-hieu-spa.webp"
+  },
+  {
+   "slug": "xay-thu-vien-faq-spa",
+   "ma": "BCAI-BEAUTY-109",
+   "ten": "Xây thư viện FAQ cho spa",
+   "niche": "spa",
+   "moTa": "Tạo bộ câu hỏi đáp nhất quán từ dữ liệu thực tế.",
+   "loiIch": [
+    "Thư viện FAQ theo chủ đề",
+    "Câu trả lời ngắn và dài",
+    "Danh sách câu hỏi cần người phụ trách"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xay-thu-vien-faq-spa.webp"
+  },
+  {
+   "slug": "xu-ly-khieu-nai-khach-hang-spa",
+   "ma": "BCAI-BEAUTY-110",
+   "ten": "Xử lý khiếu nại khách hàng spa",
+   "niche": "spa",
+   "moTa": "Tạo quy trình tiếp nhận, giải quyết và học từ khiếu nại.",
+   "loiIch": [
+    "Phân loại mức độ",
+    "Kịch bản phản hồi và phương án",
+    "Biên bản kết thúc và bài học"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xu-ly-khieu-nai-khach-hang-spa.webp"
+  },
+  {
+   "slug": "xu-ly-su-co-sau-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-111",
+   "ten": "Xử lý sự cố sau dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Tạo luồng tiếp nhận, phân loại và chuyển cấp sự cố.",
+   "loiIch": [
+    "Luồng xử lý theo mức độ",
+    "Kịch bản theo dõi và báo cáo",
+    "Mỗi dòng phải phản ánh một phần cụ thể của mức khẩn cấp, bảo toàn thông tin và trách nhiệm chuyển cấp; không điền…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xu-ly-su-co-sau-dich-vu-spa.webp"
+  },
+  {
+   "slug": "xu-ly-tu-choi-dich-vu-spa",
+   "ma": "BCAI-BEAUTY-112",
+   "ten": "Xử lý từ chối dịch vụ spa",
+   "niche": "spa",
+   "moTa": "Phản hồi băn khoăn bằng thông tin và quyền lựa chọn.",
+   "loiIch": [
+    "Câu trả lời theo loại từ chối",
+    "Câu hỏi làm rõ",
+    "Bước tiếp theo không gây áp lực"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xu-ly-tu-choi-dich-vu-spa.webp"
+  },
+  {
+   "slug": "danh-gia-bao-mat-du-lieu-spa",
+   "ma": "BCAI-BEAUTY-020",
+   "ten": "Đánh giá bảo mật dữ liệu spa",
+   "niche": "spa",
+   "moTa": "Tìm lỗ hổng trong cách thu, lưu và chia sẻ dữ liệu.",
+   "loiIch": [
+    "Bản đồ rủi ro dữ liệu",
+    "Danh sách kiểm soát ưu tiên",
+    "Kế hoạch ứng phó sự cố"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/danh-gia-bao-mat-du-lieu-spa.webp"
+  },
+  {
+   "slug": "danh-gia-loi-nhuan-khuyen-mai-spa",
+   "ma": "BCAI-BEAUTY-021",
+   "ten": "Đánh giá lợi nhuận khuyến mãi spa",
+   "niche": "spa",
+   "moTa": "Kiểm tra ưu đãi có tạo lợi nhuận tăng thêm hay không.",
+   "loiIch": [
+    "Mô hình lợi nhuận khuyến mãi",
+    "Kịch bản tốt-cơ sở-xấu",
+    "Ngưỡng dừng chiến dịch"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/danh-gia-loi-nhuan-khuyen-mai-spa.webp"
+  },
+  {
+   "slug": "danh-gia-nha-cung-cap-spa",
+   "ma": "BCAI-BEAUTY-023",
+   "ten": "Đánh giá nhà cung cấp spa",
+   "niche": "spa",
+   "moTa": "Chấm điểm nhà cung cấp bằng tiêu chí minh bạch.",
+   "loiIch": [
+    "Ma trận chấm điểm",
+    "Danh sách rủi ro",
+    "Khuyến nghị thử, duy trì hoặc thay thế"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/danh-gia-nha-cung-cap-spa.webp"
+  },
+  {
+   "slug": "danh-gia-nang-luc-nhan-vien-spa",
+   "ma": "BCAI-BEAUTY-022",
+   "ten": "Đánh giá năng lực nhân viên spa",
+   "niche": "spa",
+   "moTa": "Tạo rubric đánh giá công bằng theo vai trò.",
+   "loiIch": [
+    "Ma trận năng lực",
+    "Bộ tiêu chí chấm",
+    "Kế hoạch phát triển cá nhân"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/danh-gia-nang-luc-nhan-vien-spa.webp"
+  },
+  {
+   "slug": "danh-gia-san-sang-mo-chi-nhanh-spa",
+   "ma": "BCAI-BEAUTY-024",
+   "ten": "Đánh giá sẵn sàng mở chi nhánh spa",
+   "niche": "spa",
+   "moTa": "Kiểm tra mức sẵn sàng trước khi nhân bản mô hình.",
+   "loiIch": [
+    "Bảng điểm sẵn sàng",
+    "Điều kiện chưa đạt",
+    "Khuyến nghị mở, hoãn hoặc thử nghiệm"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/danh-gia-san-sang-mo-chi-nhanh-spa.webp"
+  },
+  {
+   "slug": "dinh-vi-spa-tai-dia-phuong",
+   "ma": "BCAI-BEAUTY-025",
+   "ten": "Định vị spa tại địa phương",
+   "niche": "spa",
+   "moTa": "Tạo tuyên bố định vị khác biệt và dễ nhớ.",
+   "loiIch": [
+    "Tuyên bố định vị",
+    "Ba thông điệp chứng minh",
+    "Bộ tiêu chí kiểm tra tính khác biệt"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/dinh-vi-spa-tai-dia-phuong.webp"
+  },
+  {
+   "slug": "edit-video-bang-tro-chuyen",
+   "ma": "BCAI-CREATIVE-030",
+   "ten": "Biên tập phim nhanh",
+   "niche": "video",
+   "moTa": "Giúp biến video thô thành kế hoạch biên tập rõ ràng, nhanh và có nhịp xem cuốn hút.",
+   "loiIch": [],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/edit-video-bang-tro-chuyen.webp"
+  },
+  {
+   "slug": "bien-tap-video-zoom-dai",
+   "ma": "BCAI-CREATIVE-072",
+   "ten": "Biên tập video Zoom dài",
+   "niche": "video",
+   "moTa": "AI Biên tập trưởng cho video Zoom dài (webinar, livestream, lớp học, coaching, workshop): phân tích toàn bộ video, tìm đoạn giá trị, chấm điểm, kiểm tra ngữ cảnh, xây storyline/cut map,…",
+   "loiIch": [
+    "1 highlight 3–10 phút",
+    "Danh sách chủ đề tái sử dụng",
+    "Tìm đoạn hay trong video dài"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/bien-tap-video-zoom-dai.webp"
+  },
+  {
+   "slug": "phim-ai-viral-tu-chu-de",
+   "ma": "BCAI-CREATIVE-029",
+   "ten": "Công thức phim lan tỏa",
+   "niche": "video",
+   "moTa": "Biến một ý tưởng rời rạc thành công thức phim có khả năng lan tỏa và sẵn sàng sản xuất.",
+   "loiIch": [],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phim-ai-viral-tu-chu-de.webp"
+  },
+  {
+   "slug": "dung-podcast-tu-dong",
+   "ma": "BCAI-CREATIVE-033",
+   "ten": "Dựng podcast tự động",
+   "niche": "video",
+   "moTa": "Dựng và xuất video podcast MP4 hoàn chỉnh từ video, ảnh, giọng đọc, kịch bản hoặc tệp Google Drive.",
+   "loiIch": [
+    "“không nhạc nền”",
+    "“giữ âm thanh gốc”",
+    "“video 60 giây”"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/dung-podcast-tu-dong.webp"
+  },
+  {
+   "slug": "dung-video-chu-tu-caption",
+   "ma": "BCAI-CREATIVE-074",
+   "ten": "Dựng video chữ từ caption",
+   "niche": "video",
+   "moTa": "Lấy caption từ Google Sheet và đưa lên video nền có nhạc để xuất Reel MP4 theo mẫu người dùng đã duyệt.",
+   "loiIch": [
+    "Mở Sheet qua connector chuyên dụng; nếu thiếu, dùng browser được hỗ trợ. Kiểm tra tên tab, tiêu đề Caption, ô/hàng…",
+    "Chọn video/nhạc phù hợp. Giữ nguồn nguyên vẹn, ghi output vào workspace được phép. Nhạc mặc định giảm âm lượng, fade…",
+    "Đối chiếu caption, kiểm tra khung đầu/giữa/cuối và lúc chữ xuất hiện; không tràn chữ, mất dấu, tay che chữ hay CTA.…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/dung-video-chu-tu-caption.webp"
+  },
+  {
+   "slug": "edit-video-doc-co-chu",
+   "ma": "BCAI-CREATIVE-075",
+   "ten": "Edit video dọc có chữ",
+   "niche": "video",
+   "moTa": "Dựng lại footage có sẵn thành video dọc có chữ trên màn hình: chữ cố định hoặc theo cảnh, nhạc, làm tối hoặc làm mờ nền, quay chậm, logo theo ngữ cảnh và khung xem trước.",
+   "loiIch": [],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/edit-video-doc-co-chu.webp"
+  },
+  {
+   "slug": "hoan-doi-nhan-vat-thuong-hieu",
+   "ma": "BCAI-CREATIVE-028",
+   "ten": "Hoán đổi nhân vật thương hiệu",
+   "niche": "video",
+   "moTa": "Hoán đổi nhân vật trong ảnh tham chiếu bằng gương mặt và trang phục thương hiệu cố định của “cô gái áo vàng”, đồng thời bám sát bối cảnh, bố cục, góc máy, đạo cụ, ánh sáng và tỷ lệ ảnh gốc.",
+   "loiIch": [
+    "Xem kỹ ảnh mặt thương hiệu và từng ảnh tham chiếu trước khi tạo",
+    "Với mỗi ảnh tham chiếu, phân tích riêng",
+    "Tỷ lệ khung hình, cỡ cảnh, tiêu cự cảm nhận và góc máy"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/hoan-doi-nhan-vat-thuong-hieu.webp"
+  },
+  {
+   "slug": "hau-truong-lam-phim-ai",
+   "ma": "BCAI-CREATIVE-009",
+   "ten": "Hậu trường làm phim AI xây uy tín — sáng tạo nhanh",
+   "niche": "video",
+   "moTa": "Biến quy trình làm phim AI thành video hậu trường dọc dài 50–60 giây có tính giáo dục, minh bạch và xây uy tín: phân tích prompt, lỗi tạo hình, continuity, giọng, lip-sync, chi phí,…",
+   "loiIch": [
+    "Chọn một quyết định hoặc lỗi thật có giá trị học tập",
+    "Lưu bằng chứng: brief, prompt, output lỗi, lần sửa, output cuối và số lần thử",
+    "Dùng cấu trúc: kết quả trước → vấn đề → thử sai → nguyên nhân → thay đổi duy nhất → so sánh → bài học"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/hau-truong-lam-phim-ai.webp"
+  },
+  {
+   "slug": "kich-ban-tai-chinh-mua-nha",
+   "ma": "BCAI-LAND-015",
+   "ten": "Kịch bản tài chính mua BĐS",
+   "niche": "video",
+   "moTa": "Skill mô hình hóa khả năng mua BĐS theo kịch bản cơ sở, thận trọng và bất lợi. Hỏi từng câu về tài sản, người mua, mục tiêu, bối cảnh, giá, vốn, thu nhập, chi phí, nợ, lãi suất, kỳ hạn và…",
+   "loiIch": [
+    "Tạo ít nhất ba kịch bản: cơ sở, thận trọng và căng thẳng",
+    "Trình bày vốn và khoản vay giả định, dòng tiền tháng, chi phí một lần, tỷ lệ dòng tiền nhà ở/thu nhập, dữ liệu…",
+    "Kết thúc bằng bảng so sánh, không bằng kết luận nên mua hay không nên mua"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/kich-ban-tai-chinh-mua-nha.webp"
+  },
+  {
+   "slug": "nhan-vat-ao-xay-kenh",
+   "ma": "BCAI-CREATIVE-036",
+   "ten": "Nhân vật ảo thương hiệu",
+   "niche": "video",
+   "moTa": "Xây dựng virtual creator hoặc nhân vật AI có bản sắc và hệ thống video dọc 50–60 giây: hình ảnh, giọng nói, quan điểm, câu cửa miệng, lore, trụ cột nội dung, continuity và quy tắc tương tác…",
+   "loiIch": [
+    "Chọn vai trò xã hội, khán giả và giá trị nhân vật mang lại",
+    "Viết “mâu thuẫn tạo sức hút”: hai đặc tính tưởng đối lập nhưng cùng tồn tại",
+    "Tạo bible gồm diện mạo, giọng, cử chỉ, niềm tin, giới hạn, lịch sử và điều nhân vật không bao giờ làm"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/nhan-vat-ao-xay-kenh.webp"
+  },
+  {
+   "slug": "talking-head-truyen-cam-xuc",
+   "ma": "BCAI-CREATIVE-042",
+   "ten": "Phim chân dung truyền cảm",
+   "niche": "video",
+   "moTa": "Tạo trọn gói video talking-head tiếng Việt dài 50–60 giây, giàu cảm xúc và có cấu trúc viral cho Veo 3/3.1 hoặc Google Flow.",
+   "loiIch": [
+    "Veo có bị yêu cầu tạo phụ đề không? Nếu có, bỏ yêu cầu đó",
+    "Ý tưởng và thông điệp",
+    "Công thức giữ chân"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/talking-head-truyen-cam-xuc.webp"
+  },
+  {
+   "slug": "dao-dien-tvc-flow",
+   "ma": "BCAI-CREATIVE-041",
+   "ten": "Phim quảng cáo sản phẩm",
+   "niche": "video",
+   "moTa": "Tự mở và điều khiển Google Flow để tạo, kiểm tra, phát và tải TVC quảng cáo điện ảnh không thoại từ avatar, nhân vật và bối cảnh của người dùng;",
+   "loiIch": [
+    "Nếu Flow đã mở đúng project, tiếp tục tại trạng thái hiện tại. Chỉ quan sát trước; không tải lại trang nếu có prompt…",
+    "Xác định đúng Nhân vật và bối cảnh thật trong Hình ảnh, Video hoặc Tệp tải lên",
+    "Chọn Video → Thành phần → gắn Nhân vật trước, Bối cảnh sau → 9:16 → Omni 1.1 Flash → chất lượng cao nhất hiện có →…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/dao-dien-tvc-flow.webp"
+  },
+  {
+   "slug": "storytelling-chuyen-doi-cu-lat",
+   "ma": "BCAI-CREATIVE-024",
+   "ten": "Storytelling chuyện đời cú lật",
+   "niche": "video",
+   "moTa": "Viết video kể chuyện đời tiếng Việt dài 50–60 giây có khoảng trống tò mò, manh mối, hiểu lầm và cú lật hợp lý cho talking-head, voice-over hoặc phim minh họa.",
+   "loiIch": [
+    "Chọn vết thương cảm xúc và câu hỏi người xem phải muốn biết đáp án",
+    "Xây sự thật nền, điều khán giả tin nhầm và sự thật cuối",
+    "Cài 2–3 manh mối công bằng; cú lật phải tái nghĩa cảnh trước, không từ trên trời rơi xuống"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/storytelling-chuyen-doi-cu-lat.webp"
+  },
+  {
+   "slug": "video-hoat-hinh-toan-ky-thuat",
+   "ma": "BCAI-CREATIVE-079",
+   "ten": "Video hoạt hình toán & kỹ thuật",
+   "niche": "video",
+   "moTa": "Quy trình sản xuất video hoạt hình toán học và kỹ thuật bằng Manim Community Edition.",
+   "loiIch": [],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/video-hoat-hinh-toan-ky-thuat.webp"
+  },
+  {
+   "slug": "video-hoat-hinh-am-nhac-ai-tieng-anh",
+   "ma": "BCAI-CREATIVE-007",
+   "ten": "Vũ trụ mv tiếng anh",
+   "niche": "video",
+   "moTa": "Tạo trọn gói video hoạt hình âm nhạc tiếng Anh bằng AI theo hệ BCAI, đặc biệt MV dọc 9:16 cho trẻ em, giáo dục tiếng Anh hoặc mạng xã hội.",
+   "loiIch": [
+    "Nội dung: đúng mục tiêu, lời dễ hiểu, không lỗi ngôn ngữ, không nội dung không phù hợp trẻ em",
+    "Hình ảnh: nhân vật nhất quán, không lỗi giải phẫu, không flicker/morphing, không chữ AI giả, nhịp cảnh rõ",
+    "Kỹ thuật: đúng thời lượng/tỉ lệ, vocal rõ, subtitle khớp, không clipping, không khung đen, loop/CTA hợp lý"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/video-hoat-hinh-am-nhac-ai-tieng-anh.webp"
+  },
+  {
+   "slug": "xay-kenh-nhan-vat-ai",
+   "ma": "BCAI-CREATIVE-071",
+   "ten": "Xây kênh AI star 30 ngày",
+   "niche": "video",
+   "moTa": "Giúp người mới biến một ý tưởng nhân vật AI thành hệ thống xây kênh rõ định vị, nhất quán và có thể sản xuất được. SẢN PHẨM DÙNG ĐỂ LÀM GÌ Khóa hình tượng và giọng nói nhân vật AI;",
+   "loiIch": [],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xay-kenh-nhan-vat-ai.webp"
+  },
+  {
+   "slug": "microdrama-series-doc",
+   "ma": "BCAI-CREATIVE-022",
+   "ten": "Xưởng AI microdrama series dọc",
+   "niche": "video",
+   "moTa": "Thiết kế microdrama và series phim dọc nhiều tập, mỗi tập bắt buộc dài 50–60 giây, với engine mùa, tuyến nhân vật, episode promise, cliffhanger có nội dung, recap tối thiểu, continuity…",
+   "loiIch": [
+    "Viết engine lặp của series: ai muốn gì, lực cản nào tái tạo xung đột và vì sao câu chuyện sinh nhiều tập",
+    "Chọn độ dài mùa dựa trên số bước biến đổi thật, không kéo dài tùy tiện",
+    "Xây ba tầng: câu hỏi mùa, mục tiêu cụm tập và vấn đề riêng từng tập"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/microdrama-series-doc.webp"
+  },
+  {
+   "slug": "phim-ngan-nghiep-qua",
+   "ma": "BCAI-CREATIVE-015",
+   "ten": "Xưởng AI phim ngắn nhân quả — sáng tạo nhanh",
+   "niche": "video",
+   "moTa": "Phát triển phim ngắn dọc Việt Nam dài 50–60 giây về bất công, phản bội, lựa chọn đạo đức, trả giá và phục hồi với nhân quả đến từ hành động thay vì phép màu.",
+   "loiIch": [
+    "Xác định hành vi sai, lợi ích ngắn hạn và tổn hại cụ thể",
+    "Trao cho nạn nhân mục tiêu, năng lực và lựa chọn; không chỉ để chịu đựng",
+    "Cài bằng chứng, đồng minh hoặc điểm yếu từ sớm"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phim-ngan-nghiep-qua.webp"
+  },
+  {
+   "slug": "review-san-pham-co-cot-truyen",
+   "ma": "BCAI-CREATIVE-010",
+   "ten": "Xưởng AI video review sản phẩm có cốt truyện — sáng tạo nhanh",
+   "niche": "video",
+   "moTa": "Tạo video review và affiliate dọc dài 50–60 giây có cốt truyện dựa trên vấn đề thật, tình huống sử dụng, bằng chứng trực quan, ưu nhược điểm và CTA minh bạch.",
+   "loiIch": [
+    "Chọn khoảnh khắc vấn đề cụ thể thay vì mở bằng giới thiệu sản phẩm",
+    "Tạo tuyến: ma sát → thử cách cũ → phát hiện → demo → bằng chứng → giới hạn → quyết định",
+    "Để sản phẩm thực hiện một hành động nhìn thấy được; không chỉ cầm và khen"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/review-san-pham-co-cot-truyen.webp"
+  },
+  {
+   "slug": "phim-hai-tinh-huong-viet",
+   "ma": "BCAI-CREATIVE-004",
+   "ten": "Xưởng hài việt cười liền",
+   "niche": "video",
+   "moTa": "Viết tiểu phẩm và phim hài tình huống Việt Nam dài 50–60 giây dựa trên ma sát đời sống, hiểu nhầm hợp lý, tăng cấp, callback và câu chốt;",
+   "loiIch": [
+    "Chọn một sự thật đời sống khán giả nhận ra ngay",
+    "Tạo hai nhân vật có mục tiêu xung đột nhưng đều hợp lý theo góc nhìn riêng",
+    "Xác định cơ chế hài: hiểu nhầm, địa vị đảo, quy tắc ba, callback, dramatic irony hoặc phản ứng quá mức"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phim-hai-tinh-huong-viet.webp"
+  },
+  {
+   "slug": "phim-chua-lanh-tinh-nguoi",
+   "ma": "BCAI-CREATIVE-002",
+   "ten": "Xưởng phim chạm tim",
+   "niche": "video",
+   "moTa": "Viết phim ngắn chữa lành và tình người dài 50–60 giây bằng hành động nhỏ, nhu cầu cụ thể, kết nối chân thật và dư âm cảm xúc tiết chế.",
+   "loiIch": [
+    "Chọn nỗi cô đơn hoặc nhu cầu cụ thể có thể nhìn thấy bằng hành động",
+    "Trao cho nhân vật phẩm giá, thói quen và lựa chọn; không biến họ thành biểu tượng đáng thương",
+    "Dùng vật thể hoặc nghi thức nhỏ làm motif kết nối"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phim-chua-lanh-tinh-nguoi.webp"
+  },
+  {
+   "slug": "phim-bi-mat-than-phan",
+   "ma": "BCAI-CREATIVE-001",
+   "ten": "Xưởng phim cú lật thân phận",
+   "niche": "video",
+   "moTa": "Viết phim dọc Việt Nam dài 50–60 giây xoay quanh bí mật danh tính, quan hệ, quá khứ hoặc vai trò xã hội với manh mối công bằng và cú lộ diện thay đổi lựa chọn nhân vật.",
+   "loiIch": [
+    "Viết sự thật bí mật, người biết, lý do che giấu và cái giá nếu lộ",
+    "Xác định niềm tin sai của nhân vật chính và khán giả",
+    "Cài ít nhất ba manh mối: hình ảnh, hành vi và lời nói có hai nghĩa"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phim-bi-mat-than-phan.webp"
+  },
+  {
+   "slug": "phim-kinh-di-dan-gian-viet",
+   "ma": "BCAI-CREATIVE-005",
+   "ten": "Xưởng phim rợn việt",
+   "niche": "video",
+   "moTa": "Phát triển phim kinh dị dọc Việt Nam dài 50–60 giây dựa trên không gian, ký ức, tín ngưỡng và chất liệu dân gian với quy luật siêu nhiên rõ, bầu không khí tăng cấp, thiết kế âm thanh và…",
+   "loiIch": [
+    "Chọn nỗi sợ người: tội lỗi, mất người thân, xâm phạm ranh giới, bị quên hoặc bị thay thế",
+    "Nghiên cứu chất liệu địa phương nếu dùng địa danh/tín ngưỡng thật; phân biệt hư cấu",
+    "Viết quy luật siêu nhiên: dấu hiệu, điều cấm, cái giá và lỗ hổng"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phim-kinh-di-dan-gian-viet.webp"
+  },
+  {
+   "slug": "video-viral-tu-y-tuong",
+   "ma": "BCAI-CREATIVE-008",
+   "ten": "Xưởng video viral đa nền tảng",
+   "niche": "video",
+   "moTa": "Tạo video dọc viral dạng tin tức, review hoặc giới thiệu từ ý tưởng, văn bản hay URL, theo phong cách editorial ấm: hình ảnh thật và video thật làm tư liệu chính, tiêu đề tiếng Việt lớn…",
+   "loiIch": [
+    "Mặc định 1080×1920, 30 fps, tiếng Việt, hook trong 2 giây đầu. Nếu không có thời lượng, dùng 45 giây; 60–90 giây thì…",
+    "Tải toàn bộ media cần render về dự án. Không dùng URL mạng làm tài sản render",
+    "Tạo nhạc nền thấp hơn lời đọc. Phụ đề phải dùng word timing thật, chia cụm 2–5 từ cân đối đủ ý và tô vàng đúng từ…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/video-viral-tu-y-tuong.webp"
+  },
+  {
+   "slug": "tao-anh-tu-van-ban-va-audio",
+   "ma": "BCAI-CREATIVE-068",
+   "ten": "Biến văn bản và âm thanh thành hình ảnh",
+   "niche": "hinh-anh",
+   "moTa": "Biến văn bản, bài viết, kịch bản, bài quảng cáo, nội dung thuyết trình hoặc tệp audio thành ảnh truyền tải đúng thông điệp;",
+   "loiIch": [
+    "TỰ ĐỘNG: mặc định; tự chọn phương án truyền tải tốt nhất",
+    "CÓ CHỮ: ảnh kèm headline tóm tắt",
+    "KHÔNG CHỮ: kể đúng nội dung hoàn toàn bằng hình ảnh"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tao-anh-tu-van-ban-va-audio.webp"
+  },
+  {
+   "slug": "tro-ly-khai-van-hanh-dong",
+   "ma": "BCAI-CREATIVE-077",
+   "ten": "Bảo châu AI",
+   "niche": "hinh-anh",
+   "moTa": "Trợ lý khai vấn và hành động theo giọng thương hiệu của người dùng, sử dụng tiếng Việt trực diện, tích cực, thực tế và dễ áp dụng.",
+   "loiIch": [
+    "Nếu mục tiêu còn mơ hồ, hỏi: “Nếu chỉ được đạt một mục tiêu trong 12 tháng tới, mục tiêu nào tạo ra thay đổi lớn nhất?”",
+    "Yêu cầu mục tiêu có con số, kết quả quan sát được hoặc tiêu chí hoàn thành",
+    "Xác định điểm A hiện tại và điểm B mong muốn"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tro-ly-khai-van-hanh-dong.webp"
+  },
+  {
+   "slug": "content-win-tu-anh-va-reel",
+   "ma": "BCAI-CREATIVE-073",
+   "ten": "Chép nội dung từ ảnh và Reel",
+   "niche": "hinh-anh",
+   "moTa": "Chép nguyên văn nội dung chia sẻ trên ảnh bài viết hoặc Reel, giữ 100% chữ gốc; tự động viết thêm tagline, caption và bình luận diễn giải riêng cho Facebook và TikTok, kèm CTA Zalo.",
+   "loiIch": [
+    "Nội dung video: chép nguyên văn 100% chữ nội dung trên ảnh",
+    "Tagline: một câu ngắn phù hợp chủ đề và tên kênh, đặt riêng, không thêm vào bản chép",
+    "Facebook — caption: bản sẵn sao chép, mở đầu bám chủ đề video, diễn giải lợi ích cụ thể, dẫn đến phần hướng dẫn…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/content-win-tu-anh-va-reel.webp"
+  },
+  {
+   "slug": "phuc-che-anh-cu-4k",
+   "ma": "BCAI-CREATIVE-076",
+   "ten": "Phục chế ảnh cũ 4K",
+   "niche": "hinh-anh",
+   "moTa": "Phục chế ảnh cũ bị mờ, phai màu, trầy xước, rách, nhiễu, độ phân giải thấp, ảnh đen trắng hoặc ảnh scan — giữ đúng gương mặt, thời kỳ, bố cục, trang phục và chữ viết tay.",
+   "loiIch": [],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phuc-che-anh-cu-4k.webp"
+  },
+  {
+   "slug": "poster-bat-dong-san-chuyen-doi",
+   "ma": "BCAI-LAND-013",
+   "ten": "Poster BĐS chuyển đổi",
+   "niche": "hinh-anh",
+   "moTa": "Skill tạo creative brief, copy, bố cục, prompt ảnh và QA cho poster BĐS tăng chuyển đổi.",
+   "loiIch": [
+    "Tách mọi dữ kiện thành đã xác minh, chờ xác minh, hoặc không được dùng",
+    "Chọn mục tiêu duy nhất: tạo lead, đặt lịch xem, mở bán, giới thiệu căn, hoặc xây thương hiệu",
+    "Tạo bảng dữ kiện, thứ bậc thông điệp, ba concept, copy, prompt hình ảnh, biến thể 1:1/4:5/9:16 và checklist QA"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/poster-bat-dong-san-chuyen-doi.webp"
+  },
+  {
+   "slug": "giao-vien-thiet-ke-hoat-dong",
+   "ma": "BCAI-EDU-081",
+   "ten": "Thiết kế hoạt động học tập",
+   "niche": "hinh-anh",
+   "moTa": "Phân tích bài học và thiết kế hoạt động học tập khả thi, lấy học sinh làm trung tâm nhưng không lệch mục tiêu.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/giao-vien-thiet-ke-hoat-dong.webp"
+  },
+  {
+   "slug": "tro-ly-photoshop",
+   "ma": "BCAI-CREATIVE-078",
+   "ten": "Trợ lý Photoshop",
+   "niche": "hinh-anh",
+   "moTa": "SKILL tiếng Việt chuyên hướng dẫn chỉnh sửa ảnh, thiết kế đồ họa và xử lý sự cố Adobe Photoshop.",
+   "loiIch": [
+    "Chỉnh sửa một ảnh cụ thể",
+    "Học một công cụ",
+    "Tạo một thiết kế"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tro-ly-photoshop.webp"
+  },
+  {
+   "slug": "tao-anh-thuong-hieu-ca-nhan",
+   "ma": "BCAI-CREATIVE-067",
+   "ten": "Xưởng ảnh thương hiệu",
+   "niche": "hinh-anh",
+   "moTa": "Tạo hoặc chỉnh sửa ảnh thương hiệu cá nhân từ chân dung nhận diện và ảnh mẫu phong cách: giữ đúng gương mặt, thay nhân vật, trang phục, bối cảnh, trang điểm hoặc kiểu tóc theo mẫu, làm ảnh…",
+   "loiIch": [
+    "Trả ảnh trước, kèm tối đa hai câu ngắn",
+    "Nếu tự rút headline, nói ngắn gọn câu đã chọn và cụm được nhấn",
+    "Xác định chân dung nhận diện và ảnh mẫu phong cách"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tao-anh-thuong-hieu-ca-nhan.webp"
+  },
+  {
+   "slug": "brief-nghien-cuu-noi-dung",
+   "ma": "BCAI-MKT-049",
+   "ten": "Brief nghiên cứu nội dung",
+   "niche": "noi-dung",
+   "moTa": "Nghiên cứu chủ đề đang lên, gom bài nguồn và tạo brief nghiên cứu có cấu trúc cho việc làm nội dung — viết từ nguồn thật, không viết từ khoảng không.",
+   "loiIch": [],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/brief-nghien-cuu-noi-dung.webp"
+  },
+  {
+   "slug": "viet-quang-cao-tra-phi",
+   "ma": "BCAI-MKT-006",
+   "ten": "Bậc thầy nội dung quảng cáo",
+   "niche": "noi-dung",
+   "moTa": "Bộ Kỹ Năng AI Viết Nội Dung Quảng Cáo là giải pháp AI thuộc hệ sinh thái Cỗ Máy Marketing & Affiliate AI Tăng Chuyển Đổi, được thiết kế để hỗ trợ người dùng xử lý công việc đúng trọng tâm,…",
+   "loiIch": [],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/viet-quang-cao-tra-phi.webp"
+  },
+  {
+   "slug": "bo-subagent-facebook",
+   "ma": "BCAI-MKT-047",
+   "ten": "Bộ skill subagen Facebook thương mại",
+   "niche": "noi-dung",
+   "moTa": "Một skill Facebook trọn quy trình cho khách hàng: chào và lấy hồ sơ, đánh giá kênh, lập nội dung, sản xuất Reel, xuất bản theo quyền, chăm sóc bình luận và đo hiệu quả.",
+   "loiIch": [],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/bo-subagent-facebook.webp"
+  },
+  {
+   "slug": "tro-ly-ban-hang-tung-buoc",
+   "ma": "BCAI-MKT-026",
+   "ten": "Eber – trợ lý nội dung & bán hàng từng bước",
+   "niche": "noi-dung",
+   "moTa": "Thiết lập và vận hành trợ lý AI hỏi từng bước cho chủ kinh doanh nhỏ, người bán hàng online và người làm affiliate Việt Nam;",
+   "loiIch": [
+    "Bản dùng ngay",
+    "Ghi chú cần xác minh chỉ khi có dữ kiện thiếu hoặc rủi ro",
+    "Hai cách chỉnh nhanh"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tro-ly-ban-hang-tung-buoc.webp"
+  },
+  {
+   "slug": "ke-hoach-saas-viet-noi-dung-ai",
+   "ma": "BCAI-SALES-022",
+   "ten": "Lập kế hoạch nền tảng viết nội dung AI",
+   "niche": "noi-dung",
+   "moTa": "Là bộ tài liệu lập kế hoạch một nền tảng viết nội dung bằng AI ở mức sẵn sàng giao cho đội phát triển.",
+   "loiIch": [],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-hoach-saas-viet-noi-dung-ai.webp"
+  },
+  {
+   "slug": "marketing-tao-ket-qua",
+   "ma": "BCAI-MKT-011",
+   "ten": "Marketing tạo kết quả",
+   "niche": "noi-dung",
+   "moTa": "Skill marketing thực hành dành cho người mới và người làm kinh doanh. Khi được gọi mà chưa có đủ bối cảnh, phải chủ động mở luồng onboarding, hỏi tuần tự về sản phẩm/dịch vụ, khách hàng mục…",
+   "loiIch": [
+    "Sản phẩm / dịch vụ",
+    "Nếu có: giá, offer, ưu đãi, điểm khác biệt",
+    "Khách hàng mục tiêu"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/marketing-tao-ket-qua.webp"
+  },
+  {
+   "slug": "phan-tich-kenh-facebook-mau",
+   "ma": "BCAI-MKT-050",
+   "ten": "Phân tích kênh mẫu",
+   "niche": "noi-dung",
+   "moTa": "Phân tích kênh Facebook mẫu vào Google Sheet hoặc Drive đích.",
+   "loiIch": [
+    "Xác minh tên kênh, khoảng ngày, đích và quyền sửa. Ưu tiên connector chuyên dụng, thiếu thì dùng browser UI được hỗ…",
+    "Lưu checkpoint xuống file sau từng bài: ID/permalink, ngày/share và bằng chứng, nội dung, mức đã đọc, tham số và…",
+    "Quét timeline và các bề mặt video/Reel/live thích hợp. Không dừng vì bài ghim cũ. Kiểm chứng thứ tự và ranh giới…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phan-tich-kenh-facebook-mau.webp"
+  },
+  {
+   "slug": "pheu-affiliate",
+   "ma": "BCAI-MKT-007",
+   "ten": "Phễu tiếp thị 6 tuần",
+   "niche": "noi-dung",
+   "moTa": "Bộ Kỹ Năng AI Lập Phễu Affiliate 6 Tuần — Tăng Chuyển Đổi là giải pháp AI thuộc hệ sinh thái Cỗ Máy Marketing & Affiliate AI Tăng Chuyển Đổi, được thiết kế để hỗ trợ người dùng xử lý công…",
+   "loiIch": [],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/pheu-affiliate.webp"
+  },
+  {
+   "slug": "bo-subagent-youtube",
+   "ma": "BCAI-MKT-048",
+   "ten": "Subagen YouTube thương mại",
+   "niche": "noi-dung",
+   "moTa": "Bộ điều phối xuất bản YouTube cho một khách hàng từ kho video hoàn chỉnh và kho thumbnail đến kiểm tra, SEO, đăng theo lịch, chống trùng và đối soát;",
+   "loiIch": [
+    "Chào khách: “Xin chào! Tôi là trợ lý vận hành YouTube của bạn. Tôi sẽ giúp cài quy trình cho chính kênh của bạn.”",
+    "Nêu tính năng: chọn video hoàn chỉnh từ kho, chống trùng, kiểm tra nội dung và quyền, chọn/tạo thumbnail theo cấu…",
+    "Chỉ hỏi đầu vào khách phải quyết định hoặc cấp quyền: kênh YouTube đích; nguồn video hoàn chỉnh; cách có thumbnail…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/bo-subagent-youtube.webp"
+  },
+  {
+   "slug": "theo-doi-chuyen-doi",
+   "ma": "BCAI-MKT-008",
+   "ten": "Theo dõi chuyển đổi",
+   "niche": "noi-dung",
+   "moTa": "Bộ Kỹ Năng AI Theo Dõi Chuyển Đổi Affiliate — Tăng Chuyển Đổi là giải pháp AI thuộc hệ sinh thái Cỗ Máy Marketing & Affiliate AI Tăng Chuyển Đổi, được thiết kế để hỗ trợ người dùng xử lý…",
+   "loiIch": [],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/theo-doi-chuyen-doi.webp"
+  },
+  {
+   "slug": "viet-bai-viral",
+   "ma": "BCAI-MKT-051",
+   "ten": "Viết bài viral bán affiliate",
+   "niche": "noi-dung",
+   "moTa": "Viết bài mạng xã hội có sức lan tỏa, giới thiệu sản phẩm affiliate một cách tự nhiên.",
+   "loiIch": [],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/viet-bai-viral.webp"
+  },
+  {
+   "slug": "xay-noi-dung-facebook",
+   "ma": "BCAI-MKT-052",
+   "ten": "Xây nội dung Facebook",
+   "niche": "noi-dung",
+   "moTa": "Hỗ trợ xây nội dung Facebook dựa trên chính kênh của người dùng: phân tích phong cách, chọn định dạng phù hợp, viết bài/caption, nội dung ảnh-carousel-video, lập lịch và chuẩn bị đăng sau…",
+   "loiIch": [
+    "Tạo trọn gói",
+    "Bài Facebook hoàn chỉnh",
+    "Định dạng đi kèm phù hợp"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xay-noi-dung-facebook.webp"
+  },
+  {
+   "slug": "xep-hang-goc-noi-dung",
+   "ma": "BCAI-MKT-053",
+   "ten": "Xếp hạng góc nội dung",
+   "niche": "noi-dung",
+   "moTa": "Xếp hạng các góc triển khai nội dung theo dữ liệu tương tác, mức cạnh tranh và độ hợp nền tảng — chọn góc bằng số liệu thay vì đoán.",
+   "loiIch": [],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xep-hang-goc-noi-dung.webp"
+  },
+  {
+   "slug": "bien-ai-thanh-tien",
+   "ma": "BCAI-SALES-020",
+   "ten": "Biến AI thành nguồn thu nhập",
+   "niche": "ban-hang",
+   "moTa": "Là bộ phương pháp biến năng lực AI thành dịch vụ, sản phẩm số hoặc quy trình tạo doanh thu có lộ trình rõ ràng.",
+   "loiIch": [
+    "Show short “AI đang phân tích...”",
+    "CỖ MÁY CONTENT",
+    "CỖ MÁY FANPAGE"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/bien-ai-thanh-tien.webp"
+  },
+  {
+   "slug": "chuyen-gia-bia-sach",
+   "ma": "BCAI-MED-001",
+   "ten": "Bìa sách chốt đơn",
+   "niche": "ban-hang",
+   "moTa": "Giúp tác giả, nhà xuất bản nhỏ, người bán ebook, khóa học và sản phẩm tri thức đánh giá bìa theo góc nhìn người mua thay vì cảm tính.",
+   "loiIch": [
+    "Give specific design actions, not vague advice such as “làm đẹp hơn.”"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/chuyen-gia-bia-sach.webp"
+  },
+  {
+   "slug": "sieu-thi-san-pham-so-google-sheets",
+   "ma": "BCAI-SALES-025",
+   "ten": "Cửa hàng sản phẩm số bảo châu AI",
+   "niche": "ban-hang",
+   "moTa": "Dựng nguyên 1 website \"siêu thị sản phẩm số\" (bán skill/prompt/workflow/app/khoá học AI...) chạy 100% trên Google Sheets + Apps Script — không cần server riêng.",
+   "loiIch": [
+    "Sửa khối CONFIG: đầu file .gs: BUSINESSNAME, sinh ORDERTOKEN ngẫu nhiên mới, ADMINUSERNAME/ADMINEMAIL/ADMINPASSWORD…",
+    "Deploy Web App (Triển khai → Loại: Web App → Người có quyền truy cập: Bất kỳ ai) → copy URL",
+    "Test bằng ?action=tgtest: — mở URL Apps Script kèm ?action=tgtest, nếu có cấu hình Bot Telegram (tuỳ chọn) sẽ nhận…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/sieu-thi-san-pham-so-google-sheets.webp"
+  },
+  {
+   "slug": "hieu-suat-ban-hang",
+   "ma": "BCAI-LEGAL034",
+   "ten": "Quản trị hiệu suất bán hàng",
+   "niche": "ban-hang",
+   "moTa": "Hỗ trợ quản trị pipeline và hiệu suất bán hàng theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/hieu-suat-ban-hang.webp"
+  },
+  {
+   "slug": "thu-nghiem-ab-an-toan",
+   "ma": "BCAI-SALES-031",
+   "ten": "Thử nghiệm A/B an toàn",
+   "niche": "ban-hang",
+   "moTa": "Tạo các phiên bản nội dung khác nhau thật sự và thiết kế thử nghiệm A/B đúng thống kê cho tiêu đề, CTA, nội dung landing page, tiêu đề email, hook mạng xã hội hoặc ưu đãi.",
+   "loiIch": [],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/thu-nghiem-ab-an-toan.webp"
+  },
+  {
+   "slug": "tao-100-skill-theo-ngach",
+   "ma": "BCAI-SALES-024",
+   "ten": "Xưởng 100 công cụ theo ngách",
+   "niche": "ban-hang",
+   "moTa": "Tạo một lô tối đa 100 Skill ChatGPT/Codex khác biệt và sẵn sàng sử dụng từ một chủ đề hoặc ngách ngắn;",
+   "loiIch": [
+    "Chọn 10 nhóm giá trị không chồng lặp",
+    "Tạo 10 công việc cụ thể trong mỗi nhóm",
+    "Loại các ý tưởng chỉ khác nhau ở đối tượng, giọng văn hoặc tên gọi"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tao-100-skill-theo-ngach.webp"
+  },
+  {
+   "slug": "giao-vien-xu-ly-van-ban",
+   "ma": "BCAI-EDU-083",
+   "ten": "Giải mã văn bản cho giáo viên",
+   "niche": "giao-duc",
+   "moTa": "Đọc tài liệu dài và chuyển nội dung liên quan trực tiếp đến giáo viên thành nhiệm vụ, thời hạn, sản phẩm và checklist.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/giao-vien-xu-ly-van-ban.webp"
+  },
+  {
+   "slug": "giao-vien-ke-hoach-bao-cao",
+   "ma": "BCAI-EDU-075",
+   "ten": "Kế hoạch và báo cáo giáo viên",
+   "niche": "giao-duc",
+   "moTa": "Chuyển yêu cầu thành kế hoạch khả thi và chuyển dữ liệu thực hiện thành báo cáo nhất quán, không biến dự kiến thành thành tích.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/giao-vien-ke-hoach-bao-cao.webp"
+  },
+  {
+   "slug": "quan-ly-lap-ke-hoach-nha-truong",
+   "ma": "BCAI-EDU-085",
+   "ten": "Lập kế hoạch nhà trường",
+   "niche": "giao-duc",
+   "moTa": "Tạo kế hoạch khả thi từ yêu cầu cấp trên và điều kiện thật của trường, có mục tiêu, việc, nguồn lực, tiến độ, phân công và giám sát.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/quan-ly-lap-ke-hoach-nha-truong.webp"
+  },
+  {
+   "slug": "giao-vien-nhan-xet-hoc-sinh",
+   "ma": "BCAI-EDU-076",
+   "ten": "Nhận xét học sinh có căn cứ",
+   "niche": "giao-duc",
+   "moTa": "Viết nhận xét cụ thể, đa dạng, mang tính hỗ trợ và chỉ dựa trên bằng chứng được cung cấp.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/giao-vien-nhan-xet-hoc-sinh.webp"
+  },
+  {
+   "slug": "quan-ly-chuyen-mon",
+   "ma": "BCAI-EDU-084",
+   "ten": "Quản lý chuyên môn cấp trường",
+   "niche": "giao-duc",
+   "moTa": "Chuyển hướng dẫn chuyên môn thành kế hoạch, nhiệm vụ tổ, tiêu chí theo dõi, lịch kiểm tra và tổng hợp thực hiện.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/quan-ly-chuyen-mon.webp"
+  },
+  {
+   "slug": "giao-vien-chu-nhiem-lop",
+   "ma": "BCAI-EDU-071",
+   "ten": "Quản lý chủ nhiệm lớp",
+   "niche": "giao-duc",
+   "moTa": "Hỗ trợ lập kế hoạch, theo dõi lớp, sinh hoạt lớp, phối hợp phụ huynh và báo cáo chủ nhiệm dựa trên dữ liệu thực tế.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/giao-vien-chu-nhiem-lop.webp"
+  },
+  {
+   "slug": "quan-ly-truong-sap-nhap",
+   "ma": "BCAI-EDU-091",
+   "ten": "Quản trị trường sau sáp nhập",
+   "niche": "giao-duc",
+   "moTa": "Đọc hồ sơ và lập bản đồ công việc phụ thuộc lẫn nhau, ưu tiên 7-30-90 ngày cho tổ chức, nhân sự, quy chế, tài chính, tài sản, dữ liệu và chuyên môn.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/quan-ly-truong-sap-nhap.webp"
+  },
+  {
+   "slug": "giao-vien-ra-soat-san-pham",
+   "ma": "BCAI-EDU-077",
+   "ten": "Rà soát hồ sơ chuyên môn",
+   "niche": "giao-duc",
+   "moTa": "Đối chiếu sản phẩm với yêu cầu, mẫu và nguồn để phát hiện thiếu, sai, mâu thuẫn và đề xuất sửa có ưu tiên.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/giao-vien-ra-soat-san-pham.webp"
+  },
+  {
+   "slug": "quan-ly-ra-soat-trinh-ky",
+   "ma": "BCAI-EDU-086",
+   "ten": "Rà soát hồ sơ trước trình ký",
+   "niche": "giao-duc",
+   "moTa": "Kiểm tra dự thảo cùng căn cứ, số liệu và phụ lục; xếp lỗi theo mức nghiêm trọng và kết luận mức sẵn sàng có điều kiện.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/quan-ly-ra-soat-trinh-ky.webp"
+  },
+  {
+   "slug": "giao-vien-soan-giao-an",
+   "ma": "BCAI-EDU-078",
+   "ten": "Soạn giáo án chuẩn trường",
+   "niche": "giao-duc",
+   "moTa": "Tạo giáo án hoặc kế hoạch bài dạy bám chương trình, tài liệu thực tế, thời lượng, đối tượng học sinh và mẫu của trường.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/giao-vien-soan-giao-an.webp"
+  },
+  {
+   "slug": "quan-ly-soan-van-ban",
+   "ma": "BCAI-EDU-087",
+   "ten": "Soạn văn bản quản lý trường",
+   "niche": "giao-duc",
+   "moTa": "Xác định đúng loại văn bản và soạn dự thảo quyết định, thông báo, công văn, tờ trình, biên bản hoặc phân công từ căn cứ và dữ kiện thật.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/quan-ly-soan-van-ban.webp"
+  },
+  {
+   "slug": "quan-ly-xu-ly-van-ban-cap-tren",
+   "ma": "BCAI-EDU-093",
+   "ten": "Triển khai văn bản cấp trên",
+   "niche": "giao-duc",
+   "moTa": "Phân tích văn bản cấp trên và chuyển thành nghĩa vụ, đầu việc, thời hạn, đơn vị phụ trách và thứ tự triển khai của trường.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/quan-ly-xu-ly-van-ban-cap-tren.webp"
+  },
+  {
+   "slug": "giao-vien-tao-de-kiem-tra",
+   "ma": "BCAI-EDU-079",
+   "ten": "Tạo đề kiểm tra theo nguồn",
+   "niche": "giao-duc",
+   "moTa": "Tạo công cụ đánh giá đúng phạm vi đã dạy, cân đối mức độ và thời gian, có kiểm tra chéo đề - đáp án - thang điểm.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/giao-vien-tao-de-kiem-tra.webp"
+  },
+  {
+   "slug": "quan-ly-to-chuc-nhan-su",
+   "ma": "BCAI-EDU-089",
+   "ten": "Tổ chức bộ máy và nhân sự trường",
+   "niche": "giao-duc",
+   "moTa": "Lập bản đồ tổ chức, phát hiện trùng/khuyết nhiệm vụ và đề xuất phương án phân công để người có thẩm quyền xem xét.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/quan-ly-to-chuc-nhan-su.webp"
+  },
+  {
+   "slug": "quan-ly-tong-hop-bao-cao",
+   "ma": "BCAI-EDU-090",
+   "ten": "Tổng hợp báo cáo đa nguồn",
+   "niche": "giao-duc",
+   "moTa": "Chuẩn hóa, đối chiếu và hợp nhất nhiều nguồn thành báo cáo cấp trường mà không che giấu thiếu hoặc mâu thuẫn dữ liệu.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/quan-ly-tong-hop-bao-cao.webp"
+  },
+  {
+   "slug": "quan-ly-xay-dung-quy-che",
+   "ma": "BCAI-EDU-092",
+   "ten": "Xây dựng quy chế nội bộ trường",
+   "niche": "giao-duc",
+   "moTa": "Xây quy chế từ căn cứ, mô hình và điều kiện thật; tách nội dung trường được quyết định khỏi nội dung cần xác minh hoặc xin ý kiến.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/quan-ly-xay-dung-quy-che.webp"
+  },
+  {
+   "slug": "giao-vien-tao-hoc-lieu",
+   "ma": "BCAI-EDU-080",
+   "ten": "Xưởng học liệu giáo viên",
+   "niche": "giao-duc",
+   "moTa": "Tạo học liệu dùng được ngay, đồng bộ với mục tiêu, hoạt động, độ tuổi và điều kiện in/trình chiếu.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/giao-vien-tao-hoc-lieu.webp"
+  },
+  {
+   "slug": "chuyen-doi-so",
+   "ma": "BCAI-LEGAL032",
+   "ten": "Chuyển đổi số doanh nghiệp",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ xây lộ trình chuyển đổi số theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/chuyen-doi-so.webp"
+  },
+  {
+   "slug": "cham-soc-giu-chan-khach-hang",
+   "ma": "BCAI-LEGAL035",
+   "ten": "Chăm sóc và giữ chân khách hàng",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ customer success, dịch vụ và giữ chân theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/cham-soc-giu-chan-khach-hang.webp"
+  },
+  {
+   "slug": "giam-doc-tai-chinh",
+   "ma": "BCAI-LEGAL011",
+   "ten": "Giám đốc tài chính",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ điều hành tài chính cấp CFO theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/giam-doc-tai-chinh.webp"
+  },
+  {
+   "slug": "hop-nhat-bctc",
+   "ma": "BCAI-LEGAL022",
+   "ten": "Hợp nhất báo cáo tài chính",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ hợp nhất báo cáo tập đoàn theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/hop-nhat-bctc.webp"
+  },
+  {
+   "slug": "kiem-toan-noi-bo",
+   "ma": "BCAI-LEGAL009",
+   "ten": "Kiểm toán nội bộ",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ lập và thực hiện kiểm toán nội bộ theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/kiem-toan-noi-bo.webp"
+  },
+  {
+   "slug": "kiem-tra-hoa-don-chung-tu",
+   "ma": "BCAI-LEGAL014",
+   "ten": "Kiểm tra hóa đơn chứng từ",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ kiểm tra hóa đơn và chứng từ theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/kiem-tra-hoa-don-chung-tu.webp"
+  },
+  {
+   "slug": "ke-toan-kiem-tra-so-cai-va-so-chi-tiet",
+   "ma": "BCAI-LEGAL044",
+   "ten": "Kiểm tra sổ cái và sổ chi tiết",
+   "niche": "ke-toan",
+   "moTa": "Kiểm tra và đối chiếu sổ cái với sổ chi tiết theo tài khoản, đối tượng và kỳ; tái tính số dư đầu, phát sinh Nợ/Có, số dư cuối và chỉ ra chênh lệch có thể truy vết.",
+   "loiIch": [
+    "Xác định grain của từng bảng và chống cộng trùng dòng tổng",
+    "Chuẩn hóa tài khoản, đối tượng, kỳ và số tiền; giữ ID nguồn",
+    "Tái tính số dư theo quy ước được cung cấp"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-kiem-tra-so-cai-va-so-chi-tiet.webp"
+  },
+  {
+   "slug": "ke-toan-gia-thanh",
+   "ma": "BCAI-LEGAL015",
+   "ten": "Kế toán giá thành",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ tính và phân tích giá thành theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-gia-thanh.webp"
+  },
+  {
+   "slug": "ke-toan-quan-tri",
+   "ma": "BCAI-LEGAL021",
+   "ten": "Kế toán quản trị",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ phân tích lợi nhuận và hỗ trợ quyết định theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-quan-tri.webp"
+  },
+  {
+   "slug": "ke-toan-san-xuat",
+   "ma": "BCAI-LEGAL017",
+   "ten": "Kế toán sản xuất",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ kế toán sản xuất và biến động theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-san-xuat.webp"
+  },
+  {
+   "slug": "erp-ke-toan-tai-chinh",
+   "ma": "BCAI-LEGAL023",
+   "ten": "Kế toán tài chính trên hệ thống",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ triển khai và tối ưu ERP tài chính theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/erp-ke-toan-tai-chinh.webp"
+  },
+  {
+   "slug": "ke-toan-xay-dung",
+   "ma": "BCAI-LEGAL016",
+   "ten": "Kế toán xây dựng",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ kế toán theo công trình/hợp đồng theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-xay-dung.webp"
+  },
+  {
+   "slug": "ke-toan-lap-bao-cao-tai-chinh-tu-so",
+   "ma": "BCAI-LEGAL043",
+   "ten": "Lập báo cáo tài chính từ sổ",
+   "niche": "ke-toan",
+   "moTa": "Tổng hợp sổ chi tiết lên sổ cái, bảng cân đối tài khoản và báo cáo tài chính dự thảo bằng bảng ánh xạ có phiên bản;",
+   "loiIch": [
+    "Xác định grain, kỳ, đơn vị tiền và dòng tổng",
+    "Tổng hợp sổ chi tiết, đối chiếu sổ cái và lập bảng cân đối tài khoản",
+    "Kiểm số dư đầu–phát sinh–cuối, Nợ=Có và continuity"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-lap-bao-cao-tai-chinh-tu-so.webp"
+  },
+  {
+   "slug": "ke-hoach-ngan-sach",
+   "ma": "BCAI-LEGAL020",
+   "ten": "Lập kế hoạch và ngân sách",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ FP&A, ngân sách và dự báo theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-hoach-ngan-sach.webp"
+  },
+  {
+   "slug": "mua-hang-chuoi-cung-ung",
+   "ma": "BCAI-LEGAL033",
+   "ten": "Mua hàng và chuỗi cung ứng",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ mua hàng và tối ưu chuỗi cung ứng theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/mua-hang-chuoi-cung-ung.webp"
+  },
+  {
+   "slug": "ke-toan-phat-hien-chung-tu-trung",
+   "ma": "BCAI-LEGAL042",
+   "ten": "Phát hiện chứng từ trùng",
+   "niche": "ke-toan",
+   "moTa": "Phát hiện chứng từ kế toán trùng hoàn toàn và nghi trùng bằng khóa định danh, số tiền, ngày, mã số thuế và độ giống văn bản; tạo nhóm ứng viên có điểm tin cậy và bằng chứng.",
+   "loiIch": [
+    "Tạo khóa chính xác theo loại chứng từ",
+    "Chặn ứng viên theo số tiền, đối tượng và khoảng ngày để tránh so mọi cặp",
+    "Tính điểm dựa trên khóa mạnh, ngày, tiền và độ giống nội dung"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-phat-hien-chung-tu-trung.webp"
+  },
+  {
+   "slug": "ke-toan-phat-hien-sai-sot-toan-bo-so",
+   "ma": "BCAI-LEGAL041",
+   "ten": "Phát hiện sai sót toàn bộ sổ",
+   "niche": "ke-toan",
+   "moTa": "Quét toàn bộ sổ kế toán để phát hiện lỗi cấu trúc, bút toán không cân, trùng, sai kỳ, số dư trái quy tắc, đối ứng hiếm, biến động và thiếu liên kết chứng từ;",
+   "loiIch": [
+    "Khóa khách hàng, kỳ, grain và rule set",
+    "Lập profile, số dòng, tổng và trường thiếu",
+    "Chạy lỗi xác định: thiếu trường, sai kiểu, sai kỳ, Nợ≠Có, khóa trùng"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-phat-hien-sai-sot-toan-bo-so.webp"
+  },
+  {
+   "slug": "phan-tich-bctc",
+   "ma": "BCAI-LEGAL008",
+   "ten": "Phân tích báo cáo tài chính",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ phân tích sức khỏe tài chính theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phan-tich-bctc.webp"
+  },
+  {
+   "slug": "quan-ly-dong-tien",
+   "ma": "BCAI-LEGAL012",
+   "ten": "Quản lý dòng tiền",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ dự báo và kiểm soát dòng tiền theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/quan-ly-dong-tien.webp"
+  },
+  {
+   "slug": "ke-toan-quan-ly-deadline-va-ho-so-thieu",
+   "ma": "BCAI-LEGAL040",
+   "ten": "Quản lý hạn và hồ sơ thiếu",
+   "niche": "ke-toan",
+   "moTa": "Quản lý deadline, phụ thuộc, tình trạng hồ sơ thiếu và tải công việc cho nhiều khách hàng kế toán dịch vụ; tạo danh sách ưu tiên hằng ngày và tin nhắn nhắc chứng từ.",
+   "loiIch": [
+    "Xác minh kỳ, múi giờ và nguồn của hạn",
+    "Tách hạn pháp lý, hạn khách hàng và hạn nội bộ",
+    "Xác định blocker, phụ thuộc và chủ việc"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-quan-ly-deadline-va-ho-so-thieu.webp"
+  },
+  {
+   "slug": "ke-toan-kho",
+   "ma": "BCAI-LEGAL019",
+   "ten": "Quản lý kế toán kho",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ kế toán và quản trị tồn kho theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-kho.webp"
+  },
+  {
+   "slug": "quan-ly-ngan-quy",
+   "ma": "BCAI-LEGAL018",
+   "ten": "Quản lý ngân quỹ",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ quản trị tiền, ngân hàng và thanh khoản theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/quan-ly-ngan-quy.webp"
+  },
+  {
+   "slug": "quan-ly-tai-chinh-tai-san",
+   "ma": "BCAI-EDU-088",
+   "ten": "Quản lý tài chính và tài sản trường",
+   "niche": "ke-toan",
+   "moTa": "Lập bảng đối chiếu nguồn - mục đích - nội dung chi - căn cứ - định mức - thẩm quyền; hỗ trợ dự thảo nhưng không thay nghiệp vụ kế toán/phê duyệt.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/quan-ly-tai-chinh-tai-san.webp"
+  },
+  {
+   "slug": "quan-tri-hieu-suat",
+   "ma": "BCAI-LEGAL028",
+   "ten": "Quản trị hiệu suất doanh nghiệp",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ thiết kế và vận hành KPI doanh nghiệp theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/quan-tri-hieu-suat.webp"
+  },
+  {
+   "slug": "quan-tri-rui-ro",
+   "ma": "BCAI-LEGAL026",
+   "ten": "Quản trị rủi ro doanh nghiệp",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ quản trị rủi ro doanh nghiệp ERM theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/quan-tri-rui-ro.webp"
+  },
+  {
+   "slug": "ke-toan-thue-ra-soat-va-lap-ho-so-ke-khai",
+   "ma": "BCAI-LEGAL038",
+   "ten": "Rà soát và lập hồ sơ kê khai thuế",
+   "niche": "ke-toan",
+   "moTa": "Rà soát dữ liệu phục vụ kê khai thuế, đối chiếu hóa đơn–sổ–bảng kê, kiểm tra kỳ, trùng, chênh lệch và lập bộ hồ sơ dự thảo có nguồn pháp lý được xác minh.",
+   "loiIch": [
+    "Kiểm tra nguồn pháp lý chính thức và ngày hiệu lực; lưu URL, ngày truy cập, phạm vi áp dụng",
+    "Chuẩn hóa và đối chiếu hóa đơn–sổ–bảng kê; gọi các skill kiểm tra dữ liệu và đối chiếu hiện có khi phù hợp",
+    "Tự kiểm tổng population và chuyển người có chuyên môn phê duyệt"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-thue-ra-soat-va-lap-ho-so-ke-khai.webp"
+  },
+  {
+   "slug": "soan-van-ban-ke-toan-thue",
+   "ma": "BCAI-LEGAL013",
+   "ten": "Soạn văn bản kế toán thuế",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ soạn công văn và hồ sơ giải trình theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/soan-van-ban-ke-toan-thue.webp"
+  },
+  {
+   "slug": "tham-dinh-tai-chinh",
+   "ma": "BCAI-LEGAL025",
+   "ten": "Thẩm định tài chính",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ thẩm định dự án/doanh nghiệp theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tham-dinh-tai-chinh.webp"
+  },
+  {
+   "slug": "ke-toan-truong",
+   "ma": "BCAI-LEGAL006",
+   "ten": "Trợ lý kế toán trưởng",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ điều hành kế toán và khóa sổ theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-truong.webp"
+  },
+  {
+   "slug": "tro-ly-thue",
+   "ma": "BCAI-LEGAL007",
+   "ten": "Trợ lý thuế",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ quản lý nghĩa vụ thuế theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tro-ly-thue.webp"
+  },
+  {
+   "slug": "tuan-thu-doanh-nghiep",
+   "ma": "BCAI-LEGAL027",
+   "ten": "Tuân thủ doanh nghiệp",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ quản trị tuân thủ và bằng chứng theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tuan-thu-doanh-nghiep.webp"
+  },
+  {
+   "slug": "tai-chinh-doanh-nghiep",
+   "ma": "BCAI-LEGAL024",
+   "ten": "Tài chính doanh nghiệp",
+   "niche": "ke-toan",
+   "moTa": "Hỗ trợ quyết định tài chính doanh nghiệp theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tai-chinh-doanh-nghiep.webp"
+  },
+  {
+   "slug": "ke-toan-tinh-luong-va-kiem-tra-tien-luong",
+   "ma": "BCAI-LEGAL036",
+   "ten": "Tính và kiểm tra tiền lương",
+   "niche": "ke-toan",
+   "moTa": "Tính và kiểm tra bảng lương từ danh sách nhân viên, hợp đồng, chấm công, thu nhập, khấu trừ và cấu hình có ngày hiệu lực;",
+   "loiIch": [
+    "Khóa doanh nghiệp, kỳ, chính sách và phiên bản cấu hình",
+    "Kiểm tra danh sách nhân viên, hợp đồng, trạng thái và chấm công",
+    "Kiểm giới hạn công, dữ liệu trùng/thiếu, thực nhận âm và biến động kỳ trước"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-tinh-luong-va-kiem-tra-tien-luong.webp"
+  },
+  {
+   "slug": "ke-toan-tao-ho-so-giai-trinh",
+   "ma": "BCAI-LEGAL039",
+   "ten": "Tạo hồ sơ giải trình kế toán",
+   "niche": "ke-toan",
+   "moTa": "Tạo bộ hồ sơ giải trình kế toán có cấu trúc từ yêu cầu, sổ, giao dịch, chứng từ và trao đổi liên quan; lập timeline, bảng truy vết số liệu, chỉ mục bằng chứng và bản giải thích dự thảo.",
+   "loiIch": [
+    "Khóa câu hỏi cần giải trình và phạm vi",
+    "Lập manifest tài liệu, checksum nếu có thể và quyền truy cập",
+    "Trích các dữ kiện, số liệu và nguồn tương ứng"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-tao-ho-so-giai-trinh.webp"
+  },
+  {
+   "slug": "ke-toan-dong-so-cuoi-ky",
+   "ma": "BCAI-LEGAL046",
+   "ten": "Đóng sổ cuối kỳ",
+   "niche": "ke-toan",
+   "moTa": "Điều phối và kiểm tra mức sẵn sàng khóa sổ kế toán cuối tháng, quý hoặc năm cho đơn vị kế toán dịch vụ.",
+   "loiIch": [
+    "Khóa phạm vi khách hàng, kỳ và phiên bản checklist",
+    "Kiểm tra tính đầy đủ của từng bước và bằng chứng",
+    "Gọi các skill kiểm tra chuyên biệt khi có dữ liệu tương ứng"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-dong-so-cuoi-ky.webp"
+  },
+  {
+   "slug": "ke-toan-doc-chung-tu-va-goi-y-hach-toan",
+   "ma": "BCAI-LEGAL051",
+   "ten": "Đọc chứng từ và gợi ý hạch toán",
+   "niche": "ke-toan",
+   "moTa": "Đọc ảnh/PDF/bảng chứng từ, trích xuất trường dữ liệu, phân loại nghiệp vụ và tạo gợi ý định khoản có căn cứ, độ tin cậy và hàng chờ duyệt.",
+   "loiIch": [
+    "Kiểm tra khả năng đọc, số trang, bản trùng và nguồn file",
+    "Trích xuất nguyên văn trường nhìn thấy; ghi vị trí/trang và độ tin cậy",
+    "Chuẩn hóa bản làm việc nhưng giữ giá trị gốc"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-doc-chung-tu-va-goi-y-hach-toan.webp"
+  },
+  {
+   "slug": "ke-toan-doi-chieu-hoa-don-so-sach-to-khai",
+   "ma": "BCAI-LEGAL049",
+   "ten": "Đối chiếu hóa đơn, sổ và tờ khai",
+   "niche": "ke-toan",
+   "moTa": "Đối chiếu ba chiều danh sách hóa đơn, sổ kế toán và dữ liệu kê khai theo khóa hóa đơn, đối tượng, ngày, tiền trước thuế, tiền thuế và tổng thanh toán.",
+   "loiIch": [
+    "Chuẩn hóa khóa nhưng giữ ID và giá trị gốc",
+    "Phát hiện khóa trùng trong từng nguồn",
+    "Ghép khóa mạnh; sau đó ghép có dung sai vào hàng chờ duyệt"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-doi-chieu-hoa-don-so-sach-to-khai.webp"
+  },
+  {
+   "slug": "ke-toan-doi-chieu-ngan-hang",
+   "ma": "BCAI-LEGAL048",
+   "ten": "Đối chiếu ngân hàng",
+   "niche": "ke-toan",
+   "moTa": "Đối chiếu một-một giữa sao kê ngân hàng và sổ kế toán theo số tiền, ngày, mã tham chiếu và nội dung;",
+   "loiIch": [
+    "Chuẩn hóa riêng hai nguồn và gắn ID dòng nguồn",
+    "Kiểm tra kỳ, dấu tiền, số dư và tính đầy đủ",
+    "Ghép khóa mạnh: mã tham chiếu + tiền"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-doi-chieu-ngan-hang.webp"
+  },
+  {
+   "slug": "ke-toan-doi-chieu-va-xac-nhan-cong-no",
+   "ma": "BCAI-LEGAL047",
+   "ten": "Đối chiếu và xác nhận công nợ",
+   "niche": "ke-toan",
+   "moTa": "Đối chiếu công nợ phải thu/phải trả, ghép thanh toán với hóa đơn, lập tuổi nợ, phát hiện công nợ âm, số dư hai chiều, thanh toán chưa phân bổ và chênh lệch xác nhận.",
+   "loiIch": [
+    "Chuẩn hóa mã đối tượng, chứng từ, ngày và số tiền",
+    "Tái tính dư đầu + tăng − giảm = dư cuối",
+    "Ghép mã tham chiếu; sau đó tiền/đối tượng/ngày; không tự chọn khi mơ hồ"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-doi-chieu-va-xac-nhan-cong-no.webp"
+  },
+  {
+   "slug": "chuyen-chi-dao-thanh-ke-hoach",
+   "ma": "BCAI-STRATEGY-010",
+   "ten": "Chuyển chỉ đạo thành kế hoạch",
+   "niche": "van-phong",
+   "moTa": "Đọc nghị quyết, kế hoạch, công văn hoặc văn bản chỉ đạo cấp trên và chuyển phần liên quan thành kế hoạch triển khai thực tế cho cơ quan, xã/phường hoặc đơn vị.",
+   "loiIch": [
+    "Tóm tắt điều hành",
+    "Ma trận yêu cầu–căn cứ",
+    "Kế hoạch: mục đích, yêu cầu, nhiệm vụ, tổ chức thực hiện"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/chuyen-chi-dao-thanh-ke-hoach.webp"
+  },
+  {
+   "slug": "lap-bao-cao-dinh-ky",
+   "ma": "BCAI-STRATEGY-009",
+   "ten": "Lập báo cáo định kỳ",
+   "niche": "van-phong",
+   "moTa": "Lập báo cáo tuần, tháng, quý, 6 tháng, năm, sơ kết hoặc tổng kết cho cán bộ, công chức và nhân viên văn phòng từ đề cương, báo cáo kỳ trước, nhiệm vụ và số liệu thực tế.",
+   "loiIch": [
+    "Tóm tắt phạm vi và nguồn đã dùng",
+    "Dự thảo báo cáo theo đề cương/mẫu",
+    "Nhiệm vụ kỳ tiếp theo nếu được yêu cầu"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/lap-bao-cao-dinh-ky.webp"
+  },
+  {
+   "slug": "phan-tich-so-lieu-bao-cao",
+   "ma": "BCAI-STRATEGY-008",
+   "ten": "Phân tích số liệu báo cáo",
+   "niche": "van-phong",
+   "moTa": "Chuẩn hóa, tổng hợp, so sánh và phân tích tệp Excel/bảng số liệu phục vụ báo cáo hành chính; tính tỷ lệ tăng giảm, phát hiện bất thường và viết nhận xét có căn cứ.",
+   "loiIch": [
+    "Bảng tổng hợp/so sánh kèm công thức",
+    "Điểm nổi bật và bất thường",
+    "Nhận xét sẵn để đưa vào báo cáo"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phan-tich-so-lieu-bao-cao.webp"
+  },
+  {
+   "slug": "ra-soat-truoc-trinh-ky",
+   "ma": "BCAI-STRATEGY-014",
+   "ten": "Rà soát trước trình ký",
+   "niche": "van-phong",
+   "moTa": "Rà soát báo cáo, kế hoạch, công văn, tờ trình và dự thảo hành chính trước trình ký bằng cách đối chiếu đề cương, căn cứ, dữ liệu và phụ lục;",
+   "loiIch": [
+    "Kết luận điều hành: CHƯA NÊN TRÌNH, CÓ THỂ TRÌNH SAU KHI XÁC NHẬN, hoặc SẴN SÀNG RÀ SOÁT CUỐI",
+    "Bảng lỗi: mức, vị trí, nội dung, vấn đề, nguồn, đề xuất",
+    "Danh sách thông tin cần xác nhận"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ra-soat-truoc-trinh-ky.webp"
+  },
+  {
+   "slug": "soan-thao-van-ban-hanh-chinh",
+   "ma": "BCAI-STRATEGY-006",
+   "ten": "Soạn thảo văn bản hành chính",
+   "niche": "van-phong",
+   "moTa": "Soạn dự thảo công văn, tờ trình, quyết định, thông báo, biên bản, báo cáo, kế hoạch và văn bản hành chính từ sự việc, mục đích, người nhận, hồ sơ và căn cứ thực tế.",
+   "loiIch": [
+    "Loại văn bản đề xuất và lý do",
+    "Dữ liệu đã có/còn thiếu",
+    "Dự thảo nội dung"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/soan-thao-van-ban-hanh-chinh.webp"
+  },
+  {
+   "slug": "tao-van-ban-moi-tu-mau-cu",
+   "ma": "BCAI-STRATEGY-005",
+   "ten": "Tạo văn bản mới từ mẫu cũ",
+   "niche": "van-phong",
+   "moTa": "Tạo văn bản kỳ mới từ văn bản mẫu hoặc kỳ trước cho cán bộ, công chức và nhân viên văn phòng;",
+   "loiIch": [
+    "Bảng thành phần giữ/thay/loại",
+    "Văn bản mới",
+    "Bảng trường chưa hoàn tất"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tao-van-ban-moi-tu-mau-cu.webp"
+  },
+  {
+   "slug": "tong-hop-bao-cao-nhieu-nguon",
+   "ma": "BCAI-STRATEGY-013",
+   "ten": "Tổng hợp báo cáo nhiều nguồn",
+   "niche": "van-phong",
+   "moTa": "Tổng hợp báo cáo và số liệu từ nhiều đơn vị, file Word, PDF hoặc Excel thành một báo cáo thống nhất; chuẩn hóa chỉ tiêu, theo dõi đơn vị đã/chưa gửi, phát hiện thiếu, trùng và mâu thuẫn.",
+   "loiIch": [
+    "Bảng tổng hợp theo đề cương",
+    "Dự thảo báo cáo",
+    "Danh sách đơn vị thiếu/chưa gửi"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tong-hop-bao-cao-nhieu-nguon.webp"
+  },
+  {
+   "slug": "xu-ly-van-ban-dang-chi-bo",
+   "ma": "BCAI-STRATEGY-012",
+   "ten": "Xử lý văn bản đảng và chi bộ",
+   "niche": "van-phong",
+   "moTa": "Xử lý tài liệu công tác Đảng và Chi bộ từ nghị quyết, chương trình, chỉ đạo, báo cáo kỳ trước, báo cáo đơn vị trực thuộc và kết quả thực tế để lập báo cáo định kỳ, sơ kết/tổng kết, kiểm…",
+   "loiIch": [
+    "Phạm vi, kỳ, người nhận và nguồn",
+    "Dự thảo theo đề cương",
+    "Ma trận nhiệm vụ–kết quả–minh chứng"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xu-ly-van-ban-dang-chi-bo.webp"
+  },
+  {
+   "slug": "tro-ly-ai-cong-chuc-van-phong",
+   "ma": "BCAI-STRATEGY-011",
+   "ten": "Điều phối công việc văn phòng",
+   "niche": "van-phong",
+   "moTa": "Điều phối công việc AI cho cán bộ, công chức và nhân viên văn phòng: nhận yêu cầu tự nhiên và hồ sơ, xác định đúng nghiệp vụ, kiểm tra dữ liệu tối thiểu rồi áp dụng quy trình báo cáo, tổng…",
+   "loiIch": [
+    "Chẩn đoán nhiệm vụ",
+    "Danh mục đầu vào có/thiếu",
+    "Skill chủ đạo và chuỗi xử lý"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tro-ly-ai-cong-chuc-van-phong.webp"
+  },
+  {
+   "slug": "co-may-moi-gioi-bat-dong-san-360",
+   "ma": "BCAI-LAND-001",
+   "ten": "Bất Động Sản 360",
+   "niche": "bds",
+   "moTa": "Điều hành công việc môi giới bất động sản nhà ở từ khách mới, kho hàng, ghép sản phẩm, nội dung, chăm sóc, dẫn xem đến giao dịch.",
+   "loiIch": [
+    "Khách hỏi xong rồi biến mất vì môi giới không biết nên hỏi gì và chăm sóc lúc nào",
+    "Nguồn hàng nằm ở nhiều file, trùng căn, sai giá hoặc đã hết nhưng vẫn được gửi khách",
+    "Mất hàng giờ tìm sản phẩm mà vẫn không giải thích được vì sao căn này hợp khách"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/co-may-moi-gioi-bat-dong-san-360.webp"
+  },
+  {
+   "slug": "chatbot-bat-dong-san",
+   "ma": "BCAI-LAND-012",
+   "ten": "Chatbot BĐS có kiểm chứng",
+   "niche": "bds",
+   "moTa": "Skill tạo hoặc audit chatbot BĐS có nguồn, phân tầng độ tin cậy, xin đồng ý trước khi thu dữ liệu và chuyển người thật đúng lúc.",
+   "loiIch": [
+    "Nhận nguồn được duyệt, thời điểm cập nhật, phạm vi tư vấn, tệp khách, FAQ, quy tắc chuyển người thật, trường lead và…",
+    "Lập sourceregistry: nguồn, owner, ngày kiểm tra, ngày hết hạn và loại câu hỏi được phép trả lời",
+    "Phân câu hỏi thành: trả lời được, cần hỏi thêm, cần tra nguồn, hoặc bắt buộc chuyển người thật"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/chatbot-bat-dong-san.webp"
+  },
+  {
+   "slug": "chuan-bi-gap-khach-bat-dong-san",
+   "ma": "BCAI-LAND-017",
+   "ten": "Chuẩn bị buổi tư vấn bất động sản",
+   "niche": "bds",
+   "moTa": "Chuẩn bị buổi tư vấn hoặc dẫn khách xem nhà: mục tiêu, dữ kiện đã xác minh, lộ trình, câu hỏi khám phá, phản đối có thể gặp và cách trả lời minh bạch.",
+   "loiIch": [
+    "Lập lịch trình, điểm hẹn, thứ tự sản phẩm và phương án dự phòng",
+    "Tóm tắt nhu cầu khách, điểm phù hợp, điểm không phù hợp, dữ kiện đã xác minh và điều cần nói rõ",
+    "Chuẩn bị câu hỏi khám phá và câu trả lời cho phản đối về giá, vị trí, pháp lý, vay, tiến độ và tiện ích; không tranh…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/chuan-bi-gap-khach-bat-dong-san.webp"
+  },
+  {
+   "slug": "cham-soc-khach-bat-dong-san",
+   "ma": "BCAI-LAND-016",
+   "ten": "Chăm sóc khách bất động sản",
+   "niche": "bds",
+   "moTa": "Lên lịch chăm sóc lại và soạn tin nhắn cá nhân hóa cho khách bất động sản theo giai đoạn, lần tương tác cuối, phản đối và giá trị mới — có tôn trọng sự đồng ý liên hệ.",
+   "loiIch": [
+    "Nhận trạng thái khách, mức ưu tiên, sự đồng ý liên hệ, kênh, lần tương tác cuối, nhu cầu, phản đối và nội dung đã gửi",
+    "Chọn mục tiêu cho từng lần liên hệ: bổ sung dữ liệu, gửi lựa chọn, giải đáp, xác nhận lịch hoặc xin phép dừng",
+    "Tạo lịch gồm ngày dự kiến, kênh, thông điệp, giá trị mới, CTA và điều kiện dừng"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/cham-soc-khach-bat-dong-san.webp"
+  },
+  {
+   "slug": "ghep-khach-voi-bat-dong-san",
+   "ma": "BCAI-LAND-019",
+   "ten": "Ghép khách với bất động sản",
+   "niche": "bds",
+   "moTa": "Xếp hạng các bất động sản đã xác minh theo hồ sơ khách: điều kiện cứng, tiêu chí ưu tiên có trọng số, bằng chứng, điểm còn thiếu và phương án thay thế.",
+   "loiIch": [
+    "Loại sản phẩm vi phạm điều kiện cứng: vượt trần ngân sách, sai loại, sai khu vực bắt buộc, trạng thái không còn bán…",
+    "Trả tối đa năm lựa chọn gồm điểm, lý do, điều chưa phù hợp, dữ liệu chưa xác minh và phương án thay thế",
+    "Nếu không có kết quả, đề xuất nới từng tiêu chí một và cho thấy tác động; không tự thay đổi nhu cầu khách"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ghep-khach-voi-bat-dong-san.webp"
+  },
+  {
+   "slug": "kiem-tra-thong-tin-bat-dong-san",
+   "ma": "BCAI-LAND-020",
+   "ten": "Kiểm tra thông tin bất động sản",
+   "niche": "bds",
+   "moTa": "Lập checklist kiểm tra thông tin bất động sản dựa trên bằng chứng: giấy tờ, lời quảng cáo, điểm mâu thuẫn và phần chưa được xác minh.",
+   "loiIch": [
+    "Xác định loại tài sản, loại giao dịch, địa phương và giai đoạn",
+    "Lập danh mục thông tin cần kiểm tra: chủ thể, quyền, quy hoạch, thế chấp/tranh chấp nếu có nguồn hợp pháp, điều kiện…",
+    "Với từng mục, ghi trạng thái đã xác minh, do nguồn cung cấp, chưa có, mâu thuẫn, nguồn, ngày và người xác minh"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/kiem-tra-thong-tin-bat-dong-san.webp"
+  },
+  {
+   "slug": "lam-sach-kho-bat-dong-san",
+   "ma": "BCAI-LAND-021",
+   "ten": "Làm sạch kho hàng bất động sản",
+   "niche": "bds",
+   "moTa": "Chuẩn hóa kho hàng bất động sản, phát hiện tin có thể trùng, đánh dấu giá cũ và trường còn thiếu, giữ nguồn gốc xác minh.",
+   "loiIch": [
+    "Lưu bản gốc, tạo mã nội bộ và chuẩn hóa tên trường, số, tiền tệ, diện tích, ngày, địa chỉ",
+    "Gắn possibleduplicate khi trùng mã nguồn hoặc gần trùng dự án–căn–diện tích; không tự xóa",
+    "Gắn stale khi quá hạn cập nhật do đội ngũ cấu hình"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/lam-sach-kho-bat-dong-san.webp"
+  },
+  {
+   "slug": "phan-loai-khach-bat-dong-san",
+   "ma": "BCAI-LAND-023",
+   "ten": "Sàng lọc khách bất động sản",
+   "niche": "bds",
+   "moTa": "Lập hồ sơ khách mua bất động sản có cấu trúc và phân loại mức sẵn sàng theo nhu cầu, ngân sách, khả năng tài chính, thời gian, người quyết định và ràng buộc.",
+   "loiIch": [
+    "Thu thập mục đích mua, loại tài sản, khu vực, ngân sách, vốn tự có, nhu cầu vay, thời gian, người quyết định, tiêu…",
+    "Không yêu cầu giấy tờ nhạy cảm nếu chưa thật sự cần; dùng mã khách thay cho tên đầy đủ trong báo cáo",
+    "Phân loại nóng, ấm, nuôi dưỡng hoặc tạm dừng; ghi rõ đây là mức ưu tiên bán hàng, không phải đánh giá tín dụng"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phan-loai-khach-bat-dong-san.webp"
+  },
+  {
+   "slug": "van-hanh-pheu-ban-bat-dong-san",
+   "ma": "BCAI-SALES-029",
+   "ten": "Trợ lý AI bất động sản",
+   "niche": "bds",
+   "moTa": "Skill hợp nhất cho sàng lọc lead, matching giỏ hàng, nội dung, follow-up, lịch xem và checklist hồ sơ BĐS.",
+   "loiIch": [
+    "Nhận caseid, mục tiêu, trạng thái hiện tại, dữ liệu khách, dữ liệu sản phẩm và lịch sử tương tác được phép sử dụng",
+    "Nếu dữ liệu chứa thông tin cá nhân, chỉ dùng trong phiên làm việc và không chép vào gói skill dùng chung",
+    "Xác định một trạng thái: newlead, qualified, inventoryready, matched, informationchecked, nurturing, meetingready,…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/van-hanh-pheu-ban-bat-dong-san.webp"
+  },
+  {
+   "slug": "mo-hinh-tang-truong-bat-dong-san",
+   "ma": "BCAI-LAND-014",
+   "ten": "Tăng trưởng BĐS 90 ngày",
+   "niche": "bds",
+   "moTa": "Skill chẩn đoán funnel và lập roadmap tăng trưởng BĐS 13 tuần có KPI, ngân sách, thử nghiệm, người phụ trách và nhịp rà soát.",
+   "loiIch": [
+    "Tách số liệu thật, ước tính và dữ liệu thiếu. Không biến ước tính thành thành tích",
+    "Vẽ chuỗi giá trị: nguồn hàng → lead → sàng lọc → tư vấn → xem → thương lượng → giao dịch → hậu mãi",
+    "Chọn một tệp khách, một lợi thế, một offer và tối đa hai kênh cho chu kỳ 90 ngày"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/mo-hinh-tang-truong-bat-dong-san.webp"
+  },
+  {
+   "slug": "noi-dung-ban-bat-dong-san",
+   "ma": "BCAI-LAND-022",
+   "ten": "Tạo nội dung bán bất động sản",
+   "niche": "bds",
+   "moTa": "Tạo nội dung bán bất động sản riêng cho từng kênh từ thẻ sản phẩm đã xác minh và nhóm khách đã xác định, giữ rõ nguồn của từng thông tin.",
+   "loiIch": [
+    "Yêu cầu thẻ sản phẩm, chân dung khách, kênh, mục tiêu, giọng điệu và lời kêu gọi hành động",
+    "Tách dữ kiện đã xác minh, thông tin do nguồn cung cấp và nội dung không được dùng",
+    "Chọn một góc dựa trên nhu cầu thật của khách; không dùng nỗi sợ hoặc khan hiếm giả"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/noi-dung-ban-bat-dong-san.webp"
+  },
+  {
+   "slug": "dieu-phoi-giao-dich-bat-dong-san",
+   "ma": "BCAI-LAND-018",
+   "ten": "Điều phối giao dịch bất động sản",
+   "niche": "bds",
+   "moTa": "Điều phối việc trong giao dịch bất động sản: tài liệu cần xin, người phụ trách, hạn chót, phê duyệt, mốc thanh toán và trạng thái bàn giao — không soạn tư vấn pháp lý cuối cùng.",
+   "loiIch": [
+    "Nhận mã giao dịch, loại giao dịch, các bên, mốc dự kiến, danh sách tài liệu và người phụ trách",
+    "Tạo checklist gồm việc, chủ sở hữu, hạn, phụ thuộc, bằng chứng, trạng thái và người phê duyệt",
+    "Tách tài liệu đã nhận, cần xác minh, thiếu, mâu thuẫn; không lưu bản nhạy cảm vào gói skill"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/dieu-phoi-giao-dich-bat-dong-san.webp"
+  },
+  {
+   "slug": "giao-vien-xay-dung-sang-kien",
+   "ma": "BCAI-EDU-082",
+   "ten": "Xây dựng sáng kiến trung thực",
+   "niche": "kien-truc",
+   "moTa": "Khai thác kinh nghiệm thật, lập đề cương, dự thảo và kế hoạch minh chứng mà không bịa số liệu hoặc hiệu quả.",
+   "loiIch": [
+    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
+    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
+    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/giao-vien-xay-dung-sang-kien.webp"
+  },
+  {
+   "slug": "phat-trien-app-long-tieng-viral",
+   "ma": "BCAI-CREATIVE-066",
+   "ten": "Xây dựng ứng dụng lồng tiếng",
+   "niche": "kien-truc",
+   "moTa": "Duy trì và phát triển dự án CỖ MÁY LỒNG TIẾNG VIRAL thuộc hệ sinh thái TẠP HÓA AI.",
+   "loiIch": [
+    "Xây đây là module của TẠP HÓA AI, không tạo dự án code độc lập",
+    "Dùng chung User, Auth, Entitlement, Credit, Payment, Affiliate, Admin, Notification và Analytics của TẠP HÓA AI",
+    "Dùng chung Theme/Design DNA với các app con; ưu tiên giao diện sáng, hiện đại, dễ hiểu và nhất quán"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phat-trien-app-long-tieng-viral.webp"
+  },
+  {
+   "slug": "cong-xuong-subagent",
+   "ma": "BCAI-WEB-006",
+   "ten": "Công xưởng Subagent",
+   "niche": "website",
+   "moTa": "Dùng khi Châu (hoặc khách của Bảo Châu AI) muốn xây, kích hoạt, kiểm tra hay mở rộng Công xưởng Subagent – một Agent Tổng giám sát điều phối các Agent con có đăng ký, quyền hạn, quality…",
+   "loiIch": [
+    "Registry.yaml – sổ đăng ký Agent",
+    "Permissions.yaml – bản đồ quyền 4 tầng",
+    "Queue/ – hàng đợi (mỗi việc 1 file job.yaml)"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/cong-xuong-subagent.webp"
+  },
+  {
+   "slug": "co-may-skill",
+   "ma": "BCAI-WEB-005",
+   "ten": "Cỗ máy skill",
+   "niche": "website",
+   "moTa": "Biến một mục tiêu, ngành nghề hoặc dự án thành một bộ kỹ năng AI có cấu trúc, có thể kiểm thử và chuyển giao cho khách hàng.",
+   "loiIch": [
+    "Cách hệ thống hiểu dự án",
+    "Danh mục Skill đề xuất và lợi ích khách hàng",
+    "Thành phần tái sử dụng và thành phần cần tạo mới"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/co-may-skill.webp"
+  },
+  {
+   "slug": "tao-goi-skill-ai",
+   "ma": "BCAI-WEB-008",
+   "ten": "Cỗ máy skill",
+   "niche": "website",
+   "moTa": "Biến ý tưởng dự án, quy trình kinh doanh, ý tưởng app hoặc việc AI hay lặp lại thành một skill AI (hoặc bộ nhiều skill) tập trung, đã kiểm tra và dùng lại được.",
+   "loiIch": [
+    "Lập bản đồ năng lực: chia kết quả thành các công việc độc lập mà AI phải thực hiện",
+    "Phân loại từng thành phần: skill, kiến thức, bộ nhớ, workflow, script, automation hay tính năng app. Không ép mọi…",
+    "Tìm phần có thể tái sử dụng. Ưu tiên dùng hoặc mở rộng skill hiện có; chỉ tạo mới khi trách nhiệm thật sự khác"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tao-goi-skill-ai.webp"
+  },
+  {
+   "slug": "kho-mau-website",
+   "ma": "BCAI-SALES-021",
+   "ten": "Kho trang web trắng bảo châu AI",
+   "niche": "website",
+   "moTa": "Quản lý kho mẫu website white-label, giới thiệu các mẫu đang có, yêu cầu người dùng chọn mẫu trước khi làm, đọc file thông tin khách hàng, nhân bản mã nguồn, đổi thương hiệu, thêm nội…",
+   "loiIch": [
+    "Chỉ liệt kê các mẫu có trạng thái Sẵn sàng",
+    "Gợi ý tối đa ba mẫu phù hợp nhất, mỗi mẫu gồm mã, tên, phong cách, ngành phù hợp, tính năng chính và link demo",
+    "Chỉ hỏi thêm dữ liệu còn thiếu có thể làm thay đổi kết quả lớn, như tên thương hiệu, dịch vụ chính, CTA, thông tin…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/kho-mau-website.webp"
+  },
+  {
+   "slug": "ke-toan-kiem-tra-chat-luong-du-lieu",
+   "ma": "BCAI-LEGAL045",
+   "ten": "Kiểm tra chất lượng dữ liệu kế toán",
+   "niche": "website",
+   "moTa": "Kiểm tra chất lượng dữ liệu kế toán theo schema và quy tắc có thể kiểm toán; phát hiện thiếu trường, sai kiểu, sai kỳ, số tiền bất thường, khóa không hợp lệ và quan hệ số học sai.",
+   "loiIch": [
+    "Xác nhận nguồn, số dòng, tiêu đề và kỳ dữ liệu",
+    "Chạy kiểm tra cấu trúc, trường bắt buộc, kiểu dữ liệu, miền giá trị, khóa và quan hệ số học",
+    "Phân loại ERROR, WARNING, INFO; không gộp các lỗi khác bản chất"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-kiem-tra-chat-luong-du-lieu.webp"
+  },
+  {
+   "slug": "phat-trien-co-may-fanpage",
+   "ma": "BCAI-WEB-007",
+   "ten": "Phát triển cỗ máy fanpage",
+   "niche": "website",
+   "moTa": "Duy trì và phát triển dự án CỖ MÁY FANPAGE theo Project Architecture 1.0.1 đã khóa.",
+   "loiIch": [
+    "Chọn một hướng tối ưu và giải thích ngắn gọn",
+    "Nêu trạng thái đã xác minh, phạm vi increment và việc không làm",
+    "Giao cho coding agent mọi phần nó có thể tự thực hiện"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phat-trien-co-may-fanpage.webp"
+  },
+  {
+   "slug": "phan-tich-du-lieu-kinh-doanh",
+   "ma": "BCAI-SALES-006",
+   "ten": "Phân tích dữ liệu kinh doanh",
+   "niche": "website",
+   "moTa": "Hỗ trợ BI và phân tích quyết định theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/phan-tich-du-lieu-kinh-doanh.webp"
+  },
+  {
+   "slug": "quan-tri-du-lieu",
+   "ma": "BCAI-LEGAL030",
+   "ten": "Quản trị dữ liệu doanh nghiệp",
+   "niche": "website",
+   "moTa": "Hỗ trợ data governance và chất lượng dữ liệu theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/quan-tri-du-lieu.webp"
+  },
+  {
+   "slug": "tiet-kiem-codex",
+   "ma": "BCAI-WEB-011",
+   "ten": "Tiết kiệm Codex",
+   "niche": "website",
+   "moTa": "Phân loại việc của Codex thành PACK, EDIT, BUILD, DEBUG hoặc DEEP trước khi chạy; giảm ngữ cảnh, lượt quét, lượt thử lại và suy luận thừa mà vẫn giữ đúng kết quả.",
+   "loiIch": [],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tiet-kiem-codex.webp"
+  },
+  {
+   "slug": "tiet-kiem-codex-pro",
+   "ma": "BCAI-WEB-009",
+   "ten": "Tiết kiệm Codex Pro",
+   "niche": "website",
+   "moTa": "Áp dụng quy trình SKILL TIẾT KIỆM CODEX có thể tùy chỉnh cho đóng gói, chỉnh sửa, build, gỡ lỗi và các việc kiến trúc chuyên sâu.",
+   "loiIch": [],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tiet-kiem-codex-pro.webp"
+  },
+  {
+   "slug": "tiet-kiem-codex-thong-ke",
+   "ma": "BCAI-WEB-010",
+   "ten": "Tiết kiệm Codex — thống kê",
+   "niche": "website",
+   "moTa": "Phân luồng việc của Codex và ghi lại số liệu vận hành (có giữ riêng tư) qua máy chủ MCP Smart Router.",
+   "loiIch": [],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tiet-kiem-codex-thong-ke.webp"
+  },
+  {
+   "slug": "mau-web-cho-san-pham-so",
+   "ma": "BCAI-SALES-023",
+   "ten": "Tạo trang web bán sản phẩm số",
+   "niche": "website",
+   "moTa": "Là bộ công cụ tạo trang web bán sản phẩm số dựa trên các mẫu đã chạy thực tế, có quy trình từ dữ liệu đến vận hành.",
+   "loiIch": [
+    "Nhiều nhóm sản phẩm trên cùng một website",
+    "Tìm kiếm và lọc/sắp xếp",
+    "Trang danh mục"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/mau-web-cho-san-pham-so.webp"
+  },
+  {
+   "slug": "xay-dung-he-thong-du-lieu",
+   "ma": "BCAI-LEGAL031",
+   "ten": "Xây dựng hệ thống dữ liệu",
+   "niche": "website",
+   "moTa": "Hỗ trợ kiến trúc và vận hành data pipeline theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xay-dung-he-thong-du-lieu.webp"
+  },
+  {
+   "slug": "tao-web-ban-hang-white-label",
+   "ma": "BCAI-SALES-019",
+   "ten": "Xây dựng trang web trắng",
+   "niche": "website",
+   "moTa": "Tạo, tùy biến, kiểm tra, xuất bản và đóng gói website bán hàng white-label từ mẫu có sẵn cho thương hiệu của người dùng.",
+   "loiIch": [
+    "Xác định tên thương hiệu, ngành hàng, màu chủ đạo, nội dung và sản phẩm. Nếu thiếu dữ liệu, dùng nội dung mẫu dễ…",
+    "Thay toàn bộ nhận diện nhìn thấy trên website theo thương hiệu khách hàng. Không để sót tên hay nhận diện của mẫu gốc",
+    "Dùng sản phẩm mẫu trung tính khi khách chưa có dữ liệu. Đánh dấu rõ đây là dữ liệu demo"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tao-web-ban-hang-white-label.webp"
+  },
+  {
+   "slug": "xuong-song-skill",
+   "ma": "BCAI-WEB-012",
+   "ten": "Xương sống skill",
+   "niche": "website",
+   "moTa": "Biến một lĩnh vực chuyên môn thành xương sống skill chuyên sâu, có thể dùng lặp lại để giải quyết đúng một nỗi đau của đúng một nhóm khách hàng.",
+   "loiIch": [
+    "Chẩn đoán khách hàng và nỗi đau",
+    "Bài toán lõi",
+    "Danh sách 10 chuyên gia"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xuong-song-skill.webp"
+  },
+  {
+   "slug": "xu-ly-bang-tinh-du-lieu",
+   "ma": "BCAI-LEGAL010",
+   "ten": "Xử lý bảng tính và dữ liệu",
+   "niche": "website",
+   "moTa": "Hỗ trợ làm sạch và tự động hóa bảng tính theo quy trình có kiểm soát.",
+   "loiIch": [
+    "Tóm tắt điều hành và mục tiêu",
+    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
+    "Bảng phân tích/working paper có công thức hoặc logic"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/xu-ly-bang-tinh-du-lieu.webp"
+  },
+  {
+   "slug": "ke-toan-doc-va-chuan-hoa-du-lieu",
+   "ma": "BCAI-LEGAL050",
+   "ten": "Đọc và chuẩn hóa dữ liệu kế toán",
+   "niche": "website",
+   "moTa": "Đọc, lập hồ sơ cấu trúc và chuẩn hóa dữ liệu kế toán từ CSV/TSV/XLSX mà không làm thay đổi ý nghĩa hoặc tổng kiểm soát.",
+   "loiIch": [
+    "Sao lưu logic: chỉ đọc nguồn; tạo bản làm việc mới; ghi tên file, sheet và thời điểm xử lý",
+    "Lập ánh xạ: ghép tiêu đề với schema đích; không ghép khi độ tin cậy thấp; đưa vào danh sách xác minh",
+    "Chuẩn hóa: cắt khoảng trắng, chuẩn Unicode, chuẩn tiêu đề, ngày ISO yyyy-mm-dd, số tiền dạng số, định danh dạng văn bản"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/ke-toan-doc-va-chuan-hoa-du-lieu.webp"
+  },
+  {
+   "slug": "tu-vi-lich-am-bat-tu",
+   "ma": "BCAI-SPIRIT-001",
+   "ten": "Tử vi & lịch âm - bát tự",
+   "niche": "phong-thuy",
+   "moTa": "Hướng dẫn người mới sử dụng app BCAI - Tử Vi & Lịch Âm - Bát Tự, thu thập thông tin sinh từng bước và giải thích báo cáo Can Chi, Nhật chủ, Ngũ hành bằng tiếng Việt dễ hiểu.",
+   "loiIch": [
+    "Ngày Dương lịch và Âm lịch được đối chiếu",
+    "Bốn trụ Năm, Tháng, Ngày, Giờ",
+    "Nhật chủ là Can của trụ Ngày"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tu-vi-lich-am-bat-tu.webp"
+  }
+ ],
+ "bundles": [
+  {
+   "slug": "bo-100-cong-cu-danh-cho-chu-spa",
+   "ten": "Bộ 100 công cụ dành cho chủ spa",
+   "niche": "spa",
+   "soSkill": 100,
+   "moTa": "Là bộ 100 công cụ AI bao quát các công việc chuyên môn, marketing, bán hàng và vận hành dành cho chủ spa."
+  },
+  {
+   "slug": "bo-20-cong-cu-giao-duc-thuc-chien",
+   "ten": "Bộ 20 công cụ giáo dục thực chiến",
+   "niche": "giao-duc",
+   "soSkill": 20,
+   "moTa": "Bộ 20 Skill tách thành 10 sản phẩm dành cho giáo viên và 10 sản phẩm dành cho quản lý nhà trường."
+  },
+  {
+   "slug": "bo-39-cong-cu-ke-toan-va-van-phong",
+   "ten": "Bộ 39 công cụ kế toán và văn phòng",
+   "niche": "ke-toan",
+   "soSkill": 39,
+   "moTa": "Bộ 39 Skill gồm 30 sản phẩm kế toán–quản trị doanh nghiệp và 9 sản phẩm văn phòng–báo cáo."
+  },
+  {
+   "slug": "bo-15-cong-cu-ke-toan-dich-vu",
+   "ten": "Bộ 15 công cụ kế toán dịch vụ",
+   "niche": "ke-toan",
+   "soSkill": 15,
+   "moTa": "Bộ 15 Skill dành cho kế toán dịch vụ, đi từ tiếp nhận dữ liệu đến đối chiếu, kiểm tra, kê khai, khóa sổ và lập báo cáo."
+  }
+ ]
+}

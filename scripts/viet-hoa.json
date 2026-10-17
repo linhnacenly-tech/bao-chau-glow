@@ -1,0 +1,75 @@
+{
+  "_ghiChu": "Tên/mô tả tiếng Việt cho skill có SKILL.md viết tiếng Anh. Dịch sát nghĩa bản gốc, không thêm tính năng. Khoá theo slug.",
+  "edit-video-doc-co-chu": {
+    "ten": "Edit video dọc có chữ",
+    "moTa": "Dựng lại footage có sẵn thành video dọc có chữ trên màn hình: chữ cố định hoặc theo cảnh, nhạc, làm tối hoặc làm mờ nền, quay chậm, logo theo ngữ cảnh và khung xem trước."
+  },
+  "bien-tap-video-zoom-dai": { "ten": "Biên tập video Zoom dài" },
+  "video-hoat-hinh-toan-ky-thuat": {
+    "ten": "Video hoạt hình toán & kỹ thuật",
+    "moTa": "Quy trình sản xuất video hoạt hình toán học và kỹ thuật bằng Manim Community Edition."
+  },
+  "dung-video-chu-tu-caption": { "ten": "Dựng video chữ từ caption" },
+  "content-win-tu-anh-va-reel": { "ten": "Chép nội dung từ ảnh và Reel" },
+  "tro-ly-photoshop": { "ten": "Trợ lý Photoshop" },
+  "phuc-che-anh-cu-4k": {
+    "ten": "Phục chế ảnh cũ 4K",
+    "moTa": "Phục chế ảnh cũ bị mờ, phai màu, trầy xước, rách, nhiễu, độ phân giải thấp, ảnh đen trắng hoặc ảnh scan — giữ đúng gương mặt, thời kỳ, bố cục, trang phục và chữ viết tay."
+  },
+  "xep-hang-goc-noi-dung": {
+    "ten": "Xếp hạng góc nội dung",
+    "moTa": "Xếp hạng các góc triển khai nội dung theo dữ liệu tương tác, mức cạnh tranh và độ hợp nền tảng — chọn góc bằng số liệu thay vì đoán."
+  },
+  "brief-nghien-cuu-noi-dung": {
+    "ten": "Brief nghiên cứu nội dung",
+    "moTa": "Nghiên cứu chủ đề đang lên, gom bài nguồn và tạo brief nghiên cứu có cấu trúc cho việc làm nội dung — viết từ nguồn thật, không viết từ khoảng không."
+  },
+  "xay-noi-dung-facebook": { "ten": "Xây nội dung Facebook" },
+  "viet-bai-viral": {
+    "ten": "Viết bài viral bán affiliate",
+    "moTa": "Viết bài mạng xã hội có sức lan tỏa, giới thiệu sản phẩm affiliate một cách tự nhiên."
+  },
+  "thu-nghiem-ab-an-toan": {
+    "ten": "Thử nghiệm A/B an toàn",
+    "moTa": "Tạo các phiên bản nội dung khác nhau thật sự và thiết kế thử nghiệm A/B đúng thống kê cho tiêu đề, CTA, nội dung landing page, tiêu đề email, hook mạng xã hội hoặc ưu đãi."
+  },
+  "chuan-bi-gap-khach-bat-dong-san": {
+    "moTa": "Chuẩn bị buổi tư vấn hoặc dẫn khách xem nhà: mục tiêu, dữ kiện đã xác minh, lộ trình, câu hỏi khám phá, phản đối có thể gặp và cách trả lời minh bạch."
+  },
+  "cham-soc-khach-bat-dong-san": {
+    "moTa": "Lên lịch chăm sóc lại và soạn tin nhắn cá nhân hóa cho khách bất động sản theo giai đoạn, lần tương tác cuối, phản đối và giá trị mới — có tôn trọng sự đồng ý liên hệ."
+  },
+  "ghep-khach-voi-bat-dong-san": {
+    "moTa": "Xếp hạng các bất động sản đã xác minh theo hồ sơ khách: điều kiện cứng, tiêu chí ưu tiên có trọng số, bằng chứng, điểm còn thiếu và phương án thay thế."
+  },
+  "kiem-tra-thong-tin-bat-dong-san": {
+    "moTa": "Lập checklist kiểm tra thông tin bất động sản dựa trên bằng chứng: giấy tờ, lời quảng cáo, điểm mâu thuẫn và phần chưa được xác minh."
+  },
+  "lam-sach-kho-bat-dong-san": {
+    "moTa": "Chuẩn hóa kho hàng bất động sản, phát hiện tin có thể trùng, đánh dấu giá cũ và trường còn thiếu, giữ nguồn gốc xác minh."
+  },
+  "phan-loai-khach-bat-dong-san": {
+    "moTa": "Lập hồ sơ khách mua bất động sản có cấu trúc và phân loại mức sẵn sàng theo nhu cầu, ngân sách, khả năng tài chính, thời gian, người quyết định và ràng buộc."
+  },
+  "noi-dung-ban-bat-dong-san": {
+    "moTa": "Tạo nội dung bán bất động sản riêng cho từng kênh từ thẻ sản phẩm đã xác minh và nhóm khách đã xác định, giữ rõ nguồn của từng thông tin."
+  },
+  "dieu-phoi-giao-dich-bat-dong-san": {
+    "moTa": "Điều phối việc trong giao dịch bất động sản: tài liệu cần xin, người phụ trách, hạn chót, phê duyệt, mốc thanh toán và trạng thái bàn giao — không soạn tư vấn pháp lý cuối cùng."
+  },
+  "tao-goi-skill-ai": {
+    "moTa": "Biến ý tưởng dự án, quy trình kinh doanh, ý tưởng app hoặc việc AI hay lặp lại thành một skill AI (hoặc bộ nhiều skill) tập trung, đã kiểm tra và dùng lại được."
+  },
+  "tiet-kiem-codex": {
+    "ten": "Tiết kiệm Codex",
+    "moTa": "Phân loại việc của Codex thành PACK, EDIT, BUILD, DEBUG hoặc DEEP trước khi chạy; giảm ngữ cảnh, lượt quét, lượt thử lại và suy luận thừa mà vẫn giữ đúng kết quả."
+  },
+  "tiet-kiem-codex-thong-ke": {
+    "ten": "Tiết kiệm Codex — thống kê",
+    "moTa": "Phân luồng việc của Codex và ghi lại số liệu vận hành (có giữ riêng tư) qua máy chủ MCP Smart Router."
+  },
+  "tiet-kiem-codex-pro": {
+    "ten": "Tiết kiệm Codex Pro",
+    "moTa": "Áp dụng quy trình SKILL TIẾT KIỆM CODEX có thể tùy chỉnh cho đóng gói, chỉnh sửa, build, gỡ lỗi và các việc kiến trúc chuyên sâu."
+  }
+}
