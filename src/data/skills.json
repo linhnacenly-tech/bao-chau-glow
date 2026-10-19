@@ -1,5 +1,5 @@
 {
- "capNhat": "2026-10-18",
+ "capNhat": "2026-10-20",
  "nguon": "data/kho-skill/kho-tong.json",
  "giaLe": 59000,
  "nguongGiam": 5,
@@ -109,6 +109,23 @@
   }
  ],
  "skills": [
+  {
+   "slug": "binh-luan-tu-nhien",
+   "ma": "BCAI-MKT-054",
+   "ten": "Bình luận Tự nhiên 3 Kênh",
+   "niche": "dieu-phoi",
+   "moTa": "Skill là bộ não của Bảo Châu AI — skill này giúp bạn trả lời bình luận trên Facebook, TikTok và YouTube tự nhiên như người thật, đúng giọng của bạn, không lặp mẫu, không gửi trùng.",
+   "loiIch": [
+    "Học giọng của bạn, mỗi câu trả lời một kiểu",
+    "Thao tác thẳng trong Meta Business Suite, TikTok Studio, YouTube Studio",
+    "Chống gửi trùng, đi chậm như người thật"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/binh-luan-tu-nhien",
+   "thumb": "/thumbs/binh-luan-tu-nhien.webp",
+   "tenNgan": "BÌNH LUẬN 3 KÊNH",
+   "thumbFile": "binh-luan-3-kenh"
+  },
   {
    "slug": "binh-luan-fanpage",
    "ma": "BCAI-MKT-035",
@@ -246,6 +263,23 @@
    "thumbFile": "chat-livestream"
   },
   {
+   "slug": "mo-ta-youtube-hang-loat",
+   "ma": "BCAI-MKT-056",
+   "ten": "Chuẩn hóa Mô tả YouTube Hàng loạt",
+   "niche": "video-da-nen-tang",
+   "moTa": "Skill là bộ não của Bảo Châu AI — skill này giúp bạn chuẩn hoá mô tả cả kênh YouTube theo lô: thay khối liên kết cũ bằng liên kết chính thức của bạn, giữ nguyên nội dung riêng từng video.",
+   "loiIch": [
+    "Khối liên kết chuẩn dùng chung cả kênh",
+    "Rà video theo lượt xem, làm theo lô 5–10 video",
+    "Giữ nguyên hook, timeline, hashtag riêng"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/mo-ta-youtube-hang-loat",
+   "thumb": "/thumbs/mo-ta-youtube-hang-loat.webp",
+   "tenNgan": "MÔ TẢ HÀNG LOẠT",
+   "thumbFile": "mo-ta-hang-loat"
+  },
+  {
    "slug": "edit-video-tu-dong",
    "ma": "BCAI-MKT-041",
    "ten": "Edit Video Tự động",
@@ -295,6 +329,23 @@
    "thumb": "/thumbs/mo-ta-youtube.webp",
    "tenNgan": "MÔ TẢ YOUTUBE",
    "thumbFile": "mo-ta-youtube"
+  },
+  {
+   "slug": "seo-youtube-studio",
+   "ma": "BCAI-MKT-055",
+   "ten": "SEO Video trong YouTube Studio",
+   "niche": "video-da-nen-tang",
+   "moTa": "Skill là bộ não của Bảo Châu AI — skill này giúp bạn SEO trọn bộ một video ngay trong YouTube Studio: một tiêu đề tốt nhất, timeline, thẻ từ khoá gần đủ 500 ký tự, Thẻ và màn hình kết thúc.",
+   "loiIch": [
+    "Một tiêu đề tốt nhất kèm lý do",
+    "Thẻ từ khoá long-tail gần đủ 500 ký tự",
+    "Thẻ (Cards) và màn hình kết thúc 2 video"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/seo-youtube-studio",
+   "thumb": "/thumbs/seo-youtube-studio.webp",
+   "tenNgan": "SEO YOUTUBE STUDIO",
+   "thumbFile": "seo-youtube-studio"
   },
   {
    "slug": "seo-youtube",
@@ -399,6 +450,23 @@
    "thumbFile": "chuyen-doi-traffic"
   },
   {
+   "slug": "kho-anh-xay-kenh",
+   "ma": "BCAI-MKT-058",
+   "ten": "Kho Ảnh Xây Kênh",
+   "niche": "xay-kenh",
+   "moTa": "Skill là bộ não của Bảo Châu AI — skill này giúp bạn quản lý kho ảnh đăng bài: chọn ảnh hợp nội dung, không lặp ảnh trong 14 ngày, lưu ảnh mới vào kho và lập danh sách ảnh còn thiếu.",
+   "loiIch": [
+    "Cấu trúc kho ảnh theo nhóm, tên dễ tìm",
+    "Chọn ảnh hợp từng bài, ưu tiên ảnh thật",
+    "Nhật ký chống lặp ảnh 14 ngày"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/kho-anh-xay-kenh",
+   "thumb": "/thumbs/kho-anh-xay-kenh.webp",
+   "tenNgan": "KHO ẢNH XÂY KÊNH",
+   "thumbFile": "kho-anh-xay-kenh"
+  },
+  {
    "slug": "landing-page",
    "ma": "BCAI-MKT-039",
    "ten": "Landing Page Bán hàng",
@@ -414,6 +482,23 @@
    "thumb": "/thumbs/landing-page.webp",
    "tenNgan": "LANDING PAGE",
    "thumbFile": "landing-page"
+  },
+  {
+   "slug": "pheu-bai-tai-nguyen",
+   "ma": "BCAI-MKT-057",
+   "ten": "Phễu Kéo Khách bằng Bài Tài nguyên",
+   "niche": "xay-kenh",
+   "moTa": "Skill là bộ não của Bảo Châu AI — skill này giúp bạn dựng phễu từ Fanpage: bài tặng tài nguyên thật kèm bình luận ghim, gom người vào nhóm, dẫn tới sản phẩm nhập môn và gói trọn bộ.",
+   "loiIch": [
+    "Bậc thang sản phẩm từ miễn phí tới trọn bộ",
+    "Bài tài nguyên + bình luận ghim kéo tương tác",
+    "Lịch nội dung 7 ngày và 10 khuôn hook"
+   ],
+   "gia": 59000,
+   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/pheu-bai-tai-nguyen",
+   "thumb": "/thumbs/pheu-bai-tai-nguyen.webp",
+   "tenNgan": "PHỄU BÀI TÀI NGUYÊN",
+   "thumbFile": "pheu-bai-tai-nguyen"
   },
   {
    "slug": "thiet-ke-uu-dai",

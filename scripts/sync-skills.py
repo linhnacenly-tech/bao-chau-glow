@@ -70,9 +70,9 @@ NICHES = [
 NICHE_IDS = [n[0] for n in NICHES]
 
 CX_SANH = {
-    "dieu-phoi": ["tong-dieu-hanh", "nghien-cuu-noi-dung", "radar-cong-dong", "binh-luan-fanpage", "tin-nhan-khach-hang", "do-luong-chuyen-doi", "lich-van-hanh"],
-    "video-da-nen-tang": ["mo-ta-youtube", "seo-youtube", "dang-video-da-nen-tang", "chat-live-tiktok", "edit-video-tu-dong", "van-hanh-tiktok", "kich-ban-tiktok", "video-kien-thuc"],
-    "xay-kenh": ["tao-skill", "landing-page", "chuyen-doi-traffic", "caption-cham-noi-dau", "thiet-ke-uu-dai", "an-pham-thuong-hieu"],
+    "dieu-phoi": ["tong-dieu-hanh", "nghien-cuu-noi-dung", "radar-cong-dong", "binh-luan-fanpage", "binh-luan-tu-nhien", "tin-nhan-khach-hang", "do-luong-chuyen-doi", "lich-van-hanh"],
+    "video-da-nen-tang": ["mo-ta-youtube", "mo-ta-youtube-hang-loat", "seo-youtube", "seo-youtube-studio", "dang-video-da-nen-tang", "chat-live-tiktok", "edit-video-tu-dong", "van-hanh-tiktok", "kich-ban-tiktok", "video-kien-thuc"],
+    "xay-kenh": ["tao-skill", "landing-page", "chuyen-doi-traffic", "caption-cham-noi-dau", "thiet-ke-uu-dai", "an-pham-thuong-hieu", "pheu-bai-tai-nguyen", "kho-anh-xay-kenh"],
 }
 CX_TO_SANH = {slug: sanh for sanh, slugs in CX_SANH.items() for slug in slugs}
 
