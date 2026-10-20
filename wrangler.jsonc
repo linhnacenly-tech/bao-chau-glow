@@ -1,0 +1,11 @@
+// Cấu hình Cloudflare Workers cho Bảo Châu Glow (bao-chau-glow.linhnacenly.workers.dev).
+// Nitro (preset cloudflare-module) gộp file này vào .output/server/wrangler.json khi build.
+// Glow không cần khoá bí mật: tạo đơn đi qua Công xưởng (API_DON trong src/lib/catalog.ts).
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "bao-chau-glow",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "workers_dev": true,
+  "observability": { "enabled": true }
+}

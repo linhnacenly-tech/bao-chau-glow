@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
+    "deploy:cf": "vite build && npx -y wrangler@4.92.0 deploy --config .output/server/wrangler.json",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
     "lint": "eslint .",
