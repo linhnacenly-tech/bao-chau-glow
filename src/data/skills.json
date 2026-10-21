@@ -1,5 +1,5 @@
 {
- "capNhat": "2026-10-20",
+ "capNhat": "2026-10-21",
  "nguon": "data/kho-skill/kho-tong.json",
  "giaLe": 59000,
  "nguongGiam": 5,
@@ -2856,6 +2856,23 @@
    "thumb": "/thumbs/marketing-tao-ket-qua.webp",
    "tenNgan": "MARKETING RA KẾT QUẢ",
    "thumbFile": "marketing-ra-ket-qua"
+  },
+  {
+   "slug": "linh-na-model-4-kenh",
+   "ma": "BCAI-MKT-059",
+   "ten": "Người Mẫu AI 4 Kênh",
+   "niche": "noi-dung",
+   "moTa": "Vận hành nhân vật người mẫu AI trên 4 kênh (Facebook cá nhân + cộng đồng, TikTok, YouTube Shorts): 2 bài Facebook/ngày giọng kể chuyện, bình luận dạo như người thật, mẫu trang phục…",
+   "loiIch": [
+    "Link affiliate do chủ kênh tự tạo trên trang Shopee Affiliate. Chưa có link → trạng thái CHOLINKAFFILIATE, không…",
+    "Có link → SANSANG; đăng xong → DADANG",
+    "Yêu cầu vẽ: đúng mặt theo ảnh avatar; ảnh chụp điện thoại, ánh sáng tự nhiên, film grain nhẹ, da có lỗ chân lông,…"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/linh-na-model-4-kenh.webp",
+   "tenNgan": "NGƯỜI MẪU AI 4 KÊNH",
+   "thumbFile": "nguoi-mau-ai-4-kenh"
   },
   {
    "slug": "phan-tich-kenh-facebook-mau",
