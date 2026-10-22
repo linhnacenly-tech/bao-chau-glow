@@ -121,11 +121,11 @@
     "Chống gửi trùng, đi chậm như người thật"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/binh-luan-tu-nhien",
    "thumb": "/thumbs/binh-luan-tu-nhien.webp",
    "tenNgan": "BÌNH LUẬN 3 KÊNH",
-   "thumbFile": "binh-luan-3-kenh",
-   "hot": true
+   "thumbFile": "binh-luan-3-kenh"
   },
   {
    "slug": "binh-luan-fanpage",
@@ -139,11 +139,11 @@
     "Quy tắc chống trả lời lặp"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/binh-luan-fanpage",
    "thumb": "/thumbs/binh-luan-fanpage.webp",
    "tenNgan": "TRẢ LỜI BÌNH LUẬN",
-   "thumbFile": "tra-loi-binh-luan",
-   "hot": true
+   "thumbFile": "tra-loi-binh-luan"
   },
   {
    "slug": "lich-van-hanh",
@@ -157,11 +157,11 @@
     "Chế độ Duyệt trước hoặc Tự đăng"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/lich-van-hanh",
    "thumb": "/thumbs/lich-van-hanh.webp",
    "tenNgan": "LỊCH TỰ ĐỘNG",
-   "thumbFile": "lich-tu-dong",
-   "hot": true
+   "thumbFile": "lich-tu-dong"
   },
   {
    "slug": "nghien-cuu-noi-dung",
@@ -175,11 +175,11 @@
     "Phân tích kênh mẫu"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/nghien-cuu-noi-dung",
    "thumb": "/thumbs/nghien-cuu-noi-dung.webp",
    "tenNgan": "NGHIÊN CỨU NỘI DUNG",
-   "thumbFile": "nghien-cuu-noi-dung",
-   "hot": true
+   "thumbFile": "nghien-cuu-noi-dung"
   },
   {
    "slug": "radar-cong-dong",
@@ -193,11 +193,11 @@
     "Cơ hội nội dung và sản phẩm"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/radar-cong-dong",
    "thumb": "/thumbs/radar-cong-dong.webp",
    "tenNgan": "RADAR CỘNG ĐỒNG",
-   "thumbFile": "radar-cong-dong",
-   "hot": true
+   "thumbFile": "radar-cong-dong"
   },
   {
    "slug": "tin-nhan-khach-hang",
@@ -211,11 +211,11 @@
     "Nhận diện khách muốn mua"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/tin-nhan-khach-hang",
    "thumb": "/thumbs/tin-nhan-khach-hang.webp",
    "tenNgan": "NHẮN TIN KHÁCH",
-   "thumbFile": "nhan-tin-khach",
-   "hot": true
+   "thumbFile": "nhan-tin-khach"
   },
   {
    "slug": "tong-dieu-hanh",
@@ -229,11 +229,11 @@
     "Khóa kiểm duyệt trước khi đăng/bán"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/tong-dieu-hanh",
    "thumb": "/thumbs/tong-dieu-hanh.webp",
    "tenNgan": "TỔNG ĐIỀU HÀNH",
-   "thumbFile": "tong-dieu-hanh",
-   "hot": true
+   "thumbFile": "tong-dieu-hanh"
   },
   {
    "slug": "do-luong-chuyen-doi",
@@ -247,11 +247,11 @@
     "Một thử nghiệm ưu tiên kế tiếp"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/do-luong-chuyen-doi",
    "thumb": "/thumbs/do-luong-chuyen-doi.webp",
    "tenNgan": "ĐO CHUYỂN ĐỔI",
-   "thumbFile": "do-chuyen-doi",
-   "hot": true
+   "thumbFile": "do-chuyen-doi"
   },
   {
    "slug": "chat-live-tiktok",
@@ -265,11 +265,11 @@
     "Câu trả lời nhanh cho câu hỏi thường gặp"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/chat-live-tiktok",
    "thumb": "/thumbs/chat-live-tiktok.webp",
    "tenNgan": "CHAT LIVESTREAM",
-   "thumbFile": "chat-livestream",
-   "hot": true
+   "thumbFile": "chat-livestream"
   },
   {
    "slug": "mo-ta-youtube-hang-loat",
@@ -283,11 +283,11 @@
     "Giữ nguyên hook, timeline, hashtag riêng"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/mo-ta-youtube-hang-loat",
    "thumb": "/thumbs/mo-ta-youtube-hang-loat.webp",
    "tenNgan": "MÔ TẢ HÀNG LOẠT",
-   "thumbFile": "mo-ta-hang-loat",
-   "hot": true
+   "thumbFile": "mo-ta-hang-loat"
   },
   {
    "slug": "edit-video-tu-dong",
@@ -301,11 +301,11 @@
     "Cách góp ý để AI sửa đúng ý"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/edit-video-tu-dong",
    "thumb": "/thumbs/edit-video-tu-dong.webp",
    "tenNgan": "EDIT VIDEO",
-   "thumbFile": "edit-video",
-   "hot": true
+   "thumbFile": "edit-video"
   },
   {
    "slug": "kich-ban-tiktok",
@@ -336,11 +336,11 @@
     "Khối liên kết và CTA"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/mo-ta-youtube",
    "thumb": "/thumbs/mo-ta-youtube.webp",
    "tenNgan": "MÔ TẢ YOUTUBE",
-   "thumbFile": "mo-ta-youtube",
-   "hot": true
+   "thumbFile": "mo-ta-youtube"
   },
   {
    "slug": "seo-youtube-studio",
@@ -354,11 +354,11 @@
     "Thẻ (Cards) và màn hình kết thúc 2 video"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/seo-youtube-studio",
    "thumb": "/thumbs/seo-youtube-studio.webp",
    "tenNgan": "SEO YOUTUBE STUDIO",
-   "thumbFile": "seo-youtube-studio",
-   "hot": true
+   "thumbFile": "seo-youtube-studio"
   },
   {
    "slug": "seo-youtube",
@@ -372,11 +372,11 @@
     "Gợi ý Cards và End Screen"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/seo-youtube",
    "thumb": "/thumbs/seo-youtube.webp",
    "tenNgan": "SEO YOUTUBE",
-   "thumbFile": "seo-youtube",
-   "hot": true
+   "thumbFile": "seo-youtube"
   },
   {
    "slug": "phim-kien-thuc-bat-ngo",
@@ -407,11 +407,11 @@
     "Theo dõi video lên xu hướng"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/van-hanh-tiktok",
    "thumb": "/thumbs/van-hanh-tiktok.webp",
    "tenNgan": "VẬN HÀNH TIKTOK",
-   "thumbFile": "van-hanh-tiktok",
-   "hot": true
+   "thumbFile": "van-hanh-tiktok"
   },
   {
    "slug": "dang-video-da-nen-tang",
@@ -425,11 +425,29 @@
     "Tự tải lên & hẹn giờ đăng (chế độ tự đăng)"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/dang-video-da-nen-tang",
    "thumb": "/thumbs/dang-video-da-nen-tang.webp",
    "tenNgan": "ĐĂNG VIDEO",
-   "thumbFile": "dang-video",
-   "hot": true
+   "thumbFile": "dang-video"
+  },
+  {
+   "slug": "edit-video-video-da-nen-tang",
+   "ma": "BCAI-EDIT-VIDEO-DA-NEN-TANG",
+   "ten": "Edit Video Video đa nền tảng",
+   "niche": "video-da-nen-tang",
+   "moTa": "Edit video ngắn 9:16 riêng cho ngách Video đa nền tảng (một lần quay, ba bản cắt): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và kịch bản mẫu của ngách.",
+   "loiIch": [
+    "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
+    "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
+    "Giao: video, ảnh bìa 9:16 + 3:4, post.txt (3 hook theo mẫu ngách, caption có CTA ngách, hashtag ngành)"
+   ],
+   "gia": 135000,
+   "hot": true,
+   "congXuong": null,
+   "thumb": "/thumbs/edit-video-video-da-nen-tang.webp",
+   "tenNgan": "EDIT ĐA NỀN TẢNG",
+   "thumbFile": "edit-da-nen-tang"
   },
   {
    "slug": "caption-cham-noi-dau",
@@ -460,11 +478,11 @@
     "Sơ đồ phễu chuyển đổi"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/chuyen-doi-traffic",
    "thumb": "/thumbs/chuyen-doi-traffic.webp",
    "tenNgan": "CHUYỂN ĐỔI TRAFFIC",
-   "thumbFile": "chuyen-doi-traffic",
-   "hot": true
+   "thumbFile": "chuyen-doi-traffic"
   },
   {
    "slug": "kho-anh-xay-kenh",
@@ -478,11 +496,11 @@
     "Nhật ký chống lặp ảnh 14 ngày"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/kho-anh-xay-kenh",
    "thumb": "/thumbs/kho-anh-xay-kenh.webp",
    "tenNgan": "KHO ẢNH XÂY KÊNH",
-   "thumbFile": "kho-anh-xay-kenh",
-   "hot": true
+   "thumbFile": "kho-anh-xay-kenh"
   },
   {
    "slug": "landing-page",
@@ -513,11 +531,11 @@
     "Lịch nội dung 7 ngày và 10 khuôn hook"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/pheu-bai-tai-nguyen",
    "thumb": "/thumbs/pheu-bai-tai-nguyen.webp",
    "tenNgan": "PHỄU BÀI TÀI NGUYÊN",
-   "thumbFile": "pheu-bai-tai-nguyen",
-   "hot": true
+   "thumbFile": "pheu-bai-tai-nguyen"
   },
   {
    "slug": "thiet-ke-uu-dai",
@@ -548,11 +566,11 @@
     "Bộ kiểm thử và tinh chỉnh"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/tao-skill",
    "thumb": "/thumbs/tao-skill.webp",
    "tenNgan": "TẠO SKILL",
-   "thumbFile": "tao-skill",
-   "hot": true
+   "thumbFile": "tao-skill"
   },
   {
    "slug": "an-pham-thuong-hieu",
@@ -570,6 +588,24 @@
    "thumb": "/thumbs/an-pham-thuong-hieu.webp",
    "tenNgan": "ẤN PHẨM THƯƠNG HIỆU",
    "thumbFile": "an-pham-thuong-hieu"
+  },
+  {
+   "slug": "edit-video-xay-kenh",
+   "ma": "BCAI-EDIT-XAY-KENH",
+   "ten": "Edit Video Xây kênh & Chuyển đổi",
+   "niche": "xay-kenh",
+   "moTa": "Edit video ngắn 9:16 riêng cho ngách Xây kênh & Chuyển đổi (hành trình kênh: con số → bài học → lời mời): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và…",
+   "loiIch": [
+    "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
+    "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
+    "Giao: video, ảnh bìa 9:16 + 3:4, post.txt (3 hook theo mẫu ngách, caption có CTA ngách, hashtag ngành)"
+   ],
+   "gia": 135000,
+   "hot": true,
+   "congXuong": null,
+   "thumb": "/thumbs/edit-video-xay-kenh.webp",
+   "tenNgan": "EDIT XÂY KÊNH",
+   "thumbFile": "edit-xay-kenh"
   },
   {
    "slug": "chuan-hoa-chuyen-doi-phong-dich-vu-spa",
@@ -706,6 +742,24 @@
    "thumb": "/thumbs/du-bao-mua-vu-nhu-cau-spa.webp",
    "tenNgan": "DỰ BÁO MÙA VỤ SPA",
    "thumbFile": "du-bao-mua-vu-spa"
+  },
+  {
+   "slug": "edit-video-spa",
+   "ma": "BCAI-EDIT-SPA",
+   "ten": "Edit Video Spa & Làm đẹp",
+   "niche": "spa",
+   "moTa": "Edit video ngắn 9:16 riêng cho ngách Spa & Làm đẹp (trước/sau mềm mại, cận sản phẩm, giọng tâm tình): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và kịch…",
+   "loiIch": [
+    "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
+    "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
+    "Giao: video, ảnh bìa 9:16 + 3:4, post.txt (3 hook theo mẫu ngách, caption có CTA ngách, hashtag ngành)"
+   ],
+   "gia": 135000,
+   "hot": true,
+   "congXuong": null,
+   "thumb": "/thumbs/edit-video-spa.webp",
+   "tenNgan": "EDIT SPA",
+   "thumbFile": "edit-spa"
   },
   {
    "slug": "giam-khach-vang-mat-lich-hen-spa",
@@ -2296,11 +2350,11 @@
    "moTa": "Giúp biến video thô thành kế hoạch biên tập rõ ràng, nhanh và có nhịp xem cuốn hút.",
    "loiIch": [],
    "gia": 135000,
+   "hot": true,
    "congXuong": null,
    "thumb": "/thumbs/edit-video-bang-tro-chuyen.webp",
    "tenNgan": "EDIT VIDEO BẰNG CHAT",
-   "thumbFile": "edit-video-bang-chat",
-   "hot": true
+   "thumbFile": "edit-video-bang-chat"
   },
   {
    "slug": "bien-tap-video-zoom-dai",
@@ -2314,11 +2368,11 @@
     "Tìm đoạn hay trong video dài"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": null,
    "thumb": "/thumbs/bien-tap-video-zoom-dai.webp",
    "tenNgan": "CẮT VIDEO ZOOM",
-   "thumbFile": "cat-video-zoom",
-   "hot": true
+   "thumbFile": "cat-video-zoom"
   },
   {
    "slug": "phim-ai-viral-tu-chu-de",
@@ -2345,11 +2399,11 @@
     "“video 60 giây”"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": null,
    "thumb": "/thumbs/dung-podcast-tu-dong.webp",
    "tenNgan": "DỰNG PODCAST",
-   "thumbFile": "dung-podcast",
-   "hot": true
+   "thumbFile": "dung-podcast"
   },
   {
    "slug": "dung-video-chu-tu-caption",
@@ -2376,11 +2430,29 @@
    "moTa": "Dựng lại footage có sẵn thành video dọc có chữ trên màn hình: chữ cố định hoặc theo cảnh, nhạc, làm tối hoặc làm mờ nền, quay chậm, logo theo ngữ cảnh và khung xem trước.",
    "loiIch": [],
    "gia": 135000,
+   "hot": true,
    "congXuong": null,
    "thumb": "/thumbs/edit-video-doc-co-chu.webp",
    "tenNgan": "VIDEO DỌC CÓ CHỮ",
-   "thumbFile": "video-doc-co-chu",
-   "hot": true
+   "thumbFile": "video-doc-co-chu"
+  },
+  {
+   "slug": "edit-video-video",
+   "ma": "BCAI-EDIT-VIDEO",
+   "ten": "Edit video video & phim AI",
+   "niche": "video",
+   "moTa": "Edit video ngắn 9:16 riêng cho ngách Video & Phim AI (trailer điện ảnh: khung đen, chữ lớn, cắt theo phách): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và…",
+   "loiIch": [
+    "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
+    "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
+    "Giao: video, ảnh bìa 9:16 + 3:4, post.txt (3 hook theo mẫu ngách, caption có CTA ngách, hashtag ngành)"
+   ],
+   "gia": 135000,
+   "hot": true,
+   "congXuong": null,
+   "thumb": "/thumbs/edit-video-video.webp",
+   "tenNgan": "EDIT PHIM AI",
+   "thumbFile": "edit-phim-ai"
   },
   {
    "slug": "hoan-doi-nhan-vat-thuong-hieu",
@@ -2539,11 +2611,11 @@
    "moTa": "Giúp người mới biến một ý tưởng nhân vật AI thành hệ thống xây kênh rõ định vị, nhất quán và có thể sản xuất được. SẢN PHẨM DÙNG ĐỂ LÀM GÌ Khóa hình tượng và giọng nói nhân vật AI;",
    "loiIch": [],
    "gia": 135000,
+   "hot": true,
    "congXuong": null,
    "thumb": "/thumbs/xay-kenh-nhan-vat-ai.webp",
    "tenNgan": "KÊNH AI 30 NGÀY",
-   "thumbFile": "kenh-ai-30-ngay",
-   "hot": true
+   "thumbFile": "kenh-ai-30-ngay"
   },
   {
    "slug": "microdrama-series-doc",
@@ -2676,11 +2748,11 @@
     "Tạo nhạc nền thấp hơn lời đọc. Phụ đề phải dùng word timing thật, chia cụm 2–5 từ cân đối đủ ý và tô vàng đúng từ…"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": null,
    "thumb": "/thumbs/video-viral-tu-y-tuong.webp",
    "tenNgan": "VIDEO VIRAL",
-   "thumbFile": "video-viral",
-   "hot": true
+   "thumbFile": "video-viral"
   },
   {
    "slug": "tao-anh-tu-van-ban-va-audio",
@@ -2715,6 +2787,24 @@
    "thumb": "/thumbs/content-win-tu-anh-va-reel.webp",
    "tenNgan": "CHÉP CHỮ TỪ ẢNH",
    "thumbFile": "chep-chu-tu-anh"
+  },
+  {
+   "slug": "edit-video-hinh-anh",
+   "ma": "BCAI-EDIT-HINH-ANH",
+   "ten": "Edit Video Hình ảnh & Thiết kế",
+   "niche": "hinh-anh",
+   "moTa": "Edit video ngắn 9:16 riêng cho ngách Hình ảnh & Thiết kế (lộ dần thiết kế: phác → hoàn thiện, khung lưới sạch): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng…",
+   "loiIch": [
+    "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
+    "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
+    "Giao: video, ảnh bìa 9:16 + 3:4, post.txt (3 hook theo mẫu ngách, caption có CTA ngách, hashtag ngành)"
+   ],
+   "gia": 135000,
+   "hot": true,
+   "congXuong": null,
+   "thumb": "/thumbs/edit-video-hinh-anh.webp",
+   "tenNgan": "EDIT THIẾT KẾ",
+   "thumbFile": "edit-thiet-ke"
   },
   {
    "slug": "phuc-che-anh-cu-4k",
@@ -2848,11 +2938,29 @@
    "moTa": "Một skill Facebook trọn quy trình cho khách hàng: chào và lấy hồ sơ, đánh giá kênh, lập nội dung, sản xuất Reel, xuất bản theo quyền, chăm sóc bình luận và đo hiệu quả.",
    "loiIch": [],
    "gia": 135000,
+   "hot": true,
    "congXuong": null,
    "thumb": "/thumbs/bo-subagent-facebook.webp",
    "tenNgan": "ĐỘI FACEBOOK",
-   "thumbFile": "doi-facebook",
-   "hot": true
+   "thumbFile": "doi-facebook"
+  },
+  {
+   "slug": "edit-video-noi-dung",
+   "ma": "BCAI-EDIT-NOI-DUNG",
+   "ten": "Edit Video Nội dung & Marketing",
+   "niche": "noi-dung",
+   "moTa": "Edit video ngắn 9:16 riêng cho ngách Nội dung & Marketing (mẹo nhanh dạng danh sách đánh số, chữ chiếm nửa màn): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền…",
+   "loiIch": [
+    "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
+    "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
+    "Giao: video, ảnh bìa 9:16 + 3:4, post.txt (3 hook theo mẫu ngách, caption có CTA ngách, hashtag ngành)"
+   ],
+   "gia": 135000,
+   "hot": true,
+   "congXuong": null,
+   "thumb": "/thumbs/edit-video-noi-dung.webp",
+   "tenNgan": "EDIT MARKETING",
+   "thumbFile": "edit-marketing"
   },
   {
    "slug": "ke-hoach-saas-viet-noi-dung-ai",
@@ -2883,24 +2991,6 @@
    "thumb": "/thumbs/marketing-tao-ket-qua.webp",
    "tenNgan": "MARKETING RA KẾT QUẢ",
    "thumbFile": "marketing-ra-ket-qua"
-  },
-  {
-   "slug": "linh-na-model-4-kenh",
-   "ma": "BCAI-MKT-059",
-   "ten": "Người Mẫu AI 4 Kênh",
-   "niche": "noi-dung",
-   "moTa": "Vận hành nhân vật người mẫu AI trên 4 kênh (Facebook cá nhân + cộng đồng, TikTok, YouTube Shorts): 2 bài Facebook/ngày giọng kể chuyện, bình luận dạo như người thật, mẫu trang phục…",
-   "loiIch": [
-    "Link affiliate do chủ kênh tự tạo trên trang Shopee Affiliate. Chưa có link → trạng thái CHOLINKAFFILIATE, không…",
-    "Có link → SANSANG; đăng xong → DADANG",
-    "Yêu cầu vẽ: đúng mặt theo ảnh avatar; ảnh chụp điện thoại, ánh sáng tự nhiên, film grain nhẹ, da có lỗ chân lông,…"
-   ],
-   "gia": 135000,
-   "congXuong": null,
-   "thumb": "/thumbs/linh-na-model-4-kenh.webp",
-   "tenNgan": "NGƯỜI MẪU AI 4 KÊNH",
-   "thumbFile": "nguoi-mau-ai-4-kenh",
-   "hot": true
   },
   {
    "slug": "phan-tich-kenh-facebook-mau",
@@ -2944,11 +3034,11 @@
     "Chỉ hỏi đầu vào khách phải quyết định hoặc cấp quyền: kênh YouTube đích; nguồn video hoàn chỉnh; cách có thumbnail…"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": null,
    "thumb": "/thumbs/bo-subagent-youtube.webp",
    "tenNgan": "ĐỘI YOUTUBE",
-   "thumbFile": "doi-youtube",
-   "hot": true
+   "thumbFile": "doi-youtube"
   },
   {
    "slug": "theo-doi-chuyen-doi",
@@ -3073,6 +3163,24 @@
    "thumbFile": "shop-san-pham-so"
   },
   {
+   "slug": "edit-video-ban-hang",
+   "ma": "BCAI-EDIT-BAN-HANG",
+   "ten": "Edit Video Bán hàng & Chuyển đổi",
+   "niche": "ban-hang",
+   "moTa": "Edit video ngắn 9:16 riêng cho ngách Bán hàng & Chuyển đổi (nỗi đau → sản phẩm → bằng chứng → ưu đãi có hạn): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng…",
+   "loiIch": [
+    "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
+    "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
+    "Giao: video, ảnh bìa 9:16 + 3:4, post.txt (3 hook theo mẫu ngách, caption có CTA ngách, hashtag ngành)"
+   ],
+   "gia": 135000,
+   "hot": true,
+   "congXuong": null,
+   "thumb": "/thumbs/edit-video-ban-hang.webp",
+   "tenNgan": "EDIT CHỐT ĐƠN",
+   "thumbFile": "edit-chot-don"
+  },
+  {
    "slug": "hieu-suat-ban-hang",
    "ma": "BCAI-LEGAL034",
    "ten": "Quản trị hiệu suất bán hàng",
@@ -3118,6 +3226,24 @@
    "thumb": "/thumbs/tao-100-skill-theo-ngach.webp",
    "tenNgan": "100 CÔNG CỤ THEO NGÁCH",
    "thumbFile": "100-cong-cu-theo-ngach"
+  },
+  {
+   "slug": "edit-video-giao-duc",
+   "ma": "BCAI-EDIT-GIAO-DUC",
+   "ten": "Edit Video Giáo viên & Đào tạo",
+   "niche": "giao-duc",
+   "moTa": "Edit video ngắn 9:16 riêng cho ngách Giáo viên & Đào tạo (bảng – slide – ví dụ: dạy 1 ý trong 40 giây): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và kịch…",
+   "loiIch": [
+    "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
+    "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
+    "Giao: video, ảnh bìa 9:16 + 3:4, post.txt (3 hook theo mẫu ngách, caption có CTA ngách, hashtag ngành)"
+   ],
+   "gia": 135000,
+   "hot": true,
+   "congXuong": null,
+   "thumb": "/thumbs/edit-video-giao-duc.webp",
+   "tenNgan": "EDIT BÀI GIẢNG",
+   "thumbFile": "edit-bai-giang"
   },
   {
    "slug": "giao-vien-xu-ly-van-ban",
@@ -3441,6 +3567,24 @@
    "thumb": "/thumbs/cham-soc-giu-chan-khach-hang.webp",
    "tenNgan": "GIỮ CHÂN KHÁCH",
    "thumbFile": "giu-chan-khach"
+  },
+  {
+   "slug": "edit-video-ke-toan",
+   "ma": "BCAI-EDIT-KE-TOAN",
+   "ten": "Edit Video Kế toán & Tài chính",
+   "niche": "ke-toan",
+   "moTa": "Edit video ngắn 9:16 riêng cho ngách Kế toán & Tài chính (màn hình số liệu, khoanh đỏ con số, giọng chắc chắn): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng…",
+   "loiIch": [
+    "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
+    "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
+    "Giao: video, ảnh bìa 9:16 + 3:4, post.txt (3 hook theo mẫu ngách, caption có CTA ngách, hashtag ngành)"
+   ],
+   "gia": 135000,
+   "hot": true,
+   "congXuong": null,
+   "thumb": "/thumbs/edit-video-ke-toan.webp",
+   "tenNgan": "EDIT KẾ TOÁN",
+   "thumbFile": "edit-ke-toan"
   },
   {
    "slug": "giam-doc-tai-chinh",
@@ -4089,6 +4233,24 @@
    "thumbFile": "chi-dao-thanh-ke-hoach"
   },
   {
+   "slug": "edit-video-van-phong",
+   "ma": "BCAI-EDIT-VAN-PHONG",
+   "ten": "Edit Video Văn phòng & Nhân sự",
+   "niche": "van-phong",
+   "moTa": "Edit video ngắn 9:16 riêng cho ngách Văn phòng & Nhân sự (quay màn hình thao tác, phím tắt hiện góc, trước/sau thời gian): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài…",
+   "loiIch": [
+    "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
+    "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
+    "Giao: video, ảnh bìa 9:16 + 3:4, post.txt (3 hook theo mẫu ngách, caption có CTA ngách, hashtag ngành)"
+   ],
+   "gia": 135000,
+   "hot": true,
+   "congXuong": null,
+   "thumb": "/thumbs/edit-video-van-phong.webp",
+   "tenNgan": "EDIT VĂN PHÒNG",
+   "thumbFile": "edit-van-phong"
+  },
+  {
    "slug": "lap-bao-cao-dinh-ky",
    "ma": "BCAI-STRATEGY-009",
    "ten": "Lập báo cáo định kỳ",
@@ -4253,11 +4415,11 @@
     "Phân câu hỏi thành: trả lời được, cần hỏi thêm, cần tra nguồn, hoặc bắt buộc chuyển người thật"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": null,
    "thumb": "/thumbs/chatbot-bat-dong-san.webp",
    "tenNgan": "CHATBOT BĐS",
-   "thumbFile": "chatbot-bds",
-   "hot": true
+   "thumbFile": "chatbot-bds"
   },
   {
    "slug": "chuan-bi-gap-khach-bat-dong-san",
@@ -4292,6 +4454,24 @@
    "thumb": "/thumbs/cham-soc-khach-bat-dong-san.webp",
    "tenNgan": "CHĂM KHÁCH BĐS",
    "thumbFile": "cham-khach-bds"
+  },
+  {
+   "slug": "edit-video-bds",
+   "ma": "BCAI-EDIT-BDS",
+   "ten": "Edit Video Bất động sản",
+   "niche": "bds",
+   "moTa": "Edit video ngắn 9:16 riêng cho ngách Bất động sản (flycam mở màn, mặt bằng, bảng giá: dẫn khách đi xem nhà): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và…",
+   "loiIch": [
+    "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
+    "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
+    "Giao: video, ảnh bìa 9:16 + 3:4, post.txt (3 hook theo mẫu ngách, caption có CTA ngách, hashtag ngành)"
+   ],
+   "gia": 135000,
+   "hot": true,
+   "congXuong": null,
+   "thumb": "/thumbs/edit-video-bds.webp",
+   "tenNgan": "EDIT BĐS",
+   "thumbFile": "edit-bds"
   },
   {
    "slug": "ghep-khach-voi-bat-dong-san",
@@ -4430,6 +4610,24 @@
    "thumbFile": "giao-dich-bds"
   },
   {
+   "slug": "edit-video-kien-truc",
+   "ma": "BCAI-EDIT-KIEN-TRUC",
+   "ten": "Edit Video Kiến trúc & Nội thất",
+   "niche": "kien-truc",
+   "moTa": "Edit video ngắn 9:16 riêng cho ngách Kiến trúc & Nội thất (phối cảnh 3d → công trình thật, trượt chậm sang trọng): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền…",
+   "loiIch": [
+    "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
+    "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
+    "Giao: video, ảnh bìa 9:16 + 3:4, post.txt (3 hook theo mẫu ngách, caption có CTA ngách, hashtag ngành)"
+   ],
+   "gia": 135000,
+   "hot": true,
+   "congXuong": null,
+   "thumb": "/thumbs/edit-video-kien-truc.webp",
+   "tenNgan": "EDIT NỘI THẤT",
+   "thumbFile": "edit-noi-that"
+  },
+  {
    "slug": "giao-vien-xay-dung-sang-kien",
    "ma": "BCAI-EDU-082",
    "ten": "Xây dựng sáng kiến trung thực",
@@ -4475,11 +4673,11 @@
     "Queue/ – hàng đợi (mỗi việc 1 file job.yaml)"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": null,
    "thumb": "/thumbs/cong-xuong-subagent.webp",
    "tenNgan": "CÔNG XƯỞNG SUBAGENT",
-   "thumbFile": "cong-xuong-subagent",
-   "hot": true
+   "thumbFile": "cong-xuong-subagent"
   },
   {
    "slug": "co-may-skill",
@@ -4493,11 +4691,29 @@
     "Thành phần tái sử dụng và thành phần cần tạo mới"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": null,
    "thumb": "/thumbs/co-may-skill.webp",
    "tenNgan": "CỖ MÁY SKILL",
-   "thumbFile": "co-may-skill",
-   "hot": true
+   "thumbFile": "co-may-skill"
+  },
+  {
+   "slug": "edit-video-website",
+   "ma": "BCAI-EDIT-WEBSITE",
+   "ten": "Edit Video Website & Tự động hoá",
+   "niche": "website",
+   "moTa": "Edit video ngắn 9:16 riêng cho ngách Website & Tự động hoá (demo màn hình: bấm 1 nút, máy tự chạy, sơ đồ luồng): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền…",
+   "loiIch": [
+    "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
+    "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
+    "Giao: video, ảnh bìa 9:16 + 3:4, post.txt (3 hook theo mẫu ngách, caption có CTA ngách, hashtag ngành)"
+   ],
+   "gia": 135000,
+   "hot": true,
+   "congXuong": null,
+   "thumb": "/thumbs/edit-video-website.webp",
+   "tenNgan": "EDIT TỰ ĐỘNG HOÁ",
+   "thumbFile": "edit-tu-dong-hoa"
   },
   {
    "slug": "kho-mau-website",
@@ -4545,11 +4761,11 @@
     "Giao cho coding agent mọi phần nó có thể tự thực hiện"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": null,
    "thumb": "/thumbs/phat-trien-co-may-fanpage.webp",
    "tenNgan": "CỖ MÁY FANPAGE",
-   "thumbFile": "co-may-fanpage",
-   "hot": true
+   "thumbFile": "co-may-fanpage"
   },
   {
    "slug": "phan-tich-du-lieu-kinh-doanh",
@@ -4721,11 +4937,11 @@
     "Tìm phần có thể tái sử dụng. Ưu tiên dùng hoặc mở rộng skill hiện có; chỉ tạo mới khi trách nhiệm thật sự khác"
    ],
    "gia": 135000,
+   "hot": true,
    "congXuong": null,
    "thumb": "/thumbs/tao-goi-skill-ai.webp",
    "tenNgan": "ĐÓNG GÓI SKILL",
-   "thumbFile": "dong-goi-skill",
-   "hot": true
+   "thumbFile": "dong-goi-skill"
   },
   {
    "slug": "ke-toan-doc-va-chuan-hoa-du-lieu",
@@ -4743,6 +4959,24 @@
    "thumb": "/thumbs/ke-toan-doc-va-chuan-hoa-du-lieu.webp",
    "tenNgan": "CHUẨN HÓA DỮ LIỆU KẾ TOÁN",
    "thumbFile": "chuan-hoa-du-lieu-ke-toan"
+  },
+  {
+   "slug": "edit-video-phong-thuy",
+   "ma": "BCAI-EDIT-PHONG-THUY",
+   "ten": "Edit Video Phong thủy & Đời sống",
+   "niche": "phong-thuy",
+   "moTa": "Edit video ngắn 9:16 riêng cho ngách Phong thủy & Đời sống (kể chuyện ấm, biểu tượng ngũ hành, nhịp thong thả): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng…",
+   "loiIch": [
+    "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
+    "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
+    "Giao: video, ảnh bìa 9:16 + 3:4, post.txt (3 hook theo mẫu ngách, caption có CTA ngách, hashtag ngành)"
+   ],
+   "gia": 135000,
+   "hot": true,
+   "congXuong": null,
+   "thumb": "/thumbs/edit-video-phong-thuy.webp",
+   "tenNgan": "EDIT PHONG THỦY",
+   "thumbFile": "edit-phong-thuy"
   },
   {
    "slug": "tu-vi-lich-am-bat-tu",
