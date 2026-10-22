@@ -149,7 +149,7 @@ function Index() {
           </div>
           <div className="space-y-3">
             {[
-              ["Giá tính thế nào?", `1 đến 4 skill: ${formatVnd(GIA_LE)}/skill, không giảm. Từ 5 skill trở lên trong một đơn (tự chọn hoặc combo ngách) giảm 35% trên tổng — ví dụ 5 skill ${formatVnd(tinhGia(5).tong)}, 10 skill ${formatVnd(tinhGia(10).tong)}.`],
+              ["Giá tính thế nào?", `1 đến 4 skill: ${formatVnd(GIA_LE)}/skill, không giảm. Từ 5 skill trở lên trong một đơn (tự chọn hoặc combo ngách) giảm 35% trên tổng — ví dụ 5 skill ${formatVnd(tinhGia(5).tong)}, 10 skill ${formatVnd(tinhGia(10).tong)}. Riêng skill tự động hoá (agent chạy việc hằng ngày, nhãn HOT) giá cố định 135.000đ, không tính vào mốc giảm.`],
               ["Mua thế nào?", "Bấm Ngách trên thanh menu → chọn skill → Thêm giỏ hoặc Mua ngay → nhập Gmail → quét mã QR chuyển khoản, giữ nguyên nội dung chuyển khoản. Tiền vào là skill tự chia sẻ vào Gmail của bạn qua Google Drive."],
               ["Không biết code có dùng được không?", "Có. Skill dùng bằng ngôn ngữ tự nhiên; lần đầu skill sẽ hỏi hồ sơ của bạn để làm đúng thương hiệu."],
               ["Chuyển khoản rồi mà chưa nhận skill?", "Nhắn Zalo 0967 934 486 kèm nội dung chuyển khoản, Châu kiểm tra và gửi ngay."],

@@ -11,6 +11,7 @@ export type Skill = {
   moTa: string;
   loiIch: string[];
   gia: number;
+  hot?: boolean; // ngách Tự động hoá (22/10): giá riêng 135K, không vào mốc giảm 35%
   congXuong: string | null;
   thumb: string;
 };
@@ -42,6 +43,19 @@ export function tinhGia(soSkill: number) {
 
 // Số skill của một món trong giỏ (bộ combo tính theo số skill trong bộ)
 export const soSkillCua = (slug: string) => bundleBySlug(slug)?.soSkill ?? 1;
+const laHot = (slug: string) => !!skillBySlug(slug)?.hot;
+// Giá một món trước giảm: skill tự động hoá theo giá riêng, còn lại GIA_LE × số skill.
+export const giaCua = (slug: string) => (laHot(slug) ? skillBySlug(slug)!.gia : soSkillCua(slug) * GIA_LE);
+
+// Giá một giỏ (khớp glowPrice ở máy chủ Công xưởng). Từ 22/10: skill tự động hoá giá cố định, không giảm và
+// không tính vào mốc 5 skill; mốc giảm 35% chỉ đếm skill giá thường.
+export function tinhGiaGio(slugs: string[]) {
+  const thuong = slugs.filter((s) => !laHot(s));
+  const soThuong = thuong.reduce((n, s) => n + soSkillCua(s), 0);
+  const g = tinhGia(soThuong);
+  const tongHot = slugs.filter(laHot).reduce((n, s) => n + giaCua(s), 0);
+  return { goc: g.goc + tongHot, coGiam: g.coGiam, tong: g.tong + tongHot, soThuong, coHot: tongHot > 0 };
+}
 
 export const formatVnd = (n: number) => new Intl.NumberFormat("vi-VN").format(n) + "đ";
 
@@ -49,7 +63,7 @@ export const zaloLink = (text: string) => `${zaloUrl}?text=${encodeURIComponent(
 
 export function donText(slugs: string[]) {
   const so = slugs.reduce((n, s) => n + soSkillCua(s), 0);
-  const g = tinhGia(so);
+  const g = tinhGiaGio(slugs);
   const gia = g.coGiam ? `${formatVnd(g.tong)} (giá gốc ${formatVnd(g.goc)}, giảm 35%)` : formatVnd(g.tong);
   const ds = slugs.map((s, i) => `${i + 1}. ${skillBySlug(s)?.ten ?? bundleBySlug(s)?.ten ?? s}`).join("\n");
   return `Chào Bảo Châu AI, mình muốn đặt ${so} skill, tổng ${gia}:\n${ds}`;

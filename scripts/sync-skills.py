@@ -407,6 +407,8 @@ def chuan_bi_giao_hang(skills, bundles, kho_by_slug):
         sk = kho_by_slug.get(s["slug"], {})
         cx = sk.get("dangBanCongXuong")
         entry = {"ten": s["ten"], "tenNgan": s["tenNgan"], "soSkill": s.get("soSkill", 1), "cx": cx, "file": None}
+        if s.get("hot"):
+            entry.update(gia=s["gia"], hot=True)
         if not cx:
             src = goi_moi_nhat(sk.get("goiZip") or "")
             if src:
@@ -488,7 +490,9 @@ def main():
             "niche": niche,
             "moTa": vh.get("moTa") or desc,
             "loiIch": loi_ich,
-            "gia": GIA_LE,
+            # Ngách tự động hoá (Châu chốt 22/10): giá riêng từ kho (135K), cờ hot để trang + Công xưởng tính giá
+            "gia": sk["gia"] if sk.get("hot") and isinstance(sk.get("gia"), int) else GIA_LE,
+            **({"hot": True} if sk.get("hot") else {}),
             "congXuong": (CONG_XUONG + cx) if cx else None,
             "thumb": f"/thumbs/{slug}.webp",
         })
