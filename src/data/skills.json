@@ -434,7 +434,7 @@
   {
    "slug": "edit-video-video-da-nen-tang",
    "ma": "BCAI-EDIT-VIDEO-DA-NEN-TANG",
-   "ten": "Edit Video Video đa nền tảng",
+   "ten": "Edit Video Đa nền tảng",
    "niche": "video-da-nen-tang",
    "moTa": "Edit video ngắn 9:16 riêng cho ngách Video đa nền tảng (một lần quay, ba bản cắt): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và kịch bản mẫu của ngách.",
    "loiIch": [
@@ -2423,23 +2423,9 @@
    "thumbFile": "video-chu"
   },
   {
-   "slug": "edit-video-doc-co-chu",
-   "ma": "BCAI-CREATIVE-075",
-   "ten": "Edit video dọc có chữ",
-   "niche": "video",
-   "moTa": "Dựng lại footage có sẵn thành video dọc có chữ trên màn hình: chữ cố định hoặc theo cảnh, nhạc, làm tối hoặc làm mờ nền, quay chậm, logo theo ngữ cảnh và khung xem trước.",
-   "loiIch": [],
-   "gia": 135000,
-   "hot": true,
-   "congXuong": null,
-   "thumb": "/thumbs/edit-video-doc-co-chu.webp",
-   "tenNgan": "VIDEO DỌC CÓ CHỮ",
-   "thumbFile": "video-doc-co-chu"
-  },
-  {
    "slug": "edit-video-video",
    "ma": "BCAI-EDIT-VIDEO",
-   "ten": "Edit video video & phim AI",
+   "ten": "Edit Video Phim AI",
    "niche": "video",
    "moTa": "Edit video ngắn 9:16 riêng cho ngách Video & Phim AI (trailer điện ảnh: khung đen, chữ lớn, cắt theo phách): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và…",
    "loiIch": [
@@ -2453,6 +2439,20 @@
    "thumb": "/thumbs/edit-video-video.webp",
    "tenNgan": "EDIT PHIM AI",
    "thumbFile": "edit-phim-ai"
+  },
+  {
+   "slug": "edit-video-doc-co-chu",
+   "ma": "BCAI-CREATIVE-075",
+   "ten": "Edit video dọc có chữ",
+   "niche": "video",
+   "moTa": "Dựng lại footage có sẵn thành video dọc có chữ trên màn hình: chữ cố định hoặc theo cảnh, nhạc, làm tối hoặc làm mờ nền, quay chậm, logo theo ngữ cảnh và khung xem trước.",
+   "loiIch": [],
+   "gia": 135000,
+   "hot": true,
+   "congXuong": null,
+   "thumb": "/thumbs/edit-video-doc-co-chu.webp",
+   "tenNgan": "VIDEO DỌC CÓ CHỮ",
+   "thumbFile": "video-doc-co-chu"
   },
   {
    "slug": "hoan-doi-nhan-vat-thuong-hieu",
