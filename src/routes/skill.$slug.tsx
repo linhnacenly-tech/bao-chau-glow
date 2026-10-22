@@ -63,7 +63,7 @@ function SkillPage() {
               </>
             )}
             <p className="mt-6 font-display text-4xl">{formatVnd(skill.gia)}</p>
-            <p className="text-xs text-muted-foreground">Mua từ 5 skill trong một đơn giảm 35%.</p>
+            <p className="text-xs text-muted-foreground">{skill.hot ? "🔥 HOT · Skill tự động hoá, được nhiều người ưa chuộng nhất. Giá cố định, không tính giảm 35%." : "Mua từ 5 skill trong một đơn giảm 35%."}</p>
             <div className="mt-5 flex flex-wrap gap-3">
               <Button
                 size="lg"

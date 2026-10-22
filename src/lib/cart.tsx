@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 import { toast } from "sonner";
 
-import { bundleBySlug, skillBySlug, soSkillCua, tinhGia } from "@/lib/catalog";
+import { bundleBySlug, skillBySlug, soSkillCua, tinhGiaGio } from "@/lib/catalog";
 
 const KEY = "glow-gio-hang";
 
@@ -12,7 +12,7 @@ type Cart = {
   remove: (slug: string) => void;
   clear: () => void;
   soSkill: number;
-  gia: ReturnType<typeof tinhGia>;
+  gia: ReturnType<typeof tinhGiaGio>;
 };
 
 const CartContext = createContext<Cart | null>(null);
@@ -54,7 +54,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
       remove: (slug) => setItems((prev) => prev.filter((s) => s !== slug)),
       clear: () => setItems([]),
       soSkill,
-      gia: tinhGia(soSkill),
+      gia: tinhGiaGio(items),
     };
   }, [items]);
 

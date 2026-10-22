@@ -5,7 +5,7 @@ import { ArrowRight, Check, ChevronDown, Eye, LayoutGrid, Plus, ShoppingBag, Sho
 import logo from "@/assets/logo-bao-chau-ai.webp";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/lib/cart";
-import { formatVnd, GIA_LE, NGUONG_GIAM, niches, skillsByNiche, tenNgach, tinhGia, zaloUrl, type Bundle, type Skill } from "@/lib/catalog";
+import { formatVnd, GIA_LE, NGUONG_GIAM, niches, skillsByNiche, tenNgach, tinhGiaGio, zaloUrl, type Bundle, type Skill } from "@/lib/catalog";
 
 // Thanh menu: "Ngách" mở bảng mọi ngách → bấm ngách nào hiện sản phẩm ngách đó.
 function NicheMenu() {
@@ -106,6 +106,7 @@ export function SkillCard({ skill }: { skill: Skill }) {
     <article className={`skill-card group flex flex-col ${co ? "ring-2 ring-primary" : ""}`}>
       <Link to="/skill/$slug" params={{ slug: skill.slug }} className="relative block aspect-[4/3] overflow-hidden bg-secondary">
         <img src={skill.thumb} alt={`${skill.tenNgan} — ${skill.ten}`} loading="lazy" decoding="async" width={1200} height={900} className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-[1.03]" />
+        {skill.hot && <span className="absolute left-2 top-2 rounded-full bg-gradient-to-r from-red-500 to-orange-500 px-2.5 py-1 text-xs font-black tracking-wider text-white motion-safe:animate-pulse">HOT</span>}
       </Link>
       <div className="flex flex-1 flex-col p-4">
         <h3 className="text-base font-extrabold leading-snug">{skill.ten}</h3>
@@ -139,8 +140,8 @@ export function SkillCard({ skill }: { skill: Skill }) {
   );
 }
 
-export function GiaCombo({ soSkill }: { soSkill: number }) {
-  const g = tinhGia(soSkill);
+export function GiaCombo({ slugs, soSkill }: { slugs: string[]; soSkill: number }) {
+  const g = tinhGiaGio(slugs);
   return (
     <div>
       {g.coGiam && (
@@ -151,7 +152,7 @@ export function GiaCombo({ soSkill }: { soSkill: number }) {
       )}
       <p className="mt-1 font-display text-3xl leading-none">{formatVnd(g.tong)}</p>
       <p className="mt-1 text-xs text-muted-foreground">
-        {soSkill} skill · {g.coGiam ? `chỉ ${formatVnd(g.tong / soSkill)}/skill` : `${formatVnd(GIA_LE)}/skill`}
+        {soSkill} skill · {g.coHot ? "gồm skill tự động hoá 135.000đ" : g.coGiam ? `chỉ ${formatVnd(g.tong / soSkill)}/skill` : `${formatVnd(GIA_LE)}/skill`}
       </p>
     </div>
   );
@@ -170,7 +171,7 @@ export function ComboBlock({ ten, moTa, slugs, soSkill }: { ten: string; moTa: s
         <p className="mt-1 text-xs font-bold text-primary">Mua từ {NGUONG_GIAM} skill giảm 35%.</p>
       </div>
       <div className="flex flex-col gap-3 sm:items-end">
-        <GiaCombo soSkill={soSkill} />
+        <GiaCombo slugs={slugs} soSkill={soSkill} />
         <Button
           type="button"
           className="rounded-full"

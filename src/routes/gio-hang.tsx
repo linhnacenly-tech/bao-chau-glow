@@ -6,7 +6,7 @@ import { toast } from "sonner";
 import { SiteFooter, SiteHeader } from "@/components/site";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/lib/cart";
-import { API_DON, bundleBySlug, donText, formatVnd, GIA_LE, NGUONG_GIAM, skillBySlug, soSkillCua, zaloLink } from "@/lib/catalog";
+import { API_DON, bundleBySlug, donText, formatVnd, GIA_LE, giaCua, NGUONG_GIAM, skillBySlug, soSkillCua, zaloLink } from "@/lib/catalog";
 
 export const Route = createFileRoute("/gio-hang")({
   head: () => ({ meta: [{ title: "Giỏ hàng | Bảo Châu AI" }, { name: "robots", content: "noindex" }] }),
@@ -182,7 +182,7 @@ function CartPage() {
                     <img src={(s ?? b)?.thumb} alt="" width={120} height={90} className="h-[60px] w-20 shrink-0 rounded-md object-cover" />
                     <div className="min-w-0 flex-1">
                       <p className="truncate font-bold">{s?.ten ?? b?.ten}</p>
-                      <p className="text-xs text-muted-foreground">{n > 1 ? `Bộ ${n} skill · ` : ""}{formatVnd(n * GIA_LE)}</p>
+                      <p className="text-xs text-muted-foreground">{n > 1 ? `Bộ ${n} skill · ` : ""}{formatVnd(giaCua(slug))}{s?.hot ? " · Tự động hoá" : ""}</p>
                     </div>
                     <button type="button" aria-label="Bỏ khỏi giỏ" onClick={() => cart.remove(slug)} className="p-2 text-muted-foreground hover:text-destructive">
                       <Trash2 className="size-4" />
@@ -195,7 +195,7 @@ function CartPage() {
               <p className="text-sm text-muted-foreground">{cart.soSkill} skill</p>
               {cart.gia.coGiam && <p className="mt-2 text-sm"><s className="text-muted-foreground">{formatVnd(cart.gia.goc)}</s> <span className="ml-1 rounded-full bg-primary px-2 py-0.5 text-xs font-extrabold text-primary-foreground">-35%</span></p>}
               <p className="mt-1 font-display text-4xl">{formatVnd(cart.gia.tong)}</p>
-              <p className="mt-1 text-xs text-muted-foreground">{cart.gia.coGiam ? "Đã giảm 35% vì đơn từ 5 skill." : `Thêm ${NGUONG_GIAM - cart.soSkill} skill nữa để được giảm 35%.`}</p>
+              <p className="mt-1 text-xs text-muted-foreground">{cart.gia.coGiam ? `Đã giảm 35% phần skill ${formatVnd(GIA_LE)} vì đủ ${NGUONG_GIAM} skill.` : cart.gia.soThuong > 0 ? `Thêm ${NGUONG_GIAM - cart.gia.soThuong} skill ${formatVnd(GIA_LE)} nữa để được giảm 35%.` : ""}{cart.gia.coHot ? " Skill tự động hoá giá cố định 135.000đ, không tính giảm." : ""}</p>
               <div className="mt-5 space-y-3">
                 <label className="block text-sm font-semibold">
                   Gmail nhận skill <span className="text-destructive">*</span>

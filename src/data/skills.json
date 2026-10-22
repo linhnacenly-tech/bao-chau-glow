@@ -1,5 +1,5 @@
 {
- "capNhat": "2026-10-21",
+ "capNhat": "2026-10-22",
  "nguon": "data/kho-skill/kho-tong.json",
  "giaLe": 59000,
  "nguongGiam": 5,
@@ -120,11 +120,12 @@
     "Thao tác thẳng trong Meta Business Suite, TikTok Studio, YouTube Studio",
     "Chống gửi trùng, đi chậm như người thật"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/binh-luan-tu-nhien",
    "thumb": "/thumbs/binh-luan-tu-nhien.webp",
    "tenNgan": "BÌNH LUẬN 3 KÊNH",
-   "thumbFile": "binh-luan-3-kenh"
+   "thumbFile": "binh-luan-3-kenh",
+   "hot": true
   },
   {
    "slug": "binh-luan-fanpage",
@@ -137,11 +138,12 @@
     "Mẫu trả lời theo từng ý định",
     "Quy tắc chống trả lời lặp"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/binh-luan-fanpage",
    "thumb": "/thumbs/binh-luan-fanpage.webp",
    "tenNgan": "TRẢ LỜI BÌNH LUẬN",
-   "thumbFile": "tra-loi-binh-luan"
+   "thumbFile": "tra-loi-binh-luan",
+   "hot": true
   },
   {
    "slug": "lich-van-hanh",
@@ -154,11 +156,12 @@
     "Tự tải lên & hẹn giờ đăng đa nền tảng",
     "Chế độ Duyệt trước hoặc Tự đăng"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/lich-van-hanh",
    "thumb": "/thumbs/lich-van-hanh.webp",
    "tenNgan": "LỊCH TỰ ĐỘNG",
-   "thumbFile": "lich-tu-dong"
+   "thumbFile": "lich-tu-dong",
+   "hot": true
   },
   {
    "slug": "nghien-cuu-noi-dung",
@@ -171,11 +174,12 @@
     "Danh sách nỗi đau khách hàng",
     "Phân tích kênh mẫu"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/nghien-cuu-noi-dung",
    "thumb": "/thumbs/nghien-cuu-noi-dung.webp",
    "tenNgan": "NGHIÊN CỨU NỘI DUNG",
-   "thumbFile": "nghien-cuu-noi-dung"
+   "thumbFile": "nghien-cuu-noi-dung",
+   "hot": true
   },
   {
    "slug": "radar-cong-dong",
@@ -188,11 +192,12 @@
     "Danh sách vấn đề khách hàng nổi bật",
     "Cơ hội nội dung và sản phẩm"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/radar-cong-dong",
    "thumb": "/thumbs/radar-cong-dong.webp",
    "tenNgan": "RADAR CỘNG ĐỒNG",
-   "thumbFile": "radar-cong-dong"
+   "thumbFile": "radar-cong-dong",
+   "hot": true
   },
   {
    "slug": "tin-nhan-khach-hang",
@@ -205,11 +210,12 @@
     "Mẫu trả lời tin nhắn theo tình huống",
     "Nhận diện khách muốn mua"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/tin-nhan-khach-hang",
    "thumb": "/thumbs/tin-nhan-khach-hang.webp",
    "tenNgan": "NHẮN TIN KHÁCH",
-   "thumbFile": "nhan-tin-khach"
+   "thumbFile": "nhan-tin-khach",
+   "hot": true
   },
   {
    "slug": "tong-dieu-hanh",
@@ -222,11 +228,12 @@
     "Giới thiệu và gọi tên cả đội trợ lý",
     "Khóa kiểm duyệt trước khi đăng/bán"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/tong-dieu-hanh",
    "thumb": "/thumbs/tong-dieu-hanh.webp",
    "tenNgan": "TỔNG ĐIỀU HÀNH",
-   "thumbFile": "tong-dieu-hanh"
+   "thumbFile": "tong-dieu-hanh",
+   "hot": true
   },
   {
    "slug": "do-luong-chuyen-doi",
@@ -239,11 +246,12 @@
     "Chỉ ra nút thắt lớn nhất",
     "Một thử nghiệm ưu tiên kế tiếp"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/do-luong-chuyen-doi",
    "thumb": "/thumbs/do-luong-chuyen-doi.webp",
    "tenNgan": "ĐO CHUYỂN ĐỔI",
-   "thumbFile": "do-chuyen-doi"
+   "thumbFile": "do-chuyen-doi",
+   "hot": true
   },
   {
    "slug": "chat-live-tiktok",
@@ -256,11 +264,12 @@
     "Kịch bản chào và giữ chân người xem",
     "Câu trả lời nhanh cho câu hỏi thường gặp"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/chat-live-tiktok",
    "thumb": "/thumbs/chat-live-tiktok.webp",
    "tenNgan": "CHAT LIVESTREAM",
-   "thumbFile": "chat-livestream"
+   "thumbFile": "chat-livestream",
+   "hot": true
   },
   {
    "slug": "mo-ta-youtube-hang-loat",
@@ -273,11 +282,12 @@
     "Rà video theo lượt xem, làm theo lô 5–10 video",
     "Giữ nguyên hook, timeline, hashtag riêng"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/mo-ta-youtube-hang-loat",
    "thumb": "/thumbs/mo-ta-youtube-hang-loat.webp",
    "tenNgan": "MÔ TẢ HÀNG LOẠT",
-   "thumbFile": "mo-ta-hang-loat"
+   "thumbFile": "mo-ta-hang-loat",
+   "hot": true
   },
   {
    "slug": "edit-video-tu-dong",
@@ -290,11 +300,12 @@
     "Phụ đề động, thẻ đồ họa, ảnh bìa",
     "Cách góp ý để AI sửa đúng ý"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/edit-video-tu-dong",
    "thumb": "/thumbs/edit-video-tu-dong.webp",
    "tenNgan": "EDIT VIDEO",
-   "thumbFile": "edit-video"
+   "thumbFile": "edit-video",
+   "hot": true
   },
   {
    "slug": "kich-ban-tiktok",
@@ -324,11 +335,12 @@
     "Đoạn mở đầu giữ chân người xem",
     "Khối liên kết và CTA"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/mo-ta-youtube",
    "thumb": "/thumbs/mo-ta-youtube.webp",
    "tenNgan": "MÔ TẢ YOUTUBE",
-   "thumbFile": "mo-ta-youtube"
+   "thumbFile": "mo-ta-youtube",
+   "hot": true
   },
   {
    "slug": "seo-youtube-studio",
@@ -341,11 +353,12 @@
     "Thẻ từ khoá long-tail gần đủ 500 ký tự",
     "Thẻ (Cards) và màn hình kết thúc 2 video"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/seo-youtube-studio",
    "thumb": "/thumbs/seo-youtube-studio.webp",
    "tenNgan": "SEO YOUTUBE STUDIO",
-   "thumbFile": "seo-youtube-studio"
+   "thumbFile": "seo-youtube-studio",
+   "hot": true
   },
   {
    "slug": "seo-youtube",
@@ -358,11 +371,12 @@
     "Timeline chương video",
     "Gợi ý Cards và End Screen"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/seo-youtube",
    "thumb": "/thumbs/seo-youtube.webp",
    "tenNgan": "SEO YOUTUBE",
-   "thumbFile": "seo-youtube"
+   "thumbFile": "seo-youtube",
+   "hot": true
   },
   {
    "slug": "phim-kien-thuc-bat-ngo",
@@ -392,11 +406,12 @@
     "Lịch đăng và gói đăng mỗi video",
     "Theo dõi video lên xu hướng"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/van-hanh-tiktok",
    "thumb": "/thumbs/van-hanh-tiktok.webp",
    "tenNgan": "VẬN HÀNH TIKTOK",
-   "thumbFile": "van-hanh-tiktok"
+   "thumbFile": "van-hanh-tiktok",
+   "hot": true
   },
   {
    "slug": "dang-video-da-nen-tang",
@@ -409,11 +424,12 @@
     "Caption TikTok, mô tả & từ khóa YouTube",
     "Tự tải lên & hẹn giờ đăng (chế độ tự đăng)"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/dang-video-da-nen-tang",
    "thumb": "/thumbs/dang-video-da-nen-tang.webp",
    "tenNgan": "ĐĂNG VIDEO",
-   "thumbFile": "dang-video"
+   "thumbFile": "dang-video",
+   "hot": true
   },
   {
    "slug": "caption-cham-noi-dau",
@@ -443,11 +459,12 @@
     "Phân loại ý định khách hàng",
     "Sơ đồ phễu chuyển đổi"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/chuyen-doi-traffic",
    "thumb": "/thumbs/chuyen-doi-traffic.webp",
    "tenNgan": "CHUYỂN ĐỔI TRAFFIC",
-   "thumbFile": "chuyen-doi-traffic"
+   "thumbFile": "chuyen-doi-traffic",
+   "hot": true
   },
   {
    "slug": "kho-anh-xay-kenh",
@@ -460,11 +477,12 @@
     "Chọn ảnh hợp từng bài, ưu tiên ảnh thật",
     "Nhật ký chống lặp ảnh 14 ngày"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/kho-anh-xay-kenh",
    "thumb": "/thumbs/kho-anh-xay-kenh.webp",
    "tenNgan": "KHO ẢNH XÂY KÊNH",
-   "thumbFile": "kho-anh-xay-kenh"
+   "thumbFile": "kho-anh-xay-kenh",
+   "hot": true
   },
   {
    "slug": "landing-page",
@@ -494,11 +512,12 @@
     "Bài tài nguyên + bình luận ghim kéo tương tác",
     "Lịch nội dung 7 ngày và 10 khuôn hook"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/pheu-bai-tai-nguyen",
    "thumb": "/thumbs/pheu-bai-tai-nguyen.webp",
    "tenNgan": "PHỄU BÀI TÀI NGUYÊN",
-   "thumbFile": "pheu-bai-tai-nguyen"
+   "thumbFile": "pheu-bai-tai-nguyen",
+   "hot": true
   },
   {
    "slug": "thiet-ke-uu-dai",
@@ -528,11 +547,12 @@
     "Quy trình phỏng vấn để rút kinh nghiệm thành Skill",
     "Bộ kiểm thử và tinh chỉnh"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/tao-skill",
    "thumb": "/thumbs/tao-skill.webp",
    "tenNgan": "TẠO SKILL",
-   "thumbFile": "tao-skill"
+   "thumbFile": "tao-skill",
+   "hot": true
   },
   {
    "slug": "an-pham-thuong-hieu",
@@ -2275,11 +2295,12 @@
    "niche": "video",
    "moTa": "Giúp biến video thô thành kế hoạch biên tập rõ ràng, nhanh và có nhịp xem cuốn hút.",
    "loiIch": [],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": null,
    "thumb": "/thumbs/edit-video-bang-tro-chuyen.webp",
    "tenNgan": "EDIT VIDEO BẰNG CHAT",
-   "thumbFile": "edit-video-bang-chat"
+   "thumbFile": "edit-video-bang-chat",
+   "hot": true
   },
   {
    "slug": "bien-tap-video-zoom-dai",
@@ -2292,11 +2313,12 @@
     "Danh sách chủ đề tái sử dụng",
     "Tìm đoạn hay trong video dài"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": null,
    "thumb": "/thumbs/bien-tap-video-zoom-dai.webp",
    "tenNgan": "CẮT VIDEO ZOOM",
-   "thumbFile": "cat-video-zoom"
+   "thumbFile": "cat-video-zoom",
+   "hot": true
   },
   {
    "slug": "phim-ai-viral-tu-chu-de",
@@ -2322,11 +2344,12 @@
     "“giữ âm thanh gốc”",
     "“video 60 giây”"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": null,
    "thumb": "/thumbs/dung-podcast-tu-dong.webp",
    "tenNgan": "DỰNG PODCAST",
-   "thumbFile": "dung-podcast"
+   "thumbFile": "dung-podcast",
+   "hot": true
   },
   {
    "slug": "dung-video-chu-tu-caption",
@@ -2352,11 +2375,12 @@
    "niche": "video",
    "moTa": "Dựng lại footage có sẵn thành video dọc có chữ trên màn hình: chữ cố định hoặc theo cảnh, nhạc, làm tối hoặc làm mờ nền, quay chậm, logo theo ngữ cảnh và khung xem trước.",
    "loiIch": [],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": null,
    "thumb": "/thumbs/edit-video-doc-co-chu.webp",
    "tenNgan": "VIDEO DỌC CÓ CHỮ",
-   "thumbFile": "video-doc-co-chu"
+   "thumbFile": "video-doc-co-chu",
+   "hot": true
   },
   {
    "slug": "hoan-doi-nhan-vat-thuong-hieu",
@@ -2514,11 +2538,12 @@
    "niche": "video",
    "moTa": "Giúp người mới biến một ý tưởng nhân vật AI thành hệ thống xây kênh rõ định vị, nhất quán và có thể sản xuất được. SẢN PHẨM DÙNG ĐỂ LÀM GÌ Khóa hình tượng và giọng nói nhân vật AI;",
    "loiIch": [],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": null,
    "thumb": "/thumbs/xay-kenh-nhan-vat-ai.webp",
    "tenNgan": "KÊNH AI 30 NGÀY",
-   "thumbFile": "kenh-ai-30-ngay"
+   "thumbFile": "kenh-ai-30-ngay",
+   "hot": true
   },
   {
    "slug": "microdrama-series-doc",
@@ -2650,11 +2675,12 @@
     "Tải toàn bộ media cần render về dự án. Không dùng URL mạng làm tài sản render",
     "Tạo nhạc nền thấp hơn lời đọc. Phụ đề phải dùng word timing thật, chia cụm 2–5 từ cân đối đủ ý và tô vàng đúng từ…"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": null,
    "thumb": "/thumbs/video-viral-tu-y-tuong.webp",
    "tenNgan": "VIDEO VIRAL",
-   "thumbFile": "video-viral"
+   "thumbFile": "video-viral",
+   "hot": true
   },
   {
    "slug": "tao-anh-tu-van-ban-va-audio",
@@ -2821,11 +2847,12 @@
    "niche": "noi-dung",
    "moTa": "Một skill Facebook trọn quy trình cho khách hàng: chào và lấy hồ sơ, đánh giá kênh, lập nội dung, sản xuất Reel, xuất bản theo quyền, chăm sóc bình luận và đo hiệu quả.",
    "loiIch": [],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": null,
    "thumb": "/thumbs/bo-subagent-facebook.webp",
    "tenNgan": "ĐỘI FACEBOOK",
-   "thumbFile": "doi-facebook"
+   "thumbFile": "doi-facebook",
+   "hot": true
   },
   {
    "slug": "ke-hoach-saas-viet-noi-dung-ai",
@@ -2868,11 +2895,12 @@
     "Có link → SANSANG; đăng xong → DADANG",
     "Yêu cầu vẽ: đúng mặt theo ảnh avatar; ảnh chụp điện thoại, ánh sáng tự nhiên, film grain nhẹ, da có lỗ chân lông,…"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": null,
    "thumb": "/thumbs/linh-na-model-4-kenh.webp",
    "tenNgan": "NGƯỜI MẪU AI 4 KÊNH",
-   "thumbFile": "nguoi-mau-ai-4-kenh"
+   "thumbFile": "nguoi-mau-ai-4-kenh",
+   "hot": true
   },
   {
    "slug": "phan-tich-kenh-facebook-mau",
@@ -2915,11 +2943,12 @@
     "Nêu tính năng: chọn video hoàn chỉnh từ kho, chống trùng, kiểm tra nội dung và quyền, chọn/tạo thumbnail theo cấu…",
     "Chỉ hỏi đầu vào khách phải quyết định hoặc cấp quyền: kênh YouTube đích; nguồn video hoàn chỉnh; cách có thumbnail…"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": null,
    "thumb": "/thumbs/bo-subagent-youtube.webp",
    "tenNgan": "ĐỘI YOUTUBE",
-   "thumbFile": "doi-youtube"
+   "thumbFile": "doi-youtube",
+   "hot": true
   },
   {
    "slug": "theo-doi-chuyen-doi",
@@ -4223,11 +4252,12 @@
     "Lập sourceregistry: nguồn, owner, ngày kiểm tra, ngày hết hạn và loại câu hỏi được phép trả lời",
     "Phân câu hỏi thành: trả lời được, cần hỏi thêm, cần tra nguồn, hoặc bắt buộc chuyển người thật"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": null,
    "thumb": "/thumbs/chatbot-bat-dong-san.webp",
    "tenNgan": "CHATBOT BĐS",
-   "thumbFile": "chatbot-bds"
+   "thumbFile": "chatbot-bds",
+   "hot": true
   },
   {
    "slug": "chuan-bi-gap-khach-bat-dong-san",
@@ -4444,11 +4474,12 @@
     "Permissions.yaml – bản đồ quyền 4 tầng",
     "Queue/ – hàng đợi (mỗi việc 1 file job.yaml)"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": null,
    "thumb": "/thumbs/cong-xuong-subagent.webp",
    "tenNgan": "CÔNG XƯỞNG SUBAGENT",
-   "thumbFile": "cong-xuong-subagent"
+   "thumbFile": "cong-xuong-subagent",
+   "hot": true
   },
   {
    "slug": "co-may-skill",
@@ -4461,11 +4492,12 @@
     "Danh mục Skill đề xuất và lợi ích khách hàng",
     "Thành phần tái sử dụng và thành phần cần tạo mới"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": null,
    "thumb": "/thumbs/co-may-skill.webp",
    "tenNgan": "CỖ MÁY SKILL",
-   "thumbFile": "co-may-skill"
+   "thumbFile": "co-may-skill",
+   "hot": true
   },
   {
    "slug": "kho-mau-website",
@@ -4512,11 +4544,12 @@
     "Nêu trạng thái đã xác minh, phạm vi increment và việc không làm",
     "Giao cho coding agent mọi phần nó có thể tự thực hiện"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": null,
    "thumb": "/thumbs/phat-trien-co-may-fanpage.webp",
    "tenNgan": "CỖ MÁY FANPAGE",
-   "thumbFile": "co-may-fanpage"
+   "thumbFile": "co-may-fanpage",
+   "hot": true
   },
   {
    "slug": "phan-tich-du-lieu-kinh-doanh",
@@ -4687,11 +4720,12 @@
     "Phân loại từng thành phần: skill, kiến thức, bộ nhớ, workflow, script, automation hay tính năng app. Không ép mọi…",
     "Tìm phần có thể tái sử dụng. Ưu tiên dùng hoặc mở rộng skill hiện có; chỉ tạo mới khi trách nhiệm thật sự khác"
    ],
-   "gia": 59000,
+   "gia": 135000,
    "congXuong": null,
    "thumb": "/thumbs/tao-goi-skill-ai.webp",
    "tenNgan": "ĐÓNG GÓI SKILL",
-   "thumbFile": "dong-goi-skill"
+   "thumbFile": "dong-goi-skill",
+   "hot": true
   },
   {
    "slug": "ke-toan-doc-va-chuan-hoa-du-lieu",
