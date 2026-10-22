@@ -2574,6 +2574,24 @@
    "thumbFile": "ke-chuyen-cu-lat"
   },
   {
+   "slug": "video-viral-tin-tuc",
+   "ma": "BCAI-VIDEO-VIRAL-TIN-TUC",
+   "ten": "Video Viral Tin tức & Review",
+   "niche": "video",
+   "moTa": "Xưởng video dọc tin tức, review và giới thiệu KHÔNG LỘ MẶT của Bảo Châu AI — từ một ý tưởng, đoạn văn hay đường link ra MP4 9:16 hoàn chỉnh theo phong cách editorial ấm: hình/clip thật làm…",
+   "loiIch": [
+    "Một file MP4 9:16 hoàn chỉnh từ ý tưởng hoặc đường link, dựng tự động bằng ffmpeg, không cần biết dựng phim",
+    "Phụ đề karaoke tô vàng đúng từng từ theo giọng thật của bạn, chữ tiếng Việt được kiểm dấu trước khi xuất",
+    "Màn hình làm việc thật có chuột di chuyển, vòng click và zoom, cùng 5 kịch bản mẫu theo ngách để làm ngay"
+   ],
+   "gia": 135000,
+   "hot": true,
+   "congXuong": null,
+   "thumb": "/thumbs/video-viral-tin-tuc.webp",
+   "tenNgan": "VIDEO TIN TỨC",
+   "thumbFile": "video-tin-tuc"
+  },
+  {
    "slug": "video-hoat-hinh-toan-ky-thuat",
    "ma": "BCAI-CREATIVE-079",
    "ten": "Video hoạt hình toán & kỹ thuật",
