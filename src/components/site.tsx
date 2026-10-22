@@ -152,7 +152,7 @@ export function GiaCombo({ slugs, soSkill }: { slugs: string[]; soSkill: number 
       )}
       <p className="mt-1 font-display text-3xl leading-none">{formatVnd(g.tong)}</p>
       <p className="mt-1 text-xs text-muted-foreground">
-        {soSkill} skill · {g.coHot ? "gồm skill tự động hoá 135.000đ" : g.coGiam ? `chỉ ${formatVnd(g.tong / soSkill)}/skill` : `${formatVnd(GIA_LE)}/skill`}
+        {soSkill} skill · {g.coHot ? "gồm skill HOT 135.000đ" : g.coGiam ? `chỉ ${formatVnd(g.tong / soSkill)}/skill` : `${formatVnd(GIA_LE)}/skill`}
       </p>
     </div>
   );
