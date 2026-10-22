@@ -436,7 +436,7 @@
    "ma": "BCAI-EDIT-VIDEO-DA-NEN-TANG",
    "ten": "Edit Video Đa nền tảng",
    "niche": "video-da-nen-tang",
-   "moTa": "Bản 1.2.0 (22/10): thêm bố cục tổng hợp — chèn màn hình công việc của bạn có chuột giả bấm đúng nút, người nói trong ô tròn, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Video đa nền tảng (một lần quay, ba bản cắt): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và kịch bản mẫu của ngách.",
+   "moTa": "Bản 1.3.0 (22/10): bố cục đổi liên tục — ô tròn, toàn cảnh ở câu nhấn mạnh, chia đôi chữ chạy; chèn màn hình công việc của bạn có chuột giả bấm đúng nút, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Video đa nền tảng (một lần quay, ba bản cắt): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và kịch bản mẫu của ngách.",
    "loiIch": [
     "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
     "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
@@ -594,7 +594,7 @@
    "ma": "BCAI-EDIT-XAY-KENH",
    "ten": "Edit Video Xây kênh & Chuyển đổi",
    "niche": "xay-kenh",
-   "moTa": "Bản 1.2.0 (22/10): thêm bố cục tổng hợp — chèn màn hình công việc của bạn có chuột giả bấm đúng nút, người nói trong ô tròn, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Xây kênh & Chuyển đổi (hành trình kênh: con số → bài học → lời mời): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và…",
+   "moTa": "Bản 1.3.0 (22/10): bố cục đổi liên tục — ô tròn, toàn cảnh ở câu nhấn mạnh, chia đôi chữ chạy; chèn màn hình công việc của bạn có chuột giả bấm đúng nút, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Xây kênh & Chuyển đổi (hành trình kênh: con số → bài học → lời mời): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và…",
    "loiIch": [
     "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
     "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
@@ -748,7 +748,7 @@
    "ma": "BCAI-EDIT-SPA",
    "ten": "Edit Video Spa & Làm đẹp",
    "niche": "spa",
-   "moTa": "Bản 1.2.0 (22/10): thêm bố cục tổng hợp — chèn màn hình công việc của bạn có chuột giả bấm đúng nút, người nói trong ô tròn, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Spa & Làm đẹp (trước/sau mềm mại, cận sản phẩm, giọng tâm tình): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và kịch…",
+   "moTa": "Bản 1.3.0 (22/10): bố cục đổi liên tục — ô tròn, toàn cảnh ở câu nhấn mạnh, chia đôi chữ chạy; chèn màn hình công việc của bạn có chuột giả bấm đúng nút, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Spa & Làm đẹp (trước/sau mềm mại, cận sản phẩm, giọng tâm tình): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và kịch…",
    "loiIch": [
     "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
     "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
@@ -2427,7 +2427,7 @@
    "ma": "BCAI-EDIT-VIDEO",
    "ten": "Edit Video Phim AI",
    "niche": "video",
-   "moTa": "Bản 1.2.0 (22/10): thêm bố cục tổng hợp — chèn màn hình công việc của bạn có chuột giả bấm đúng nút, người nói trong ô tròn, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Video & Phim AI (trailer điện ảnh: khung đen, chữ lớn, cắt theo phách): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và…",
+   "moTa": "Bản 1.3.0 (22/10): bố cục đổi liên tục — ô tròn, toàn cảnh ở câu nhấn mạnh, chia đôi chữ chạy; chèn màn hình công việc của bạn có chuột giả bấm đúng nút, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Video & Phim AI (trailer điện ảnh: khung đen, chữ lớn, cắt theo phách): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và…",
    "loiIch": [
     "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
     "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
@@ -2811,7 +2811,7 @@
    "ma": "BCAI-EDIT-HINH-ANH",
    "ten": "Edit Video Hình ảnh & Thiết kế",
    "niche": "hinh-anh",
-   "moTa": "Bản 1.2.0 (22/10): thêm bố cục tổng hợp — chèn màn hình công việc của bạn có chuột giả bấm đúng nút, người nói trong ô tròn, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Hình ảnh & Thiết kế (lộ dần thiết kế: phác → hoàn thiện, khung lưới sạch): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng…",
+   "moTa": "Bản 1.3.0 (22/10): bố cục đổi liên tục — ô tròn, toàn cảnh ở câu nhấn mạnh, chia đôi chữ chạy; chèn màn hình công việc của bạn có chuột giả bấm đúng nút, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Hình ảnh & Thiết kế (lộ dần thiết kế: phác → hoàn thiện, khung lưới sạch): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng…",
    "loiIch": [
     "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
     "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
@@ -2967,7 +2967,7 @@
    "ma": "BCAI-EDIT-NOI-DUNG",
    "ten": "Edit Video Nội dung & Marketing",
    "niche": "noi-dung",
-   "moTa": "Bản 1.2.0 (22/10): thêm bố cục tổng hợp — chèn màn hình công việc của bạn có chuột giả bấm đúng nút, người nói trong ô tròn, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Nội dung & Marketing (mẹo nhanh dạng danh sách đánh số, chữ chiếm nửa màn): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền…",
+   "moTa": "Bản 1.3.0 (22/10): bố cục đổi liên tục — ô tròn, toàn cảnh ở câu nhấn mạnh, chia đôi chữ chạy; chèn màn hình công việc của bạn có chuột giả bấm đúng nút, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Nội dung & Marketing (mẹo nhanh dạng danh sách đánh số, chữ chiếm nửa màn): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền…",
    "loiIch": [
     "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
     "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
@@ -3185,7 +3185,7 @@
    "ma": "BCAI-EDIT-BAN-HANG",
    "ten": "Edit Video Bán hàng & Chuyển đổi",
    "niche": "ban-hang",
-   "moTa": "Bản 1.2.0 (22/10): thêm bố cục tổng hợp — chèn màn hình công việc của bạn có chuột giả bấm đúng nút, người nói trong ô tròn, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Bán hàng & Chuyển đổi (nỗi đau → sản phẩm → bằng chứng → ưu đãi có hạn): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng…",
+   "moTa": "Bản 1.3.0 (22/10): bố cục đổi liên tục — ô tròn, toàn cảnh ở câu nhấn mạnh, chia đôi chữ chạy; chèn màn hình công việc của bạn có chuột giả bấm đúng nút, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Bán hàng & Chuyển đổi (nỗi đau → sản phẩm → bằng chứng → ưu đãi có hạn): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng…",
    "loiIch": [
     "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
     "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
@@ -3250,7 +3250,7 @@
    "ma": "BCAI-EDIT-GIAO-DUC",
    "ten": "Edit Video Giáo viên & Đào tạo",
    "niche": "giao-duc",
-   "moTa": "Bản 1.2.0 (22/10): thêm bố cục tổng hợp — chèn màn hình công việc của bạn có chuột giả bấm đúng nút, người nói trong ô tròn, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Giáo viên & Đào tạo (bảng – slide – ví dụ: dạy 1 ý trong 40 giây): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và kịch…",
+   "moTa": "Bản 1.3.0 (22/10): bố cục đổi liên tục — ô tròn, toàn cảnh ở câu nhấn mạnh, chia đôi chữ chạy; chèn màn hình công việc của bạn có chuột giả bấm đúng nút, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Giáo viên & Đào tạo (bảng – slide – ví dụ: dạy 1 ý trong 40 giây): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và kịch…",
    "loiIch": [
     "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
     "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
@@ -3591,7 +3591,7 @@
    "ma": "BCAI-EDIT-KE-TOAN",
    "ten": "Edit Video Kế toán & Tài chính",
    "niche": "ke-toan",
-   "moTa": "Bản 1.2.0 (22/10): thêm bố cục tổng hợp — chèn màn hình công việc của bạn có chuột giả bấm đúng nút, người nói trong ô tròn, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Kế toán & Tài chính (màn hình số liệu, khoanh đỏ con số, giọng chắc chắn): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng…",
+   "moTa": "Bản 1.3.0 (22/10): bố cục đổi liên tục — ô tròn, toàn cảnh ở câu nhấn mạnh, chia đôi chữ chạy; chèn màn hình công việc của bạn có chuột giả bấm đúng nút, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Kế toán & Tài chính (màn hình số liệu, khoanh đỏ con số, giọng chắc chắn): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng…",
    "loiIch": [
     "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
     "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
@@ -4255,7 +4255,7 @@
    "ma": "BCAI-EDIT-VAN-PHONG",
    "ten": "Edit Video Văn phòng & Nhân sự",
    "niche": "van-phong",
-   "moTa": "Bản 1.2.0 (22/10): thêm bố cục tổng hợp — chèn màn hình công việc của bạn có chuột giả bấm đúng nút, người nói trong ô tròn, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Văn phòng & Nhân sự (quay màn hình thao tác, phím tắt hiện góc, trước/sau thời gian): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài…",
+   "moTa": "Bản 1.3.0 (22/10): bố cục đổi liên tục — ô tròn, toàn cảnh ở câu nhấn mạnh, chia đôi chữ chạy; chèn màn hình công việc của bạn có chuột giả bấm đúng nút, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Văn phòng & Nhân sự (quay màn hình thao tác, phím tắt hiện góc, trước/sau thời gian): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài…",
    "loiIch": [
     "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
     "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
@@ -4478,7 +4478,7 @@
    "ma": "BCAI-EDIT-BDS",
    "ten": "Edit Video Bất động sản",
    "niche": "bds",
-   "moTa": "Bản 1.2.0 (22/10): thêm bố cục tổng hợp — chèn màn hình công việc của bạn có chuột giả bấm đúng nút, người nói trong ô tròn, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Bất động sản (flycam mở màn, mặt bằng, bảng giá: dẫn khách đi xem nhà): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và…",
+   "moTa": "Bản 1.3.0 (22/10): bố cục đổi liên tục — ô tròn, toàn cảnh ở câu nhấn mạnh, chia đôi chữ chạy; chèn màn hình công việc của bạn có chuột giả bấm đúng nút, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Bất động sản (flycam mở màn, mặt bằng, bảng giá: dẫn khách đi xem nhà): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng và…",
    "loiIch": [
     "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
     "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
@@ -4632,7 +4632,7 @@
    "ma": "BCAI-EDIT-KIEN-TRUC",
    "ten": "Edit Video Kiến trúc & Nội thất",
    "niche": "kien-truc",
-   "moTa": "Bản 1.2.0 (22/10): thêm bố cục tổng hợp — chèn màn hình công việc của bạn có chuột giả bấm đúng nút, người nói trong ô tròn, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Kiến trúc & Nội thất (phối cảnh 3d → công trình thật, trượt chậm sang trọng): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền…",
+   "moTa": "Bản 1.3.0 (22/10): bố cục đổi liên tục — ô tròn, toàn cảnh ở câu nhấn mạnh, chia đôi chữ chạy; chèn màn hình công việc của bạn có chuột giả bấm đúng nút, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Kiến trúc & Nội thất (phối cảnh 3d → công trình thật, trượt chậm sang trọng): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền…",
    "loiIch": [
     "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
     "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
@@ -4720,7 +4720,7 @@
    "ma": "BCAI-EDIT-WEBSITE",
    "ten": "Edit Video Website & Tự động hoá",
    "niche": "website",
-   "moTa": "Bản 1.2.0 (22/10): thêm bố cục tổng hợp — chèn màn hình công việc của bạn có chuột giả bấm đúng nút, người nói trong ô tròn, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Website & Tự động hoá (demo màn hình: bấm 1 nút, máy tự chạy, sơ đồ luồng): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền…",
+   "moTa": "Bản 1.3.0 (22/10): bố cục đổi liên tục — ô tròn, toàn cảnh ở câu nhấn mạnh, chia đôi chữ chạy; chèn màn hình công việc của bạn có chuột giả bấm đúng nút, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Website & Tự động hoá (demo màn hình: bấm 1 nút, máy tự chạy, sơ đồ luồng): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền…",
    "loiIch": [
     "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
     "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
@@ -4983,7 +4983,7 @@
    "ma": "BCAI-EDIT-PHONG-THUY",
    "ten": "Edit Video Phong thủy & Đời sống",
    "niche": "phong-thuy",
-   "moTa": "Bản 1.2.0 (22/10): thêm bố cục tổng hợp — chèn màn hình công việc của bạn có chuột giả bấm đúng nút, người nói trong ô tròn, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Phong thủy & Đời sống (kể chuyện ấm, biểu tượng ngũ hành, nhịp thong thả): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng…",
+   "moTa": "Bản 1.3.0 (22/10): bố cục đổi liên tục — ô tròn, toàn cảnh ở câu nhấn mạnh, chia đôi chữ chạy; chèn màn hình công việc của bạn có chuột giả bấm đúng nút, nền xanh + khung phát sáng, phụ đề karaoke tô vàng. Edit video ngắn 9:16 riêng cho ngách Phong thủy & Đời sống (kể chuyện ấm, biểu tượng ngũ hành, nhịp thong thả): nhịp dựng, hook, màu và thẻ đồ hoạ, B-roll, phụ đề, CTA, độ dài theo nền tảng…",
    "loiIch": [
     "Hook: chọn 1 trong các mẫu hook của ngách, sửa theo đúng ý người nói trong 5 giây đầu (không bịa số)",
     "Nhịp: đặt card, title, focus, B-roll theo mục \"Nhịp dựng\" và \"Thẻ nên dùng\" của ngách",
