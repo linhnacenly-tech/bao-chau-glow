@@ -102,6 +102,9 @@ NHOM_MAP = {
 
 
 def niche_of(sk):
+    # Skill tự động hoá phục vụ đúng một ngách (vd edit video theo ngách, Linh Kim 22/10) xếp vào ngách đó.
+    if sk.get("ngachPhucVu") in NICHE_IDS:
+        return sk["ngachPhucVu"]
     cx = sk.get("dangBanCongXuong")
     if cx and cx in CX_TO_SANH:
         return CX_TO_SANH[cx]
@@ -457,6 +460,9 @@ def main():
         slug = sk["slug"]
         if sk.get("trangThai") == "CHUA_CO_GOI":
             skipped.append((slug, "chưa có gói giao"))
+            continue
+        if sk.get("trangThai") == "CHO_CHAU_DUYET":  # chờ Châu duyệt giá/nội dung thì chưa bán
+            skipped.append((slug, "chờ Châu duyệt"))
             continue
         if slug in KHONG_BAN or KHONG_BAN_TU_KHOA.search(sk["ten"] + " " + slug):
             skipped.append((slug, "skill riêng"))
