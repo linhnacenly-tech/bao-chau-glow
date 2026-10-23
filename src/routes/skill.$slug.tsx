@@ -4,7 +4,7 @@ import { Check, Plus, ShoppingBag } from "lucide-react";
 import { SiteFooter, SiteHeader, SkillCard } from "@/components/site";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/lib/cart";
-import { formatVnd, nicheById, skillBySlug, skillsByNiche, tenNgach } from "@/lib/catalog";
+import { dangKhuyenMai, formatVnd, nicheById, skillBySlug, skillsByNiche, tenNgach } from "@/lib/catalog";
 
 export const Route = createFileRoute("/skill/$slug")({
   loader: ({ params }) => {
@@ -62,7 +62,15 @@ function SkillPage() {
                 </ul>
               </>
             )}
-            <p className="mt-6 font-display text-4xl">{formatVnd(skill.gia)}</p>
+            {dangKhuyenMai(skill) ? (
+              <p className="mt-6 font-display text-4xl">
+                <s className="mr-3 text-2xl text-muted-foreground">{formatVnd(skill.gia)}</s>
+                <span className="text-[#e11d48]">{formatVnd(skill.khuyenMai!.gia)}</span>
+                <span className="mt-1 block text-xs font-bold text-[#e11d48]">Giá ưu đãi tới {new Date(skill.khuyenMai!.den).toLocaleString("vi-VN", { timeZone: "Asia/Ho_Chi_Minh", hour: "2-digit", minute: "2-digit", day: "2-digit", month: "2-digit" })}</span>
+              </p>
+            ) : (
+              <p className="mt-6 font-display text-4xl">{formatVnd(skill.gia)}</p>
+            )}
             <p className="text-xs text-muted-foreground">{skill.hot ? "🔥 HOT · Bộ tự động hoá nhiều việc kết hợp hoặc bản nâng cấp, được nhiều người ưa chuộng nhất. Giá cố định, không tính giảm 35%." : "Mua từ 5 skill trong một đơn giảm 35%."}</p>
             <div className="mt-5 flex flex-wrap gap-3">
               <Button

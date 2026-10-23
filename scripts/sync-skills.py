@@ -412,6 +412,8 @@ def chuan_bi_giao_hang(skills, bundles, kho_by_slug):
         entry = {"ten": s["ten"], "tenNgan": s["tenNgan"], "soSkill": s.get("soSkill", 1), "cx": cx, "file": None}
         if s.get("hot"):
             entry.update(gia=s["gia"], hot=True)
+        if s.get("khuyenMai"):
+            entry["khuyenMai"] = s["khuyenMai"]
         if not cx:
             src = goi_moi_nhat(sk.get("goiZip") or "")
             if src:
@@ -499,6 +501,8 @@ def main():
             # Ngách tự động hoá (Châu chốt 22/10): giá riêng từ kho (135K), cờ hot để trang + Công xưởng tính giá
             "gia": sk["gia"] if sk.get("hot") and isinstance(sk.get("gia"), int) else GIA_LE,
             **({"hot": True} if sk.get("hot") else {}),
+            # Giá khuyến mãi có hạn (vd 59K trong 48 giờ sau Zoom, Châu chốt 23/10 khuya): trang + Công xưởng tự áp trong khung giờ.
+            **({"khuyenMai": sk["khuyenMai"]} if sk.get("khuyenMai") else {}),
             "congXuong": (CONG_XUONG + cx) if cx else None,
             "thumb": f"/thumbs/{slug}.webp",
         })

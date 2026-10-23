@@ -12,6 +12,7 @@ export type Skill = {
   loiIch: string[];
   gia: number;
   hot?: boolean; // ngách Tự động hoá (22/10): giá riêng 135K, không vào mốc giảm 35%
+  khuyenMai?: { gia: number; tu: string; den: string; lyDo?: string }; // giá có hạn (vd 59K trong 48 giờ sau Zoom, 23/10)
   congXuong: string | null;
   thumb: string;
 };
@@ -44,8 +45,11 @@ export function tinhGia(soSkill: number) {
 // Số skill của một món trong giỏ (bộ combo tính theo số skill trong bộ)
 export const soSkillCua = (slug: string) => bundleBySlug(slug)?.soSkill ?? 1;
 const laHot = (slug: string) => !!skillBySlug(slug)?.hot;
+// Khuyến mãi có hạn (khớp giaHot ở máy chủ Công xưởng): trong khung giờ tính giá khuyến mãi, hết giờ tự về giá gốc.
+export const dangKhuyenMai = (s: Skill | undefined, luc = Date.now()) => !!s?.khuyenMai && luc >= Date.parse(s.khuyenMai.tu) && luc < Date.parse(s.khuyenMai.den);
+export const giaHienTai = (s: Skill) => (dangKhuyenMai(s) ? s.khuyenMai!.gia : s.gia);
 // Giá một món trước giảm: skill tự động hoá theo giá riêng, còn lại GIA_LE × số skill.
-export const giaCua = (slug: string) => (laHot(slug) ? skillBySlug(slug)!.gia : soSkillCua(slug) * GIA_LE);
+export const giaCua = (slug: string) => (laHot(slug) ? giaHienTai(skillBySlug(slug)!) : soSkillCua(slug) * GIA_LE);
 
 // Giá một giỏ (khớp glowPrice ở máy chủ Công xưởng). Từ 22/10: skill tự động hoá giá cố định, không giảm và
 // không tính vào mốc 5 skill; mốc giảm 35% chỉ đếm skill giá thường.

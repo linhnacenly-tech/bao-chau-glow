@@ -5,7 +5,7 @@ import { ArrowRight, Check, ChevronDown, Eye, LayoutGrid, Plus, ShoppingBag, Sho
 import logo from "@/assets/logo-bao-chau-ai.webp";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/lib/cart";
-import { formatVnd, GIA_LE, NGUONG_GIAM, niches, skillsByNiche, tenNgach, tinhGiaGio, zaloUrl, type Bundle, type Skill } from "@/lib/catalog";
+import { dangKhuyenMai, formatVnd, GIA_LE, NGUONG_GIAM, niches, skillsByNiche, tenNgach, tinhGiaGio, zaloUrl, type Bundle, type Skill } from "@/lib/catalog";
 
 // Thanh menu: "Ngách" mở bảng mọi ngách → bấm ngách nào hiện sản phẩm ngách đó.
 function NicheMenu() {
@@ -112,7 +112,7 @@ export function SkillCard({ skill }: { skill: Skill }) {
         <h3 className="text-base font-extrabold leading-snug">{skill.ten}</h3>
         <p className="mt-2 line-clamp-3 text-sm leading-6 text-muted-foreground">{skill.moTa}</p>
         <div className="mt-auto pt-4">
-          <p className="font-display text-2xl leading-none">{formatVnd(skill.gia)}</p>
+          <p className="font-display text-2xl leading-none">{dangKhuyenMai(skill) ? <><s className="mr-1 text-base text-muted-foreground">{formatVnd(skill.gia)}</s><span className="text-[#e11d48]">{formatVnd(skill.khuyenMai!.gia)}</span></> : formatVnd(skill.gia)}</p>
           <div className="mt-3 grid grid-cols-2 gap-2">
             <Button asChild variant="outline" size="sm">
               <Link to="/skill/$slug" params={{ slug: skill.slug }}>
