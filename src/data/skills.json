@@ -308,6 +308,30 @@
    "thumbFile": "edit-video"
   },
   {
+   "slug": "edit-video-sao-chep-mau",
+   "ma": "BCAI-edit-video-sao-chep-mau",
+   "ten": "Edit video sao chép mẫu",
+   "niche": "video-da-nen-tang",
+   "moTa": "Đưa một video edit đẹp cho AI xem: AI đo nhịp cắt, khổ, khoảng lặng, đọc kiểu chữ, màu, zoom, hook rồi tự dựng clip của bạn y phong cách đó — dựng được cả thư mục clip một lần.",
+   "loiIch": [
+    "Đo nhịp cắt, khổ, khoảng lặng của video mẫu",
+    "Dựng clip theo mẫu: cắt lặng, zoom giật, chữ hook, phụ đề",
+    "Dựng cả thư mục clip một lần, lưu mẫu dùng lại"
+   ],
+   "gia": 135000,
+   "hot": true,
+   "khuyenMai": {
+    "gia": 59000,
+    "tu": "2026-10-27T13:30:00+07:00",
+    "den": "2026-10-29T13:30:00+07:00",
+    "lyDo": "Người dự Zoom FREE 2 · 48 giờ"
+   },
+   "congXuong": null,
+   "thumb": "/thumbs/edit-video-sao-chep-mau.webp",
+   "tenNgan": "SAO CHÉP VIDEO MẪU",
+   "thumbFile": "sao-chep-video-mau"
+  },
+  {
    "slug": "kich-ban-tiktok",
    "ma": "BCAI-MKT-046",
    "ten": "Kịch bản TikTok",

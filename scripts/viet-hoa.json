@@ -91,5 +91,9 @@
   },
   "edit-video-video": {
     "ten": "Edit Video Phim AI"
+  },
+  "edit-video-sao-chep-mau": {
+    "ten": "Edit video sao chép mẫu",
+    "moTa": "Đưa một video edit đẹp cho AI xem: AI đo nhịp cắt, khổ, khoảng lặng, đọc kiểu chữ, màu, zoom, hook rồi tự dựng clip của bạn y phong cách đó — dựng được cả thư mục clip một lần."
   }
 }
