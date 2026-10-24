@@ -1,5 +1,5 @@
 {
- "capNhat": "2026-10-23",
+ "capNhat": "2026-10-24",
  "nguon": "data/kho-skill/kho-tong.json",
  "giaLe": 59000,
  "nguongGiam": 5,
@@ -5030,6 +5030,23 @@
    "thumb": "/thumbs/tu-vi-lich-am-bat-tu.webp",
    "tenNgan": "TỬ VI BÁT TỰ",
    "thumbFile": "tu-vi-bat-tu"
+  },
+  {
+   "slug": "tao-slide-thuyet-trinh",
+   "ma": "BCAI-EDU-095",
+   "ten": "Tạo slide thuyết trình",
+   "niche": "giao-duc",
+   "moTa": "Đưa chủ đề hoặc tài liệu cho AI: ra dàn ý, chữ từng slide (tiêu đề ≤ 8 chữ, 3–5 ý), lời nói, gợi ý ảnh, rồi xuất bộ slide HTML 16:9 trình chiếu được ngay, in PDF, dán sang Canva / Gamma / Google Slides. Có mẫu giáo viên (giáo án + slide), báo cáo văn phòng, Zoom/workshop, giới thiệu sản phẩm.",
+   "loiIch": [
+    "Dàn ý + chữ từng slide + lời nói trong một lần",
+    "File slide 16:9 xanh dương · cam · trắng, in PDF được",
+    "Mẫu giáo án + slide, báo cáo, Zoom, giới thiệu sản phẩm"
+   ],
+   "gia": 59000,
+   "congXuong": null,
+   "thumb": "/thumbs/tao-slide-thuyet-trinh.webp",
+   "tenNgan": "SLIDE THUYẾT TRÌNH",
+   "thumbFile": "tao-slide-thuyet-trinh"
   }
  ],
  "bundles": [
