@@ -44,7 +44,10 @@ export function tinhGia(soSkill: number) {
 
 // Số skill của một món trong giỏ (bộ combo tính theo số skill trong bộ)
 export const soSkillCua = (slug: string) => bundleBySlug(slug)?.soSkill ?? 1;
-const laHot = (slug: string) => !!skillBySlug(slug)?.hot;
+// Giá riêng (khớp giaRieng ở máy chủ Công xưởng, Châu chốt 26/10): skill hot, hoặc skill có giá khác giá lẻ
+// (vd 135K gạch, khuyến mại ra mắt 59K) — tính theo giá của chính nó, không vào mốc giảm 35%.
+export const coGiaRieng = (s: Skill | undefined) => !!s && (!!s.hot || s.gia !== GIA_LE);
+const laHot = (slug: string) => coGiaRieng(skillBySlug(slug));
 // Khuyến mãi có hạn (khớp giaHot ở máy chủ Công xưởng): trong khung giờ tính giá khuyến mãi, hết giờ tự về giá gốc.
 export const dangKhuyenMai = (s: Skill | undefined, luc = Date.now()) => !!s?.khuyenMai && luc >= Date.parse(s.khuyenMai.tu) && luc < Date.parse(s.khuyenMai.den);
 export const giaHienTai = (s: Skill) => (dangKhuyenMai(s) ? s.khuyenMai!.gia : s.gia);
