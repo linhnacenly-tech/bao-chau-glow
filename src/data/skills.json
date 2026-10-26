@@ -1,5 +1,5 @@
 {
- "capNhat": "2026-10-24",
+ "capNhat": "2026-10-26",
  "nguon": "data/kho-skill/kho-tong.json",
  "giaLe": 59000,
  "nguongGiam": 5,
@@ -5047,6 +5047,351 @@
    "thumb": "/thumbs/tao-slide-thuyet-trinh.webp",
    "tenNgan": "SLIDE THUYẾT TRÌNH",
    "thumbFile": "tao-slide-thuyet-trinh"
+  },
+  {
+   "slug": "poster-san-pham-10-mau",
+   "ma": "BCAI-CREATIVE-084",
+   "ten": "Poster sản phẩm 10 mẫu",
+   "niche": "hinh-anh",
+   "moTa": "Một ảnh sản phẩm thật ra bộ 10 poster quảng cáo đồng bộ (cùng màu, font, logo), mỗi tấm một lý do mua: ra mắt, lợi ích, trước–sau, giá, combo, mùa lễ, kêu gọi. Câu lệnh ChatGPT / Gemini dán sẵn, giữ đúng nhãn và màu sản phẩm, cách chèn chữ tiếng Việt không sai dấu.",
+   "loiIch": [
+    "1 ảnh sản phẩm → 10 poster cùng bộ nhận diện",
+    "10 góc bán + câu lệnh dán sẵn ChatGPT / Gemini",
+    "Đúng khổ Facebook, TikTok, Shopee, chữ tiếng Việt đúng dấu"
+   ],
+   "gia": 135000,
+   "khuyenMai": {
+    "gia": 59000,
+    "tu": "2026-10-26T22:46:14+07:00",
+    "den": "2026-11-30T23:59:59+07:00",
+    "lyDo": "Khuyến mại ra mắt"
+   },
+   "congXuong": null,
+   "thumb": "/thumbs/poster-san-pham-10-mau.webp",
+   "tenNgan": "POSTER SẢN PHẨM",
+   "thumbFile": "poster-san-pham"
+  },
+  {
+   "slug": "xoa-nen-xoa-vat-the",
+   "ma": "BCAI-CREATIVE-085",
+   "ten": "Xoá nền & xoá vật thể",
+   "niche": "hinh-anh",
+   "moTa": "Xoá phông ra ảnh PNG nền trong suốt và xoá người lạ, chữ thừa, dây điện khỏi ảnh — chạy miễn phí trên máy bằng rembg (MIT) và IOPaint (Apache-2.0), làm cả thư mục một lượt; không cài được thì có câu lệnh ChatGPT / Gemini.",
+   "loiIch": [
+    "Xoá nền vài giây, ra PNG nền trong suốt",
+    "Xoá vật thể thừa liền mạch bằng IOPaint",
+    "Chạy trên máy, làm cả trăm ảnh một lượt"
+   ],
+   "gia": 135000,
+   "khuyenMai": {
+    "gia": 59000,
+    "tu": "2026-10-26T22:46:14+07:00",
+    "den": "2026-11-30T23:59:59+07:00",
+    "lyDo": "Khuyến mại ra mắt"
+   },
+   "congXuong": null,
+   "thumb": "/thumbs/xoa-nen-xoa-vat-the.webp",
+   "tenNgan": "XOÁ NỀN ẢNH",
+   "thumbFile": "xoa-nen-anh"
+  },
+  {
+   "slug": "tang-net-anh-4k",
+   "ma": "BCAI-CREATIVE-086",
+   "ten": "Tăng nét ảnh 4K",
+   "niche": "hinh-anh",
+   "moTa": "Phóng ảnh nhỏ, mờ lên x2–x4 (4K) sắc nét để in poster, băng rôn bằng Upscayl (bấm chuột) hoặc Real-ESRGAN (chạy cả thư mục) — giữ đúng khuôn mặt người thật, có bảng tính cỡ ảnh cần cho từng khổ in.",
+   "loiIch": [
+    "Ảnh mờ thành ảnh lớn sắc nét, in khổ lớn",
+    "Giữ đúng người thật, không vẽ lại mặt",
+    "Upscayl bấm chuột hoặc Real-ESRGAN hàng loạt"
+   ],
+   "gia": 135000,
+   "khuyenMai": {
+    "gia": 59000,
+    "tu": "2026-10-26T22:46:14+07:00",
+    "den": "2026-11-30T23:59:59+07:00",
+    "lyDo": "Khuyến mại ra mắt"
+   },
+   "congXuong": null,
+   "thumb": "/thumbs/tang-net-anh-4k.webp",
+   "tenNgan": "ẢNH NÉT 4K",
+   "thumbFile": "anh-net-4k"
+  },
+  {
+   "slug": "video-chuyen-gia-toi-gian",
+   "ma": "BCAI-CREATIVE-087",
+   "ten": "Video chuyên gia tối giản",
+   "niche": "video",
+   "moTa": "Video nói chuyện kiểu chuyên gia sạch, sang cho coach, giáo viên, tư vấn: tiêu đề trắng lớn, các bước hiện dần đúng lúc nói, thẻ infographic trắng (con số, 3 ý, trước–sau). AI lập kịch bản dựng theo lời, tự làm thẻ chữ PNG (khuôn HTML kèm skill) và ghép bằng FFmpeg hoặc CapCut.",
+   "loiIch": [
+    "2 phong cách: hướng dẫn tối giản · infographic trắng",
+    "Thẻ chữ hiện đúng lúc nói, không che mặt",
+    "Khuôn thẻ HTML + lệnh FFmpeg ghép sẵn"
+   ],
+   "gia": 135000,
+   "khuyenMai": {
+    "gia": 59000,
+    "tu": "2026-10-26T22:46:14+07:00",
+    "den": "2026-11-30T23:59:59+07:00",
+    "lyDo": "Khuyến mại ra mắt"
+   },
+   "congXuong": null,
+   "thumb": "/thumbs/video-chuyen-gia-toi-gian.webp",
+   "tenNgan": "VIDEO CHUYÊN GIA",
+   "thumbFile": "video-chuyen-gia"
+  },
+  {
+   "slug": "cat-video-dai-thanh-short",
+   "ma": "BCAI-CREATIVE-088",
+   "ten": "Cắt video dài thành short",
+   "niche": "video",
+   "moTa": "Video dài (livestream, Zoom, phỏng vấn, podcast 2 người) thành nhiều short 9:16: AI chép lời có mốc giây, chấm điểm chọn đoạn hay nhất, script tự cắt bám mặt người nói, podcast 2 người chia trên/dưới và chuyển theo ai đang nói, thêm phụ đề. Chạy trên máy bằng faster-whisper + FFmpeg.",
+   "loiIch": [
+    "1 video dài → 5–10 short 9:16 có phụ đề",
+    "Khung bám mặt; podcast 2 người tự chuyển khung",
+    "Script đã chạy thử, kèm bảng chấm điểm đoạn hay"
+   ],
+   "gia": 135000,
+   "khuyenMai": {
+    "gia": 59000,
+    "tu": "2026-10-26T22:46:14+07:00",
+    "den": "2026-11-30T23:59:59+07:00",
+    "lyDo": "Khuyến mại ra mắt"
+   },
+   "congXuong": null,
+   "thumb": "/thumbs/cat-video-dai-thanh-short.webp",
+   "tenNgan": "CẮT SHORT",
+   "thumbFile": "cat-short"
+  },
+  {
+   "slug": "ghep-clip-theo-nhac",
+   "ma": "BCAI-CREATIVE-089",
+   "ten": "Ghép clip theo nhạc",
+   "niche": "video",
+   "moTa": "Nhiều clip rời ghép liền mạch, mỗi lần chuyển cảnh rơi đúng beat nhạc; hoặc 1 video dài tự chọn đoạn ấn tượng nhất (theo lời hoặc theo chuyển động) thành video highlight kiểu quảng cáo. Script librosa + FFmpeg chạy trên máy, ra 9:16 / 1:1 / 16:9, kèm cách dùng nhạc trend không vi phạm bản quyền.",
+   "loiIch": [
+    "Chuyển cảnh khớp beat tự động",
+    "1 video dài → video highlight như quảng cáo",
+    "Mẹo nhạc trend đúng bản quyền"
+   ],
+   "gia": 135000,
+   "khuyenMai": {
+    "gia": 59000,
+    "tu": "2026-10-26T22:46:14+07:00",
+    "den": "2026-11-30T23:59:59+07:00",
+    "lyDo": "Khuyến mại ra mắt"
+   },
+   "congXuong": null,
+   "thumb": "/thumbs/ghep-clip-theo-nhac.webp",
+   "tenNgan": "GHÉP CLIP THEO NHẠC",
+   "thumbFile": "ghep-clip-theo-nhac"
+  },
+  {
+   "slug": "clone-doi-giong-tieng-viet",
+   "ma": "BCAI-CREATIVE-090",
+   "ten": "Clone & đổi giọng tiếng Việt",
+   "niche": "video",
+   "moTa": "Nhân bản giọng của chính bạn để AI đọc kịch bản tiếng Việt thay bạn, và đổi giọng trực tiếp khi livestream. Chọn đúng công cụ mã nguồn mở theo máy (RVC, OpenVoice V2, F5-TTS, GPT-SoVITS, CosyVoice), hướng dẫn thu mẫu chuẩn, kiểm giấy phép thương mại và luật đồng ý.",
+   "loiIch": [
+    "Thu âm ~1 phút → AI đọc bằng giọng bạn",
+    "Đổi giọng trực tiếp khi livestream (RVC)",
+    "Bảng chọn công cụ + giấy phép rõ ràng"
+   ],
+   "gia": 135000,
+   "khuyenMai": {
+    "gia": 59000,
+    "tu": "2026-10-26T22:46:14+07:00",
+    "den": "2026-11-30T23:59:59+07:00",
+    "lyDo": "Khuyến mại ra mắt"
+   },
+   "congXuong": null,
+   "thumb": "/thumbs/clone-doi-giong-tieng-viet.webp",
+   "tenNgan": "CLONE GIỌNG NÓI",
+   "thumbFile": "clone-giong-noi"
+  },
+  {
+   "slug": "giong-doc-ai-offline",
+   "ma": "BCAI-CREATIVE-091",
+   "ten": "Giọng đọc AI tiếng Việt offline",
+   "niche": "video",
+   "moTa": "Giọng đọc AI tiếng Việt chạy ngay trên máy, không cần mạng, không cần card đồ hoạ, không tính phí theo ký tự (Piper, đã chạy thử giọng vi_VN). Chuẩn hoá số và viết tắt để đọc đúng, đọc kịch bản dài thành 1 file, kèm lựa chọn đa ngôn ngữ (Fish Speech, ChatTTS) và giấy phép từng mô hình.",
+   "loiIch": [
+    "Giọng tiếng Việt chạy offline, máy yếu vẫn chạy",
+    "Đọc kịch bản dài thành 1 file mp3",
+    "Chuẩn hoá số, viết tắt để đọc đúng"
+   ],
+   "gia": 135000,
+   "khuyenMai": {
+    "gia": 59000,
+    "tu": "2026-10-26T22:46:14+07:00",
+    "den": "2026-11-30T23:59:59+07:00",
+    "lyDo": "Khuyến mại ra mắt"
+   },
+   "congXuong": null,
+   "thumb": "/thumbs/giong-doc-ai-offline.webp",
+   "tenNgan": "GIỌNG ĐỌC AI",
+   "thumbFile": "giong-doc-ai"
+  },
+  {
+   "slug": "trang-thu-lead-workshop",
+   "ma": "BCAI-WEB-014",
+   "ten": "Trang thu lead & bán workshop",
+   "niche": "website",
+   "moTa": "Trang web chạy thật: trang tặng quà thu họ tên, số điện thoại / email (có ô đồng ý) lưu thẳng vào Google Sheet và báo lead mới qua Telegram; trang bán workshop có lịch, đếm ngược, diễn giả, hỏi đáp, nút giữ chỗ. Máy chủ lưu lead Apps Script kèm skill, đăng miễn phí.",
+   "loiIch": [
+    "Lead lưu vào Google Sheet, báo Telegram tức thì",
+    "Trang workshop: lịch, đếm ngược, diễn giả",
+    "Mã Apps Script chống spam, chống trùng kèm sẵn"
+   ],
+   "gia": 135000,
+   "khuyenMai": {
+    "gia": 59000,
+    "tu": "2026-10-26T22:46:14+07:00",
+    "den": "2026-11-30T23:59:59+07:00",
+    "lyDo": "Khuyến mại ra mắt"
+   },
+   "congXuong": null,
+   "thumb": "/thumbs/trang-thu-lead-workshop.webp",
+   "tenNgan": "TRANG THU LEAD",
+   "thumbFile": "trang-thu-lead"
+  },
+  {
+   "slug": "trang-san-dich-vu-ho-so",
+   "ma": "BCAI-WEB-015",
+   "ten": "Trang sàn dịch vụ theo hồ sơ",
+   "niche": "website",
+   "moTa": "Trang sàn dịch vụ: mỗi chuyên gia / gói dịch vụ là một thẻ hồ sơ, khách lọc theo nghề và khu vực (tìm không dấu), bấm ra chi tiết 2 mức giá Cơ bản / Trọn gói, combo, đặt lịch / nhắn Zalo. Dữ liệu nằm trong Google Sheet — thêm người không cần sửa code.",
+   "loiIch": [
+    "Thẻ hồ sơ + lọc nghề, khu vực",
+    "Chi tiết 2 mức giá + combo + đặt lịch",
+    "Sửa dữ liệu ngay trên Google Sheet"
+   ],
+   "gia": 135000,
+   "khuyenMai": {
+    "gia": 59000,
+    "tu": "2026-10-26T22:46:14+07:00",
+    "den": "2026-11-30T23:59:59+07:00",
+    "lyDo": "Khuyến mại ra mắt"
+   },
+   "congXuong": null,
+   "thumb": "/thumbs/trang-san-dich-vu-ho-so.webp",
+   "tenNgan": "SÀN DỊCH VỤ",
+   "thumbFile": "san-dich-vu"
+  },
+  {
+   "slug": "trang-app-dung-thu-thu-thach",
+   "ma": "BCAI-WEB-016",
+   "ten": "Trang app dùng thử & thử thách 30 ngày",
+   "niche": "website",
+   "moTa": "Trang dạng ứng dụng giữ chân khách: (1) cho khách dùng thử công cụ — kéo thả file, chọn chế độ, lưới tính năng, thư viện mẫu, giới hạn lượt rồi mời đăng ký; (2) quà tặng + thử thách 30 ngày — nhiệm vụ mỗi ngày, điểm, chuỗi ngày, huy hiệu, bảng xếp hạng. Chạy trên điện thoại, đăng miễn phí.",
+   "loiIch": [
+    "Trang dùng thử công cụ có giới hạn lượt",
+    "Thử thách 30 ngày: điểm, chuỗi ngày, xếp hạng",
+    "Câu lệnh soạn 30 nhiệm vụ dán sẵn"
+   ],
+   "gia": 135000,
+   "khuyenMai": {
+    "gia": 59000,
+    "tu": "2026-10-26T22:46:14+07:00",
+    "den": "2026-11-30T23:59:59+07:00",
+    "lyDo": "Khuyến mại ra mắt"
+   },
+   "congXuong": null,
+   "thumb": "/thumbs/trang-app-dung-thu-thu-thach.webp",
+   "tenNgan": "THỬ THÁCH 30 NGÀY",
+   "thumbFile": "thu-thach-30-ngay"
+  },
+  {
+   "slug": "hieu-ung-web-cao-cap",
+   "ma": "BCAI-WEB-017",
+   "ten": "Hiệu ứng web cao cấp",
+   "niche": "website",
+   "moTa": "Nâng trang web lên cảm giác cao cấp bằng 7 thư viện MIT: vật thể 3D (three.js / React Three Fiber), chuyển động khi cuộn (Motion), cuộn mượt (Lenis), slider gói dịch vụ lật 3D (Swiper), nền hạt sáng (tsParticles), khối giao diện Magic UI. Có bảng chọn theo loại trang, mã dán sẵn và luật để trang vẫn nhanh trên điện thoại.",
+   "loiIch": [
+    "3D, cuộn mượt, slider lật 3D, hạt sáng",
+    "Mã dán sẵn HTML / React / Lovable",
+    "Trang đẹp mà vẫn nhanh trên điện thoại"
+   ],
+   "gia": 135000,
+   "khuyenMai": {
+    "gia": 59000,
+    "tu": "2026-10-26T22:46:14+07:00",
+    "den": "2026-11-30T23:59:59+07:00",
+    "lyDo": "Khuyến mại ra mắt"
+   },
+   "congXuong": null,
+   "thumb": "/thumbs/hieu-ung-web-cao-cap.webp",
+   "tenNgan": "HIỆU ỨNG WEB",
+   "thumbFile": "hieu-ung-web"
+  },
+  {
+   "slug": "teardown-kenh-doi-thu",
+   "ma": "BCAI-MKT-063",
+   "ten": "Teardown kênh đối thủ",
+   "niche": "noi-dung",
+   "moTa": "Mổ xẻ một kênh đang thắng trong ngách bằng dữ liệu công khai, ra báo cáo 12 phần: số liệu, mốc tăng trưởng và điểm gãy, trụ cột nội dung, kiểu hook, mổ 3 video thắng theo từng giây, phễu kiếm tiền, điểm yếu để vượt và kế hoạch 30 ngày cho kênh của bạn. Học công thức, không sao chép.",
+   "loiIch": [
+    "Báo cáo 12 phần có ảnh khoanh đỏ",
+    "Mổ 3 video thắng theo từng giây",
+    "Kế hoạch 30 ngày cho kênh của bạn"
+   ],
+   "gia": 135000,
+   "khuyenMai": {
+    "gia": 59000,
+    "tu": "2026-10-26T22:46:14+07:00",
+    "den": "2026-11-30T23:59:59+07:00",
+    "lyDo": "Khuyến mại ra mắt"
+   },
+   "congXuong": null,
+   "thumb": "/thumbs/teardown-kenh-doi-thu.webp",
+   "tenNgan": "MỔ XẺ KÊNH",
+   "thumbFile": "mo-xe-kenh"
+  },
+  {
+   "slug": "link-rut-gon-do-chuyen-doi",
+   "ma": "BCAI-SALES-037",
+   "ten": "Link rút gọn & đo chuyển đổi",
+   "niche": "ban-hang",
+   "moTa": "Link rút gọn mang tên miền riêng + đo chuyển đổi cho affiliate và bán hàng đa kênh: mỗi video / bài / kênh một link có UTM, đếm từng lượt bấm, biết đơn từ đâu. Chọn YOURLS (MIT), Dub (AGPL-3.0) hoặc Matomo (GPL-3.0), bảng quy ước link và báo cáo tuần kênh nào ra tiền.",
+   "loiIch": [
+    "Mỗi kênh một link riêng, đếm từng lượt bấm",
+    "Biết kênh nào ra đơn qua báo cáo tuần",
+    "Không làm hỏng mã theo dõi link affiliate"
+   ],
+   "gia": 135000,
+   "khuyenMai": {
+    "gia": 59000,
+    "tu": "2026-10-26T22:46:14+07:00",
+    "den": "2026-11-30T23:59:59+07:00",
+    "lyDo": "Khuyến mại ra mắt"
+   },
+   "congXuong": null,
+   "thumb": "/thumbs/link-rut-gon-do-chuyen-doi.webp",
+   "tenNgan": "LINK & ĐO CHUYỂN ĐỔI",
+   "thumbFile": "link-do-chuyen-doi"
+  },
+  {
+   "slug": "email-cham-soc-khach",
+   "ma": "BCAI-SALES-038",
+   "ten": "Email chăm sóc khách",
+   "niche": "ban-hang",
+   "moTa": "Hệ thống email chăm sóc khách tự host bằng listmonk (AGPL-3.0, không tính phí theo người nhận): danh sách khách đã đồng ý, chuỗi 7 email nuôi dưỡng, bản tin tuần, đo mở / bấm, cài SPF / DKIM / DMARC để không vào thư rác, đúng luật chống thư rác Việt Nam.",
+   "loiIch": [
+    "Chuỗi 7 email nuôi dưỡng viết sẵn theo nghề",
+    "Tự host, không tính phí theo người nhận",
+    "Không vào thư rác: SPF, DKIM, DMARC"
+   ],
+   "gia": 135000,
+   "khuyenMai": {
+    "gia": 59000,
+    "tu": "2026-10-26T22:46:14+07:00",
+    "den": "2026-11-30T23:59:59+07:00",
+    "lyDo": "Khuyến mại ra mắt"
+   },
+   "congXuong": null,
+   "thumb": "/thumbs/email-cham-soc-khach.webp",
+   "tenNgan": "EMAIL CHĂM SÓC",
+   "thumbFile": "email-cham-soc"
   }
  ],
  "bundles": [

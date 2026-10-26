@@ -4,7 +4,7 @@ import { Check, Plus, ShoppingBag } from "lucide-react";
 import { SiteFooter, SiteHeader, SkillCard } from "@/components/site";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/lib/cart";
-import { dangKhuyenMai, formatVnd, nicheById, skillBySlug, skillsByNiche, tenNgach } from "@/lib/catalog";
+import { coGiaRieng, dangKhuyenMai, formatVnd, nicheById, skillBySlug, skillsByNiche, tenNgach } from "@/lib/catalog";
 
 export const Route = createFileRoute("/skill/$slug")({
   loader: ({ params }) => {
@@ -71,7 +71,7 @@ function SkillPage() {
             ) : (
               <p className="mt-6 font-display text-4xl">{formatVnd(skill.gia)}</p>
             )}
-            <p className="text-xs text-muted-foreground">{skill.hot ? "🔥 HOT · Bộ tự động hoá nhiều việc kết hợp hoặc bản nâng cấp, được nhiều người ưa chuộng nhất. Giá cố định, không tính giảm 35%." : "Mua từ 5 skill trong một đơn giảm 35%."}</p>
+            <p className="text-xs text-muted-foreground">{skill.hot ? "🔥 HOT · Bộ tự động hoá nhiều việc kết hợp hoặc bản nâng cấp, được nhiều người ưa chuộng nhất. Giá cố định, không tính giảm 35%." : coGiaRieng(skill) ? "Giá riêng của skill này, không tính vào mốc giảm 35%." : "Mua từ 5 skill trong một đơn giảm 35%."}</p>
             <div className="mt-5 flex flex-wrap gap-3">
               <Button
                 size="lg"
