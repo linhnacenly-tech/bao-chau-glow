@@ -4253,6 +4253,227 @@
    "thumbFile": "doi-chieu-cong-no"
   },
   {
+   "slug": "office-ai-pro-tron-bo",
+   "ma": "BCAI-OFFICE-COMBO",
+   "ten": "Bộ Office AI Pro — 12 trợ lý văn phòng (trọn gói)",
+   "niche": "van-phong",
+   "moTa": "Trọn bộ 12 trợ lý AI văn phòng + trợ lý chính tự chọn đúng skill theo việc bạn nói: Word, Excel, Slide, Email, Báo cáo, Thư ký họp, PDF, Dịch thuật, Phân tích dữ liệu, Nhân sự, Lập kế hoạch, Tự động hoá. Mua trọn bộ rẻ hơn mua lẻ 12 × 99K.",
+   "loiIch": [
+    "Đủ 12 trợ lý: Word, Excel, Slide, Email, Báo cáo, Họp, PDF, Dịch, Dữ liệu, Nhân sự, Kế hoạch, Tự động hoá",
+    "Trợ lý chính tự chọn đúng skill theo việc bạn nói",
+    "Tiết kiệm hơn mua lẻ 12 × 99K"
+   ],
+   "gia": 1000000,
+   "congXuong": null,
+   "thumb": "/thumbs/office-ai-pro-tron-bo.webp",
+   "tenNgan": "OFFICE AI PRO 12 TRỢ LÝ",
+   "thumbFile": "office-ai-pro-tron-bo"
+  },
+  {
+   "slug": "office-ai-word-pro",
+   "ma": "BCAI-OFFICE-001",
+   "ten": "AI Word Pro — soạn văn bản hành chính",
+   "niche": "van-phong",
+   "moTa": "Trợ lý văn phòng thuộc bộ Office AI Pro: soạn công văn, thông báo, biên bản, đề xuất và văn bản hành chính. Hỏi từng bước, không bịa số liệu, nhắc kiểm tra trước khi dùng thật.",
+   "loiIch": [
+    "Công văn, thông báo, biên bản, đề xuất",
+    "Không bịa số công văn, căn cứ, chữ ký",
+    "Có mục cần xác minh trước khi ký"
+   ],
+   "gia": 99000,
+   "congXuong": null,
+   "thumb": "/thumbs/office-ai-word-pro.webp",
+   "tenNgan": "AI WORD PRO",
+   "thumbFile": "office-ai-word-pro"
+  },
+  {
+   "slug": "office-ai-excel-expert",
+   "ma": "BCAI-OFFICE-002",
+   "ten": "AI Excel Expert — công thức & làm sạch dữ liệu",
+   "niche": "van-phong",
+   "moTa": "Trợ lý văn phòng thuộc bộ Office AI Pro: giải thích và tạo công thức, chuẩn hóa bảng dữ liệu, tổng hợp theo tiêu chí. Hỏi từng bước, không bịa số liệu, nhắc kiểm tra trước khi dùng thật.",
+   "loiIch": [
+    "Giải thích, tạo công thức",
+    "Chuẩn hoá bảng, lọc trùng an toàn",
+    "Giữ bản gốc, có bảng thay đổi"
+   ],
+   "gia": 99000,
+   "congXuong": null,
+   "thumb": "/thumbs/office-ai-excel-expert.webp",
+   "tenNgan": "AI EXCEL EXPERT",
+   "thumbFile": "office-ai-excel-expert"
+  },
+  {
+   "slug": "office-ai-slide-designer",
+   "ma": "BCAI-OFFICE-003",
+   "ten": "AI Slide Designer — dựng slide thuyết trình",
+   "niche": "van-phong",
+   "moTa": "Trợ lý văn phòng thuộc bộ Office AI Pro: xây cấu trúc và nội dung slide thuyết trình. Hỏi từng bước, không bịa số liệu, nhắc kiểm tra trước khi dùng thật.",
+   "loiIch": [
+    "Khung slide theo mục tiêu",
+    "Nội dung từng trang",
+    "Gợi ý hình minh hoạ"
+   ],
+   "gia": 99000,
+   "congXuong": null,
+   "thumb": "/thumbs/office-ai-slide-designer.webp",
+   "tenNgan": "AI SLIDE DESIGNER",
+   "thumbFile": "office-ai-slide-designer"
+  },
+  {
+   "slug": "office-ai-email-assistant",
+   "ma": "BCAI-OFFICE-004",
+   "ten": "AI Email Assistant — soạn & trả lời email",
+   "niche": "van-phong",
+   "moTa": "Trợ lý văn phòng thuộc bộ Office AI Pro: soạn, tóm tắt, phân loại và gợi ý phản hồi email. Hỏi từng bước, không bịa số liệu, nhắc kiểm tra trước khi dùng thật.",
+   "loiIch": [
+    "Soạn email đúng giọng",
+    "Tóm tắt, phân loại hộp thư",
+    "Gợi ý phản hồi, không tự gửi"
+   ],
+   "gia": 99000,
+   "congXuong": null,
+   "thumb": "/thumbs/office-ai-email-assistant.webp",
+   "tenNgan": "AI EMAIL ASSISTANT",
+   "thumbFile": "office-ai-email-assistant"
+  },
+  {
+   "slug": "office-ai-report-master",
+   "ma": "BCAI-OFFICE-005",
+   "ten": "AI Report Master — báo cáo ngày/tuần/tháng",
+   "niche": "van-phong",
+   "moTa": "Trợ lý văn phòng thuộc bộ Office AI Pro: tổng hợp báo cáo ngày/tuần/tháng theo mẫu. Hỏi từng bước, không bịa số liệu, nhắc kiểm tra trước khi dùng thật.",
+   "loiIch": [
+    "Báo cáo theo mẫu đơn vị",
+    "Ghi rõ chỗ CHƯA CÓ DỮ LIỆU",
+    "Kết quả → việc tiếp theo"
+   ],
+   "gia": 99000,
+   "congXuong": null,
+   "thumb": "/thumbs/office-ai-report-master.webp",
+   "tenNgan": "AI REPORT MASTER",
+   "thumbFile": "office-ai-report-master"
+  },
+  {
+   "slug": "office-ai-meeting-secretary",
+   "ma": "BCAI-OFFICE-006",
+   "ten": "AI Meeting Secretary — thư ký cuộc họp",
+   "niche": "van-phong",
+   "moTa": "Trợ lý văn phòng thuộc bộ Office AI Pro: tóm tắt cuộc họp và trích xuất đầu việc. Hỏi từng bước, không bịa số liệu, nhắc kiểm tra trước khi dùng thật.",
+   "loiIch": [
+    "Tóm tắt cuộc họp",
+    "Trích đầu việc, người phụ trách, hạn",
+    "Biên bản gọn gàng"
+   ],
+   "gia": 99000,
+   "congXuong": null,
+   "thumb": "/thumbs/office-ai-meeting-secretary.webp",
+   "tenNgan": "AI THƯ KÝ CUỘC HỌP",
+   "thumbFile": "office-ai-meeting-secretary"
+  },
+  {
+   "slug": "office-ai-pdf-document",
+   "ma": "BCAI-OFFICE-007",
+   "ten": "AI PDF & Document — đọc & đối chiếu tài liệu",
+   "niche": "van-phong",
+   "moTa": "Trợ lý văn phòng thuộc bộ Office AI Pro: tóm tắt, đối chiếu và trích xuất thông tin từ tài liệu. Hỏi từng bước, không bịa số liệu, nhắc kiểm tra trước khi dùng thật.",
+   "loiIch": [
+    "Tóm tắt tài liệu dài",
+    "Đối chiếu hai văn bản",
+    "Trích thông tin cần dùng"
+   ],
+   "gia": 99000,
+   "congXuong": null,
+   "thumb": "/thumbs/office-ai-pdf-document.webp",
+   "tenNgan": "AI PDF & TÀI LIỆU",
+   "thumbFile": "office-ai-pdf-document"
+  },
+  {
+   "slug": "office-ai-translator",
+   "ma": "BCAI-OFFICE-008",
+   "ten": "AI Translator — dịch văn bản công việc",
+   "niche": "van-phong",
+   "moTa": "Trợ lý văn phòng thuộc bộ Office AI Pro: dịch văn bản công việc, chuẩn hóa thuật ngữ và giọng điệu. Hỏi từng bước, không bịa số liệu, nhắc kiểm tra trước khi dùng thật.",
+   "loiIch": [
+    "Dịch đúng thuật ngữ ngành",
+    "Giữ giọng văn công việc",
+    "Bảng thuật ngữ thống nhất"
+   ],
+   "gia": 99000,
+   "congXuong": null,
+   "thumb": "/thumbs/office-ai-translator.webp",
+   "tenNgan": "AI DỊCH THUẬT",
+   "thumbFile": "office-ai-translator"
+  },
+  {
+   "slug": "office-ai-data-analyst",
+   "ma": "BCAI-OFFICE-009",
+   "ten": "AI Data Analyst — phân tích số liệu & KPI",
+   "niche": "van-phong",
+   "moTa": "Trợ lý văn phòng thuộc bộ Office AI Pro: phân tích KPI, xu hướng và đề xuất biểu đồ. Hỏi từng bước, không bịa số liệu, nhắc kiểm tra trước khi dùng thật.",
+   "loiIch": [
+    "Đọc KPI, xu hướng",
+    "Gợi ý biểu đồ phù hợp",
+    "Kết luận có căn cứ"
+   ],
+   "gia": 99000,
+   "congXuong": null,
+   "thumb": "/thumbs/office-ai-data-analyst.webp",
+   "tenNgan": "AI PHÂN TÍCH DỮ LIỆU",
+   "thumbFile": "office-ai-data-analyst"
+  },
+  {
+   "slug": "office-ai-hr-assistant",
+   "ma": "BCAI-OFFICE-010",
+   "ten": "AI HR Assistant — trợ lý nhân sự",
+   "niche": "van-phong",
+   "moTa": "Trợ lý văn phòng thuộc bộ Office AI Pro: soạn JD, bộ câu hỏi phỏng vấn và biểu mẫu nhân sự. Hỏi từng bước, không bịa số liệu, nhắc kiểm tra trước khi dùng thật.",
+   "loiIch": [
+    "Soạn JD tuyển dụng",
+    "Bộ câu hỏi phỏng vấn",
+    "Biểu mẫu nhân sự"
+   ],
+   "gia": 99000,
+   "congXuong": null,
+   "thumb": "/thumbs/office-ai-hr-assistant.webp",
+   "tenNgan": "AI TRỢ LÝ NHÂN SỰ",
+   "thumbFile": "office-ai-hr-assistant"
+  },
+  {
+   "slug": "office-ai-planner",
+   "ma": "BCAI-OFFICE-011",
+   "ten": "AI Planner — lập kế hoạch công việc",
+   "niche": "van-phong",
+   "moTa": "Trợ lý văn phòng thuộc bộ Office AI Pro: lập kế hoạch công việc, phân rã nhiệm vụ và quản lý rủi ro. Hỏi từng bước, không bịa số liệu, nhắc kiểm tra trước khi dùng thật.",
+   "loiIch": [
+    "Phân rã nhiệm vụ",
+    "Mốc thời gian, người làm",
+    "Nhận diện rủi ro"
+   ],
+   "gia": 99000,
+   "congXuong": null,
+   "thumb": "/thumbs/office-ai-planner.webp",
+   "tenNgan": "AI LẬP KẾ HOẠCH",
+   "thumbFile": "office-ai-planner"
+  },
+  {
+   "slug": "office-ai-office-automation",
+   "ma": "BCAI-OFFICE-012",
+   "ten": "AI Office Automation — tự động hoá văn phòng",
+   "niche": "van-phong",
+   "moTa": "Trợ lý văn phòng thuộc bộ Office AI Pro: thiết kế quy trình tự động hóa văn phòng và điểm duyệt. Hỏi từng bước, không bịa số liệu, nhắc kiểm tra trước khi dùng thật.",
+   "loiIch": [
+    "Vẽ quy trình tự động hoá",
+    "Đặt điểm duyệt của người",
+    "Không tự chạy khi chưa duyệt"
+   ],
+   "gia": 99000,
+   "congXuong": null,
+   "thumb": "/thumbs/office-ai-office-automation.webp",
+   "tenNgan": "AI TỰ ĐỘNG HOÁ VĂN PHÒNG",
+   "thumbFile": "office-ai-office-automation"
+  },
+  {
    "slug": "chuyen-chi-dao-thanh-ke-hoach",
    "ma": "BCAI-STRATEGY-010",
    "ten": "Chuyển chỉ đạo thành kế hoạch",
