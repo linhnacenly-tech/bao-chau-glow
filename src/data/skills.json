@@ -128,24 +128,6 @@
    "thumbFile": "binh-luan-3-kenh"
   },
   {
-   "slug": "binh-luan-fanpage",
-   "ma": "BCAI-MKT-035",
-   "ten": "Chăm sóc Bình luận Fanpage",
-   "niche": "dieu-phoi",
-   "moTa": "Trả lời bình luận công khai trên Fanpage tự nhiên, đúng ngữ cảnh, không lặp lại và biết chuyển khách sang bước tiếp theo.",
-   "loiIch": [
-    "Học giọng của bạn, trả lời như người thật",
-    "Mẫu trả lời theo từng ý định",
-    "Quy tắc chống trả lời lặp"
-   ],
-   "gia": 135000,
-   "hot": true,
-   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/binh-luan-fanpage",
-   "thumb": "/thumbs/binh-luan-fanpage.webp",
-   "tenNgan": "TRẢ LỜI BÌNH LUẬN",
-   "thumbFile": "tra-loi-binh-luan"
-  },
-  {
    "slug": "lich-van-hanh",
    "ma": "BCAI-WEB-003",
    "ten": "Lịch Vận hành Tự động",
@@ -343,24 +325,6 @@
    "thumbFile": "kich-ban-tiktok"
   },
   {
-   "slug": "mo-ta-youtube",
-   "ma": "BCAI-MKT-032",
-   "ten": "Mô tả YouTube",
-   "niche": "video-da-nen-tang",
-   "moTa": "Chuẩn hóa mô tả video YouTube theo một cấu trúc thống nhất, rõ lợi ích, đủ liên kết và lời kêu gọi hành động.",
-   "loiIch": [
-    "Khung mô tả YouTube chuẩn kênh",
-    "Đoạn mở đầu giữ chân người xem",
-    "Khối liên kết và CTA"
-   ],
-   "gia": 135000,
-   "hot": true,
-   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/mo-ta-youtube",
-   "thumb": "/thumbs/mo-ta-youtube.webp",
-   "tenNgan": "MÔ TẢ YOUTUBE",
-   "thumbFile": "mo-ta-youtube"
-  },
-  {
    "slug": "seo-youtube-studio",
    "ma": "BCAI-MKT-055",
    "ten": "SEO Video trong YouTube Studio",
@@ -377,24 +341,6 @@
    "thumb": "/thumbs/seo-youtube-studio.webp",
    "tenNgan": "SEO YOUTUBE STUDIO",
    "thumbFile": "seo-youtube-studio"
-  },
-  {
-   "slug": "seo-youtube",
-   "ma": "BCAI-MKT-033",
-   "ten": "SEO YouTube",
-   "niche": "video-da-nen-tang",
-   "moTa": "SEO trọn gói cho video YouTube trước khi phát hành: tiêu đề, mô tả, timeline, từ khóa, thẻ và màn hình kết thúc.",
-   "loiIch": [
-    "Tiêu đề và từ khóa chuẩn SEO",
-    "Timeline chương video",
-    "Gợi ý Cards và End Screen"
-   ],
-   "gia": 135000,
-   "hot": true,
-   "congXuong": "https://bcai-workshop-cong-xuong-agent.lovable.app/san-pham/seo-youtube",
-   "thumb": "/thumbs/seo-youtube.webp",
-   "tenNgan": "SEO YOUTUBE",
-   "thumbFile": "seo-youtube"
   },
   {
    "slug": "phim-kien-thuc-bat-ngo",
@@ -3419,23 +3365,6 @@
    "thumbFile": "ra-ho-so-chuyen-mon"
   },
   {
-   "slug": "quan-ly-ra-soat-trinh-ky",
-   "ma": "BCAI-EDU-086",
-   "ten": "Rà soát hồ sơ trước trình ký",
-   "niche": "giao-duc",
-   "moTa": "Kiểm tra dự thảo cùng căn cứ, số liệu và phụ lục; xếp lỗi theo mức nghiêm trọng và kết luận mức sẵn sàng có điều kiện.",
-   "loiIch": [
-    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
-    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
-    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
-   ],
-   "gia": 59000,
-   "congXuong": null,
-   "thumb": "/thumbs/quan-ly-ra-soat-trinh-ky.webp",
-   "tenNgan": "RÀ HỒ SƠ TRÌNH KÝ",
-   "thumbFile": "ra-ho-so-trinh-ky"
-  },
-  {
    "slug": "giao-vien-soan-giao-an",
    "ma": "BCAI-EDU-078",
    "ten": "Soạn giáo án chuẩn trường",
@@ -3451,23 +3380,6 @@
    "thumb": "/thumbs/giao-vien-soan-giao-an.webp",
    "tenNgan": "SOẠN GIÁO ÁN",
    "thumbFile": "soan-giao-an"
-  },
-  {
-   "slug": "quan-ly-soan-van-ban",
-   "ma": "BCAI-EDU-087",
-   "ten": "Soạn văn bản quản lý trường",
-   "niche": "giao-duc",
-   "moTa": "Xác định đúng loại văn bản và soạn dự thảo quyết định, thông báo, công văn, tờ trình, biên bản hoặc phân công từ căn cứ và dữ kiện thật.",
-   "loiIch": [
-    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
-    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
-    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
-   ],
-   "gia": 59000,
-   "congXuong": null,
-   "thumb": "/thumbs/quan-ly-soan-van-ban.webp",
-   "tenNgan": "VĂN BẢN NHÀ TRƯỜNG",
-   "thumbFile": "van-ban-nha-truong"
   },
   {
    "slug": "quan-ly-xu-ly-van-ban-cap-tren",
@@ -3519,23 +3431,6 @@
    "thumb": "/thumbs/quan-ly-to-chuc-nhan-su.webp",
    "tenNgan": "NHÂN SỰ NHÀ TRƯỜNG",
    "thumbFile": "nhan-su-nha-truong"
-  },
-  {
-   "slug": "quan-ly-tong-hop-bao-cao",
-   "ma": "BCAI-EDU-090",
-   "ten": "Tổng hợp báo cáo đa nguồn",
-   "niche": "giao-duc",
-   "moTa": "Chuẩn hóa, đối chiếu và hợp nhất nhiều nguồn thành báo cáo cấp trường mà không che giấu thiếu hoặc mâu thuẫn dữ liệu.",
-   "loiIch": [
-    "Nếu tài liệu nguồn được cung cấp, đọc hết phần liên quan và lập sổ dữ kiện trước khi soạn",
-    "Dùng tiếng Việt hành chính - giáo dục rõ ràng, tự nhiên; tránh câu chung chung",
-    "Trích dẫn tên tài liệu, mục hoặc trang khi công cụ cho phép"
-   ],
-   "gia": 59000,
-   "congXuong": null,
-   "thumb": "/thumbs/quan-ly-tong-hop-bao-cao.webp",
-   "tenNgan": "BÁO CÁO CẤP TRƯỜNG",
-   "thumbFile": "bao-cao-cap-truong"
   },
   {
    "slug": "quan-ly-xay-dung-quy-che",
@@ -3947,23 +3842,6 @@
    "thumbFile": "ke-toan-kho"
   },
   {
-   "slug": "quan-ly-ngan-quy",
-   "ma": "BCAI-LEGAL018",
-   "ten": "Quản lý ngân quỹ",
-   "niche": "ke-toan",
-   "moTa": "Hỗ trợ quản trị tiền, ngân hàng và thanh khoản theo quy trình có kiểm soát.",
-   "loiIch": [
-    "Tóm tắt điều hành và mục tiêu",
-    "Phạm vi, dữ liệu đã dùng, dữ liệu thiếu và giả định",
-    "Bảng phân tích/working paper có công thức hoặc logic"
-   ],
-   "gia": 59000,
-   "congXuong": null,
-   "thumb": "/thumbs/quan-ly-ngan-quy.webp",
-   "tenNgan": "NGÂN QUỸ",
-   "thumbFile": "ngan-quy"
-  },
-  {
    "slug": "quan-ly-tai-chinh-tai-san",
    "ma": "BCAI-EDU-088",
    "ten": "Quản lý tài chính và tài sản trường",
@@ -4013,23 +3891,6 @@
    "thumb": "/thumbs/quan-tri-rui-ro.webp",
    "tenNgan": "QUẢN TRỊ RỦI RO",
    "thumbFile": "quan-tri-rui-ro"
-  },
-  {
-   "slug": "ke-toan-thue-ra-soat-va-lap-ho-so-ke-khai",
-   "ma": "BCAI-LEGAL038",
-   "ten": "Rà soát và lập hồ sơ kê khai thuế",
-   "niche": "ke-toan",
-   "moTa": "Rà soát dữ liệu phục vụ kê khai thuế, đối chiếu hóa đơn–sổ–bảng kê, kiểm tra kỳ, trùng, chênh lệch và lập bộ hồ sơ dự thảo có nguồn pháp lý được xác minh.",
-   "loiIch": [
-    "Kiểm tra nguồn pháp lý chính thức và ngày hiệu lực; lưu URL, ngày truy cập, phạm vi áp dụng",
-    "Chuẩn hóa và đối chiếu hóa đơn–sổ–bảng kê; gọi các skill kiểm tra dữ liệu và đối chiếu hiện có khi phù hợp",
-    "Tự kiểm tổng population và chuyển người có chuyên môn phê duyệt"
-   ],
-   "gia": 59000,
-   "congXuong": null,
-   "thumb": "/thumbs/ke-toan-thue-ra-soat-va-lap-ho-so-ke-khai.webp",
-   "tenNgan": "KÊ KHAI THUẾ",
-   "thumbFile": "ke-khai-thue"
   },
   {
    "slug": "soan-van-ban-ke-toan-thue",
@@ -4800,23 +4661,6 @@
    "thumbFile": "loc-khach-bds"
   },
   {
-   "slug": "van-hanh-pheu-ban-bat-dong-san",
-   "ma": "BCAI-SALES-029",
-   "ten": "Trợ lý AI bất động sản",
-   "niche": "bds",
-   "moTa": "Skill hợp nhất cho sàng lọc lead, matching giỏ hàng, nội dung, follow-up, lịch xem và checklist hồ sơ BĐS.",
-   "loiIch": [
-    "Nhận caseid, mục tiêu, trạng thái hiện tại, dữ liệu khách, dữ liệu sản phẩm và lịch sử tương tác được phép sử dụng",
-    "Nếu dữ liệu chứa thông tin cá nhân, chỉ dùng trong phiên làm việc và không chép vào gói skill dùng chung",
-    "Xác định một trạng thái: newlead, qualified, inventoryready, matched, informationchecked, nurturing, meetingready,…"
-   ],
-   "gia": 59000,
-   "congXuong": null,
-   "thumb": "/thumbs/van-hanh-pheu-ban-bat-dong-san.webp",
-   "tenNgan": "PHỄU BÁN BĐS",
-   "thumbFile": "pheu-ban-bds"
-  },
-  {
    "slug": "mo-hinh-tang-truong-bat-dong-san",
    "ma": "BCAI-LAND-014",
    "ten": "Tăng trưởng BĐS 90 ngày",
@@ -5071,32 +4915,6 @@
    "thumb": "/thumbs/tiet-kiem-codex.webp",
    "tenNgan": "TIẾT KIỆM CODEX",
    "thumbFile": "tiet-kiem-codex"
-  },
-  {
-   "slug": "tiet-kiem-codex-pro",
-   "ma": "BCAI-WEB-009",
-   "ten": "Tiết kiệm Codex Pro",
-   "niche": "website",
-   "moTa": "Áp dụng quy trình SKILL TIẾT KIỆM CODEX có thể tùy chỉnh cho đóng gói, chỉnh sửa, build, gỡ lỗi và các việc kiến trúc chuyên sâu.",
-   "loiIch": [],
-   "gia": 59000,
-   "congXuong": null,
-   "thumb": "/thumbs/tiet-kiem-codex-pro.webp",
-   "tenNgan": "TIẾT KIỆM CODEX PRO",
-   "thumbFile": "tiet-kiem-codex-pro"
-  },
-  {
-   "slug": "tiet-kiem-codex-thong-ke",
-   "ma": "BCAI-WEB-010",
-   "ten": "Tiết kiệm Codex — thống kê",
-   "niche": "website",
-   "moTa": "Phân luồng việc của Codex và ghi lại số liệu vận hành (có giữ riêng tư) qua máy chủ MCP Smart Router.",
-   "loiIch": [],
-   "gia": 59000,
-   "congXuong": null,
-   "thumb": "/thumbs/tiet-kiem-codex-thong-ke.webp",
-   "tenNgan": "THỐNG KÊ CODEX",
-   "thumbFile": "thong-ke-codex"
   },
   {
    "slug": "mau-web-cho-san-pham-so",
